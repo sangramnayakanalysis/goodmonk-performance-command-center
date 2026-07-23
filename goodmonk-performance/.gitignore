@@ -1,0 +1,13 @@
+.env
+service-account.json
+__pycache__/
+*.pyc
+.venv/
+venv/
+logs/*.log
+.DS_Store
+# NOTE: data/run_state.json is intentionally NOT ignored — the GitHub
+# Actions workflow commits it back to the repo after every run so resume
+# state survives between runs (each run starts on a fresh VM with no
+# local disk continuity, so if this were ignored, resume would never
+# actually work across separate workflow executions).
