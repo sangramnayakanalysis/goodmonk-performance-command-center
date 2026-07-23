@@ -1,7 +1,5 @@
 name: GoodMonk Performance Monitor
 
-# Daily at 9:00 AM IST (IST = UTC+5:30, so 03:30 UTC). Also runnable manually
-# from the Actions tab for ad-hoc checks or to retry a failed run.
 on:
   schedule:
     - cron: "30 3 * * *"
@@ -13,9 +11,9 @@ on:
         default: false
 
 permissions:
-  contents: write   # to commit updated dashboard JSON + run-state back to the repo
-  pages: write       # to deploy the dashboard
-  id-token: write    # required by actions/deploy-pages
+  contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: "pages"
@@ -24,9 +22,12 @@ concurrency:
 jobs:
   monitor-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -35,7 +36,9 @@ jobs:
           cache: "pip"
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
       - name: Run GTmetrix monitoring batch
         id: run
@@ -49,10 +52,6 @@ jobs:
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
-        # continue-on-error: a handful of failed pages (site hiccup, GTmetrix
-        # credit exhaustion, etc.) should still let the dashboard deploy with
-        # whatever data IS fresh — main.py already records failures per page
-        # rather than aborting the whole run.
         continue-on-error: true
         run: |
           if [ "${{ github.event.inputs.no_resume }}" = "true" ]; then
@@ -66,18 +65,28 @@ jobs:
           if [ "${{ steps.run.outcome }}" = "success" ]; then
             echo "✅ All pages processed successfully."
           else
-            echo "⚠️ Run finished with one or more failed pages — see logs/ and the Logs history in the dashboard."
+            echo "⚠️ Run finished with one or more failed pages."
           fi
 
       - name: Commit updated dashboard data + run state
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add dashboard/data/*.json data/run_state.json
-          git diff --cached --quiet || git commit -m "chore: update performance data [skip ci]"
-          git push
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Configure Pages
+          git add dashboard/data/*.json data/run_state.json
+
+          if git diff --cached --quiet; then
+            echo "No dashboard changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore: update performance data [skip ci]"
+
+          git pull --rebase origin main || true
+
+          git push origin HEAD:main
+
+      - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
       - name: Upload dashboard artifact
