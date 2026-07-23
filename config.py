@@ -71,7 +71,8 @@ GOOGLE_SERVICE_ACCOUNT_JSON = _env("GOOGLE_SERVICE_ACCOUNT_JSON", "")
 
 # --- Email ---------------------------------------------------------------
 SMTP_HOST = _env("SMTP_HOST", "")
-SMTP_PORT = int(_env("SMTP_PORT", "587"))
+smtp_port = _env("SMTP_PORT", "").strip()
+SMTP_PORT = int(smtp_port) if smtp_port else 587
 SMTP_USER = _env("SMTP_USER", "")
 SMTP_PASSWORD = _env("SMTP_PASSWORD", "")
 EMAIL_FROM = _env("EMAIL_FROM", SMTP_USER)
