@@ -1,3 +1,67 @@
 {
-  "active": {}
+  "active": {
+    "operational:sheets:google_sheets_failure": {
+      "alert_type": "google_sheets_failure",
+      "module": "sheets",
+      "severity": "critical",
+      "affected_page": null,
+      "first_seen_at": "2026-08-18T10:13:38",
+      "last_seen_at": "2026-08-18T10:13:39",
+      "occurrence_count": 4
+    },
+    "score_trend:Assorted": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Assorted",
+      "first_seen_at": "2026-08-18T10:13:39",
+      "last_seen_at": "2026-08-18T10:13:39",
+      "occurrence_count": 1
+    },
+    "score_trend:Orange": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Orange",
+      "first_seen_at": "2026-08-18T10:13:39",
+      "last_seen_at": "2026-08-18T10:13:39",
+      "occurrence_count": 1
+    },
+    "score_trend:Mango": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Mango",
+      "first_seen_at": "2026-08-18T10:13:39",
+      "last_seen_at": "2026-08-18T10:13:39",
+      "occurrence_count": 1
+    },
+    "journey:FNM": {
+      "alert_type": "checkout_failed",
+      "module": "journey",
+      "severity": "critical",
+      "affected_page": "FNM",
+      "first_seen_at": "2026-08-18T10:13:39",
+      "last_seen_at": "2026-08-18T10:13:39",
+      "occurrence_count": 1
+    },
+    "journey:Fiber Fix": {
+      "alert_type": "checkout_failed",
+      "module": "journey",
+      "severity": "critical",
+      "affected_page": "Fiber Fix",
+      "first_seen_at": "2026-08-18T10:13:39",
+      "last_seen_at": "2026-08-18T10:13:39",
+      "occurrence_count": 1
+    },
+    "journey:H50+": {
+      "alert_type": "checkout_failed",
+      "module": "journey",
+      "severity": "critical",
+      "affected_page": "H50+",
+      "first_seen_at": "2026-08-18T10:13:39",
+      "last_seen_at": "2026-08-18T10:13:39",
+      "occurrence_count": 1
+    }
+  }
 }
