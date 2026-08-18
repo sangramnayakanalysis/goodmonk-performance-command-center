@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-18T15:28:39",
-      "occurrence_count": 7
+      "last_seen_at": "2026-08-18T16:27:30",
+      "occurrence_count": 8
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-18T15:28:39",
-      "occurrence_count": 7
+      "last_seen_at": "2026-08-18T16:27:30",
+      "occurrence_count": 8
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,26 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-18T15:28:39",
-      "occurrence_count": 7
-    },
-    "operational:sheets:google_sheets_failure": {
-      "alert_type": "google_sheets_failure",
-      "module": "sheets",
-      "severity": "critical",
-      "affected_page": null,
-      "first_seen_at": "2026-08-18T15:28:38",
-      "last_seen_at": "2026-08-18T15:28:39",
-      "occurrence_count": 4
-    },
-    "score_trend:FF": {
-      "alert_type": "performance_score_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Fiber Fix",
-      "first_seen_at": "2026-08-18T15:28:39",
-      "last_seen_at": "2026-08-18T15:28:39",
-      "occurrence_count": 1
+      "last_seen_at": "2026-08-18T16:27:30",
+      "occurrence_count": 8
     },
     "score_trend:Slimbiotics": {
       "alert_type": "performance_score_drop",
@@ -51,16 +33,16 @@
       "severity": "warning",
       "affected_page": "Slimbiotics",
       "first_seen_at": "2026-08-18T15:28:39",
-      "last_seen_at": "2026-08-18T15:28:39",
-      "occurrence_count": 1
+      "last_seen_at": "2026-08-18T16:27:29",
+      "occurrence_count": 2
     },
-    "root_cause:FF:high_cls": {
+    "root_cause:Slimbiotics:high_cls": {
       "alert_type": "high_cls",
       "module": "root_cause",
       "severity": "warning",
-      "affected_page": "Fiber Fix",
-      "first_seen_at": "2026-08-18T15:28:39",
-      "last_seen_at": "2026-08-18T15:28:39",
+      "affected_page": "Slimbiotics",
+      "first_seen_at": "2026-08-18T16:27:29",
+      "last_seen_at": "2026-08-18T16:27:29",
       "occurrence_count": 1
     }
   }
