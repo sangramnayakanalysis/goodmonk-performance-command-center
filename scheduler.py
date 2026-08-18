@@ -21,13 +21,45 @@ from dataclasses import asdict
 
 import config
 import google_sheet
+import root_cause
 from gtmetrix import PageResult, run_single_page
 from logger import get_logger
 from utils import now_iso, read_json, write_json
 
 log = get_logger("scheduler")
 
+# Feature 3 addition: guarded import, same defensive pattern as main.py's
+# `import journey` guard — if alerts.py fails to import for any reason,
+# the entire existing GTmetrix pipeline (this file's core job) must keep
+# working exactly as before; alert-raising just gets skipped with a log line.
+try:
+    import alerts as _alerts
+    _ALERTS_AVAILABLE = True
+except ImportError as e:  # pragma: no cover
+    _alerts = None
+    _ALERTS_AVAILABLE = False
+    log.warning("Alert engine unavailable in scheduler.py (import failed): %s", e)
+
 STATE_FILE = config.DATA_DIR / "run_state.json"
+
+
+def _safe_alert_call(fn, *args, **kwargs) -> None:
+    """
+    Production-hardening cleanup: every alert-engine call from this file
+    was already wrapped in its own try/except-pass so a hiccup in the
+    (optional) alert engine could never affect the core GTmetrix write
+    path — this just centralizes that repeated try/except-pass into one
+    place instead of duplicating it at every call site. No behavior
+    change: still silently swallows any exception raised while running
+    `fn`. Callers must still guard with `if _ALERTS_AVAILABLE:` before
+    referencing `_alerts.<method>` as the `fn` argument — `_alerts` is
+    `None` when the alert engine failed to import, and Python evaluates
+    that attribute access before this function ever runs.
+    """
+    try:
+        fn(*args, **kwargs)
+    except Exception:  # noqa: BLE001 — the alert engine itself must never break this path
+        pass
 
 
 def _load_completed_sheet_names() -> set[str]:
@@ -45,9 +77,16 @@ def _save_state(completed: set[str], results: list[PageResult]) -> None:
     })
 
 
-def run_batch(resume: bool = True, workers: int | None = None) -> list[PageResult]:
+def run_batch(resume: bool = True, workers: int | None = None, pages: list | None = None) -> list[PageResult]:
     """
-    Runs GTmetrix tests for every page in config.PAGES concurrently.
+    Runs GTmetrix tests for every page in `pages` (defaults to
+    config.PAGES — unchanged from before Feature 4) concurrently.
+
+    Feature 4 addition: the new optional `pages` parameter lets a caller
+    (main.py, via page_scheduler.get_due_pages()) pass in a filtered
+    subset — e.g. only the pages an hourly run has actually decided are
+    due right now. Every existing call site that doesn't pass `pages`
+    keeps testing all of config.PAGES exactly as before.
 
     resume=True (default): pages already marked completed in the local
     run-state file from an interrupted run today are skipped, so a
@@ -57,13 +96,14 @@ def run_batch(resume: bool = True, workers: int | None = None) -> list[PageResul
     each day is a fresh baseline).
     """
     workers = workers or config.MAX_WORKERS
-    pages = list(config.PAGES)
+    pages = list(pages) if pages is not None else list(config.PAGES)
+    all_requested_pages = list(pages)
 
     completed = _load_completed_sheet_names() if resume else set()
     if completed:
         pages = [p for p in pages if p.sheet_name not in completed]
         log.info("Resuming: skipping %d already-completed page(s) from a prior interrupted run.",
-                  len(config.PAGES) - len(pages))
+                  len(all_requested_pages) - len(pages))
 
     if not pages:
         log.info("Nothing to do — all pages already completed for this run.")
@@ -113,6 +153,32 @@ def _record_result(result: PageResult) -> None:
             google_sheet.append_failure(result.sheet_name, result.error_message)
     except Exception as e:  # noqa: BLE001 — must never propagate out of a batch worker
         log.error("Failed to write result for %s to Google Sheets: %s", result.sheet_name, e)
+        if _ALERTS_AVAILABLE:
+            _safe_alert_call(_alerts.raise_operational, "sheets", "google_sheets_failure", str(e),
+                              root_cause=f"Writing result for {result.sheet_name}")
+    else:
+        if _ALERTS_AVAILABLE:
+            _safe_alert_call(_alerts.mark_recovered, "sheets", "google_sheets_failure")
+
+    # --- Feature 1 addition: Root Cause Analysis ---------------------------
+    # Isolated in its own try/except, exactly like the existing block above.
+    # A failure here can never affect the existing history write (already
+    # completed above) or take down the rest of the batch.
+    #
+    # Feature 4 addition: gated on the page's `root_cause_enabled` flag —
+    # config.PAGE_BY_SHEET_NAME defaults every existing page to True, so
+    # this is a no-op change unless a page explicitly opts out in config.py.
+    page_config = config.PAGE_BY_SHEET_NAME.get(result.sheet_name)
+    rca_enabled = page_config.root_cause_enabled if page_config else True
+    if result.success and rca_enabled:
+        try:
+            report = root_cause.analyze(result.page_name, result.sheet_name, result.metrics)
+            google_sheet.append_root_cause(result.sheet_name, root_cause.to_sheet_row(report))
+            if report.issue_count:
+                log.info("Root cause: %s -> %d issue(s), top: %s",
+                          result.sheet_name, report.issue_count, report.top_issue)
+        except Exception as e:  # noqa: BLE001 — RCA must never affect the core monitoring run
+            log.error("Root cause analysis failed for %s: %s", result.sheet_name, e)
 
 
 def clear_run_state() -> None:

@@ -41,6 +41,14 @@ class Metrics:
     report_url: Optional[str] = None
     status: str = "OK"                     # "OK" | "Error"
     error_message: str = ""
+    # --- Added for Feature 1 (Root Cause Analysis) ---------------------
+    # Extra raw GTmetrix attributes beyond the original 8 fields above.
+    # Purely additive: every existing field, every existing consumer
+    # (google_sheet.append_result, email_report, dashboard_data) is
+    # completely untouched by this field's presence. Defaults to an
+    # empty dict so nothing breaks if a Metrics object is constructed
+    # the old way (e.g. in error paths) without it.
+    raw_audit: dict = field(default_factory=dict)
 
 
 @dataclass
@@ -182,6 +190,81 @@ def poll_for_result(test_id: str) -> dict:
     raise GTmetrixError(f"poll({test_id}): timed out after {config.POLL_MAX_ATTEMPTS} attempts")
 
 
+def extract_raw_audit_fields(report_json: dict) -> dict:
+    """
+    Added for Feature 1 (Root Cause Analysis).
+
+    Pulls every additional GTmetrix v2 report attribute useful for root-cause
+    analysis beyond the 8 summary fields `extract_metrics` already returns
+    (page weight, request count, DOM size, per-resource-type byte counts,
+    and — where the GTmetrix plan/report tier exposes it — the structured
+    recommendation/audit list).
+
+    Deliberately defensive: every lookup uses `.get()` with a `None`
+    fallback. Different GTmetrix plans and report tiers expose different
+    subsets of these fields, so a missing field here is expected and normal,
+    never an error. This function must never raise — a malformed or minimal
+    report should just yield a smaller (or empty) dict, never break the
+    caller (`extract_metrics`, which is on the critical path for the
+    existing, working GTmetrix pipeline).
+    """
+    try:
+        attrs = report_json.get("data", {}).get("attributes", {}) or {}
+    except AttributeError:
+        return {}
+
+    def to_seconds(ms):
+        if ms is None or ms == -1:
+            return None
+        try:
+            return round(float(ms) / 1000, 2)
+        except (TypeError, ValueError):
+            return None
+
+    def to_kb(byte_count):
+        if byte_count is None:
+            return None
+        try:
+            return round(float(byte_count) / 1024, 1)
+        except (TypeError, ValueError):
+            return None
+
+    raw = {
+        "page_bytes_kb": to_kb(attrs.get("page_bytes")),
+        "page_requests": attrs.get("page_requests"),
+        "dom_elements": attrs.get("dom_elements") or attrs.get("dom_size"),
+        "html_bytes_kb": to_kb(attrs.get("html_bytes")),
+        "css_bytes_kb": to_kb(attrs.get("css_bytes")),
+        "js_bytes_kb": to_kb(attrs.get("js_bytes")),
+        "image_bytes_kb": to_kb(attrs.get("image_bytes")),
+        "font_bytes_kb": to_kb(attrs.get("font_bytes")),
+        "video_bytes_kb": to_kb(attrs.get("video_bytes")),
+        "other_bytes_kb": to_kb(attrs.get("other_bytes")),
+        "redirect_duration": to_seconds(attrs.get("redirect_duration")),
+        "connect_duration": to_seconds(attrs.get("connect_duration")),
+        "backend_duration": to_seconds(attrs.get("backend_duration")),
+        "first_contentful_paint": to_seconds(attrs.get("first_contentful_paint")),
+        "speed_index": attrs.get("speed_index"),
+        "rum_speed_index": attrs.get("rum_speed_index"),
+    }
+
+    # GTmetrix's structured recommendation/audit list is not present on every
+    # plan tier — capture it if present, skip silently if not. When present
+    # it typically looks like a list of {id/title/impact/...} dicts.
+    recommendations = attrs.get("recommendations") or attrs.get("audits")
+    if recommendations:
+        raw["recommendations"] = recommendations
+
+    # Third-party resource breakdown, if the report tier includes it.
+    third_party = attrs.get("third_party_summary") or attrs.get("third_party")
+    if third_party:
+        raw["third_party_summary"] = third_party
+
+    # Drop keys that came back entirely empty so downstream code (and the
+    # Sheets/JSON output) isn't cluttered with None noise.
+    return {k: v for k, v in raw.items() if v is not None}
+
+
 def extract_metrics(report_json: dict, report_url: str) -> Metrics:
     try:
         attrs = report_json["data"]["attributes"]
@@ -197,6 +280,15 @@ def extract_metrics(report_json: dict, report_url: str) -> Metrics:
         report_json.get("data", {}).get("links", {}).get("report_url") or report_url
     )
 
+    # Feature 1 addition: best-effort raw audit extraction. Wrapped so that
+    # any unexpected shape in this *new* extraction path can never break the
+    # existing, working metric extraction above it.
+    try:
+        raw_audit = extract_raw_audit_fields(report_json)
+    except Exception as e:  # noqa: BLE001 — RCA extraction must never break the core pipeline
+        log.warning("Raw audit extraction failed (non-fatal, RCA data will be incomplete): %s", e)
+        raw_audit = {}
+
     return Metrics(
         performance_score=attrs.get("performance_score"),
         grade=attrs.get("gtmetrix_grade") or "N/A",
@@ -208,6 +300,7 @@ def extract_metrics(report_json: dict, report_url: str) -> Metrics:
         tbt=to_seconds(attrs.get("total_blocking_time")),
         report_url=public_url,
         status="OK",
+        raw_audit=raw_audit,
     )
 
 

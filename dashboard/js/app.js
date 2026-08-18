@@ -16,6 +16,10 @@ const state = {
   history: [],
   granularity: "daily",
   charts: {},
+  rootCause: null, // Feature 1 addition — see fetchJSONOptional below
+  journey: null,   // Feature 2 addition — see fetchJSONOptional below
+  alerts: null,    // Feature 3 addition — see fetchJSONOptional below
+  scheduler: null, // Feature 4 addition — see fetchJSONOptional below
 };
 
 // --- Data loading ---------------------------------------------------------
@@ -24,6 +28,20 @@ async function fetchJSON(path) {
   const res = await fetch(`${DATA_BASE}/${path}?t=${Date.now()}`, { cache: "no-store" });
   if (!res.ok) throw new Error(`Failed to load ${path}: ${res.status}`);
   return res.json();
+}
+
+// Feature 1 addition. Like fetchJSON, but never rejects — returns `fallback`
+// on any failure (network error, 404, bad JSON) instead. Used only for the
+// new, optional root_cause.json so that a missing/broken *new* file can
+// never break the Promise.all() below and take down the existing,
+// previously-working dashboard.
+async function fetchJSONOptional(path, fallback) {
+  try {
+    return await fetchJSON(path);
+  } catch (e) {
+    console.warn(`Optional dashboard file "${path}" unavailable (non-fatal):`, e);
+    return fallback;
+  }
 }
 
 async function loadAll() {
@@ -38,6 +56,25 @@ async function loadAll() {
     state.pages = pages;
     state.trends = trends;
     state.history = history;
+
+    // Feature 1 addition: loaded separately, after the required files
+    // above have already succeeded, and never throws — the existing
+    // dashboard sections always render even if this one is unavailable.
+    state.rootCause = await fetchJSONOptional("root_cause.json", null);
+
+    // Feature 2 addition: same pattern — journey.json may not exist yet
+    // (e.g. right after this deploy, before the first journey-enabled run),
+    // and must never block the rest of the dashboard from loading.
+    state.journey = await fetchJSONOptional("journey.json", null);
+
+    // Feature 3 addition: same pattern again — alerts.json may not exist
+    // yet, and must never block the rest of the dashboard from loading.
+    state.alerts = await fetchJSONOptional("alerts.json", null);
+
+    // Feature 4 addition: same pattern again — scheduler.json may not
+    // exist yet, and must never block the rest of the dashboard.
+    state.scheduler = await fetchJSONOptional("scheduler.json", null);
+
     renderAll();
   } catch (e) {
     console.error("Dashboard data load failed:", e);
@@ -145,6 +182,184 @@ function renderPagesGrid() {
         <span>${p.total_runs} runs · ${p.failed_runs} failed</span>
         ${latest["Report URL"] ? `<a href="${latest["Report URL"]}" target="_blank" rel="noopener">Report ↗</a>` : ""}
       </div>
+    </div>`;
+  }).join("");
+}
+
+// --- Rendering: Root Cause cards (Feature 1 addition) -----------------------
+// Fully new section. Does not read or modify any state used by the sections
+// above/below it. No-ops cleanly (renders nothing) if root_cause.json isn't
+// available yet — see fetchJSONOptional above.
+
+function renderRootCauseCards() {
+  const el = document.getElementById("root-cause-grid");
+  if (!el) return; // defensive: section not present in an older cached index.html
+
+  const pages = (state.rootCause && state.rootCause.pages) || [];
+  const withIssues = pages.filter(p => p.latest_report && p.latest_report.issue_count > 0);
+
+  if (!withIssues.length) {
+    el.innerHTML = `<div class="empty-state">No root-cause issues detected in the latest run.</div>`;
+    return;
+  }
+
+  const severityColor = { critical: "var(--accent-red)", warning: "var(--accent-amber)", info: "var(--accent-blue)" };
+
+  el.innerHTML = withIssues
+    .sort((a, b) => b.latest_report.issue_count - a.latest_report.issue_count)
+    .map(p => {
+      const report = p.latest_report;
+      const topIssues = (report.issues || []).slice(0, 3);
+      const issuesHtml = topIssues.map(i => `
+        <div class="rc-issue" style="border-left:3px solid ${severityColor[i.severity] || 'var(--text-faint)'}">
+          <div class="rc-issue-title">${i.title}</div>
+          <div class="rc-issue-detail">${i.detail}</div>
+        </div>`).join("");
+      return `
+      <div class="page-card">
+        <div class="pc-head">
+          <div class="pc-name" style="color:var(--text)">${p.name}</div>
+          <div class="pc-score" style="color:var(--accent-red)">${report.issue_count} issue${report.issue_count === 1 ? "" : "s"}</div>
+        </div>
+        ${issuesHtml}
+      </div>`;
+    }).join("");
+}
+
+// --- Rendering: Customer Journey (Feature 2 addition) -----------------------
+// Fully new section, same isolation pattern as renderRootCauseCards above:
+// reads only state.journey, writes only to its own DOM nodes, no-ops
+// cleanly if journey.json isn't available yet or the section isn't present
+// in an older cached index.html.
+
+function renderJourneyCards() {
+  const el = document.getElementById("journey-grid");
+  const rateEl = document.getElementById("journey-success-rate");
+  if (!el) return;
+
+  const products = (state.journey && state.journey.products) || [];
+
+  if (rateEl) {
+    const rate = state.journey && state.journey.overall_success_rate;
+    rateEl.textContent = rate != null ? `${rate}%` : "—";
+  }
+
+  if (!products.length) {
+    el.innerHTML = `<div class="empty-state">No journey runs yet. The first journey-enabled run will populate this section.</div>`;
+    return;
+  }
+
+  el.innerHTML = products.map(p => {
+    const ok = p.latest_status === "Success";
+    const color = ok ? "var(--accent-teal)" : "var(--accent-red)";
+    const timelineHtml = (p.timeline || []).slice(-20).map(t => `
+      <span class="journey-dot" style="background:${t.success ? 'var(--accent-teal)' : 'var(--accent-red)'}" title="${t.date} ${t.time}"></span>
+    `).join("");
+    return `
+    <div class="page-card" style="color:${color}">
+      <div class="pc-head">
+        <div class="pc-name" style="color:var(--text)">${p.product_name}</div>
+        <div class="pc-score" style="color:${color}">${p.latest_status || "—"}</div>
+      </div>
+      <div class="pc-metrics">
+        <span>${p.successful_runs}/${p.total_runs} runs OK</span>
+        ${!ok && p.latest_failed_step ? `<span>Failed at: ${p.latest_failed_step}</span>` : ""}
+      </div>
+      <div class="journey-timeline">${timelineHtml}</div>
+    </div>`;
+  }).join("");
+}
+
+// --- Rendering: Alerts (Feature 3 addition) ---------------------------------
+// Same isolation pattern as renderRootCauseCards/renderJourneyCards: reads
+// only state.alerts, writes only to its own DOM nodes, no-ops cleanly if
+// alerts.json isn't available yet or the section isn't present in an
+// older cached index.html.
+
+function renderAlertsSection() {
+  const el = document.getElementById("alerts-grid");
+  const countEl = document.getElementById("alert-active-count");
+  if (!el) return;
+
+  const data = state.alerts;
+  const active = (data && data.active_alerts) || [];
+  const recent = (data && data.recent_alerts) || [];
+
+  if (countEl) countEl.textContent = data ? String(data.total_active ?? active.length) : "—";
+
+  if (!recent.length) {
+    el.innerHTML = `<div class="empty-state">No alerts yet. This section fills in once the alert engine has a run to evaluate.</div>`;
+    return;
+  }
+
+  const severityColor = { critical: "var(--accent-red)", high: "var(--accent-amber)", warning: "var(--accent-amber)", info: "var(--accent-blue)" };
+
+  el.innerHTML = recent.slice(0, 15).map(a => {
+    const isRecovered = a["Status"] === "Recovered";
+    const color = isRecovered ? "var(--accent-teal)" : (severityColor[(a["Severity"] || "warning").toLowerCase()] || "var(--text-faint)");
+    const label = isRecovered ? "RECOVERED" : (a["Severity"] || "warning").toUpperCase();
+    return `
+    <div class="page-card" style="color:${color}">
+      <div class="pc-head">
+        <div class="pc-name" style="color:var(--text)">${a["Alert Type"] || ""}</div>
+        <div class="pc-score" style="color:${color}">${label}</div>
+      </div>
+      <div class="pc-metrics">
+        <span>${a["Affected Page"] || a["Module"] || ""}</span>
+        <span>${a["Date"] || ""} ${a["Time"] || ""}</span>
+      </div>
+    </div>`;
+  }).join("");
+}
+
+// --- Rendering: Scheduler (Feature 4 addition) ------------------------------
+// Same isolation pattern as the sections above: reads only
+// state.scheduler, writes only to its own DOM nodes, no-ops cleanly if
+// scheduler.json isn't available yet or the section isn't present in an
+// older cached index.html.
+
+function renderSchedulerSection() {
+  const el = document.getElementById("scheduler-grid");
+  const nextRunEl = document.getElementById("scheduler-next-run");
+  const lastSuccessEl = document.getElementById("scheduler-last-success");
+  const healthEl = document.getElementById("scheduler-health");
+  const queueEl = document.getElementById("scheduler-queue-count");
+  if (!el) return;
+
+  const data = state.scheduler;
+  const pages = (data && data.pages) || [];
+
+  if (nextRunEl) nextRunEl.textContent = data && data.next_scheduled_run_overall ? new Date(data.next_scheduled_run_overall).toLocaleString() : "—";
+  if (lastSuccessEl) lastSuccessEl.textContent = data && data.last_successful_run_overall ? new Date(data.last_successful_run_overall).toLocaleString() : "—";
+  if (healthEl) {
+    const health = (data && data.scheduler_health) || "—";
+    healthEl.textContent = health;
+    healthEl.style.color = health === "critical" ? "var(--accent-red)" : "var(--accent-teal)";
+  }
+  if (queueEl) {
+    const lastRun = data && data.last_run;
+    queueEl.textContent = lastRun ? `${lastRun.pages_checked ?? "—"} checked / ${lastRun.pages_skipped ?? "—"} skipped` : "—";
+  }
+
+  if (!pages.length) {
+    el.innerHTML = `<div class="empty-state">No scheduler data yet. This section fills in after the first scheduler-enabled run.</div>`;
+    return;
+  }
+
+  el.innerHTML = pages.map(p => {
+    const unhealthy = (p.failure_count || 0) >= 3;
+    const color = unhealthy ? "var(--accent-red)" : (p.last_status === "success" ? "var(--accent-teal)" : "var(--text-faint)");
+    return `
+    <div class="page-card" style="color:${color}">
+      <div class="pc-head">
+        <div class="pc-name" style="color:var(--text)">${p.name}</div>
+        <div class="pc-score" style="color:${color}">${p.priority} · ${p.interval_hours}h</div>
+      </div>
+      <div class="pc-metrics">
+        <span>Last: ${p.last_run ? new Date(p.last_run).toLocaleTimeString() : "never"}</span>
+        <span>Next: ${p.next_run ? new Date(p.next_run).toLocaleTimeString() : "—"}</span>
+      </div>
+      ${p.failure_count ? `<div class="pc-metrics"><span>Failures: ${p.failure_count}</span></div>` : ""}
     </div>`;
   }).join("");
 }
@@ -310,6 +525,10 @@ function renderAll() {
   renderVitalsBar();
   renderKPIs();
   renderPagesGrid();
+  renderRootCauseCards(); // Feature 1 addition
+  renderJourneyCards();   // Feature 2 addition
+  renderAlertsSection();  // Feature 3 addition
+  renderSchedulerSection(); // Feature 4 addition
   renderTrendCharts();
   renderHistoryTable();
   document.getElementById("load-error").style.display = "none";

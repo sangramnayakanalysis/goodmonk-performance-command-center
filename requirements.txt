@@ -1,4 +1,12 @@
-requests>=2.31.0
-gspread>=6.1.0
-google-auth>=2.29.0
-python-dotenv>=1.0.1
+# Pinned with upper bounds (allow patch/minor updates, block surprise
+# major-version breakage) as part of the v1.0 production-hardening pass.
+# Every dependency here is actively used — verified by tracing imports
+# across the full codebase; nothing here is unused or removable.
+
+requests>=2.31.0,<3.0.0        # gtmetrix.py — GTmetrix API v2 HTTP client
+gspread>=6.1.0,<7.0.0          # google_sheet.py — Google Sheets read/write
+google-auth>=2.29.0,<3.0.0     # google_sheet.py — service-account credentials
+python-dotenv>=1.0.1,<2.0.0    # config.py — local .env loading
+
+# Feature 2 (Customer Journey Monitoring)
+playwright>=1.44.0,<2.0.0      # playwright_runner.py — browser automation

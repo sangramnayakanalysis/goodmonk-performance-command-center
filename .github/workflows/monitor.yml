@@ -2,7 +2,13 @@ name: GoodMonk Performance Monitor
 
 on:
   schedule:
-    - cron: "30 3 * * *"
+    # Feature 4: hourly cadence — the workflow itself just runs once
+    # every hour; page_scheduler.py (inside main.py) decides which
+    # configured pages are actually due this run based on each page's
+    # own interval_hours in config.py. No other cron entry is needed —
+    # critical pages (interval_hours=1) run every trigger, normal pages
+    # (interval_hours=2) run every other trigger, automatically.
+    - cron: "0 * * * *"
   workflow_dispatch:
     inputs:
       no_resume:
@@ -16,6 +22,13 @@ permissions:
   id-token: write
 
 concurrency:
+  # This was already here before Feature 4 (originally for safe Pages
+  # deployment) — but a top-level `concurrency:` block governs the whole
+  # workflow run, not just one job/step, so it already satisfies Feature
+  # 4's "prevent overlapping executions, queue the next one, never cancel
+  # a running job" requirement exactly as written: cancel-in-progress:
+  # false means an hourly trigger that fires while a previous run is
+  # still going gets QUEUED, not killed. No change was needed here.
   group: "pages"
   cancel-in-progress: false
 
@@ -39,6 +52,12 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+
+      # Feature 2 addition: install the Chromium browser Playwright needs.
+      # --with-deps also installs the OS-level libraries Chromium requires
+      # on a bare ubuntu-latest runner. Nothing above this step changed.
+      - name: Install Playwright browser (Chromium)
+        run: python -m playwright install --with-deps chromium
 
       - name: Run GTmetrix monitoring batch
         id: run
@@ -68,12 +87,26 @@ jobs:
             echo "⚠️ Run finished with one or more failed pages."
           fi
 
+      # Feature 2 addition: upload any journey screenshots as a build
+      # artifact (never committed to the repo — see .gitignore). Runs
+      # even if the main run step above reported a failure (some
+      # screenshots are only produced ON failure), and never fails the
+      # job if the folder happens to be empty (if-no-files-found: ignore).
+      - name: Upload journey screenshots (if any)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: journey-screenshots-${{ github.run_id }}
+          path: journey_screenshots/
+          if-no-files-found: ignore
+          retention-days: 14
+
       - name: Commit updated dashboard data + run state
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add dashboard/data/*.json data/run_state.json
+          git add dashboard/data/*.json data/run_state.json data/alert_state.json data/page_schedule_state.json
 
           if git diff --cached --quiet; then
             echo "No dashboard changes to commit."
@@ -82,7 +115,20 @@ jobs:
 
           git commit -m "chore: update performance data [skip ci]"
 
-          git pull --rebase origin main || true
+          # v1.0.1 fix (Independent Audit finding C2): a rebase conflict
+          # here used to be swallowed by `|| true` and the script would
+          # push whatever HEAD ended up being anyway — a realistic path
+          # to pushing corrupted/conflict-marker-laden state files to
+          # main. Now: a failed rebase is explicitly aborted (returning
+          # the repo to a clean, known state) and the step exits non-zero
+          # — no push happens, and the existing "Notify on workflow
+          # failure" step (if: failure()) picks it up exactly like any
+          # other job failure. On success, behavior is unchanged.
+          if ! git pull --rebase origin main; then
+            echo "::error::git rebase failed — aborting rebase and failing this step rather than pushing an unknown repository state."
+            git rebase --abort
+            exit 1
+          fi
 
           git push origin HEAD:main
 
@@ -97,3 +143,29 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      # Feature 3 addition: fires a "github_workflow_failure" alert for
+      # job-level failures that main.py's own exception handling never
+      # got a chance to see — e.g. dependency install failed, the Python
+      # process crashed outright, or a step before "Run GTmetrix
+      # monitoring batch" failed. That step itself already has
+      # continue-on-error: true, so an ordinary GTmetrix/RCA/journey
+      # failure is handled entirely inside main.py (see alerts.py) and
+      # does NOT trigger this step — this is specifically the fallback
+      # for failures the rest of the pipeline never ran to detect.
+      - name: Notify on workflow failure
+        if: failure()
+        env:
+          GTMETRIX_API_KEY: ${{ secrets.GTMETRIX_API_KEY }}
+          GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          python -m alerts --workflow-failure "GoodMonk Performance Monitor workflow failed at run ${{ github.run_id }} (job: ${{ github.job }})."

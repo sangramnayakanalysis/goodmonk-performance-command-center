@@ -440,3 +440,35 @@ footer {
   .status-dot { animation: none; }
   .pulse-line { animation: none !important; }
 }
+
+/* --- Root Cause cards (Feature 1 addition) ------------------------------ */
+.rc-issue {
+  padding: 6px 10px;
+  margin-top: 8px;
+  background: var(--panel-alt);
+  border-radius: var(--radius-sm);
+}
+.rc-issue-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text);
+}
+.rc-issue-detail {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+/* --- Customer Journey timeline (Feature 2 addition) --------------------- */
+.journey-timeline {
+  display: flex;
+  gap: 3px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+.journey-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}

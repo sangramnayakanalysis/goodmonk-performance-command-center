@@ -11,3 +11,18 @@ logs/*.log
 # state survives between runs (each run starts on a fresh VM with no
 # local disk continuity, so if this were ignored, resume would never
 # actually work across separate workflow executions).
+#
+# Feature 3 (Smart Alert System): data/alert_state.json follows the exact
+# same pattern and is also intentionally NOT ignored — it's what makes
+# alert deduplication/recovery detection work across separate workflow
+# runs (see notification_manager.py).
+#
+# Feature 4 (Intelligent Monitoring Scheduler): data/page_schedule_state.json
+# follows the same pattern too — it's what lets the scheduler know each
+# page's last successful run across separate hourly workflow executions.
+
+# Feature 2 (Customer Journey Monitoring): failure/success screenshots are
+# written here during a run, then uploaded as a GitHub Actions artifact by
+# monitor.yml — deliberately never committed to the repo (would bloat repo
+# size fast at hourly cadence).
+journey_screenshots/

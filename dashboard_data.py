@@ -15,6 +15,7 @@ Output files:
 
 from __future__ import annotations
 
+import json
 from collections import defaultdict
 from datetime import datetime
 from statistics import mean
@@ -141,6 +142,209 @@ def build_all(last_run_status: str = "completed", next_run_iso: str | None = Non
     write_json(config.DASHBOARD_DATA_DIR / "history.json", all_rows)
 
     log.info("Dashboard data written: %d page(s), %d total history row(s).", len(page_entries), len(all_rows))
+
+
+# =============================================================================
+# Feature 1 addition (Root Cause Analysis) — new function, new output file.
+# `build_all()` above is completely untouched: its 4 existing JSON files
+# keep their exact current shape. This writes a 5th, new file.
+# =============================================================================
+
+def build_root_cause_summary(rows_per_page: int = 10) -> None:
+    """
+    Reads each page's "<sheet>_RootCause" tab (written by scheduler.py via
+    root_cause.py) and writes dashboard/data/root_cause.json — the latest
+    root-cause report per page plus a small trend of recent issue counts.
+
+    Isolated per-page (one broken sheet must not blank the whole file) and
+    isolated as a whole (called from main.py in its own try/except, exactly
+    like the existing `build_all()` call is) so a failure here can never
+    affect the existing dashboard JSON files.
+    """
+    import google_sheet  # local import: keeps this optional feature's
+                          # dependency separate from build_all()'s imports
+
+    page_reports = []
+    for page in config.PAGES:
+        try:
+            rows = google_sheet.read_root_cause_history(page.sheet_name, limit=rows_per_page)
+        except Exception as e:  # noqa: BLE001
+            log.error("Could not read root-cause history for %s: %s", page.sheet_name, e)
+            rows = []
+
+        latest = rows[-1] if rows else None
+        recent_issue_counts = [
+            int(r["Issue Count"]) for r in rows if str(r.get("Issue Count", "")).isdigit()
+        ]
+
+        page_reports.append({
+            "name": page.name,
+            "sheet_name": page.sheet_name,
+            "latest_report": json.loads(latest["Report JSON"]) if latest and latest.get("Report JSON") else None,
+            "recent_issue_counts": recent_issue_counts,
+        })
+
+    write_json(config.DASHBOARD_DATA_DIR / "root_cause.json", {
+        "generated_at": now_iso(),
+        "pages": page_reports,
+    })
+    log.info("Root-cause dashboard data written: %d page(s).", len(page_reports))
+
+
+# =============================================================================
+# Feature 2 addition (Customer Journey Monitoring) — new function, new
+# output file. build_all() and build_root_cause_summary() above are both
+# completely untouched.
+# =============================================================================
+
+def build_journey_summary(history_limit: int = 50) -> None:
+    """
+    Reads the shared "CustomerJourney" Sheets tab and writes
+    dashboard/data/journey.json: the latest run per product, a simple
+    success/fail timeline per product, and an overall success rate.
+
+    Isolated exactly like build_root_cause_summary — a failure here can
+    never affect any of the other 5 dashboard JSON files.
+    """
+    import google_sheet  # local import — keeps this optional feature's
+                          # dependency separate from build_all()'s imports
+
+    try:
+        rows = google_sheet.read_journey_history(limit=history_limit)
+    except Exception as e:  # noqa: BLE001
+        log.error("Could not read journey history: %s", e)
+        rows = []
+
+    by_product: dict[str, list[dict]] = defaultdict(list)
+    for r in rows:
+        by_product[r.get("Product", "Unknown")].append(r)
+
+    products = []
+    for name, product_rows in by_product.items():
+        latest = product_rows[-1] if product_rows else None
+        timeline = [
+            {"date": r.get("Date"), "time": r.get("Time"), "success": r.get("Overall Status") == "Success"}
+            for r in product_rows[-history_limit:]
+        ]
+        products.append({
+            "product_name": name,
+            "latest_status": latest.get("Overall Status") if latest else None,
+            "latest_failed_step": latest.get("Failed Step") if latest else None,
+            "latest_duration_seconds": latest.get("Duration (s)") if latest else None,
+            "latest_details": json.loads(latest["Details JSON"]) if latest and latest.get("Details JSON") else None,
+            "timeline": timeline,
+            "total_runs": len(product_rows),
+            "successful_runs": sum(1 for r in product_rows if r.get("Overall Status") == "Success"),
+        })
+
+    total_runs = sum(p["total_runs"] for p in products)
+    total_success = sum(p["successful_runs"] for p in products)
+
+    write_json(config.DASHBOARD_DATA_DIR / "journey.json", {
+        "generated_at": now_iso(),
+        "products": products,
+        "overall_success_rate": round(100 * total_success / total_runs, 1) if total_runs else None,
+    })
+    log.info("Journey dashboard data written: %d product(s).", len(products))
+
+
+# =============================================================================
+# Feature 3 addition (Smart Alert System) — new function, new output file.
+# build_all(), build_root_cause_summary(), and build_journey_summary()
+# above are all completely untouched.
+# =============================================================================
+
+def build_alerts_summary(history_limit: int = 200) -> None:
+    """
+    Reads the shared "AlertHistory" Sheets tab and writes
+    dashboard/data/alerts.json: recent alerts, currently-active alerts by
+    severity, recently-recovered alerts, counts, and a simple daily trend.
+
+    Isolated exactly like the other build_*_summary functions — a failure
+    here can never affect any of the other dashboard JSON files.
+    """
+    import google_sheet  # local import — same pattern as the other build_*_summary functions
+
+    try:
+        rows = google_sheet.read_alert_history(limit=history_limit)
+    except Exception as e:  # noqa: BLE001
+        log.error("Could not read alert history: %s", e)
+        rows = []
+
+    # A "New" alert is still active unless a later "Recovered" row exists
+    # for the same alert type + affected page — reduce to latest status
+    # per (type, page) key.
+    latest_by_key: dict[tuple, dict] = {}
+    for r in rows:
+        key = (r.get("Alert Type"), r.get("Affected Page"))
+        latest_by_key[key] = r  # rows are chronological, so the last write wins
+
+    currently_active = [r for r in latest_by_key.values() if r.get("Status") == "New"]
+    recently_recovered = [r for r in rows[-history_limit:] if r.get("Status") == "Recovered"][-20:]
+
+    severity_counts = {"critical": 0, "high": 0, "warning": 0, "info": 0}
+    for r in currently_active:
+        sev = (r.get("Severity") or "warning").lower()
+        if sev in severity_counts:
+            severity_counts[sev] += 1
+
+    daily_counts: dict[str, int] = defaultdict(int)
+    for r in rows:
+        if r.get("Status") == "New" and r.get("Date"):
+            daily_counts[str(r["Date"])] += 1
+    trend = [{"date": d, "count": c} for d, c in sorted(daily_counts.items())][-30:]
+
+    write_json(config.DASHBOARD_DATA_DIR / "alerts.json", {
+        "generated_at": now_iso(),
+        "recent_alerts": rows[-30:][::-1],  # most recent first
+        "active_alerts": currently_active,
+        "recovered_alerts": recently_recovered[::-1],
+        "severity_counts": severity_counts,
+        "total_active": len(currently_active),
+        "trend": trend,
+    })
+    log.info("Alerts dashboard data written: %d active, %d recent.", len(currently_active), len(rows))
+
+
+# =============================================================================
+# Feature 4 addition (Intelligent Monitoring Scheduler) — new function,
+# new output file. build_all(), build_root_cause_summary(),
+# build_journey_summary(), and build_alerts_summary() above are all
+# completely untouched.
+# =============================================================================
+
+def build_scheduler_summary(last_run_meta: dict | None = None) -> None:
+    """
+    Writes dashboard/data/scheduler.json: per-page schedule state (last
+    run, next run, failure streak), plus this run's checked/skipped
+    counts if `last_run_meta` is provided by main.py.
+
+    Isolated exactly like the other build_*_summary functions — a
+    failure here can never affect any of the other dashboard JSON files.
+    """
+    import page_scheduler  # local import — same pattern as the other build_*_summary functions
+
+    try:
+        summary = page_scheduler.get_scheduler_summary()
+    except Exception as e:  # noqa: BLE001
+        log.error("Could not read scheduler state: %s", e)
+        summary = {"generated_at": now_iso(), "pages": []}
+
+    pages = summary["pages"]
+    next_runs = [p["next_run"] for p in pages if p.get("next_run")]
+    last_successes = [p["last_successful_run"] for p in pages if p.get("last_successful_run")]
+    unhealthy = [p for p in pages if (p.get("failure_count") or 0) >= 3]
+
+    write_json(config.DASHBOARD_DATA_DIR / "scheduler.json", {
+        "generated_at": now_iso(),
+        "pages": pages,
+        "next_scheduled_run_overall": min(next_runs) if next_runs else None,
+        "last_successful_run_overall": max(last_successes) if last_successes else None,
+        "unhealthy_pages": [{"name": p["name"], "failure_count": p["failure_count"]} for p in unhealthy],
+        "scheduler_health": "critical" if unhealthy else "healthy",
+        "last_run": last_run_meta or {},
+    })
+    log.info("Scheduler dashboard data written: %d page(s), %d unhealthy.", len(pages), len(unhealthy))
 
 
 if __name__ == "__main__":
