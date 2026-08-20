@@ -1,6 +1,18 @@
 {
-  "generated_at": "2026-08-20T11:21:01",
+  "generated_at": "2026-08-20T12:32:12",
   "recent_alerts": [
+    {
+      "Date": "2026-08-20",
+      "Time": "12:31:20",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
     {
       "Date": "2026-08-20",
       "Time": "11:19:40",
@@ -348,18 +360,6 @@
       "Root Cause": "",
       "Status": "Recovered",
       "Occurrence Count": 4
-    },
-    {
-      "Date": "2026-08-19",
-      "Time": "11:27:12",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "APIError: [429]: Quota exceeded for quota metric 'Read requests' and limit 'Read requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:435732750985'.",
-      "Root Cause": "Writing journey result for FNM",
-      "Status": "New",
-      "Occurrence Count": 1
     }
   ],
   "active_alerts": [
@@ -595,6 +595,18 @@
   "recovered_alerts": [
     {
       "Date": "2026-08-20",
+      "Time": "12:31:20",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-08-20",
       "Time": "11:19:40",
       "Alert Type": "google_sheets_failure",
       "Severity": "critical",
@@ -812,18 +824,6 @@
     {
       "Date": "2026-08-19",
       "Time": "22:24:00",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 4 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 4
-    },
-    {
-      "Date": "2026-08-19",
-      "Time": "15:29:42",
       "Alert Type": "google_sheets_failure",
       "Severity": "critical",
       "Module": "sheets",
