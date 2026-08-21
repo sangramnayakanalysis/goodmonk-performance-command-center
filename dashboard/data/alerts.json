@@ -1,6 +1,18 @@
 {
-  "generated_at": "2026-08-21T03:44:53",
+  "generated_at": "2026-08-21T04:32:00",
   "recent_alerts": [
+    {
+      "Date": "2026-08-21",
+      "Time": "04:31:15",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
     {
       "Date": "2026-08-21",
       "Time": "03:44:03",
@@ -348,18 +360,6 @@
       "Root Cause": "",
       "Status": "Recovered",
       "Occurrence Count": 6
-    },
-    {
-      "Date": "2026-08-20",
-      "Time": "02:17:49",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Milk Mix Vanilla",
-      "Message": "MM_Vanilla is healthy again after 2 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 2
     }
   ],
   "active_alerts": [
@@ -595,6 +595,18 @@
   "recovered_alerts": [
     {
       "Date": "2026-08-21",
+      "Time": "04:31:15",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-08-21",
       "Time": "03:44:03",
       "Alert Type": "google_sheets_failure",
       "Severity": "critical",
@@ -812,18 +824,6 @@
     {
       "Date": "2026-08-20",
       "Time": "08:28:48",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 4 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 4
-    },
-    {
-      "Date": "2026-08-20",
-      "Time": "07:35:20",
       "Alert Type": "google_sheets_failure",
       "Severity": "critical",
       "Module": "sheets",
