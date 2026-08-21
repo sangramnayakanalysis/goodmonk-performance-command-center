@@ -1,6 +1,30 @@
 {
-  "generated_at": "2026-08-21T08:34:07",
+  "generated_at": "2026-08-21T09:31:30",
   "recent_alerts": [
+    {
+      "Date": "2026-08-21",
+      "Time": "09:31:29",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Fiber Fix",
+      "Message": "Fiber Fix's score dropped from 63.0 to 48.0 (15.0 points).",
+      "Root Cause": "",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-08-21",
+      "Time": "09:29:57",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
     {
       "Date": "2026-08-21",
       "Time": "08:34:06",
@@ -336,30 +360,6 @@
       "Root Cause": "",
       "Status": "Recovered",
       "Occurrence Count": 4
-    },
-    {
-      "Date": "2026-08-20",
-      "Time": "23:18:58",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 4 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 4
-    },
-    {
-      "Date": "2026-08-20",
-      "Time": "22:19:05",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 4 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 4
     }
   ],
   "active_alerts": [
@@ -395,6 +395,18 @@
       "Module": "gtmetrix",
       "Affected Page": "H50+",
       "Message": "H50+'s score dropped from 68.0 to 44.0 (24.0 points).",
+      "Root Cause": "",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-08-21",
+      "Time": "09:31:29",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Fiber Fix",
+      "Message": "Fiber Fix's score dropped from 63.0 to 48.0 (15.0 points).",
       "Root Cause": "",
       "Status": "New",
       "Occurrence Count": 1
@@ -449,6 +461,18 @@
     }
   ],
   "recovered_alerts": [
+    {
+      "Date": "2026-08-21",
+      "Time": "09:29:57",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
     {
       "Date": "2026-08-21",
       "Time": "08:34:06",
@@ -676,27 +700,15 @@
       "Root Cause": "",
       "Status": "Recovered",
       "Occurrence Count": 10
-    },
-    {
-      "Date": "2026-08-21",
-      "Time": "08:33:19",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 2 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 2
     }
   ],
   "severity_counts": {
     "critical": 3,
     "high": 0,
-    "warning": 4,
+    "warning": 5,
     "info": 0
   },
-  "total_active": 7,
+  "total_active": 8,
   "trend": [
     {
       "date": "2026-08-18",
@@ -709,6 +721,10 @@
     {
       "date": "2026-08-20",
       "count": 6
+    },
+    {
+      "date": "2026-08-21",
+      "count": 1
     }
   ]
 }
