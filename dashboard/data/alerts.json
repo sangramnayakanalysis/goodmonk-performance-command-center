@@ -1,6 +1,90 @@
 {
-  "generated_at": "2026-08-22T06:30:19",
+  "generated_at": "2026-08-22T07:26:23",
   "recent_alerts": [
+    {
+      "Date": "2026-08-22",
+      "Time": "07:26:22",
+      "Alert Type": "gtmetrix_api_failure",
+      "Severity": "critical",
+      "Module": "gtmetrix",
+      "Affected Page": "FNM",
+      "Message": "Every configured page failed this run (6/6) \u2014 likely a systemic GTmetrix API or network issue.",
+      "Root Cause": "startTest(https://www.goodmonk.in/products/good-monk): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has 0 API credits remaining. Your next API credit refill is scheduled for Sat, Aug 22, 2026 11:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-08-22",
+      "Time": "07:26:22",
+      "Alert Type": "gtmetrix_api_failure",
+      "Severity": "critical",
+      "Module": "gtmetrix",
+      "Affected Page": "Homepage",
+      "Message": "Every configured page failed this run (6/6) \u2014 likely a systemic GTmetrix API or network issue.",
+      "Root Cause": "startTest(https://www.goodmonk.in/): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has 0 API credits remaining. Your next API credit refill is scheduled for Sat, Aug 22, 2026 11:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-08-22",
+      "Time": "07:26:21",
+      "Alert Type": "gtmetrix_api_failure",
+      "Severity": "critical",
+      "Module": "gtmetrix",
+      "Affected Page": "Plant Protein Roti",
+      "Message": "Every configured page failed this run (6/6) \u2014 likely a systemic GTmetrix API or network issue.",
+      "Root Cause": "startTest(https://www.goodmonk.in/products/plant-protein-for-rotis): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has 0 API credits remaining. Your next API credit refill is scheduled for Sat, Aug 22, 2026 11:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-08-22",
+      "Time": "07:26:21",
+      "Alert Type": "gtmetrix_api_failure",
+      "Severity": "critical",
+      "Module": "gtmetrix",
+      "Affected Page": "Fiber Fix",
+      "Message": "Every configured page failed this run (6/6) \u2014 likely a systemic GTmetrix API or network issue.",
+      "Root Cause": "startTest(https://www.goodmonk.in/products/fiber-fix): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has 0 API credits remaining. Your next API credit refill is scheduled for Sat, Aug 22, 2026 11:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-08-22",
+      "Time": "07:26:20",
+      "Alert Type": "gtmetrix_api_failure",
+      "Severity": "critical",
+      "Module": "gtmetrix",
+      "Affected Page": "Shop All",
+      "Message": "Every configured page failed this run (6/6) \u2014 likely a systemic GTmetrix API or network issue.",
+      "Root Cause": "startTest(https://www.goodmonk.in/collections/all): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has 0 API credits remaining. Your next API credit refill is scheduled for Sat, Aug 22, 2026 11:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-08-22",
+      "Time": "07:26:20",
+      "Alert Type": "gtmetrix_api_failure",
+      "Severity": "critical",
+      "Module": "gtmetrix",
+      "Affected Page": "H50+",
+      "Message": "Every configured page failed this run (6/6) \u2014 likely a systemic GTmetrix API or network issue.",
+      "Root Cause": "startTest(https://www.goodmonk.in/products/good-monk-50-nutrition-mix): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has 0 API credits remaining. Your next API credit refill is scheduled for Sat, Aug 22, 2026 11:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-08-22",
+      "Time": "07:25:38",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
     {
       "Date": "2026-08-22",
       "Time": "06:30:17",
@@ -276,90 +360,6 @@
       "Root Cause": "",
       "Status": "Recovered",
       "Occurrence Count": 4
-    },
-    {
-      "Date": "2026-08-21",
-      "Time": "16:23:00",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 4 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 4
-    },
-    {
-      "Date": "2026-08-21",
-      "Time": "15:25:41",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 4 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 4
-    },
-    {
-      "Date": "2026-08-21",
-      "Time": "14:26:55",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 4 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 4
-    },
-    {
-      "Date": "2026-08-21",
-      "Time": "13:40:07",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-08-21",
-      "Time": "12:33:22",
-      "Alert Type": "performance_grade_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Homepage",
-      "Message": "Homepage's grade dropped from C to D.",
-      "Root Cause": "",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-08-21",
-      "Time": "12:33:22",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "H50+",
-      "Message": "H50+ is healthy again after 1 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-08-21",
-      "Time": "12:33:22",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Fiber Fix",
-      "Message": "FF is healthy again after 1 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
     }
   ],
   "active_alerts": [
@@ -376,38 +376,38 @@
       "Occurrence Count": 1
     },
     {
-      "Date": "2026-08-20",
-      "Time": "05:24:27",
+      "Date": "2026-08-22",
+      "Time": "07:26:20",
       "Alert Type": "gtmetrix_api_failure",
       "Severity": "critical",
       "Module": "gtmetrix",
       "Affected Page": "Shop All",
-      "Message": "Every configured page failed this run (10/10) \u2014 likely a systemic GTmetrix API or network issue.",
-      "Root Cause": "startTest(https://www.goodmonk.in/collections/all): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has 0 API credits remaining. Your next API credit refill is scheduled for Thu, Aug 20, 2026 8:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
+      "Message": "Every configured page failed this run (6/6) \u2014 likely a systemic GTmetrix API or network issue.",
+      "Root Cause": "startTest(https://www.goodmonk.in/collections/all): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has 0 API credits remaining. Your next API credit refill is scheduled for Sat, Aug 22, 2026 11:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
       "Status": "New",
       "Occurrence Count": 1
     },
     {
-      "Date": "2026-08-20",
-      "Time": "05:24:28",
+      "Date": "2026-08-22",
+      "Time": "07:26:22",
       "Alert Type": "gtmetrix_api_failure",
       "Severity": "critical",
       "Module": "gtmetrix",
       "Affected Page": "Homepage",
-      "Message": "Every configured page failed this run (10/10) \u2014 likely a systemic GTmetrix API or network issue.",
-      "Root Cause": "startTest(https://www.goodmonk.in/): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has 0 API credits remaining. Your next API credit refill is scheduled for Thu, Aug 20, 2026 8:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
+      "Message": "Every configured page failed this run (6/6) \u2014 likely a systemic GTmetrix API or network issue.",
+      "Root Cause": "startTest(https://www.goodmonk.in/): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has 0 API credits remaining. Your next API credit refill is scheduled for Sat, Aug 22, 2026 11:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
       "Status": "New",
       "Occurrence Count": 1
     },
     {
-      "Date": "2026-08-20",
-      "Time": "05:24:29",
+      "Date": "2026-08-22",
+      "Time": "07:26:21",
       "Alert Type": "gtmetrix_api_failure",
       "Severity": "critical",
       "Module": "gtmetrix",
       "Affected Page": "Plant Protein Roti",
-      "Message": "Every configured page failed this run (10/10) \u2014 likely a systemic GTmetrix API or network issue.",
-      "Root Cause": "startTest(https://www.goodmonk.in/products/plant-protein-for-rotis): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has 0 API credits remaining. Your next API credit refill is scheduled for Thu, Aug 20, 2026 8:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
+      "Message": "Every configured page failed this run (6/6) \u2014 likely a systemic GTmetrix API or network issue.",
+      "Root Cause": "startTest(https://www.goodmonk.in/products/plant-protein-for-rotis): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has 0 API credits remaining. Your next API credit refill is scheduled for Sat, Aug 22, 2026 11:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
       "Status": "New",
       "Occurrence Count": 1
     },
@@ -458,9 +458,57 @@
       "Root Cause": "",
       "Status": "New",
       "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-08-22",
+      "Time": "07:26:20",
+      "Alert Type": "gtmetrix_api_failure",
+      "Severity": "critical",
+      "Module": "gtmetrix",
+      "Affected Page": "H50+",
+      "Message": "Every configured page failed this run (6/6) \u2014 likely a systemic GTmetrix API or network issue.",
+      "Root Cause": "startTest(https://www.goodmonk.in/products/good-monk-50-nutrition-mix): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has 0 API credits remaining. Your next API credit refill is scheduled for Sat, Aug 22, 2026 11:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-08-22",
+      "Time": "07:26:21",
+      "Alert Type": "gtmetrix_api_failure",
+      "Severity": "critical",
+      "Module": "gtmetrix",
+      "Affected Page": "Fiber Fix",
+      "Message": "Every configured page failed this run (6/6) \u2014 likely a systemic GTmetrix API or network issue.",
+      "Root Cause": "startTest(https://www.goodmonk.in/products/fiber-fix): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has 0 API credits remaining. Your next API credit refill is scheduled for Sat, Aug 22, 2026 11:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-08-22",
+      "Time": "07:26:22",
+      "Alert Type": "gtmetrix_api_failure",
+      "Severity": "critical",
+      "Module": "gtmetrix",
+      "Affected Page": "FNM",
+      "Message": "Every configured page failed this run (6/6) \u2014 likely a systemic GTmetrix API or network issue.",
+      "Root Cause": "startTest(https://www.goodmonk.in/products/good-monk): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has 0 API credits remaining. Your next API credit refill is scheduled for Sat, Aug 22, 2026 11:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
+      "Status": "New",
+      "Occurrence Count": 1
     }
   ],
   "recovered_alerts": [
+    {
+      "Date": "2026-08-22",
+      "Time": "07:25:38",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
     {
       "Date": "2026-08-22",
       "Time": "06:30:17",
@@ -688,27 +736,15 @@
       "Root Cause": "",
       "Status": "Recovered",
       "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-08-21",
-      "Time": "17:21:29",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 4 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 4
     }
   ],
   "severity_counts": {
-    "critical": 3,
+    "critical": 6,
     "high": 0,
     "warning": 5,
     "info": 0
   },
-  "total_active": 8,
+  "total_active": 11,
   "trend": [
     {
       "date": "2026-08-18",
@@ -728,7 +764,7 @@
     },
     {
       "date": "2026-08-22",
-      "count": 3
+      "count": 9
     }
   ]
 }
