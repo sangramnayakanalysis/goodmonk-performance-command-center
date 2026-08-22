@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-22T04:28:30",
-      "occurrence_count": 76
+      "last_seen_at": "2026-08-22T05:23:12",
+      "occurrence_count": 77
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-22T04:28:30",
-      "occurrence_count": 76
+      "last_seen_at": "2026-08-22T05:23:12",
+      "occurrence_count": 77
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-22T04:28:30",
-      "occurrence_count": 76
+      "last_seen_at": "2026-08-22T05:23:12",
+      "occurrence_count": 77
     },
     "root_cause:Slimbiotics:high_cls": {
       "alert_type": "high_cls",
@@ -36,23 +36,14 @@
       "last_seen_at": "2026-08-22T04:28:29",
       "occurrence_count": 2
     },
-    "root_cause:FF:high_cls": {
-      "alert_type": "high_cls",
-      "module": "root_cause",
-      "severity": "warning",
-      "affected_page": "Fiber Fix",
-      "first_seen_at": "2026-08-19T14:26:06",
-      "last_seen_at": "2026-08-22T04:28:29",
-      "occurrence_count": 12
-    },
     "score_trend:MM_Vanilla": {
       "alert_type": "performance_score_drop",
       "module": "gtmetrix",
       "severity": "warning",
       "affected_page": "Milk Mix Vanilla",
       "first_seen_at": "2026-08-22T02:14:15",
-      "last_seen_at": "2026-08-22T04:28:28",
-      "occurrence_count": 3
+      "last_seen_at": "2026-08-22T05:23:11",
+      "occurrence_count": 4
     },
     "score_trend:Pineapple": {
       "alert_type": "performance_grade_drop",
@@ -60,17 +51,8 @@
       "severity": "warning",
       "affected_page": "Pineapple",
       "first_seen_at": "2026-08-22T02:14:15",
-      "last_seen_at": "2026-08-22T04:28:28",
-      "occurrence_count": 3
-    },
-    "score_trend:Shop_All": {
-      "alert_type": "performance_grade_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Shop All",
-      "first_seen_at": "2026-08-22T03:38:15",
-      "last_seen_at": "2026-08-22T04:28:28",
-      "occurrence_count": 2
+      "last_seen_at": "2026-08-22T05:23:11",
+      "occurrence_count": 4
     },
     "score_trend:MM_Chocolate": {
       "alert_type": "performance_score_drop",
@@ -78,8 +60,8 @@
       "severity": "warning",
       "affected_page": "Milk Mix Chocolate",
       "first_seen_at": "2026-08-22T04:28:28",
-      "last_seen_at": "2026-08-22T04:28:28",
-      "occurrence_count": 1
+      "last_seen_at": "2026-08-22T05:23:11",
+      "occurrence_count": 2
     },
     "score_trend:Slimbiotics": {
       "alert_type": "performance_score_drop",
@@ -87,8 +69,8 @@
       "severity": "warning",
       "affected_page": "Slimbiotics",
       "first_seen_at": "2026-08-22T04:28:28",
-      "last_seen_at": "2026-08-22T04:28:28",
-      "occurrence_count": 1
+      "last_seen_at": "2026-08-22T05:23:11",
+      "occurrence_count": 2
     },
     "root_cause:Weight Management:high_cls": {
       "alert_type": "high_cls",
@@ -133,6 +115,51 @@
       "affected_page": "Milk Mix Chocolate",
       "first_seen_at": "2026-08-22T04:28:29",
       "last_seen_at": "2026-08-22T04:28:29",
+      "occurrence_count": 1
+    },
+    "operational:sheets:google_sheets_failure": {
+      "alert_type": "google_sheets_failure",
+      "module": "sheets",
+      "severity": "critical",
+      "affected_page": null,
+      "first_seen_at": "2026-08-22T05:23:11",
+      "last_seen_at": "2026-08-22T05:23:11",
+      "occurrence_count": 4
+    },
+    "score_trend:H50+": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "H50+",
+      "first_seen_at": "2026-08-22T05:23:11",
+      "last_seen_at": "2026-08-22T05:23:11",
+      "occurrence_count": 1
+    },
+    "score_trend:FNM": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "FNM",
+      "first_seen_at": "2026-08-22T05:23:11",
+      "last_seen_at": "2026-08-22T05:23:11",
+      "occurrence_count": 1
+    },
+    "root_cause:H50+:high_cls": {
+      "alert_type": "high_cls",
+      "module": "root_cause",
+      "severity": "warning",
+      "affected_page": "H50+",
+      "first_seen_at": "2026-08-22T05:23:11",
+      "last_seen_at": "2026-08-22T05:23:11",
+      "occurrence_count": 1
+    },
+    "root_cause:FNM:high_cls": {
+      "alert_type": "high_cls",
+      "module": "root_cause",
+      "severity": "warning",
+      "affected_page": "FNM",
+      "first_seen_at": "2026-08-22T05:23:11",
+      "last_seen_at": "2026-08-22T05:23:11",
       "occurrence_count": 1
     }
   }
