@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-22T07:26:22",
-      "occurrence_count": 79
+      "last_seen_at": "2026-08-22T08:20:26",
+      "occurrence_count": 80
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-22T07:26:22",
-      "occurrence_count": 79
+      "last_seen_at": "2026-08-22T08:20:26",
+      "occurrence_count": 80
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-22T07:26:22",
-      "occurrence_count": 79
+      "last_seen_at": "2026-08-22T08:20:26",
+      "occurrence_count": 80
     },
     "root_cause:Slimbiotics:high_cls": {
       "alert_type": "high_cls",
@@ -105,8 +105,8 @@
       "severity": "warning",
       "affected_page": "Milk Mix Strawberry",
       "first_seen_at": "2026-08-22T06:30:11",
-      "last_seen_at": "2026-08-22T07:26:22",
-      "occurrence_count": 2
+      "last_seen_at": "2026-08-22T08:20:26",
+      "occurrence_count": 3
     },
     "score_trend:Homepage": {
       "alert_type": "performance_score_drop",
@@ -114,17 +114,8 @@
       "severity": "warning",
       "affected_page": "Homepage",
       "first_seen_at": "2026-08-22T06:30:11",
-      "last_seen_at": "2026-08-22T07:26:22",
-      "occurrence_count": 2
-    },
-    "operational:sheets:google_sheets_failure": {
-      "alert_type": "google_sheets_failure",
-      "module": "sheets",
-      "severity": "critical",
-      "affected_page": null,
-      "first_seen_at": "2026-08-22T07:26:18",
-      "last_seen_at": "2026-08-22T07:26:18",
-      "occurrence_count": 1
+      "last_seen_at": "2026-08-22T08:20:26",
+      "occurrence_count": 3
     },
     "gtmetrix:H50+": {
       "alert_type": "gtmetrix_api_failure",
@@ -132,8 +123,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-22T07:26:20",
-      "last_seen_at": "2026-08-22T07:26:20",
-      "occurrence_count": 1
+      "last_seen_at": "2026-08-22T08:20:26",
+      "occurrence_count": 2
     },
     "gtmetrix:Shop_All": {
       "alert_type": "gtmetrix_api_failure",
@@ -141,8 +132,8 @@
       "severity": "critical",
       "affected_page": "Shop All",
       "first_seen_at": "2026-08-22T07:26:20",
-      "last_seen_at": "2026-08-22T07:26:20",
-      "occurrence_count": 1
+      "last_seen_at": "2026-08-22T08:20:26",
+      "occurrence_count": 2
     },
     "gtmetrix:FF": {
       "alert_type": "gtmetrix_api_failure",
@@ -150,8 +141,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-22T07:26:20",
-      "last_seen_at": "2026-08-22T07:26:20",
-      "occurrence_count": 1
+      "last_seen_at": "2026-08-22T08:20:26",
+      "occurrence_count": 2
     },
     "gtmetrix:Plant Protein Roti": {
       "alert_type": "gtmetrix_api_failure",
@@ -159,8 +150,8 @@
       "severity": "critical",
       "affected_page": "Plant Protein Roti",
       "first_seen_at": "2026-08-22T07:26:20",
-      "last_seen_at": "2026-08-22T07:26:20",
-      "occurrence_count": 1
+      "last_seen_at": "2026-08-22T08:20:26",
+      "occurrence_count": 2
     },
     "gtmetrix:Homepage": {
       "alert_type": "gtmetrix_api_failure",
@@ -168,8 +159,8 @@
       "severity": "critical",
       "affected_page": "Homepage",
       "first_seen_at": "2026-08-22T07:26:20",
-      "last_seen_at": "2026-08-22T07:26:20",
-      "occurrence_count": 1
+      "last_seen_at": "2026-08-22T08:20:26",
+      "occurrence_count": 2
     },
     "gtmetrix:FNM": {
       "alert_type": "gtmetrix_api_failure",
@@ -177,7 +168,16 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-22T07:26:20",
-      "last_seen_at": "2026-08-22T07:26:20",
+      "last_seen_at": "2026-08-22T08:20:26",
+      "occurrence_count": 2
+    },
+    "operational:sheets:google_sheets_failure": {
+      "alert_type": "google_sheets_failure",
+      "module": "sheets",
+      "severity": "critical",
+      "affected_page": null,
+      "first_seen_at": "2026-08-22T08:20:24",
+      "last_seen_at": "2026-08-22T08:20:24",
       "occurrence_count": 1
     }
   }

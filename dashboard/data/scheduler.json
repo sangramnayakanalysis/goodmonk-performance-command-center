@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T07:26:20",
+  "generated_at": "2026-08-22T08:20:26",
   "pages": [
     {
       "name": "Homepage",
@@ -7,13 +7,13 @@
       "priority": "critical",
       "interval_hours": 1,
       "enabled": true,
-      "last_run": "2026-08-22T07:26:19",
-      "next_run": "2026-08-22T08:26:19",
+      "last_run": "2026-08-22T08:20:26",
+      "next_run": "2026-08-22T09:20:26",
       "last_status": "failed",
-      "failure_count": 1,
+      "failure_count": 2,
       "last_successful_run": "2026-08-22T06:30:11",
       "last_journey_run": null,
-      "last_gtmetrix_run": "2026-08-22T07:26:19"
+      "last_gtmetrix_run": "2026-08-22T08:20:26"
     },
     {
       "name": "Shop All",
@@ -21,13 +21,13 @@
       "priority": "critical",
       "interval_hours": 1,
       "enabled": true,
-      "last_run": "2026-08-22T07:26:19",
-      "next_run": "2026-08-22T08:26:19",
+      "last_run": "2026-08-22T08:20:26",
+      "next_run": "2026-08-22T09:20:26",
       "last_status": "failed",
-      "failure_count": 1,
+      "failure_count": 2,
       "last_successful_run": "2026-08-22T06:30:11",
       "last_journey_run": null,
-      "last_gtmetrix_run": "2026-08-22T07:26:19"
+      "last_gtmetrix_run": "2026-08-22T08:20:26"
     },
     {
       "name": "FNM",
@@ -35,13 +35,13 @@
       "priority": "critical",
       "interval_hours": 1,
       "enabled": true,
-      "last_run": "2026-08-22T07:26:19",
-      "next_run": "2026-08-22T08:26:19",
+      "last_run": "2026-08-22T08:20:26",
+      "next_run": "2026-08-22T09:20:26",
       "last_status": "failed",
-      "failure_count": 79,
+      "failure_count": 80,
       "last_successful_run": null,
-      "last_journey_run": "2026-08-22T07:26:19",
-      "last_gtmetrix_run": "2026-08-22T07:26:19"
+      "last_journey_run": "2026-08-22T08:20:26",
+      "last_gtmetrix_run": "2026-08-22T08:20:26"
     },
     {
       "name": "H50+",
@@ -49,13 +49,13 @@
       "priority": "critical",
       "interval_hours": 1,
       "enabled": true,
-      "last_run": "2026-08-22T07:26:19",
-      "next_run": "2026-08-22T08:26:19",
+      "last_run": "2026-08-22T08:20:26",
+      "next_run": "2026-08-22T09:20:26",
       "last_status": "failed",
-      "failure_count": 79,
+      "failure_count": 80,
       "last_successful_run": null,
-      "last_journey_run": "2026-08-22T07:26:19",
-      "last_gtmetrix_run": "2026-08-22T07:26:19"
+      "last_journey_run": "2026-08-22T08:20:26",
+      "last_gtmetrix_run": "2026-08-22T08:20:26"
     },
     {
       "name": "Fiber Fix",
@@ -63,13 +63,13 @@
       "priority": "critical",
       "interval_hours": 1,
       "enabled": true,
-      "last_run": "2026-08-22T07:26:20",
-      "next_run": "2026-08-22T08:26:20",
+      "last_run": "2026-08-22T08:20:26",
+      "next_run": "2026-08-22T09:20:26",
       "last_status": "failed",
-      "failure_count": 79,
+      "failure_count": 80,
       "last_successful_run": null,
-      "last_journey_run": "2026-08-22T07:26:20",
-      "last_gtmetrix_run": "2026-08-22T07:26:20"
+      "last_journey_run": "2026-08-22T08:20:26",
+      "last_gtmetrix_run": "2026-08-22T08:20:26"
     },
     {
       "name": "Berries",
@@ -217,29 +217,29 @@
       "priority": "critical",
       "interval_hours": 1,
       "enabled": true,
-      "last_run": "2026-08-22T07:26:20",
-      "next_run": "2026-08-22T08:26:20",
+      "last_run": "2026-08-22T08:20:26",
+      "next_run": "2026-08-22T09:20:26",
       "last_status": "failed",
-      "failure_count": 1,
+      "failure_count": 2,
       "last_successful_run": "2026-08-22T06:30:11",
       "last_journey_run": null,
-      "last_gtmetrix_run": "2026-08-22T07:26:20"
+      "last_gtmetrix_run": "2026-08-22T08:20:26"
     }
   ],
-  "next_scheduled_run_overall": "2026-08-22T08:26:19",
+  "next_scheduled_run_overall": "2026-08-22T08:30:11",
   "last_successful_run_overall": "2026-08-22T06:30:11",
   "unhealthy_pages": [
     {
       "name": "FNM",
-      "failure_count": 79
+      "failure_count": 80
     },
     {
       "name": "H50+",
-      "failure_count": 79
+      "failure_count": 80
     },
     {
       "name": "Fiber Fix",
-      "failure_count": 79
+      "failure_count": 80
     }
   ],
   "scheduler_health": "critical",
@@ -247,19 +247,19 @@
     "pages_checked": 6,
     "pages_skipped": 10,
     "skip_reasons": [
-      "Berries: not due for 1.1h more (interval 2.0h)",
-      "Orange: not due for 1.1h more (interval 2.0h)",
-      "Pineapple: not due for 1.1h more (interval 2.0h)",
-      "Mango: not due for 1.1h more (interval 2.0h)",
-      "Assorted: not due for 1.1h more (interval 2.0h)",
-      "Milk Mix Strawberry: not due for 1.1h more (interval 2.0h)",
-      "Milk Mix Vanilla: not due for 1.1h more (interval 2.0h)",
-      "Milk Mix Chocolate: not due for 1.1h more (interval 2.0h)",
-      "Slimbiotics: not due for 1.1h more (interval 2.0h)",
-      "Weight Management: not due for 1.1h more (interval 2.0h)"
+      "Berries: not due for 0.2h more (interval 2.0h)",
+      "Orange: not due for 0.2h more (interval 2.0h)",
+      "Pineapple: not due for 0.2h more (interval 2.0h)",
+      "Mango: not due for 0.2h more (interval 2.0h)",
+      "Assorted: not due for 0.2h more (interval 2.0h)",
+      "Milk Mix Strawberry: not due for 0.2h more (interval 2.0h)",
+      "Milk Mix Vanilla: not due for 0.2h more (interval 2.0h)",
+      "Milk Mix Chocolate: not due for 0.2h more (interval 2.0h)",
+      "Slimbiotics: not due for 0.2h more (interval 2.0h)",
+      "Weight Management: not due for 0.2h more (interval 2.0h)"
     ],
     "journeys_run": 3,
-    "duration_seconds": 53.4,
+    "duration_seconds": 57.7,
     "trigger": "schedule"
   }
 }
