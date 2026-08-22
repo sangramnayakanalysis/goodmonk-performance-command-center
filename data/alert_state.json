@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-22T20:16:59",
-      "occurrence_count": 92
+      "last_seen_at": "2026-08-22T21:19:17",
+      "occurrence_count": 93
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-22T20:16:59",
-      "occurrence_count": 92
+      "last_seen_at": "2026-08-22T21:19:17",
+      "occurrence_count": 93
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-22T20:16:59",
-      "occurrence_count": 92
+      "last_seen_at": "2026-08-22T21:19:17",
+      "occurrence_count": 93
     },
     "root_cause:FNM:high_cls": {
       "alert_type": "high_cls",
@@ -36,32 +36,14 @@
       "last_seen_at": "2026-08-22T12:23:54",
       "occurrence_count": 2
     },
-    "score_trend:Orange": {
-      "alert_type": "performance_score_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Orange",
-      "first_seen_at": "2026-08-22T18:22:36",
-      "last_seen_at": "2026-08-22T19:19:01",
-      "occurrence_count": 2
-    },
     "score_trend:Plant Protein Roti": {
       "alert_type": "performance_score_drop",
       "module": "gtmetrix",
       "severity": "warning",
       "affected_page": "Plant Protein Roti",
       "first_seen_at": "2026-08-22T18:22:36",
-      "last_seen_at": "2026-08-22T19:19:01",
-      "occurrence_count": 2
-    },
-    "operational:sheets:google_sheets_failure": {
-      "alert_type": "google_sheets_failure",
-      "module": "sheets",
-      "severity": "critical",
-      "affected_page": null,
-      "first_seen_at": "2026-08-22T20:16:24",
-      "last_seen_at": "2026-08-22T20:16:24",
-      "occurrence_count": 1
+      "last_seen_at": "2026-08-22T21:19:16",
+      "occurrence_count": 3
     },
     "root_cause:Plant Protein Roti:high_cls": {
       "alert_type": "high_cls",
@@ -79,6 +61,42 @@
       "affected_page": "Orange",
       "first_seen_at": "2026-08-22T20:16:58",
       "last_seen_at": "2026-08-22T20:16:58",
+      "occurrence_count": 1
+    },
+    "operational:sheets:google_sheets_failure": {
+      "alert_type": "google_sheets_failure",
+      "module": "sheets",
+      "severity": "critical",
+      "affected_page": null,
+      "first_seen_at": "2026-08-22T21:19:16",
+      "last_seen_at": "2026-08-22T21:19:16",
+      "occurrence_count": 4
+    },
+    "score_trend:MM_Strawberry": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Milk Mix Strawberry",
+      "first_seen_at": "2026-08-22T21:19:16",
+      "last_seen_at": "2026-08-22T21:19:16",
+      "occurrence_count": 1
+    },
+    "score_trend:Weight Management": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Weight Management",
+      "first_seen_at": "2026-08-22T21:19:16",
+      "last_seen_at": "2026-08-22T21:19:16",
+      "occurrence_count": 1
+    },
+    "score_trend:FNM": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "FNM",
+      "first_seen_at": "2026-08-22T21:19:16",
+      "last_seen_at": "2026-08-22T21:19:16",
       "occurrence_count": 1
     }
   }
