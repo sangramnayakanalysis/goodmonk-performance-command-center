@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-23T16:17:50",
-      "occurrence_count": 111
+      "last_seen_at": "2026-08-23T17:17:01",
+      "occurrence_count": 112
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-23T16:17:50",
-      "occurrence_count": 111
+      "last_seen_at": "2026-08-23T17:17:01",
+      "occurrence_count": 112
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-23T16:17:50",
-      "occurrence_count": 111
+      "last_seen_at": "2026-08-23T17:17:01",
+      "occurrence_count": 112
     },
     "root_cause:Plant Protein Roti:high_cls": {
       "alert_type": "high_cls",
@@ -69,17 +69,8 @@
       "severity": "warning",
       "affected_page": "Orange",
       "first_seen_at": "2026-08-23T15:19:52",
-      "last_seen_at": "2026-08-23T16:17:50",
-      "occurrence_count": 2
-    },
-    "score_trend:FNM": {
-      "alert_type": "performance_score_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "FNM",
-      "first_seen_at": "2026-08-23T15:19:52",
-      "last_seen_at": "2026-08-23T16:17:50",
-      "occurrence_count": 2
+      "last_seen_at": "2026-08-23T17:17:01",
+      "occurrence_count": 3
     },
     "score_trend:MM_Vanilla": {
       "alert_type": "performance_score_drop",
@@ -87,17 +78,35 @@
       "severity": "warning",
       "affected_page": "Milk Mix Vanilla",
       "first_seen_at": "2026-08-23T15:19:52",
-      "last_seen_at": "2026-08-23T16:17:50",
-      "occurrence_count": 2
+      "last_seen_at": "2026-08-23T17:17:01",
+      "occurrence_count": 3
     },
     "operational:sheets:google_sheets_failure": {
       "alert_type": "google_sheets_failure",
       "module": "sheets",
       "severity": "critical",
       "affected_page": null,
-      "first_seen_at": "2026-08-23T16:17:49",
-      "last_seen_at": "2026-08-23T16:17:50",
+      "first_seen_at": "2026-08-23T17:17:01",
+      "last_seen_at": "2026-08-23T17:17:01",
       "occurrence_count": 4
+    },
+    "score_trend:H50+": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "H50+",
+      "first_seen_at": "2026-08-23T17:17:01",
+      "last_seen_at": "2026-08-23T17:17:01",
+      "occurrence_count": 1
+    },
+    "root_cause:H50+:high_cls": {
+      "alert_type": "high_cls",
+      "module": "root_cause",
+      "severity": "warning",
+      "affected_page": "H50+",
+      "first_seen_at": "2026-08-23T17:17:01",
+      "last_seen_at": "2026-08-23T17:17:01",
+      "occurrence_count": 1
     }
   }
 }
