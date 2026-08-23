@@ -1,6 +1,30 @@
 {
-  "generated_at": "2026-08-23T20:15:02",
+  "generated_at": "2026-08-23T21:15:03",
   "recent_alerts": [
+    {
+      "Date": "2026-08-23",
+      "Time": "21:15:00",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "APIError: [429]: Quota exceeded for quota metric 'Read requests' and limit 'Read requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:435732750985'.",
+      "Root Cause": "Writing journey result for FNM",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-08-23",
+      "Time": "21:14:05",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
     {
       "Date": "2026-08-23",
       "Time": "20:14:01",
@@ -336,57 +360,9 @@
       "Root Cause": "",
       "Status": "Recovered",
       "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-08-23",
-      "Time": "11:14:22",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 4 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 4
-    },
-    {
-      "Date": "2026-08-23",
-      "Time": "10:15:37",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 4 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 4
     }
   ],
   "active_alerts": [
-    {
-      "Date": "2026-08-23",
-      "Time": "18:20:12",
-      "Alert Type": "page_failed",
-      "Severity": "high",
-      "Module": "gtmetrix",
-      "Affected Page": "Milk Mix Strawberry",
-      "Message": "GTmetrix test failed for Milk Mix Strawberry: startTest(https://www.goodmonk.in/products/good-monk-superhero-milk-mix-strawberry): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -1 API credits remaining. Your next API credit refill is scheduled for Sun, Aug 23, 2026 9:15 PM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
-      "Root Cause": "startTest(https://www.goodmonk.in/products/good-monk-superhero-milk-mix-strawberry): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -1 API credits remaining. Your next API credit refill is scheduled for Sun, Aug 23, 2026 9:15 PM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-08-23",
-      "Time": "18:20:12",
-      "Alert Type": "page_failed",
-      "Severity": "high",
-      "Module": "gtmetrix",
-      "Affected Page": "Orange",
-      "Message": "GTmetrix test failed for Orange: startTest(https://www.goodmonk.in/products/instant-fruit-drink-mix-orange): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -1 API credits remaining. Your next API credit refill is scheduled for Sun, Aug 23, 2026 9:15 PM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
-      "Root Cause": "startTest(https://www.goodmonk.in/products/instant-fruit-drink-mix-orange): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -1 API credits remaining. Your next API credit refill is scheduled for Sun, Aug 23, 2026 9:15 PM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
     {
       "Date": "2026-08-23",
       "Time": "18:20:14",
@@ -432,6 +408,18 @@
       "Affected Page": "Milk Mix Chocolate",
       "Message": "GTmetrix test failed for Milk Mix Chocolate: startTest(https://www.goodmonk.in/products/good-monk-superhero-milk-mix): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -1 API credits remaining. Your next API credit refill is scheduled for Sun, Aug 23, 2026 9:15 PM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
       "Root Cause": "startTest(https://www.goodmonk.in/products/good-monk-superhero-milk-mix): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -1 API credits remaining. Your next API credit refill is scheduled for Sun, Aug 23, 2026 9:15 PM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-08-23",
+      "Time": "21:15:00",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "APIError: [429]: Quota exceeded for quota metric 'Read requests' and limit 'Read requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:435732750985'.",
+      "Root Cause": "Writing journey result for FNM",
       "Status": "New",
       "Occurrence Count": 1
     },
@@ -549,9 +537,33 @@
       "Alert Type": "page_failed",
       "Severity": "high",
       "Module": "gtmetrix",
+      "Affected Page": "Orange",
+      "Message": "GTmetrix test failed for Orange: startTest(https://www.goodmonk.in/products/instant-fruit-drink-mix-orange): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -1 API credits remaining. Your next API credit refill is scheduled for Sun, Aug 23, 2026 9:15 PM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
+      "Root Cause": "startTest(https://www.goodmonk.in/products/instant-fruit-drink-mix-orange): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -1 API credits remaining. Your next API credit refill is scheduled for Sun, Aug 23, 2026 9:15 PM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-08-23",
+      "Time": "18:20:12",
+      "Alert Type": "page_failed",
+      "Severity": "high",
+      "Module": "gtmetrix",
       "Affected Page": "Fiber Fix",
       "Message": "GTmetrix test failed for Fiber Fix: startTest(https://www.goodmonk.in/products/fiber-fix): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -1 API credits remaining. Your next API credit refill is scheduled for Sun, Aug 23, 2026 9:15 PM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
       "Root Cause": "startTest(https://www.goodmonk.in/products/fiber-fix): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -1 API credits remaining. Your next API credit refill is scheduled for Sun, Aug 23, 2026 9:15 PM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-08-23",
+      "Time": "18:20:12",
+      "Alert Type": "page_failed",
+      "Severity": "high",
+      "Module": "gtmetrix",
+      "Affected Page": "Milk Mix Strawberry",
+      "Message": "GTmetrix test failed for Milk Mix Strawberry: startTest(https://www.goodmonk.in/products/good-monk-superhero-milk-mix-strawberry): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -1 API credits remaining. Your next API credit refill is scheduled for Sun, Aug 23, 2026 9:15 PM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
+      "Root Cause": "startTest(https://www.goodmonk.in/products/good-monk-superhero-milk-mix-strawberry): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -1 API credits remaining. Your next API credit refill is scheduled for Sun, Aug 23, 2026 9:15 PM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
       "Status": "New",
       "Occurrence Count": 1
     },
@@ -787,6 +799,18 @@
   "recovered_alerts": [
     {
       "Date": "2026-08-23",
+      "Time": "21:14:05",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-08-23",
       "Time": "20:14:01",
       "Alert Type": "google_sheets_failure",
       "Severity": "critical",
@@ -1012,31 +1036,19 @@
       "Root Cause": "",
       "Status": "Recovered",
       "Occurrence Count": 4
-    },
-    {
-      "Date": "2026-08-23",
-      "Time": "06:27:16",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
     }
   ],
   "severity_counts": {
-    "critical": 16,
+    "critical": 17,
     "high": 13,
     "warning": 6,
     "info": 0
   },
-  "total_active": 35,
+  "total_active": 36,
   "trend": [
     {
       "date": "2026-08-18",
-      "count": 7
+      "count": 5
     },
     {
       "date": "2026-08-19",
@@ -1056,7 +1068,7 @@
     },
     {
       "date": "2026-08-23",
-      "count": 15
+      "count": 16
     }
   ]
 }
