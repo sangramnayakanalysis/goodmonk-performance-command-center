@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-23T15:19:52",
-      "occurrence_count": 110
+      "last_seen_at": "2026-08-23T16:17:50",
+      "occurrence_count": 111
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-23T15:19:52",
-      "occurrence_count": 110
+      "last_seen_at": "2026-08-23T16:17:50",
+      "occurrence_count": 111
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-23T15:19:52",
-      "occurrence_count": 110
+      "last_seen_at": "2026-08-23T16:17:50",
+      "occurrence_count": 111
     },
     "root_cause:Plant Protein Roti:high_cls": {
       "alert_type": "high_cls",
@@ -63,32 +63,14 @@
       "last_seen_at": "2026-08-23T14:17:35",
       "occurrence_count": 1
     },
-    "operational:sheets:google_sheets_failure": {
-      "alert_type": "google_sheets_failure",
-      "module": "sheets",
-      "severity": "critical",
-      "affected_page": null,
-      "first_seen_at": "2026-08-23T15:19:52",
-      "last_seen_at": "2026-08-23T15:19:52",
-      "occurrence_count": 4
-    },
-    "gtmetrix:FF": {
-      "alert_type": "page_failed",
-      "module": "gtmetrix",
-      "severity": "high",
-      "affected_page": "Fiber Fix",
-      "first_seen_at": "2026-08-23T15:19:52",
-      "last_seen_at": "2026-08-23T15:19:52",
-      "occurrence_count": 1
-    },
     "score_trend:Orange": {
       "alert_type": "performance_grade_drop",
       "module": "gtmetrix",
       "severity": "warning",
       "affected_page": "Orange",
       "first_seen_at": "2026-08-23T15:19:52",
-      "last_seen_at": "2026-08-23T15:19:52",
-      "occurrence_count": 1
+      "last_seen_at": "2026-08-23T16:17:50",
+      "occurrence_count": 2
     },
     "score_trend:FNM": {
       "alert_type": "performance_score_drop",
@@ -96,8 +78,8 @@
       "severity": "warning",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-23T15:19:52",
-      "last_seen_at": "2026-08-23T15:19:52",
-      "occurrence_count": 1
+      "last_seen_at": "2026-08-23T16:17:50",
+      "occurrence_count": 2
     },
     "score_trend:MM_Vanilla": {
       "alert_type": "performance_score_drop",
@@ -105,8 +87,17 @@
       "severity": "warning",
       "affected_page": "Milk Mix Vanilla",
       "first_seen_at": "2026-08-23T15:19:52",
-      "last_seen_at": "2026-08-23T15:19:52",
-      "occurrence_count": 1
+      "last_seen_at": "2026-08-23T16:17:50",
+      "occurrence_count": 2
+    },
+    "operational:sheets:google_sheets_failure": {
+      "alert_type": "google_sheets_failure",
+      "module": "sheets",
+      "severity": "critical",
+      "affected_page": null,
+      "first_seen_at": "2026-08-23T16:17:49",
+      "last_seen_at": "2026-08-23T16:17:50",
+      "occurrence_count": 4
     }
   }
 }
