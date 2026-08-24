@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-24T21:26:18",
-      "occurrence_count": 139
+      "last_seen_at": "2026-08-24T22:20:26",
+      "occurrence_count": 140
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-24T21:26:18",
-      "occurrence_count": 139
+      "last_seen_at": "2026-08-24T22:20:26",
+      "occurrence_count": 140
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-24T21:26:18",
-      "occurrence_count": 139
+      "last_seen_at": "2026-08-24T22:20:26",
+      "occurrence_count": 140
     },
     "root_cause:Plant Protein Roti:high_cls": {
       "alert_type": "high_cls",
@@ -42,8 +42,8 @@
       "severity": "warning",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-24T06:45:14",
-      "last_seen_at": "2026-08-24T15:33:19",
-      "occurrence_count": 6
+      "last_seen_at": "2026-08-24T22:20:26",
+      "occurrence_count": 7
     },
     "root_cause:MM_Vanilla:high_cls": {
       "alert_type": "high_cls",
@@ -54,22 +54,58 @@
       "last_seen_at": "2026-08-24T12:33:27",
       "occurrence_count": 1
     },
-    "operational:sheets:google_sheets_failure": {
-      "alert_type": "google_sheets_failure",
-      "module": "sheets",
-      "severity": "critical",
-      "affected_page": null,
-      "first_seen_at": "2026-08-24T21:26:17",
-      "last_seen_at": "2026-08-24T21:26:17",
-      "occurrence_count": 4
-    },
     "score_trend:Slimbiotics": {
       "alert_type": "performance_score_drop",
       "module": "gtmetrix",
       "severity": "warning",
       "affected_page": "Slimbiotics",
       "first_seen_at": "2026-08-24T21:26:18",
-      "last_seen_at": "2026-08-24T21:26:18",
+      "last_seen_at": "2026-08-24T22:20:26",
+      "occurrence_count": 2
+    },
+    "operational:sheets:google_sheets_failure": {
+      "alert_type": "google_sheets_failure",
+      "module": "sheets",
+      "severity": "critical",
+      "affected_page": null,
+      "first_seen_at": "2026-08-24T22:20:25",
+      "last_seen_at": "2026-08-24T22:20:26",
+      "occurrence_count": 4
+    },
+    "score_trend:H50+": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "H50+",
+      "first_seen_at": "2026-08-24T22:20:26",
+      "last_seen_at": "2026-08-24T22:20:26",
+      "occurrence_count": 1
+    },
+    "score_trend:Shop_All": {
+      "alert_type": "performance_grade_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Shop All",
+      "first_seen_at": "2026-08-24T22:20:26",
+      "last_seen_at": "2026-08-24T22:20:26",
+      "occurrence_count": 1
+    },
+    "root_cause:H50+:high_ttfb": {
+      "alert_type": "high_ttfb",
+      "module": "root_cause",
+      "severity": "warning",
+      "affected_page": "H50+",
+      "first_seen_at": "2026-08-24T22:20:26",
+      "last_seen_at": "2026-08-24T22:20:26",
+      "occurrence_count": 1
+    },
+    "root_cause:H50+:slow_server_response": {
+      "alert_type": "slow_server_response",
+      "module": "root_cause",
+      "severity": "warning",
+      "affected_page": "H50+",
+      "first_seen_at": "2026-08-24T22:20:26",
+      "last_seen_at": "2026-08-24T22:20:26",
       "occurrence_count": 1
     }
   }
