@@ -1,6 +1,18 @@
 {
-  "generated_at": "2026-08-24T16:28:22",
+  "generated_at": "2026-08-24T17:25:31",
   "recent_alerts": [
+    {
+      "Date": "2026-08-24",
+      "Time": "17:24:29",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 2 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 2
+    },
     {
       "Date": "2026-08-24",
       "Time": "16:27:20",
@@ -348,33 +360,9 @@
       "Root Cause": "",
       "Status": "Recovered",
       "Occurrence Count": 9
-    },
-    {
-      "Date": "2026-08-24",
-      "Time": "04:42:00",
-      "Alert Type": "page_failed",
-      "Severity": "high",
-      "Module": "gtmetrix",
-      "Affected Page": "Plant Protein Roti",
-      "Message": "Plant Protein Roti is healthy again after 9 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 9
     }
   ],
   "active_alerts": [
-    {
-      "Date": "2026-08-22",
-      "Time": "07:26:21",
-      "Alert Type": "gtmetrix_api_failure",
-      "Severity": "critical",
-      "Module": "gtmetrix",
-      "Affected Page": "Plant Protein Roti",
-      "Message": "Every configured page failed this run (6/6) \u2014 likely a systemic GTmetrix API or network issue.",
-      "Root Cause": "startTest(https://www.goodmonk.in/products/plant-protein-for-rotis): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has 0 API credits remaining. Your next API credit refill is scheduled for Sat, Aug 22, 2026 11:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
     {
       "Date": "2026-08-24",
       "Time": "04:42:06",
@@ -468,6 +456,18 @@
       "Affected Page": "Fiber Fix",
       "Message": "Every configured page failed this run (6/6) \u2014 likely a systemic GTmetrix API or network issue.",
       "Root Cause": "startTest(https://www.goodmonk.in/products/fiber-fix): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has 0 API credits remaining. Your next API credit refill is scheduled for Sat, Aug 22, 2026 11:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-08-22",
+      "Time": "07:26:21",
+      "Alert Type": "gtmetrix_api_failure",
+      "Severity": "critical",
+      "Module": "gtmetrix",
+      "Affected Page": "Plant Protein Roti",
+      "Message": "Every configured page failed this run (6/6) \u2014 likely a systemic GTmetrix API or network issue.",
+      "Root Cause": "startTest(https://www.goodmonk.in/products/plant-protein-for-rotis): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has 0 API credits remaining. Your next API credit refill is scheduled for Sat, Aug 22, 2026 11:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
       "Status": "New",
       "Occurrence Count": 1
     },
@@ -641,6 +641,18 @@
     }
   ],
   "recovered_alerts": [
+    {
+      "Date": "2026-08-24",
+      "Time": "17:24:29",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 2 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 2
+    },
     {
       "Date": "2026-08-24",
       "Time": "16:27:20",
@@ -868,18 +880,6 @@
       "Root Cause": "",
       "Status": "Recovered",
       "Occurrence Count": 9
-    },
-    {
-      "Date": "2026-08-24",
-      "Time": "04:42:03",
-      "Alert Type": "page_failed",
-      "Severity": "high",
-      "Module": "gtmetrix",
-      "Affected Page": "Milk Mix Strawberry",
-      "Message": "MM_Strawberry is healthy again after 9 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 9
     }
   ],
   "severity_counts": {
@@ -890,10 +890,6 @@
   },
   "total_active": 23,
   "trend": [
-    {
-      "date": "2026-08-20",
-      "count": 1
-    },
     {
       "date": "2026-08-21",
       "count": 2
