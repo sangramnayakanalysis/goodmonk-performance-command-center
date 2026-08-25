@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-25T16:28:47",
-      "occurrence_count": 157
+      "last_seen_at": "2026-08-25T17:29:18",
+      "occurrence_count": 158
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-25T16:28:47",
-      "occurrence_count": 157
+      "last_seen_at": "2026-08-25T17:29:18",
+      "occurrence_count": 158
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-25T16:28:47",
-      "occurrence_count": 157
+      "last_seen_at": "2026-08-25T17:29:18",
+      "occurrence_count": 158
     },
     "root_cause:Plant Protein Roti:high_cls": {
       "alert_type": "high_cls",
@@ -54,41 +54,32 @@
       "last_seen_at": "2026-08-24T12:33:27",
       "occurrence_count": 1
     },
-    "score_trend:Mango": {
-      "alert_type": "performance_score_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Mango",
-      "first_seen_at": "2026-08-25T14:40:36",
-      "last_seen_at": "2026-08-25T16:28:47",
-      "occurrence_count": 3
-    },
-    "score_trend:Assorted": {
-      "alert_type": "performance_score_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Assorted",
-      "first_seen_at": "2026-08-25T14:40:36",
-      "last_seen_at": "2026-08-25T16:28:47",
-      "occurrence_count": 3
-    },
-    "score_trend:Shop_All": {
-      "alert_type": "performance_grade_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Shop All",
-      "first_seen_at": "2026-08-25T15:38:13",
-      "last_seen_at": "2026-08-25T16:28:47",
-      "occurrence_count": 2
-    },
     "operational:sheets:google_sheets_failure": {
       "alert_type": "google_sheets_failure",
       "module": "sheets",
       "severity": "critical",
       "affected_page": null,
-      "first_seen_at": "2026-08-25T16:28:47",
-      "last_seen_at": "2026-08-25T16:28:47",
+      "first_seen_at": "2026-08-25T17:29:17",
+      "last_seen_at": "2026-08-25T17:29:17",
       "occurrence_count": 4
+    },
+    "score_trend:Slimbiotics": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Slimbiotics",
+      "first_seen_at": "2026-08-25T17:29:17",
+      "last_seen_at": "2026-08-25T17:29:17",
+      "occurrence_count": 1
+    },
+    "score_trend:Orange": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Orange",
+      "first_seen_at": "2026-08-25T17:29:17",
+      "last_seen_at": "2026-08-25T17:29:17",
+      "occurrence_count": 1
     }
   }
 }
