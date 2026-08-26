@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-26T13:48:40",
-      "occurrence_count": 177
+      "last_seen_at": "2026-08-26T14:37:48",
+      "occurrence_count": 178
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-26T13:48:40",
-      "occurrence_count": 177
+      "last_seen_at": "2026-08-26T14:37:48",
+      "occurrence_count": 178
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-26T13:48:40",
-      "occurrence_count": 177
+      "last_seen_at": "2026-08-26T14:37:48",
+      "occurrence_count": 178
     },
     "root_cause:Plant Protein Roti:high_cls": {
       "alert_type": "high_cls",
@@ -60,8 +60,8 @@
       "severity": "high",
       "affected_page": "Plant Protein Roti",
       "first_seen_at": "2026-08-26T12:39:00",
-      "last_seen_at": "2026-08-26T13:48:39",
-      "occurrence_count": 2
+      "last_seen_at": "2026-08-26T14:37:48",
+      "occurrence_count": 3
     },
     "gtmetrix:Weight Management": {
       "alert_type": "page_failed",
@@ -69,8 +69,8 @@
       "severity": "high",
       "affected_page": "Weight Management",
       "first_seen_at": "2026-08-26T12:39:00",
-      "last_seen_at": "2026-08-26T13:48:39",
-      "occurrence_count": 2
+      "last_seen_at": "2026-08-26T14:37:48",
+      "occurrence_count": 3
     },
     "score_trend:Assorted": {
       "alert_type": "performance_score_drop",
@@ -78,17 +78,8 @@
       "severity": "warning",
       "affected_page": "Assorted",
       "first_seen_at": "2026-08-26T12:39:00",
-      "last_seen_at": "2026-08-26T13:48:40",
-      "occurrence_count": 2
-    },
-    "operational:sheets:google_sheets_failure": {
-      "alert_type": "google_sheets_failure",
-      "module": "sheets",
-      "severity": "critical",
-      "affected_page": null,
-      "first_seen_at": "2026-08-26T13:48:39",
-      "last_seen_at": "2026-08-26T13:48:39",
-      "occurrence_count": 4
+      "last_seen_at": "2026-08-26T14:37:48",
+      "occurrence_count": 3
     },
     "gtmetrix:Orange": {
       "alert_type": "gtmetrix_api_failure",
@@ -96,8 +87,8 @@
       "severity": "critical",
       "affected_page": "Orange",
       "first_seen_at": "2026-08-26T13:48:39",
-      "last_seen_at": "2026-08-26T13:48:39",
-      "occurrence_count": 1
+      "last_seen_at": "2026-08-26T14:37:48",
+      "occurrence_count": 2
     },
     "gtmetrix:Mango": {
       "alert_type": "gtmetrix_api_failure",
@@ -105,8 +96,8 @@
       "severity": "critical",
       "affected_page": "Mango",
       "first_seen_at": "2026-08-26T13:48:39",
-      "last_seen_at": "2026-08-26T13:48:39",
-      "occurrence_count": 1
+      "last_seen_at": "2026-08-26T14:37:48",
+      "occurrence_count": 2
     },
     "gtmetrix:Pineapple": {
       "alert_type": "gtmetrix_api_failure",
@@ -114,8 +105,8 @@
       "severity": "critical",
       "affected_page": "Pineapple",
       "first_seen_at": "2026-08-26T13:48:39",
-      "last_seen_at": "2026-08-26T13:48:39",
-      "occurrence_count": 1
+      "last_seen_at": "2026-08-26T14:37:48",
+      "occurrence_count": 2
     },
     "gtmetrix:Berries": {
       "alert_type": "gtmetrix_api_failure",
@@ -123,8 +114,17 @@
       "severity": "critical",
       "affected_page": "Berries",
       "first_seen_at": "2026-08-26T13:48:39",
-      "last_seen_at": "2026-08-26T13:48:39",
-      "occurrence_count": 1
+      "last_seen_at": "2026-08-26T14:37:48",
+      "occurrence_count": 2
+    },
+    "operational:sheets:google_sheets_failure": {
+      "alert_type": "google_sheets_failure",
+      "module": "sheets",
+      "severity": "critical",
+      "affected_page": null,
+      "first_seen_at": "2026-08-26T14:37:47",
+      "last_seen_at": "2026-08-26T14:37:48",
+      "occurrence_count": 4
     }
   }
 }
