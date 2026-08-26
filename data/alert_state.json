@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-26T06:35:29",
-      "occurrence_count": 170
+      "last_seen_at": "2026-08-26T07:43:29",
+      "occurrence_count": 171
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-26T06:35:29",
-      "occurrence_count": 170
+      "last_seen_at": "2026-08-26T07:43:29",
+      "occurrence_count": 171
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-26T06:35:29",
-      "occurrence_count": 170
+      "last_seen_at": "2026-08-26T07:43:29",
+      "occurrence_count": 171
     },
     "root_cause:Plant Protein Roti:high_cls": {
       "alert_type": "high_cls",
@@ -42,8 +42,8 @@
       "severity": "warning",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-24T06:45:14",
-      "last_seen_at": "2026-08-25T22:19:50",
-      "occurrence_count": 9
+      "last_seen_at": "2026-08-26T07:43:29",
+      "occurrence_count": 10
     },
     "root_cause:MM_Vanilla:high_cls": {
       "alert_type": "high_cls",
@@ -54,77 +54,14 @@
       "last_seen_at": "2026-08-24T12:33:27",
       "occurrence_count": 1
     },
-    "score_trend:Slimbiotics": {
-      "alert_type": "performance_score_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Slimbiotics",
-      "first_seen_at": "2026-08-25T17:29:17",
-      "last_seen_at": "2026-08-26T06:35:29",
-      "occurrence_count": 10
-    },
-    "gtmetrix:Weight Management": {
-      "alert_type": "page_failed",
-      "module": "gtmetrix",
-      "severity": "high",
-      "affected_page": "Weight Management",
-      "first_seen_at": "2026-08-25T19:28:10",
-      "last_seen_at": "2026-08-26T06:35:29",
-      "occurrence_count": 11
-    },
-    "gtmetrix:MM_Vanilla": {
-      "alert_type": "page_failed",
-      "module": "gtmetrix",
-      "severity": "high",
-      "affected_page": "Milk Mix Vanilla",
-      "first_seen_at": "2026-08-25T19:28:10",
-      "last_seen_at": "2026-08-26T06:35:29",
-      "occurrence_count": 11
-    },
-    "gtmetrix:MM_Strawberry": {
-      "alert_type": "page_failed",
-      "module": "gtmetrix",
-      "severity": "high",
-      "affected_page": "Milk Mix Strawberry",
-      "first_seen_at": "2026-08-25T19:28:10",
-      "last_seen_at": "2026-08-26T06:35:29",
-      "occurrence_count": 11
-    },
-    "gtmetrix:Assorted": {
-      "alert_type": "page_failed",
-      "module": "gtmetrix",
-      "severity": "high",
-      "affected_page": "Assorted",
-      "first_seen_at": "2026-08-25T19:28:10",
-      "last_seen_at": "2026-08-26T06:35:29",
-      "occurrence_count": 11
-    },
-    "gtmetrix:MM_Chocolate": {
-      "alert_type": "page_failed",
-      "module": "gtmetrix",
-      "severity": "high",
-      "affected_page": "Milk Mix Chocolate",
-      "first_seen_at": "2026-08-25T19:28:10",
-      "last_seen_at": "2026-08-26T06:35:29",
-      "occurrence_count": 11
-    },
-    "gtmetrix:Slimbiotics": {
-      "alert_type": "page_failed",
-      "module": "gtmetrix",
-      "severity": "high",
-      "affected_page": "Slimbiotics",
-      "first_seen_at": "2026-08-25T19:28:10",
-      "last_seen_at": "2026-08-26T06:35:29",
-      "occurrence_count": 11
-    },
     "score_trend:H50+": {
       "alert_type": "performance_score_drop",
       "module": "gtmetrix",
       "severity": "warning",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-25T19:28:10",
-      "last_seen_at": "2026-08-26T06:35:29",
-      "occurrence_count": 10
+      "last_seen_at": "2026-08-26T07:43:27",
+      "occurrence_count": 11
     },
     "root_cause:H50+:high_cls": {
       "alert_type": "high_cls",
@@ -132,43 +69,43 @@
       "severity": "warning",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-25T19:28:10",
-      "last_seen_at": "2026-08-25T22:19:50",
-      "occurrence_count": 2
-    },
-    "gtmetrix:Shop_All": {
-      "alert_type": "gtmetrix_api_failure",
-      "module": "gtmetrix",
-      "severity": "critical",
-      "affected_page": "Shop All",
-      "first_seen_at": "2026-08-25T20:21:04",
-      "last_seen_at": "2026-08-26T06:35:29",
-      "occurrence_count": 10
-    },
-    "gtmetrix:Plant Protein Roti": {
-      "alert_type": "gtmetrix_api_failure",
-      "module": "gtmetrix",
-      "severity": "critical",
-      "affected_page": "Plant Protein Roti",
-      "first_seen_at": "2026-08-25T20:21:04",
-      "last_seen_at": "2026-08-26T06:35:29",
-      "occurrence_count": 10
-    },
-    "gtmetrix:Homepage": {
-      "alert_type": "gtmetrix_api_failure",
-      "module": "gtmetrix",
-      "severity": "critical",
-      "affected_page": "Homepage",
-      "first_seen_at": "2026-08-25T20:21:04",
-      "last_seen_at": "2026-08-26T06:35:29",
-      "occurrence_count": 10
+      "last_seen_at": "2026-08-26T07:43:29",
+      "occurrence_count": 3
     },
     "operational:sheets:google_sheets_failure": {
       "alert_type": "google_sheets_failure",
       "module": "sheets",
       "severity": "critical",
       "affected_page": null,
-      "first_seen_at": "2026-08-26T06:35:27",
-      "last_seen_at": "2026-08-26T06:35:27",
+      "first_seen_at": "2026-08-26T07:43:20",
+      "last_seen_at": "2026-08-26T07:43:20",
+      "occurrence_count": 1
+    },
+    "score_trend:Plant Protein Roti": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Plant Protein Roti",
+      "first_seen_at": "2026-08-26T07:43:27",
+      "last_seen_at": "2026-08-26T07:43:27",
+      "occurrence_count": 1
+    },
+    "score_trend:Weight Management": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Weight Management",
+      "first_seen_at": "2026-08-26T07:43:27",
+      "last_seen_at": "2026-08-26T07:43:27",
+      "occurrence_count": 1
+    },
+    "score_trend:MM_Vanilla": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Milk Mix Vanilla",
+      "first_seen_at": "2026-08-26T07:43:27",
+      "last_seen_at": "2026-08-26T07:43:27",
       "occurrence_count": 1
     }
   }
