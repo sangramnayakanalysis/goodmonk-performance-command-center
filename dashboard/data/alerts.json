@@ -1,6 +1,18 @@
 {
-  "generated_at": "2026-08-26T03:48:20",
+  "generated_at": "2026-08-26T04:33:49",
   "recent_alerts": [
+    {
+      "Date": "2026-08-26",
+      "Time": "04:32:33",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
     {
       "Date": "2026-08-26",
       "Time": "03:47:04",
@@ -348,18 +360,6 @@
       "Root Cause": "",
       "Status": "Recovered",
       "Occurrence Count": 4
-    },
-    {
-      "Date": "2026-08-25",
-      "Time": "03:42:53",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 4 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 4
     }
   ],
   "active_alerts": [
@@ -667,6 +667,18 @@
   "recovered_alerts": [
     {
       "Date": "2026-08-26",
+      "Time": "04:32:33",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-08-26",
       "Time": "03:47:04",
       "Alert Type": "google_sheets_failure",
       "Severity": "critical",
@@ -884,18 +896,6 @@
     {
       "Date": "2026-08-25",
       "Time": "12:32:35",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 4 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 4
-    },
-    {
-      "Date": "2026-08-25",
-      "Time": "11:20:08",
       "Alert Type": "google_sheets_failure",
       "Severity": "critical",
       "Module": "sheets",
