@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-27T23:29:56",
-      "occurrence_count": 184
+      "last_seen_at": "2026-08-28T08:18:24",
+      "occurrence_count": 185
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-27T23:29:56",
-      "occurrence_count": 184
+      "last_seen_at": "2026-08-28T08:18:24",
+      "occurrence_count": 185
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-27T23:29:56",
-      "occurrence_count": 184
+      "last_seen_at": "2026-08-28T08:18:24",
+      "occurrence_count": 185
     },
     "root_cause:FF:high_cls": {
       "alert_type": "high_cls",
@@ -45,24 +45,6 @@
       "last_seen_at": "2026-08-27T02:31:10",
       "occurrence_count": 1
     },
-    "operational:sheets:google_sheets_failure": {
-      "alert_type": "google_sheets_failure",
-      "module": "sheets",
-      "severity": "critical",
-      "affected_page": null,
-      "first_seen_at": "2026-08-27T23:29:54",
-      "last_seen_at": "2026-08-27T23:29:55",
-      "occurrence_count": 4
-    },
-    "score_trend:Weight Management": {
-      "alert_type": "performance_score_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Weight Management",
-      "first_seen_at": "2026-08-27T23:29:55",
-      "last_seen_at": "2026-08-27T23:29:55",
-      "occurrence_count": 1
-    },
     "root_cause:Mango:high_cls": {
       "alert_type": "high_cls",
       "module": "root_cause",
@@ -70,6 +52,60 @@
       "affected_page": "Mango",
       "first_seen_at": "2026-08-27T23:29:55",
       "last_seen_at": "2026-08-27T23:29:55",
+      "occurrence_count": 1
+    },
+    "operational:sheets:google_sheets_failure": {
+      "alert_type": "google_sheets_failure",
+      "module": "sheets",
+      "severity": "critical",
+      "affected_page": null,
+      "first_seen_at": "2026-08-28T08:18:18",
+      "last_seen_at": "2026-08-28T08:18:18",
+      "occurrence_count": 1
+    },
+    "score_trend:MM_Chocolate": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Milk Mix Chocolate",
+      "first_seen_at": "2026-08-28T08:18:20",
+      "last_seen_at": "2026-08-28T08:18:20",
+      "occurrence_count": 1
+    },
+    "score_trend:Slimbiotics": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Slimbiotics",
+      "first_seen_at": "2026-08-28T08:18:20",
+      "last_seen_at": "2026-08-28T08:18:20",
+      "occurrence_count": 1
+    },
+    "score_trend:Berries": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Berries",
+      "first_seen_at": "2026-08-28T08:18:20",
+      "last_seen_at": "2026-08-28T08:18:20",
+      "occurrence_count": 1
+    },
+    "score_trend:Plant Protein Roti": {
+      "alert_type": "performance_grade_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Plant Protein Roti",
+      "first_seen_at": "2026-08-28T08:18:20",
+      "last_seen_at": "2026-08-28T08:18:20",
+      "occurrence_count": 1
+    },
+    "score_trend:Assorted": {
+      "alert_type": "performance_grade_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Assorted",
+      "first_seen_at": "2026-08-28T08:18:20",
+      "last_seen_at": "2026-08-28T08:18:20",
       "occurrence_count": 1
     }
   }
