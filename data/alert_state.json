@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-28T08:18:24",
-      "occurrence_count": 185
+      "last_seen_at": "2026-08-28T20:37:21",
+      "occurrence_count": 186
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-28T08:18:24",
-      "occurrence_count": 185
+      "last_seen_at": "2026-08-28T20:37:21",
+      "occurrence_count": 186
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-28T08:18:24",
-      "occurrence_count": 185
+      "last_seen_at": "2026-08-28T20:37:21",
+      "occurrence_count": 186
     },
     "root_cause:FF:high_cls": {
       "alert_type": "high_cls",
@@ -59,53 +59,17 @@
       "module": "sheets",
       "severity": "critical",
       "affected_page": null,
-      "first_seen_at": "2026-08-28T08:18:18",
-      "last_seen_at": "2026-08-28T08:18:18",
+      "first_seen_at": "2026-08-28T20:37:15",
+      "last_seen_at": "2026-08-28T20:37:15",
       "occurrence_count": 1
     },
-    "score_trend:MM_Chocolate": {
+    "score_trend:H50+": {
       "alert_type": "performance_score_drop",
       "module": "gtmetrix",
       "severity": "warning",
-      "affected_page": "Milk Mix Chocolate",
-      "first_seen_at": "2026-08-28T08:18:20",
-      "last_seen_at": "2026-08-28T08:18:20",
-      "occurrence_count": 1
-    },
-    "score_trend:Slimbiotics": {
-      "alert_type": "performance_score_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Slimbiotics",
-      "first_seen_at": "2026-08-28T08:18:20",
-      "last_seen_at": "2026-08-28T08:18:20",
-      "occurrence_count": 1
-    },
-    "score_trend:Berries": {
-      "alert_type": "performance_score_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Berries",
-      "first_seen_at": "2026-08-28T08:18:20",
-      "last_seen_at": "2026-08-28T08:18:20",
-      "occurrence_count": 1
-    },
-    "score_trend:Plant Protein Roti": {
-      "alert_type": "performance_grade_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Plant Protein Roti",
-      "first_seen_at": "2026-08-28T08:18:20",
-      "last_seen_at": "2026-08-28T08:18:20",
-      "occurrence_count": 1
-    },
-    "score_trend:Assorted": {
-      "alert_type": "performance_grade_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Assorted",
-      "first_seen_at": "2026-08-28T08:18:20",
-      "last_seen_at": "2026-08-28T08:18:20",
+      "affected_page": "H50+",
+      "first_seen_at": "2026-08-28T20:37:18",
+      "last_seen_at": "2026-08-28T20:37:18",
       "occurrence_count": 1
     }
   }
