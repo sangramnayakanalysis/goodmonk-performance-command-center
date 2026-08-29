@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-29T03:03:29",
-      "occurrence_count": 187
+      "last_seen_at": "2026-08-29T09:51:04",
+      "occurrence_count": 188
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-29T03:03:29",
-      "occurrence_count": 187
+      "last_seen_at": "2026-08-29T09:51:04",
+      "occurrence_count": 188
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,17 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-29T03:03:29",
-      "occurrence_count": 187
-    },
-    "root_cause:FF:high_cls": {
-      "alert_type": "high_cls",
-      "module": "root_cause",
-      "severity": "warning",
-      "affected_page": "Fiber Fix",
-      "first_seen_at": "2026-08-24T06:45:14",
-      "last_seen_at": "2026-08-27T23:29:55",
-      "occurrence_count": 12
+      "last_seen_at": "2026-08-29T09:51:04",
+      "occurrence_count": 188
     },
     "root_cause:Weight Management:high_cls": {
       "alert_type": "high_cls",
@@ -59,35 +50,35 @@
       "module": "sheets",
       "severity": "critical",
       "affected_page": null,
-      "first_seen_at": "2026-08-29T03:03:23",
-      "last_seen_at": "2026-08-29T03:03:23",
+      "first_seen_at": "2026-08-29T09:50:58",
+      "last_seen_at": "2026-08-29T09:50:58",
       "occurrence_count": 1
     },
-    "score_trend:Weight Management": {
+    "score_trend:Mango": {
       "alert_type": "performance_score_drop",
       "module": "gtmetrix",
       "severity": "warning",
-      "affected_page": "Weight Management",
-      "first_seen_at": "2026-08-29T03:03:27",
-      "last_seen_at": "2026-08-29T03:03:27",
+      "affected_page": "Mango",
+      "first_seen_at": "2026-08-29T09:51:01",
+      "last_seen_at": "2026-08-29T09:51:01",
       "occurrence_count": 1
     },
-    "score_trend:Shop_All": {
+    "score_trend:MM_Chocolate": {
       "alert_type": "performance_grade_drop",
       "module": "gtmetrix",
       "severity": "warning",
-      "affected_page": "Shop All",
-      "first_seen_at": "2026-08-29T03:03:27",
-      "last_seen_at": "2026-08-29T03:03:27",
+      "affected_page": "Milk Mix Chocolate",
+      "first_seen_at": "2026-08-29T09:51:01",
+      "last_seen_at": "2026-08-29T09:51:01",
       "occurrence_count": 1
     },
-    "score_trend:FNM": {
+    "score_trend:Orange": {
       "alert_type": "performance_score_drop",
       "module": "gtmetrix",
       "severity": "warning",
-      "affected_page": "FNM",
-      "first_seen_at": "2026-08-29T03:03:27",
-      "last_seen_at": "2026-08-29T03:03:27",
+      "affected_page": "Orange",
+      "first_seen_at": "2026-08-29T09:51:01",
+      "last_seen_at": "2026-08-29T09:51:01",
       "occurrence_count": 1
     }
   }
