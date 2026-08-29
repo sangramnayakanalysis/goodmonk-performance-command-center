@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-28T20:37:21",
-      "occurrence_count": 186
+      "last_seen_at": "2026-08-29T03:03:29",
+      "occurrence_count": 187
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-28T20:37:21",
-      "occurrence_count": 186
+      "last_seen_at": "2026-08-29T03:03:29",
+      "occurrence_count": 187
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-28T20:37:21",
-      "occurrence_count": 186
+      "last_seen_at": "2026-08-29T03:03:29",
+      "occurrence_count": 187
     },
     "root_cause:FF:high_cls": {
       "alert_type": "high_cls",
@@ -59,17 +59,35 @@
       "module": "sheets",
       "severity": "critical",
       "affected_page": null,
-      "first_seen_at": "2026-08-28T20:37:15",
-      "last_seen_at": "2026-08-28T20:37:15",
+      "first_seen_at": "2026-08-29T03:03:23",
+      "last_seen_at": "2026-08-29T03:03:23",
       "occurrence_count": 1
     },
-    "score_trend:H50+": {
+    "score_trend:Weight Management": {
       "alert_type": "performance_score_drop",
       "module": "gtmetrix",
       "severity": "warning",
-      "affected_page": "H50+",
-      "first_seen_at": "2026-08-28T20:37:18",
-      "last_seen_at": "2026-08-28T20:37:18",
+      "affected_page": "Weight Management",
+      "first_seen_at": "2026-08-29T03:03:27",
+      "last_seen_at": "2026-08-29T03:03:27",
+      "occurrence_count": 1
+    },
+    "score_trend:Shop_All": {
+      "alert_type": "performance_grade_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Shop All",
+      "first_seen_at": "2026-08-29T03:03:27",
+      "last_seen_at": "2026-08-29T03:03:27",
+      "occurrence_count": 1
+    },
+    "score_trend:FNM": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "FNM",
+      "first_seen_at": "2026-08-29T03:03:27",
+      "last_seen_at": "2026-08-29T03:03:27",
       "occurrence_count": 1
     }
   }
