@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-30T18:23:28",
-      "occurrence_count": 196
+      "last_seen_at": "2026-08-30T21:51:01",
+      "occurrence_count": 197
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-30T18:23:28",
-      "occurrence_count": 196
+      "last_seen_at": "2026-08-30T21:51:01",
+      "occurrence_count": 197
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-30T18:23:28",
-      "occurrence_count": 196
+      "last_seen_at": "2026-08-30T21:51:01",
+      "occurrence_count": 197
     },
     "root_cause:Weight Management:high_cls": {
       "alert_type": "high_cls",
@@ -63,15 +63,6 @@
       "last_seen_at": "2026-08-29T23:50:46",
       "occurrence_count": 1
     },
-    "root_cause:FNM:high_cls": {
-      "alert_type": "high_cls",
-      "module": "root_cause",
-      "severity": "warning",
-      "affected_page": "FNM",
-      "first_seen_at": "2026-08-30T14:14:13",
-      "last_seen_at": "2026-08-30T14:14:13",
-      "occurrence_count": 1
-    },
     "root_cause:H50+:high_cls": {
       "alert_type": "high_cls",
       "module": "root_cause",
@@ -86,17 +77,26 @@
       "module": "sheets",
       "severity": "critical",
       "affected_page": null,
-      "first_seen_at": "2026-08-30T18:23:27",
-      "last_seen_at": "2026-08-30T18:23:28",
+      "first_seen_at": "2026-08-30T21:51:00",
+      "last_seen_at": "2026-08-30T21:51:01",
       "occurrence_count": 4
     },
-    "score_trend:Orange": {
-      "alert_type": "performance_grade_drop",
+    "score_trend:MM_Vanilla": {
+      "alert_type": "performance_score_drop",
       "module": "gtmetrix",
       "severity": "warning",
-      "affected_page": "Orange",
-      "first_seen_at": "2026-08-30T18:23:28",
-      "last_seen_at": "2026-08-30T18:23:28",
+      "affected_page": "Milk Mix Vanilla",
+      "first_seen_at": "2026-08-30T21:51:01",
+      "last_seen_at": "2026-08-30T21:51:01",
+      "occurrence_count": 1
+    },
+    "score_trend:Plant Protein Roti": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Plant Protein Roti",
+      "first_seen_at": "2026-08-30T21:51:01",
+      "last_seen_at": "2026-08-30T21:51:01",
       "occurrence_count": 1
     }
   }
