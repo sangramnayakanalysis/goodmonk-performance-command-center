@@ -1,6 +1,126 @@
 {
-  "generated_at": "2026-08-31T14:45:36",
+  "generated_at": "2026-08-31T20:37:25",
   "recent_alerts": [
+    {
+      "Date": "2026-08-31",
+      "Time": "20:37:23",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Weight Management",
+      "Message": "Weight Management's score dropped from 67.0 to 41.0 (26.0 points).",
+      "Root Cause": "",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-08-31",
+      "Time": "20:37:23",
+      "Alert Type": "performance_grade_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Orange",
+      "Message": "Orange's grade dropped from C to D.",
+      "Root Cause": "",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-08-31",
+      "Time": "20:37:22",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Berries",
+      "Message": "Berries is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-08-31",
+      "Time": "20:37:22",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Slimbiotics",
+      "Message": "Slimbiotics's score dropped from 66.0 to 48.0 (18.0 points).",
+      "Root Cause": "",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-08-31",
+      "Time": "20:37:21",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Milk Mix Vanilla",
+      "Message": "MM_Vanilla is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-08-31",
+      "Time": "20:37:21",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Fiber Fix",
+      "Message": "FF is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-08-31",
+      "Time": "20:37:20",
+      "Alert Type": "performance_grade_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Assorted",
+      "Message": "Assorted is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-08-31",
+      "Time": "20:37:19",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Mango",
+      "Message": "Mango is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-08-31",
+      "Time": "20:37:19",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Milk Mix Chocolate",
+      "Message": "Milk Mix Chocolate's score dropped from 66.0 to 43.0 (23.0 points).",
+      "Root Cause": "",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-08-31",
+      "Time": "20:33:33",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
     {
       "Date": "2026-08-31",
       "Time": "14:45:35",
@@ -240,126 +360,6 @@
       "Root Cause": "startTest(https://www.goodmonk.in/products/instant-fruit-drink-mix-assorted): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Sun, Aug 30, 2026 6:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
       "Status": "New",
       "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-08-30",
-      "Time": "08:48:02",
-      "Alert Type": "page_failed",
-      "Severity": "high",
-      "Module": "gtmetrix",
-      "Affected Page": "Mango",
-      "Message": "GTmetrix test failed for Mango: startTest(https://www.goodmonk.in/products/instant-fruit-drink-mix-natural-mango-powder-50-less-sugar-with-8-vitamins-minerals): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Sun, Aug 30, 2026 6:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
-      "Root Cause": "startTest(https://www.goodmonk.in/products/instant-fruit-drink-mix-natural-mango-powder-50-less-sugar-with-8-vitamins-minerals): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Sun, Aug 30, 2026 6:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-08-30",
-      "Time": "08:48:02",
-      "Alert Type": "page_failed",
-      "Severity": "high",
-      "Module": "gtmetrix",
-      "Affected Page": "Orange",
-      "Message": "GTmetrix test failed for Orange: startTest(https://www.goodmonk.in/products/instant-fruit-drink-mix-orange): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Sun, Aug 30, 2026 6:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
-      "Root Cause": "startTest(https://www.goodmonk.in/products/instant-fruit-drink-mix-orange): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Sun, Aug 30, 2026 6:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-08-30",
-      "Time": "08:48:01",
-      "Alert Type": "page_failed",
-      "Severity": "high",
-      "Module": "gtmetrix",
-      "Affected Page": "Plant Protein Roti",
-      "Message": "GTmetrix test failed for Plant Protein Roti: startTest(https://www.goodmonk.in/products/plant-protein-for-rotis): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Sun, Aug 30, 2026 6:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
-      "Root Cause": "startTest(https://www.goodmonk.in/products/plant-protein-for-rotis): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Sun, Aug 30, 2026 6:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-08-30",
-      "Time": "08:48:01",
-      "Alert Type": "page_failed",
-      "Severity": "high",
-      "Module": "gtmetrix",
-      "Affected Page": "Slimbiotics",
-      "Message": "GTmetrix test failed for Slimbiotics: startTest(https://www.goodmonk.in/products/good-monk-slimbiotics): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Sun, Aug 30, 2026 6:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
-      "Root Cause": "startTest(https://www.goodmonk.in/products/good-monk-slimbiotics): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Sun, Aug 30, 2026 6:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-08-30",
-      "Time": "08:48:00",
-      "Alert Type": "page_failed",
-      "Severity": "high",
-      "Module": "gtmetrix",
-      "Affected Page": "Milk Mix Vanilla",
-      "Message": "GTmetrix test failed for Milk Mix Vanilla: startTest(https://www.goodmonk.in/products/good-monk-superhero-milk-mix-vanilla): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Sun, Aug 30, 2026 6:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
-      "Root Cause": "startTest(https://www.goodmonk.in/products/good-monk-superhero-milk-mix-vanilla): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Sun, Aug 30, 2026 6:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-08-30",
-      "Time": "08:47:59",
-      "Alert Type": "page_failed",
-      "Severity": "high",
-      "Module": "gtmetrix",
-      "Affected Page": "Weight Management",
-      "Message": "GTmetrix test failed for Weight Management: startTest(https://www.goodmonk.in/products/good-monk-weight-management-program): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Sun, Aug 30, 2026 6:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
-      "Root Cause": "startTest(https://www.goodmonk.in/products/good-monk-weight-management-program): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Sun, Aug 30, 2026 6:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-08-30",
-      "Time": "08:47:59",
-      "Alert Type": "page_failed",
-      "Severity": "high",
-      "Module": "gtmetrix",
-      "Affected Page": "Pineapple",
-      "Message": "GTmetrix test failed for Pineapple: startTest(https://www.goodmonk.in/products/instant-fruit-drink-mix-pineapple): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Sun, Aug 30, 2026 6:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
-      "Root Cause": "startTest(https://www.goodmonk.in/products/instant-fruit-drink-mix-pineapple): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Sun, Aug 30, 2026 6:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-08-30",
-      "Time": "08:47:58",
-      "Alert Type": "page_failed",
-      "Severity": "high",
-      "Module": "gtmetrix",
-      "Affected Page": "Fiber Fix",
-      "Message": "GTmetrix test failed for Fiber Fix: startTest(https://www.goodmonk.in/products/fiber-fix): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Sun, Aug 30, 2026 6:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
-      "Root Cause": "startTest(https://www.goodmonk.in/products/fiber-fix): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Sun, Aug 30, 2026 6:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-08-30",
-      "Time": "08:47:58",
-      "Alert Type": "page_failed",
-      "Severity": "high",
-      "Module": "gtmetrix",
-      "Affected Page": "Berries",
-      "Message": "GTmetrix test failed for Berries: startTest(https://www.goodmonk.in/products/instant-fruit-drink-mix-mixed-berries): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Sun, Aug 30, 2026 6:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
-      "Root Cause": "startTest(https://www.goodmonk.in/products/instant-fruit-drink-mix-mixed-berries): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Sun, Aug 30, 2026 6:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-08-30",
-      "Time": "08:47:57",
-      "Alert Type": "page_failed",
-      "Severity": "high",
-      "Module": "gtmetrix",
-      "Affected Page": "Milk Mix Chocolate",
-      "Message": "GTmetrix test failed for Milk Mix Chocolate: startTest(https://www.goodmonk.in/products/good-monk-superhero-milk-mix): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Sun, Aug 30, 2026 6:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
-      "Root Cause": "startTest(https://www.goodmonk.in/products/good-monk-superhero-milk-mix): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Sun, Aug 30, 2026 6:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
-      "Status": "New",
-      "Occurrence Count": 1
     }
   ],
   "active_alerts": [
@@ -384,18 +384,6 @@
       "Affected Page": "Assorted",
       "Message": "GTmetrix test failed for Assorted: startTest(https://www.goodmonk.in/products/instant-fruit-drink-mix-assorted): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Sun, Aug 30, 2026 6:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
       "Root Cause": "startTest(https://www.goodmonk.in/products/instant-fruit-drink-mix-assorted): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Sun, Aug 30, 2026 6:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-08-30",
-      "Time": "08:47:59",
-      "Alert Type": "page_failed",
-      "Severity": "high",
-      "Module": "gtmetrix",
-      "Affected Page": "Pineapple",
-      "Message": "GTmetrix test failed for Pineapple: startTest(https://www.goodmonk.in/products/instant-fruit-drink-mix-pineapple): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Sun, Aug 30, 2026 6:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
-      "Root Cause": "startTest(https://www.goodmonk.in/products/instant-fruit-drink-mix-pineapple): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Sun, Aug 30, 2026 6:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
       "Status": "New",
       "Occurrence Count": 1
     },
@@ -508,13 +496,25 @@
       "Occurrence Count": 1
     },
     {
+      "Date": "2026-08-30",
+      "Time": "08:47:59",
+      "Alert Type": "page_failed",
+      "Severity": "high",
+      "Module": "gtmetrix",
+      "Affected Page": "Pineapple",
+      "Message": "GTmetrix test failed for Pineapple: startTest(https://www.goodmonk.in/products/instant-fruit-drink-mix-pineapple): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Sun, Aug 30, 2026 6:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
+      "Root Cause": "startTest(https://www.goodmonk.in/products/instant-fruit-drink-mix-pineapple): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Sun, Aug 30, 2026 6:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
       "Date": "2026-08-31",
-      "Time": "14:45:33",
+      "Time": "20:37:19",
       "Alert Type": "performance_score_drop",
       "Severity": "warning",
       "Module": "gtmetrix",
-      "Affected Page": "Milk Mix Vanilla",
-      "Message": "Milk Mix Vanilla's score dropped from 62.0 to 46.0 (16.0 points).",
+      "Affected Page": "Milk Mix Chocolate",
+      "Message": "Milk Mix Chocolate's score dropped from 66.0 to 43.0 (23.0 points).",
       "Root Cause": "",
       "Status": "New",
       "Occurrence Count": 1
@@ -568,6 +568,18 @@
       "Occurrence Count": 1
     },
     {
+      "Date": "2026-08-31",
+      "Time": "20:37:22",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Slimbiotics",
+      "Message": "Slimbiotics's score dropped from 66.0 to 48.0 (18.0 points).",
+      "Root Cause": "",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
       "Date": "2026-08-27",
       "Time": "13:29:52",
       "Alert Type": "high_cls",
@@ -592,13 +604,13 @@
       "Occurrence Count": 1
     },
     {
-      "Date": "2026-08-29",
-      "Time": "18:09:07",
+      "Date": "2026-08-31",
+      "Time": "20:37:23",
       "Alert Type": "performance_score_drop",
       "Severity": "warning",
       "Module": "gtmetrix",
       "Affected Page": "Weight Management",
-      "Message": "Weight Management's score dropped from 67.0 to 48.0 (19.0 points).",
+      "Message": "Weight Management's score dropped from 67.0 to 41.0 (26.0 points).",
       "Root Cause": "",
       "Status": "New",
       "Occurrence Count": 1
@@ -611,54 +623,6 @@
       "Module": "gtmetrix",
       "Affected Page": "Homepage",
       "Message": "Homepage's score dropped from 66.0 to 55.0 (11.0 points).",
-      "Root Cause": "",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-08-31",
-      "Time": "14:45:32",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Berries",
-      "Message": "Berries's score dropped from 62.0 to 41.0 (21.0 points).",
-      "Root Cause": "",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-08-31",
-      "Time": "14:45:35",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Fiber Fix",
-      "Message": "Fiber Fix's score dropped from 66.0 to 47.0 (19.0 points).",
-      "Root Cause": "",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-08-31",
-      "Time": "14:45:34",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Mango",
-      "Message": "Mango's score dropped from 62.0 to 47.0 (15.0 points).",
-      "Root Cause": "",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-08-31",
-      "Time": "14:45:35",
-      "Alert Type": "performance_grade_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Assorted",
-      "Message": "Assorted's grade dropped from C to D.",
       "Root Cause": "",
       "Status": "New",
       "Occurrence Count": 1
@@ -686,9 +650,93 @@
       "Root Cause": "",
       "Status": "New",
       "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-08-31",
+      "Time": "20:37:23",
+      "Alert Type": "performance_grade_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Orange",
+      "Message": "Orange's grade dropped from C to D.",
+      "Root Cause": "",
+      "Status": "New",
+      "Occurrence Count": 1
     }
   ],
   "recovered_alerts": [
+    {
+      "Date": "2026-08-31",
+      "Time": "20:37:22",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Berries",
+      "Message": "Berries is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-08-31",
+      "Time": "20:37:21",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Milk Mix Vanilla",
+      "Message": "MM_Vanilla is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-08-31",
+      "Time": "20:37:21",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Fiber Fix",
+      "Message": "FF is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-08-31",
+      "Time": "20:37:20",
+      "Alert Type": "performance_grade_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Assorted",
+      "Message": "Assorted is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-08-31",
+      "Time": "20:37:19",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Mango",
+      "Message": "Mango is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-08-31",
+      "Time": "20:33:33",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
     {
       "Date": "2026-08-31",
       "Time": "14:45:33",
@@ -856,92 +904,16 @@
       "Root Cause": "",
       "Status": "Recovered",
       "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-08-29",
-      "Time": "18:09:06",
-      "Alert Type": "performance_grade_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Pineapple",
-      "Message": "Pineapple is healthy again after 1 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-08-29",
-      "Time": "18:09:05",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "FNM",
-      "Message": "FNM is healthy again after 1 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-08-29",
-      "Time": "18:06:20",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-08-29",
-      "Time": "18:05:20",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 4 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 4
-    },
-    {
-      "Date": "2026-08-29",
-      "Time": "14:52:14",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-08-29",
-      "Time": "09:51:03",
-      "Alert Type": "high_cls",
-      "Severity": "warning",
-      "Module": "root_cause",
-      "Affected Page": "Fiber Fix",
-      "Message": "FF:high_cls is healthy again after 12 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 12
     }
   ],
   "severity_counts": {
     "critical": 0,
     "high": 12,
-    "warning": 15,
+    "warning": 13,
     "info": 0
   },
-  "total_active": 27,
+  "total_active": 25,
   "trend": [
-    {
-      "date": "2026-08-23",
-      "count": 5
-    },
     {
       "date": "2026-08-24",
       "count": 4
@@ -972,7 +944,7 @@
     },
     {
       "date": "2026-08-31",
-      "count": 5
+      "count": 9
     }
   ]
 }
