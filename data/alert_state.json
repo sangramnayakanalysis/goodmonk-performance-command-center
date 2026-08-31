@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-31T06:33:25",
-      "occurrence_count": 199
+      "last_seen_at": "2026-08-31T14:45:36",
+      "occurrence_count": 200
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-31T06:33:25",
-      "occurrence_count": 199
+      "last_seen_at": "2026-08-31T14:45:36",
+      "occurrence_count": 200
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-08-31T06:33:25",
-      "occurrence_count": 199
+      "last_seen_at": "2026-08-31T14:45:36",
+      "occurrence_count": 200
     },
     "root_cause:H50+:high_cls": {
       "alert_type": "high_cls",
@@ -36,33 +36,6 @@
       "last_seen_at": "2026-08-31T06:33:24",
       "occurrence_count": 2
     },
-    "score_trend:H50+": {
-      "alert_type": "performance_score_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "H50+",
-      "first_seen_at": "2026-08-31T00:08:08",
-      "last_seen_at": "2026-08-31T06:33:23",
-      "occurrence_count": 2
-    },
-    "score_trend:FNM": {
-      "alert_type": "performance_score_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "FNM",
-      "first_seen_at": "2026-08-31T00:08:08",
-      "last_seen_at": "2026-08-31T06:33:23",
-      "occurrence_count": 2
-    },
-    "score_trend:Pineapple": {
-      "alert_type": "performance_score_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Pineapple",
-      "first_seen_at": "2026-08-31T00:08:08",
-      "last_seen_at": "2026-08-31T06:33:23",
-      "occurrence_count": 2
-    },
     "root_cause:FNM:high_cls": {
       "alert_type": "high_cls",
       "module": "root_cause",
@@ -71,24 +44,6 @@
       "first_seen_at": "2026-08-31T00:08:08",
       "last_seen_at": "2026-08-31T06:33:24",
       "occurrence_count": 2
-    },
-    "operational:sheets:google_sheets_failure": {
-      "alert_type": "google_sheets_failure",
-      "module": "sheets",
-      "severity": "critical",
-      "affected_page": null,
-      "first_seen_at": "2026-08-31T06:33:20",
-      "last_seen_at": "2026-08-31T06:33:20",
-      "occurrence_count": 4
-    },
-    "score_trend:Orange": {
-      "alert_type": "performance_score_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Orange",
-      "first_seen_at": "2026-08-31T06:33:23",
-      "last_seen_at": "2026-08-31T06:33:23",
-      "occurrence_count": 1
     },
     "root_cause:Orange:high_cls": {
       "alert_type": "high_cls",
@@ -106,6 +61,60 @@
       "affected_page": "Pineapple",
       "first_seen_at": "2026-08-31T06:33:24",
       "last_seen_at": "2026-08-31T06:33:24",
+      "occurrence_count": 1
+    },
+    "operational:sheets:google_sheets_failure": {
+      "alert_type": "google_sheets_failure",
+      "module": "sheets",
+      "severity": "critical",
+      "affected_page": null,
+      "first_seen_at": "2026-08-31T14:45:27",
+      "last_seen_at": "2026-08-31T14:45:27",
+      "occurrence_count": 1
+    },
+    "score_trend:Berries": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Berries",
+      "first_seen_at": "2026-08-31T14:45:30",
+      "last_seen_at": "2026-08-31T14:45:30",
+      "occurrence_count": 1
+    },
+    "score_trend:MM_Vanilla": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Milk Mix Vanilla",
+      "first_seen_at": "2026-08-31T14:45:30",
+      "last_seen_at": "2026-08-31T14:45:30",
+      "occurrence_count": 1
+    },
+    "score_trend:Mango": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Mango",
+      "first_seen_at": "2026-08-31T14:45:30",
+      "last_seen_at": "2026-08-31T14:45:30",
+      "occurrence_count": 1
+    },
+    "score_trend:Assorted": {
+      "alert_type": "performance_grade_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Assorted",
+      "first_seen_at": "2026-08-31T14:45:30",
+      "last_seen_at": "2026-08-31T14:45:30",
+      "occurrence_count": 1
+    },
+    "score_trend:FF": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Fiber Fix",
+      "first_seen_at": "2026-08-31T14:45:30",
+      "last_seen_at": "2026-08-31T14:45:30",
       "occurrence_count": 1
     }
   }
