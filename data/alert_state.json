@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-03T02:23:16",
-      "occurrence_count": 215
+      "last_seen_at": "2026-09-03T07:40:07",
+      "occurrence_count": 216
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-03T02:23:16",
-      "occurrence_count": 215
+      "last_seen_at": "2026-09-03T07:40:07",
+      "occurrence_count": 216
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-03T02:23:16",
-      "occurrence_count": 215
+      "last_seen_at": "2026-09-03T07:40:07",
+      "occurrence_count": 216
     },
     "root_cause:FF:high_cls": {
       "alert_type": "high_cls",
@@ -45,14 +45,68 @@
       "last_seen_at": "2026-09-02T23:45:16",
       "occurrence_count": 1
     },
-    "operational:sheets:google_sheets_failure": {
-      "alert_type": "google_sheets_failure",
-      "module": "sheets",
-      "severity": "critical",
-      "affected_page": null,
-      "first_seen_at": "2026-09-03T02:23:14",
-      "last_seen_at": "2026-09-03T02:23:15",
-      "occurrence_count": 4
+    "score_trend:Pineapple": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Pineapple",
+      "first_seen_at": "2026-09-03T07:39:40",
+      "last_seen_at": "2026-09-03T07:39:40",
+      "occurrence_count": 1
+    },
+    "score_trend:Homepage": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Homepage",
+      "first_seen_at": "2026-09-03T07:39:40",
+      "last_seen_at": "2026-09-03T07:39:40",
+      "occurrence_count": 1
+    },
+    "score_trend:Plant Protein Roti": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Plant Protein Roti",
+      "first_seen_at": "2026-09-03T07:39:40",
+      "last_seen_at": "2026-09-03T07:39:40",
+      "occurrence_count": 1
+    },
+    "score_trend:Assorted": {
+      "alert_type": "performance_grade_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Assorted",
+      "first_seen_at": "2026-09-03T07:39:40",
+      "last_seen_at": "2026-09-03T07:39:40",
+      "occurrence_count": 1
+    },
+    "score_trend:Orange": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Orange",
+      "first_seen_at": "2026-09-03T07:39:40",
+      "last_seen_at": "2026-09-03T07:39:40",
+      "occurrence_count": 1
+    },
+    "root_cause:Plant Protein Roti:high_cls": {
+      "alert_type": "high_cls",
+      "module": "root_cause",
+      "severity": "warning",
+      "affected_page": "Plant Protein Roti",
+      "first_seen_at": "2026-09-03T07:40:03",
+      "last_seen_at": "2026-09-03T07:40:03",
+      "occurrence_count": 1
+    },
+    "root_cause:Pineapple:high_cls": {
+      "alert_type": "high_cls",
+      "module": "root_cause",
+      "severity": "warning",
+      "affected_page": "Pineapple",
+      "first_seen_at": "2026-09-03T07:40:03",
+      "last_seen_at": "2026-09-03T07:40:03",
+      "occurrence_count": 1
     }
   }
 }
