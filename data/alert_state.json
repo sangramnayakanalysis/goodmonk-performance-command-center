@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-03T07:40:07",
-      "occurrence_count": 216
+      "last_seen_at": "2026-09-03T12:29:29",
+      "occurrence_count": 217
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-03T07:40:07",
-      "occurrence_count": 216
+      "last_seen_at": "2026-09-03T12:29:29",
+      "occurrence_count": 217
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-03T07:40:07",
-      "occurrence_count": 216
+      "last_seen_at": "2026-09-03T12:29:29",
+      "occurrence_count": 217
     },
     "root_cause:FF:high_cls": {
       "alert_type": "high_cls",
@@ -33,53 +33,8 @@
       "severity": "warning",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-09-02T00:48:19",
-      "last_seen_at": "2026-09-02T23:45:16",
-      "occurrence_count": 2
-    },
-    "root_cause:Berries:high_cls": {
-      "alert_type": "high_cls",
-      "module": "root_cause",
-      "severity": "warning",
-      "affected_page": "Berries",
-      "first_seen_at": "2026-09-02T23:45:16",
-      "last_seen_at": "2026-09-02T23:45:16",
-      "occurrence_count": 1
-    },
-    "score_trend:Pineapple": {
-      "alert_type": "performance_score_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Pineapple",
-      "first_seen_at": "2026-09-03T07:39:40",
-      "last_seen_at": "2026-09-03T07:39:40",
-      "occurrence_count": 1
-    },
-    "score_trend:Homepage": {
-      "alert_type": "performance_score_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Homepage",
-      "first_seen_at": "2026-09-03T07:39:40",
-      "last_seen_at": "2026-09-03T07:39:40",
-      "occurrence_count": 1
-    },
-    "score_trend:Plant Protein Roti": {
-      "alert_type": "performance_score_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Plant Protein Roti",
-      "first_seen_at": "2026-09-03T07:39:40",
-      "last_seen_at": "2026-09-03T07:39:40",
-      "occurrence_count": 1
-    },
-    "score_trend:Assorted": {
-      "alert_type": "performance_grade_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Assorted",
-      "first_seen_at": "2026-09-03T07:39:40",
-      "last_seen_at": "2026-09-03T07:39:40",
-      "occurrence_count": 1
+      "last_seen_at": "2026-09-03T12:29:29",
+      "occurrence_count": 3
     },
     "score_trend:Orange": {
       "alert_type": "performance_score_drop",
@@ -87,25 +42,25 @@
       "severity": "warning",
       "affected_page": "Orange",
       "first_seen_at": "2026-09-03T07:39:40",
-      "last_seen_at": "2026-09-03T07:39:40",
-      "occurrence_count": 1
+      "last_seen_at": "2026-09-03T12:29:28",
+      "occurrence_count": 2
     },
-    "root_cause:Plant Protein Roti:high_cls": {
-      "alert_type": "high_cls",
-      "module": "root_cause",
-      "severity": "warning",
-      "affected_page": "Plant Protein Roti",
-      "first_seen_at": "2026-09-03T07:40:03",
-      "last_seen_at": "2026-09-03T07:40:03",
-      "occurrence_count": 1
+    "operational:sheets:google_sheets_failure": {
+      "alert_type": "google_sheets_failure",
+      "module": "sheets",
+      "severity": "critical",
+      "affected_page": null,
+      "first_seen_at": "2026-09-03T12:29:28",
+      "last_seen_at": "2026-09-03T12:29:28",
+      "occurrence_count": 3
     },
-    "root_cause:Pineapple:high_cls": {
-      "alert_type": "high_cls",
-      "module": "root_cause",
+    "score_trend:Weight Management": {
+      "alert_type": "performance_grade_drop",
+      "module": "gtmetrix",
       "severity": "warning",
-      "affected_page": "Pineapple",
-      "first_seen_at": "2026-09-03T07:40:03",
-      "last_seen_at": "2026-09-03T07:40:03",
+      "affected_page": "Weight Management",
+      "first_seen_at": "2026-09-03T12:29:28",
+      "last_seen_at": "2026-09-03T12:29:28",
       "occurrence_count": 1
     }
   }
