@@ -1,6 +1,30 @@
 {
-  "generated_at": "2026-09-04T05:20:13",
+  "generated_at": "2026-09-04T10:18:14",
   "recent_alerts": [
+    {
+      "Date": "2026-09-04",
+      "Time": "10:18:13",
+      "Alert Type": "high_cls",
+      "Severity": "warning",
+      "Module": "root_cause",
+      "Affected Page": "FNM",
+      "Message": "Cumulative Layout Shift is 0.404904 (threshold 0.1).",
+      "Root Cause": "Reserve explicit width/height (or aspect-ratio) for images and embeds above the fold.",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-09-04",
+      "Time": "10:15:53",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 2 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 2
+    },
     {
       "Date": "2026-09-04",
       "Time": "05:20:12",
@@ -336,30 +360,6 @@
       "Root Cause": "",
       "Status": "Recovered",
       "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-09-03",
-      "Time": "19:37:19",
-      "Alert Type": "page_failed",
-      "Severity": "high",
-      "Module": "gtmetrix",
-      "Affected Page": "Weight Management",
-      "Message": "Weight Management is healthy again after 1 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-09-03",
-      "Time": "19:37:18",
-      "Alert Type": "page_failed",
-      "Severity": "high",
-      "Module": "gtmetrix",
-      "Affected Page": "Pineapple",
-      "Message": "Pineapple is healthy again after 1 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
     }
   ],
   "active_alerts": [
@@ -420,6 +420,18 @@
       "Affected Page": "FNM",
       "Message": "FNM's score dropped from 67.0 to 42.0 (25.0 points).",
       "Root Cause": "",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-09-04",
+      "Time": "10:18:13",
+      "Alert Type": "high_cls",
+      "Severity": "warning",
+      "Module": "root_cause",
+      "Affected Page": "FNM",
+      "Message": "Cumulative Layout Shift is 0.404904 (threshold 0.1).",
+      "Root Cause": "Reserve explicit width/height (or aspect-ratio) for images and embeds above the fold.",
       "Status": "New",
       "Occurrence Count": 1
     },
@@ -715,6 +727,18 @@
   "recovered_alerts": [
     {
       "Date": "2026-09-04",
+      "Time": "10:15:53",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 2 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 2
+    },
+    {
+      "Date": "2026-09-04",
       "Time": "05:18:28",
       "Alert Type": "google_sheets_failure",
       "Severity": "critical",
@@ -940,27 +964,15 @@
       "Root Cause": "",
       "Status": "Recovered",
       "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-09-03",
-      "Time": "19:34:26",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 2 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 2
     }
   ],
   "severity_counts": {
     "critical": 0,
     "high": 11,
-    "warning": 18,
+    "warning": 19,
     "info": 0
   },
-  "total_active": 29,
+  "total_active": 30,
   "trend": [
     {
       "date": "2026-08-27",
@@ -996,7 +1008,7 @@
     },
     {
       "date": "2026-09-04",
-      "count": 16
+      "count": 17
     }
   ]
 }
