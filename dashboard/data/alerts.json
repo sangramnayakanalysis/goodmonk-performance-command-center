@@ -1,6 +1,18 @@
 {
-  "generated_at": "2026-09-05T18:46:18",
+  "generated_at": "2026-09-05T20:51:54",
   "recent_alerts": [
+    {
+      "Date": "2026-09-05",
+      "Time": "20:51:08",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 2 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 2
+    },
     {
       "Date": "2026-09-05",
       "Time": "18:46:17",
@@ -348,33 +360,9 @@
       "Root Cause": "",
       "Status": "Recovered",
       "Occurrence Count": 2
-    },
-    {
-      "Date": "2026-09-04",
-      "Time": "14:40:33",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 2 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 2
     }
   ],
   "active_alerts": [
-    {
-      "Date": "2026-09-04",
-      "Time": "00:39:35",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Weight Management",
-      "Message": "Weight Management's score dropped from 64.0 to 41.0 (23.0 points).",
-      "Root Cause": "",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
     {
       "Date": "2026-08-30",
       "Time": "08:48:04",
@@ -395,6 +383,18 @@
       "Module": "gtmetrix",
       "Affected Page": "Milk Mix Chocolate",
       "Message": "Milk Mix Chocolate's grade dropped from D to E.",
+      "Root Cause": "",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-09-04",
+      "Time": "00:39:35",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Weight Management",
+      "Message": "Weight Management's score dropped from 64.0 to 41.0 (23.0 points).",
       "Root Cause": "",
       "Status": "New",
       "Occurrence Count": 1
@@ -655,6 +655,18 @@
   "recovered_alerts": [
     {
       "Date": "2026-09-05",
+      "Time": "20:51:08",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 2 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 2
+    },
+    {
+      "Date": "2026-09-05",
       "Time": "18:46:17",
       "Alert Type": "high_cls",
       "Severity": "warning",
@@ -880,18 +892,6 @@
       "Root Cause": "",
       "Status": "Recovered",
       "Occurrence Count": 2
-    },
-    {
-      "Date": "2026-09-04",
-      "Time": "14:43:29",
-      "Alert Type": "page_failed",
-      "Severity": "high",
-      "Module": "gtmetrix",
-      "Affected Page": "Milk Mix Strawberry",
-      "Message": "MM_Strawberry is healthy again after 2 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 2
     }
   ],
   "severity_counts": {
@@ -904,7 +904,7 @@
   "trend": [
     {
       "date": "2026-08-29",
-      "count": 9
+      "count": 8
     },
     {
       "date": "2026-08-30",
