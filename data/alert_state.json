@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-05T09:46:40",
-      "occurrence_count": 230
+      "last_seen_at": "2026-09-05T13:13:45",
+      "occurrence_count": 231
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-05T09:46:40",
-      "occurrence_count": 230
+      "last_seen_at": "2026-09-05T13:13:45",
+      "occurrence_count": 231
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-05T09:46:40",
-      "occurrence_count": 230
+      "last_seen_at": "2026-09-05T13:13:45",
+      "occurrence_count": 231
     },
     "root_cause:FF:high_cls": {
       "alert_type": "high_cls",
@@ -72,33 +72,6 @@
       "last_seen_at": "2026-09-04T14:43:31",
       "occurrence_count": 1
     },
-    "score_trend:H50+": {
-      "alert_type": "performance_score_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "H50+",
-      "first_seen_at": "2026-09-04T22:44:04",
-      "last_seen_at": "2026-09-05T09:46:40",
-      "occurrence_count": 4
-    },
-    "score_trend:FNM": {
-      "alert_type": "performance_score_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "FNM",
-      "first_seen_at": "2026-09-04T22:44:04",
-      "last_seen_at": "2026-09-05T09:46:40",
-      "occurrence_count": 4
-    },
-    "root_cause:FNM:high_cls": {
-      "alert_type": "high_cls",
-      "module": "root_cause",
-      "severity": "warning",
-      "affected_page": "FNM",
-      "first_seen_at": "2026-09-04T22:44:04",
-      "last_seen_at": "2026-09-05T09:46:40",
-      "occurrence_count": 2
-    },
     "root_cause:H50+:high_cls": {
       "alert_type": "high_cls",
       "module": "root_cause",
@@ -113,26 +86,17 @@
       "module": "sheets",
       "severity": "critical",
       "affected_page": null,
-      "first_seen_at": "2026-09-05T09:46:39",
-      "last_seen_at": "2026-09-05T09:46:39",
-      "occurrence_count": 4
-    },
-    "score_trend:MM_Chocolate": {
-      "alert_type": "performance_score_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Milk Mix Chocolate",
-      "first_seen_at": "2026-09-05T09:46:40",
-      "last_seen_at": "2026-09-05T09:46:40",
+      "first_seen_at": "2026-09-05T13:13:40",
+      "last_seen_at": "2026-09-05T13:13:40",
       "occurrence_count": 1
     },
-    "score_trend:MM_Vanilla": {
-      "alert_type": "performance_score_drop",
+    "score_trend:Assorted": {
+      "alert_type": "performance_grade_drop",
       "module": "gtmetrix",
       "severity": "warning",
-      "affected_page": "Milk Mix Vanilla",
-      "first_seen_at": "2026-09-05T09:46:40",
-      "last_seen_at": "2026-09-05T09:46:40",
+      "affected_page": "Assorted",
+      "first_seen_at": "2026-09-05T13:13:42",
+      "last_seen_at": "2026-09-05T13:13:42",
       "occurrence_count": 1
     }
   }
