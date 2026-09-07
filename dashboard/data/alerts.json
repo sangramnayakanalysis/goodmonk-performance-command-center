@@ -1,6 +1,78 @@
 {
-  "generated_at": "2026-09-07T00:34:39",
+  "generated_at": "2026-09-07T05:34:34",
   "recent_alerts": [
+    {
+      "Date": "2026-09-07",
+      "Time": "05:34:31",
+      "Alert Type": "high_cls",
+      "Severity": "warning",
+      "Module": "root_cause",
+      "Affected Page": "Fiber Fix",
+      "Message": "FF:high_cls is healthy again after 2 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 2
+    },
+    {
+      "Date": "2026-09-07",
+      "Time": "05:34:30",
+      "Alert Type": "high_cls",
+      "Severity": "warning",
+      "Module": "root_cause",
+      "Affected Page": "Slimbiotics",
+      "Message": "Cumulative Layout Shift is 0.386722 (threshold 0.1).",
+      "Root Cause": "Reserve explicit width/height (or aspect-ratio) for images and embeds above the fold.",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-09-07",
+      "Time": "05:34:30",
+      "Alert Type": "high_cls",
+      "Severity": "warning",
+      "Module": "root_cause",
+      "Affected Page": "H50+",
+      "Message": "H50+:high_cls is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-09-07",
+      "Time": "05:34:28",
+      "Alert Type": "high_cls",
+      "Severity": "warning",
+      "Module": "root_cause",
+      "Affected Page": "Milk Mix Strawberry",
+      "Message": "MM_Strawberry:high_cls is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-09-07",
+      "Time": "05:34:27",
+      "Alert Type": "high_cls",
+      "Severity": "warning",
+      "Module": "root_cause",
+      "Affected Page": "Pineapple",
+      "Message": "Cumulative Layout Shift is 0.402034 (threshold 0.1).",
+      "Root Cause": "Reserve explicit width/height (or aspect-ratio) for images and embeds above the fold.",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-09-07",
+      "Time": "05:31:01",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 2 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 2
+    },
     {
       "Date": "2026-09-07",
       "Time": "00:34:38",
@@ -288,117 +360,9 @@
       "Root Cause": "",
       "Status": "Recovered",
       "Occurrence Count": 3
-    },
-    {
-      "Date": "2026-09-06",
-      "Time": "18:50:49",
-      "Alert Type": "performance_grade_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Shop All",
-      "Message": "Shop_All is healthy again after 2 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 2
-    },
-    {
-      "Date": "2026-09-06",
-      "Time": "18:50:48",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Berries",
-      "Message": "Berries's score dropped from 62.0 to 50.0 (12.0 points).",
-      "Root Cause": "",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-09-06",
-      "Time": "18:47:06",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 4 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 4
-    },
-    {
-      "Date": "2026-09-06",
-      "Time": "16:38:20",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 4 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 4
-    },
-    {
-      "Date": "2026-09-06",
-      "Time": "13:28:42",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 4 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 4
-    },
-    {
-      "Date": "2026-09-06",
-      "Time": "10:00:25",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 4 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 4
     }
   ],
   "active_alerts": [
-    {
-      "Date": "2026-09-07",
-      "Time": "00:34:29",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "APIError: [429]: Quota exceeded for quota metric 'Read requests' and limit 'Read requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:435732750985'.",
-      "Root Cause": "Writing journey result for FNM",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-09-06",
-      "Time": "00:29:59",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "FNM",
-      "Message": "FNM's score dropped from 66.0 to 51.0 (15.0 points).",
-      "Root Cause": "",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-09-06",
-      "Time": "18:50:48",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Berries",
-      "Message": "Berries's score dropped from 62.0 to 50.0 (12.0 points).",
-      "Root Cause": "",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
     {
       "Date": "2026-09-06",
       "Time": "00:30:00",
@@ -431,6 +395,18 @@
       "Module": "gtmetrix",
       "Affected Page": "Slimbiotics",
       "Message": "Slimbiotics's score dropped from 66.0 to 48.0 (18.0 points).",
+      "Root Cause": "",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-09-06",
+      "Time": "18:50:48",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Berries",
+      "Message": "Berries's score dropped from 62.0 to 50.0 (12.0 points).",
       "Root Cause": "",
       "Status": "New",
       "Occurrence Count": 1
@@ -520,6 +496,18 @@
       "Occurrence Count": 1
     },
     {
+      "Date": "2026-09-06",
+      "Time": "00:29:59",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "FNM",
+      "Message": "FNM's score dropped from 66.0 to 51.0 (15.0 points).",
+      "Root Cause": "",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
       "Date": "2026-09-03",
       "Time": "07:39:42",
       "Alert Type": "performance_score_drop",
@@ -544,8 +532,8 @@
       "Occurrence Count": 1
     },
     {
-      "Date": "2026-09-03",
-      "Time": "07:40:06",
+      "Date": "2026-09-07",
+      "Time": "05:34:27",
       "Alert Type": "high_cls",
       "Severity": "warning",
       "Module": "root_cause",
@@ -830,9 +818,69 @@
       "Root Cause": "startTest(https://www.goodmonk.in/products/instant-fruit-drink-mix-mixed-berries): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has 0 API credits remaining. Your next API credit refill is scheduled for Mon, Sep 7, 2026 1:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
       "Status": "New",
       "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-09-07",
+      "Time": "05:34:30",
+      "Alert Type": "high_cls",
+      "Severity": "warning",
+      "Module": "root_cause",
+      "Affected Page": "Slimbiotics",
+      "Message": "Cumulative Layout Shift is 0.386722 (threshold 0.1).",
+      "Root Cause": "Reserve explicit width/height (or aspect-ratio) for images and embeds above the fold.",
+      "Status": "New",
+      "Occurrence Count": 1
     }
   ],
   "recovered_alerts": [
+    {
+      "Date": "2026-09-07",
+      "Time": "05:34:31",
+      "Alert Type": "high_cls",
+      "Severity": "warning",
+      "Module": "root_cause",
+      "Affected Page": "Fiber Fix",
+      "Message": "FF:high_cls is healthy again after 2 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 2
+    },
+    {
+      "Date": "2026-09-07",
+      "Time": "05:34:30",
+      "Alert Type": "high_cls",
+      "Severity": "warning",
+      "Module": "root_cause",
+      "Affected Page": "H50+",
+      "Message": "H50+:high_cls is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-09-07",
+      "Time": "05:34:28",
+      "Alert Type": "high_cls",
+      "Severity": "warning",
+      "Module": "root_cause",
+      "Affected Page": "Milk Mix Strawberry",
+      "Message": "MM_Strawberry:high_cls is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-09-07",
+      "Time": "05:31:01",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 2 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 2
+    },
     {
       "Date": "2026-09-07",
       "Time": "00:33:29",
@@ -1024,67 +1072,19 @@
       "Root Cause": "",
       "Status": "Recovered",
       "Occurrence Count": 4
-    },
-    {
-      "Date": "2026-09-05",
-      "Time": "22:32:34",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-09-05",
-      "Time": "20:51:08",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 2 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 2
-    },
-    {
-      "Date": "2026-09-05",
-      "Time": "18:46:17",
-      "Alert Type": "high_cls",
-      "Severity": "warning",
-      "Module": "root_cause",
-      "Affected Page": "H50+",
-      "Message": "H50+:high_cls is healthy again after 2 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 2
-    },
-    {
-      "Date": "2026-09-05",
-      "Time": "18:46:16",
-      "Alert Type": "high_cls",
-      "Severity": "warning",
-      "Module": "root_cause",
-      "Affected Page": "Fiber Fix",
-      "Message": "FF:high_cls is healthy again after 8 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 8
     }
   ],
   "severity_counts": {
-    "critical": 17,
+    "critical": 16,
     "high": 10,
-    "warning": 12,
+    "warning": 13,
     "info": 0
   },
   "total_active": 39,
   "trend": [
     {
       "date": "2026-08-31",
-      "count": 9
+      "count": 8
     },
     {
       "date": "2026-09-01",
@@ -1112,7 +1112,7 @@
     },
     {
       "date": "2026-09-07",
-      "count": 17
+      "count": 19
     }
   ]
 }
