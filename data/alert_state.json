@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-08T02:22:45",
-      "occurrence_count": 250
+      "last_seen_at": "2026-09-08T07:42:35",
+      "occurrence_count": 251
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-08T02:22:45",
-      "occurrence_count": 250
+      "last_seen_at": "2026-09-08T07:42:35",
+      "occurrence_count": 251
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-08T02:22:45",
-      "occurrence_count": 250
+      "last_seen_at": "2026-09-08T07:42:35",
+      "occurrence_count": 251
     },
     "root_cause:Pineapple:high_cls": {
       "alert_type": "high_cls",
@@ -34,33 +34,6 @@
       "affected_page": "Pineapple",
       "first_seen_at": "2026-09-07T05:34:27",
       "last_seen_at": "2026-09-07T05:34:27",
-      "occurrence_count": 1
-    },
-    "operational:sheets:google_sheets_failure": {
-      "alert_type": "google_sheets_failure",
-      "module": "sheets",
-      "severity": "critical",
-      "affected_page": null,
-      "first_seen_at": "2026-09-08T02:22:43",
-      "last_seen_at": "2026-09-08T02:22:44",
-      "occurrence_count": 4
-    },
-    "score_trend:Shop_All": {
-      "alert_type": "performance_score_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Shop All",
-      "first_seen_at": "2026-09-08T02:22:44",
-      "last_seen_at": "2026-09-08T02:22:44",
-      "occurrence_count": 1
-    },
-    "score_trend:Assorted": {
-      "alert_type": "performance_score_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Assorted",
-      "first_seen_at": "2026-09-08T02:22:44",
-      "last_seen_at": "2026-09-08T02:22:44",
       "occurrence_count": 1
     },
     "root_cause:FF:high_cls": {
@@ -72,22 +45,58 @@
       "last_seen_at": "2026-09-08T02:22:45",
       "occurrence_count": 1
     },
-    "root_cause:Shop_All:slow_server_response": {
-      "alert_type": "slow_server_response",
-      "module": "root_cause",
+    "operational:sheets:google_sheets_failure": {
+      "alert_type": "google_sheets_failure",
+      "module": "sheets",
+      "severity": "critical",
+      "affected_page": null,
+      "first_seen_at": "2026-09-08T07:42:34",
+      "last_seen_at": "2026-09-08T07:42:34",
+      "occurrence_count": 4
+    },
+    "score_trend:Slimbiotics": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
       "severity": "warning",
-      "affected_page": "Shop All",
-      "first_seen_at": "2026-09-08T02:22:45",
-      "last_seen_at": "2026-09-08T02:22:45",
+      "affected_page": "Slimbiotics",
+      "first_seen_at": "2026-09-08T07:42:34",
+      "last_seen_at": "2026-09-08T07:42:34",
       "occurrence_count": 1
     },
-    "root_cause:Shop_All:high_ttfb": {
-      "alert_type": "high_ttfb",
+    "score_trend:FNM": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "FNM",
+      "first_seen_at": "2026-09-08T07:42:34",
+      "last_seen_at": "2026-09-08T07:42:34",
+      "occurrence_count": 1
+    },
+    "score_trend:H50+": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "H50+",
+      "first_seen_at": "2026-09-08T07:42:34",
+      "last_seen_at": "2026-09-08T07:42:34",
+      "occurrence_count": 1
+    },
+    "score_trend:MM_Chocolate": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Milk Mix Chocolate",
+      "first_seen_at": "2026-09-08T07:42:34",
+      "last_seen_at": "2026-09-08T07:42:34",
+      "occurrence_count": 1
+    },
+    "root_cause:FNM:high_cls": {
+      "alert_type": "high_cls",
       "module": "root_cause",
       "severity": "warning",
-      "affected_page": "Shop All",
-      "first_seen_at": "2026-09-08T02:22:45",
-      "last_seen_at": "2026-09-08T02:22:45",
+      "affected_page": "FNM",
+      "first_seen_at": "2026-09-08T07:42:35",
+      "last_seen_at": "2026-09-08T07:42:35",
       "occurrence_count": 1
     }
   }
