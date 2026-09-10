@@ -1,6 +1,18 @@
 {
-  "generated_at": "2026-09-09T23:47:10",
+  "generated_at": "2026-09-10T02:22:31",
   "recent_alerts": [
+    {
+      "Date": "2026-09-10",
+      "Time": "02:21:18",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
     {
       "Date": "2026-09-09",
       "Time": "23:47:09",
@@ -348,18 +360,6 @@
       "Root Cause": "",
       "Status": "New",
       "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-09-09",
-      "Time": "18:21:05",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Pineapple",
-      "Message": "Pineapple is healthy again after 2 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 2
     }
   ],
   "active_alerts": [
@@ -714,6 +714,18 @@
   ],
   "recovered_alerts": [
     {
+      "Date": "2026-09-10",
+      "Time": "02:21:18",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
       "Date": "2026-09-09",
       "Time": "23:47:09",
       "Alert Type": "high_lcp",
@@ -940,18 +952,6 @@
       "Root Cause": "",
       "Status": "Recovered",
       "Occurrence Count": 2
-    },
-    {
-      "Date": "2026-09-09",
-      "Time": "15:00:21",
-      "Alert Type": "page_failed",
-      "Severity": "high",
-      "Module": "gtmetrix",
-      "Affected Page": "Slimbiotics",
-      "Message": "Slimbiotics is healthy again after 2 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 2
     }
   ],
   "severity_counts": {
@@ -964,7 +964,7 @@
   "trend": [
     {
       "date": "2026-09-03",
-      "count": 6
+      "count": 5
     },
     {
       "date": "2026-09-04",
