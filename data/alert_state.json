@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-11T18:07:34",
-      "occurrence_count": 273
+      "last_seen_at": "2026-09-11T21:33:52",
+      "occurrence_count": 274
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-11T18:07:34",
-      "occurrence_count": 273
+      "last_seen_at": "2026-09-11T21:33:52",
+      "occurrence_count": 274
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-11T18:07:34",
-      "occurrence_count": 273
+      "last_seen_at": "2026-09-11T21:33:52",
+      "occurrence_count": 274
     },
     "root_cause:Orange:high_cls": {
       "alert_type": "high_cls",
@@ -35,15 +35,6 @@
       "first_seen_at": "2026-09-11T00:48:41",
       "last_seen_at": "2026-09-11T14:49:55",
       "occurrence_count": 2
-    },
-    "root_cause:FNM:high_cls": {
-      "alert_type": "high_cls",
-      "module": "root_cause",
-      "severity": "warning",
-      "affected_page": "FNM",
-      "first_seen_at": "2026-09-11T14:49:55",
-      "last_seen_at": "2026-09-11T14:49:55",
-      "occurrence_count": 1
     },
     "root_cause:Pineapple:high_cls": {
       "alert_type": "high_cls",
@@ -86,17 +77,17 @@
       "module": "sheets",
       "severity": "critical",
       "affected_page": null,
-      "first_seen_at": "2026-09-11T18:07:34",
-      "last_seen_at": "2026-09-11T18:07:34",
+      "first_seen_at": "2026-09-11T21:33:51",
+      "last_seen_at": "2026-09-11T21:33:52",
       "occurrence_count": 4
     },
-    "score_trend:Slimbiotics": {
+    "score_trend:Plant Protein Roti": {
       "alert_type": "performance_score_drop",
       "module": "gtmetrix",
       "severity": "warning",
-      "affected_page": "Slimbiotics",
-      "first_seen_at": "2026-09-11T18:07:34",
-      "last_seen_at": "2026-09-11T18:07:34",
+      "affected_page": "Plant Protein Roti",
+      "first_seen_at": "2026-09-11T21:33:52",
+      "last_seen_at": "2026-09-11T21:33:52",
       "occurrence_count": 1
     }
   }
