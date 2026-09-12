@@ -1,6 +1,18 @@
 {
-  "generated_at": "2026-09-12T17:37:30",
+  "generated_at": "2026-09-12T19:57:32",
   "recent_alerts": [
+    {
+      "Date": "2026-09-12",
+      "Time": "19:56:37",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
     {
       "Date": "2026-09-12",
       "Time": "17:37:29",
@@ -345,18 +357,6 @@
       "Module": "gtmetrix",
       "Affected Page": "Fiber Fix",
       "Message": "FF is healthy again after 1 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-09-11",
-      "Time": "14:49:53",
-      "Alert Type": "page_failed",
-      "Severity": "high",
-      "Module": "gtmetrix",
-      "Affected Page": "Berries",
-      "Message": "Berries is healthy again after 1 consecutive alerting run(s).",
       "Root Cause": "",
       "Status": "Recovered",
       "Occurrence Count": 1
@@ -775,6 +775,18 @@
   "recovered_alerts": [
     {
       "Date": "2026-09-12",
+      "Time": "19:56:37",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-09-12",
       "Time": "17:37:29",
       "Alert Type": "performance_score_drop",
       "Severity": "warning",
@@ -997,18 +1009,6 @@
       "Module": "gtmetrix",
       "Affected Page": "Plant Protein Roti",
       "Message": "Plant Protein Roti is healthy again after 1 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-09-11",
-      "Time": "14:49:52",
-      "Alert Type": "homepage_failed",
-      "Severity": "critical",
-      "Module": "gtmetrix",
-      "Affected Page": "Homepage",
-      "Message": "Homepage is healthy again after 1 consecutive alerting run(s).",
       "Root Cause": "",
       "Status": "Recovered",
       "Occurrence Count": 1
