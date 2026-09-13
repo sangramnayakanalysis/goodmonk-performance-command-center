@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-13T02:25:29",
-      "occurrence_count": 284
+      "last_seen_at": "2026-09-13T07:56:29",
+      "occurrence_count": 285
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-13T02:25:29",
-      "occurrence_count": 284
+      "last_seen_at": "2026-09-13T07:56:29",
+      "occurrence_count": 285
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-13T02:25:29",
-      "occurrence_count": 284
+      "last_seen_at": "2026-09-13T07:56:29",
+      "occurrence_count": 285
     },
     "root_cause:Orange:high_cls": {
       "alert_type": "high_cls",
@@ -59,26 +59,17 @@
       "module": "sheets",
       "severity": "critical",
       "affected_page": null,
-      "first_seen_at": "2026-09-13T02:25:27",
-      "last_seen_at": "2026-09-13T02:25:28",
-      "occurrence_count": 4
+      "first_seen_at": "2026-09-13T07:56:27",
+      "last_seen_at": "2026-09-13T07:56:27",
+      "occurrence_count": 2
     },
-    "score_trend:MM_Chocolate": {
+    "score_trend:H50+": {
       "alert_type": "performance_score_drop",
       "module": "gtmetrix",
       "severity": "warning",
-      "affected_page": "Milk Mix Chocolate",
-      "first_seen_at": "2026-09-13T02:25:28",
-      "last_seen_at": "2026-09-13T02:25:28",
-      "occurrence_count": 1
-    },
-    "score_trend:Weight Management": {
-      "alert_type": "performance_score_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Weight Management",
-      "first_seen_at": "2026-09-13T02:25:28",
-      "last_seen_at": "2026-09-13T02:25:28",
+      "affected_page": "H50+",
+      "first_seen_at": "2026-09-13T07:56:28",
+      "last_seen_at": "2026-09-13T07:56:28",
       "occurrence_count": 1
     }
   }
