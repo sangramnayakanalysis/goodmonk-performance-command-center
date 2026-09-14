@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-14T15:33:37",
-      "occurrence_count": 293
+      "last_seen_at": "2026-09-14T20:10:52",
+      "occurrence_count": 294
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-14T15:33:37",
-      "occurrence_count": 293
+      "last_seen_at": "2026-09-14T20:10:52",
+      "occurrence_count": 294
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-14T15:33:37",
-      "occurrence_count": 293
+      "last_seen_at": "2026-09-14T20:10:52",
+      "occurrence_count": 294
     },
     "root_cause:MM_Vanilla:high_cls": {
       "alert_type": "high_cls",
@@ -35,15 +35,6 @@
       "first_seen_at": "2026-09-13T13:04:42",
       "last_seen_at": "2026-09-13T13:04:42",
       "occurrence_count": 1
-    },
-    "score_trend:Shop_All": {
-      "alert_type": "performance_score_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Shop All",
-      "first_seen_at": "2026-09-14T08:27:01",
-      "last_seen_at": "2026-09-14T15:33:37",
-      "occurrence_count": 2
     },
     "root_cause:Shop_All:high_lcp": {
       "alert_type": "high_lcp",
@@ -59,9 +50,36 @@
       "module": "sheets",
       "severity": "critical",
       "affected_page": null,
-      "first_seen_at": "2026-09-14T15:33:36",
-      "last_seen_at": "2026-09-14T15:33:36",
-      "occurrence_count": 4
+      "first_seen_at": "2026-09-14T20:10:49",
+      "last_seen_at": "2026-09-14T20:10:50",
+      "occurrence_count": 2
+    },
+    "score_trend:Weight Management": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Weight Management",
+      "first_seen_at": "2026-09-14T20:10:51",
+      "last_seen_at": "2026-09-14T20:10:51",
+      "occurrence_count": 1
+    },
+    "score_trend:Plant Protein Roti": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Plant Protein Roti",
+      "first_seen_at": "2026-09-14T20:10:51",
+      "last_seen_at": "2026-09-14T20:10:51",
+      "occurrence_count": 1
+    },
+    "score_trend:Slimbiotics": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Slimbiotics",
+      "first_seen_at": "2026-09-14T20:10:51",
+      "last_seen_at": "2026-09-14T20:10:51",
+      "occurrence_count": 1
     }
   }
 }
