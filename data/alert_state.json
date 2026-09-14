@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-14T02:43:54",
-      "occurrence_count": 291
+      "last_seen_at": "2026-09-14T08:27:01",
+      "occurrence_count": 292
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-14T02:43:54",
-      "occurrence_count": 291
+      "last_seen_at": "2026-09-14T08:27:01",
+      "occurrence_count": 292
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-14T02:43:54",
-      "occurrence_count": 291
+      "last_seen_at": "2026-09-14T08:27:01",
+      "occurrence_count": 292
     },
     "root_cause:MM_Vanilla:high_cls": {
       "alert_type": "high_cls",
@@ -50,17 +50,89 @@
       "module": "sheets",
       "severity": "critical",
       "affected_page": null,
-      "first_seen_at": "2026-09-14T02:43:53",
-      "last_seen_at": "2026-09-14T02:43:53",
+      "first_seen_at": "2026-09-14T08:27:00",
+      "last_seen_at": "2026-09-14T08:27:00",
       "occurrence_count": 4
     },
-    "score_trend:FF": {
+    "gtmetrix:MM_Chocolate": {
+      "alert_type": "page_failed",
+      "module": "gtmetrix",
+      "severity": "high",
+      "affected_page": "Milk Mix Chocolate",
+      "first_seen_at": "2026-09-14T08:27:00",
+      "last_seen_at": "2026-09-14T08:27:00",
+      "occurrence_count": 1
+    },
+    "gtmetrix:Assorted": {
+      "alert_type": "page_failed",
+      "module": "gtmetrix",
+      "severity": "high",
+      "affected_page": "Assorted",
+      "first_seen_at": "2026-09-14T08:27:00",
+      "last_seen_at": "2026-09-14T08:27:00",
+      "occurrence_count": 1
+    },
+    "gtmetrix:MM_Vanilla": {
+      "alert_type": "page_failed",
+      "module": "gtmetrix",
+      "severity": "high",
+      "affected_page": "Milk Mix Vanilla",
+      "first_seen_at": "2026-09-14T08:27:00",
+      "last_seen_at": "2026-09-14T08:27:00",
+      "occurrence_count": 1
+    },
+    "gtmetrix:Plant Protein Roti": {
+      "alert_type": "page_failed",
+      "module": "gtmetrix",
+      "severity": "high",
+      "affected_page": "Plant Protein Roti",
+      "first_seen_at": "2026-09-14T08:27:00",
+      "last_seen_at": "2026-09-14T08:27:00",
+      "occurrence_count": 1
+    },
+    "gtmetrix:Slimbiotics": {
+      "alert_type": "page_failed",
+      "module": "gtmetrix",
+      "severity": "high",
+      "affected_page": "Slimbiotics",
+      "first_seen_at": "2026-09-14T08:27:00",
+      "last_seen_at": "2026-09-14T08:27:00",
+      "occurrence_count": 1
+    },
+    "gtmetrix:MM_Strawberry": {
+      "alert_type": "page_failed",
+      "module": "gtmetrix",
+      "severity": "high",
+      "affected_page": "Milk Mix Strawberry",
+      "first_seen_at": "2026-09-14T08:27:00",
+      "last_seen_at": "2026-09-14T08:27:00",
+      "occurrence_count": 1
+    },
+    "gtmetrix:Weight Management": {
+      "alert_type": "page_failed",
+      "module": "gtmetrix",
+      "severity": "high",
+      "affected_page": "Weight Management",
+      "first_seen_at": "2026-09-14T08:27:00",
+      "last_seen_at": "2026-09-14T08:27:00",
+      "occurrence_count": 1
+    },
+    "score_trend:Shop_All": {
       "alert_type": "performance_score_drop",
       "module": "gtmetrix",
       "severity": "warning",
-      "affected_page": "Fiber Fix",
-      "first_seen_at": "2026-09-14T02:43:53",
-      "last_seen_at": "2026-09-14T02:43:53",
+      "affected_page": "Shop All",
+      "first_seen_at": "2026-09-14T08:27:01",
+      "last_seen_at": "2026-09-14T08:27:01",
+      "occurrence_count": 1
+    },
+    "root_cause:Shop_All:high_lcp": {
+      "alert_type": "high_lcp",
+      "module": "root_cause",
+      "severity": "warning",
+      "affected_page": "Shop All",
+      "first_seen_at": "2026-09-14T08:27:01",
+      "last_seen_at": "2026-09-14T08:27:01",
       "occurrence_count": 1
     }
   }
