@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-16T17:59:17",
-      "occurrence_count": 305
+      "last_seen_at": "2026-09-16T20:47:26",
+      "occurrence_count": 306
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-16T17:59:17",
-      "occurrence_count": 305
+      "last_seen_at": "2026-09-16T20:47:26",
+      "occurrence_count": 306
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-16T17:59:17",
-      "occurrence_count": 305
+      "last_seen_at": "2026-09-16T20:47:26",
+      "occurrence_count": 306
     },
     "root_cause:MM_Vanilla:high_cls": {
       "alert_type": "high_cls",
@@ -41,17 +41,35 @@
       "module": "sheets",
       "severity": "critical",
       "affected_page": null,
-      "first_seen_at": "2026-09-16T17:59:13",
-      "last_seen_at": "2026-09-16T17:59:15",
-      "occurrence_count": 2
+      "first_seen_at": "2026-09-16T20:47:26",
+      "last_seen_at": "2026-09-16T20:47:26",
+      "occurrence_count": 4
     },
-    "score_trend:Weight Management": {
+    "score_trend:Assorted": {
       "alert_type": "performance_score_drop",
       "module": "gtmetrix",
       "severity": "warning",
-      "affected_page": "Weight Management",
-      "first_seen_at": "2026-09-16T17:59:15",
-      "last_seen_at": "2026-09-16T17:59:15",
+      "affected_page": "Assorted",
+      "first_seen_at": "2026-09-16T20:47:26",
+      "last_seen_at": "2026-09-16T20:47:26",
+      "occurrence_count": 1
+    },
+    "score_trend:Pineapple": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Pineapple",
+      "first_seen_at": "2026-09-16T20:47:26",
+      "last_seen_at": "2026-09-16T20:47:26",
+      "occurrence_count": 1
+    },
+    "score_trend:FF": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Fiber Fix",
+      "first_seen_at": "2026-09-16T20:47:26",
+      "last_seen_at": "2026-09-16T20:47:26",
       "occurrence_count": 1
     }
   }
