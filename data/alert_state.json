@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-18T12:38:04",
-      "occurrence_count": 316
+      "last_seen_at": "2026-09-18T16:53:10",
+      "occurrence_count": 317
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-18T12:38:04",
-      "occurrence_count": 316
+      "last_seen_at": "2026-09-18T16:53:10",
+      "occurrence_count": 317
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-18T12:38:04",
-      "occurrence_count": 316
+      "last_seen_at": "2026-09-18T16:53:10",
+      "occurrence_count": 317
     },
     "root_cause:FF:high_cls": {
       "alert_type": "high_cls",
@@ -42,35 +42,8 @@
       "severity": "warning",
       "affected_page": "Slimbiotics",
       "first_seen_at": "2026-09-18T07:54:13",
-      "last_seen_at": "2026-09-18T12:38:04",
-      "occurrence_count": 2
-    },
-    "operational:sheets:google_sheets_failure": {
-      "alert_type": "google_sheets_failure",
-      "module": "sheets",
-      "severity": "critical",
-      "affected_page": null,
-      "first_seen_at": "2026-09-18T12:38:03",
-      "last_seen_at": "2026-09-18T12:38:03",
-      "occurrence_count": 4
-    },
-    "gtmetrix:Plant Protein Roti": {
-      "alert_type": "page_failed",
-      "module": "gtmetrix",
-      "severity": "high",
-      "affected_page": "Plant Protein Roti",
-      "first_seen_at": "2026-09-18T12:38:03",
-      "last_seen_at": "2026-09-18T12:38:03",
-      "occurrence_count": 1
-    },
-    "gtmetrix:Weight Management": {
-      "alert_type": "page_failed",
-      "module": "gtmetrix",
-      "severity": "high",
-      "affected_page": "Weight Management",
-      "first_seen_at": "2026-09-18T12:38:03",
-      "last_seen_at": "2026-09-18T12:38:03",
-      "occurrence_count": 1
+      "last_seen_at": "2026-09-18T16:53:10",
+      "occurrence_count": 3
     },
     "score_trend:FF": {
       "alert_type": "performance_score_drop",
@@ -78,8 +51,8 @@
       "severity": "warning",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-09-18T12:38:04",
-      "last_seen_at": "2026-09-18T12:38:04",
-      "occurrence_count": 1
+      "last_seen_at": "2026-09-18T16:53:10",
+      "occurrence_count": 2
     },
     "score_trend:Assorted": {
       "alert_type": "performance_grade_drop",
@@ -87,8 +60,8 @@
       "severity": "warning",
       "affected_page": "Assorted",
       "first_seen_at": "2026-09-18T12:38:04",
-      "last_seen_at": "2026-09-18T12:38:04",
-      "occurrence_count": 1
+      "last_seen_at": "2026-09-18T16:53:10",
+      "occurrence_count": 2
     },
     "root_cause:Slimbiotics:high_cls": {
       "alert_type": "high_cls",
@@ -98,6 +71,15 @@
       "first_seen_at": "2026-09-18T12:38:04",
       "last_seen_at": "2026-09-18T12:38:04",
       "occurrence_count": 1
+    },
+    "operational:sheets:google_sheets_failure": {
+      "alert_type": "google_sheets_failure",
+      "module": "sheets",
+      "severity": "critical",
+      "affected_page": null,
+      "first_seen_at": "2026-09-18T16:53:10",
+      "last_seen_at": "2026-09-18T16:53:10",
+      "occurrence_count": 4
     }
   }
 }
