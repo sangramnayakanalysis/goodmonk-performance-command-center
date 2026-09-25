@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-25T20:58:39",
-      "occurrence_count": 360
+      "last_seen_at": "2026-09-25T23:49:19",
+      "occurrence_count": 361
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-25T20:58:39",
-      "occurrence_count": 360
+      "last_seen_at": "2026-09-25T23:49:19",
+      "occurrence_count": 361
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-25T20:58:39",
-      "occurrence_count": 360
+      "last_seen_at": "2026-09-25T23:49:19",
+      "occurrence_count": 361
     },
     "root_cause:Slimbiotics:high_cls": {
       "alert_type": "high_cls",
@@ -45,32 +45,14 @@
       "last_seen_at": "2026-09-25T17:44:12",
       "occurrence_count": 4
     },
-    "score_trend:Berries": {
-      "alert_type": "performance_score_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Berries",
-      "first_seen_at": "2026-09-25T17:44:12",
-      "last_seen_at": "2026-09-25T20:58:39",
-      "occurrence_count": 2
-    },
     "operational:sheets:google_sheets_failure": {
       "alert_type": "google_sheets_failure",
       "module": "sheets",
       "severity": "critical",
       "affected_page": null,
-      "first_seen_at": "2026-09-25T20:58:38",
-      "last_seen_at": "2026-09-25T20:58:39",
+      "first_seen_at": "2026-09-25T23:49:19",
+      "last_seen_at": "2026-09-25T23:49:19",
       "occurrence_count": 4
-    },
-    "score_trend:MM_Vanilla": {
-      "alert_type": "performance_score_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Milk Mix Vanilla",
-      "first_seen_at": "2026-09-25T20:58:39",
-      "last_seen_at": "2026-09-25T20:58:39",
-      "occurrence_count": 1
     }
   }
 }
