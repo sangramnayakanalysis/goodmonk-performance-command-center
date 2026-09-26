@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-26T02:52:22",
-      "occurrence_count": 362
+      "last_seen_at": "2026-09-26T08:12:10",
+      "occurrence_count": 363
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-26T02:52:22",
-      "occurrence_count": 362
+      "last_seen_at": "2026-09-26T08:12:10",
+      "occurrence_count": 363
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-26T02:52:22",
-      "occurrence_count": 362
+      "last_seen_at": "2026-09-26T08:12:10",
+      "occurrence_count": 363
     },
     "root_cause:Slimbiotics:high_cls": {
       "alert_type": "high_cls",
@@ -36,32 +36,14 @@
       "last_seen_at": "2026-09-18T12:38:04",
       "occurrence_count": 1
     },
-    "operational:sheets:google_sheets_failure": {
-      "alert_type": "google_sheets_failure",
-      "module": "sheets",
-      "severity": "critical",
-      "affected_page": null,
-      "first_seen_at": "2026-09-26T02:52:18",
-      "last_seen_at": "2026-09-26T02:52:18",
-      "occurrence_count": 3
-    },
-    "gtmetrix:FNM": {
-      "alert_type": "page_failed",
-      "module": "gtmetrix",
-      "severity": "high",
-      "affected_page": "FNM",
-      "first_seen_at": "2026-09-26T02:52:19",
-      "last_seen_at": "2026-09-26T02:52:19",
-      "occurrence_count": 1
-    },
     "score_trend:Assorted": {
       "alert_type": "performance_score_drop",
       "module": "gtmetrix",
       "severity": "warning",
       "affected_page": "Assorted",
       "first_seen_at": "2026-09-26T02:52:20",
-      "last_seen_at": "2026-09-26T02:52:20",
-      "occurrence_count": 1
+      "last_seen_at": "2026-09-26T08:12:10",
+      "occurrence_count": 2
     },
     "score_trend:MM_Strawberry": {
       "alert_type": "performance_score_drop",
@@ -69,8 +51,8 @@
       "severity": "warning",
       "affected_page": "Milk Mix Strawberry",
       "first_seen_at": "2026-09-26T02:52:20",
-      "last_seen_at": "2026-09-26T02:52:20",
-      "occurrence_count": 1
+      "last_seen_at": "2026-09-26T08:12:10",
+      "occurrence_count": 2
     },
     "score_trend:Weight Management": {
       "alert_type": "performance_score_drop",
@@ -78,8 +60,17 @@
       "severity": "warning",
       "affected_page": "Weight Management",
       "first_seen_at": "2026-09-26T02:52:20",
-      "last_seen_at": "2026-09-26T02:52:20",
-      "occurrence_count": 1
+      "last_seen_at": "2026-09-26T08:12:10",
+      "occurrence_count": 2
+    },
+    "operational:sheets:google_sheets_failure": {
+      "alert_type": "google_sheets_failure",
+      "module": "sheets",
+      "severity": "critical",
+      "affected_page": null,
+      "first_seen_at": "2026-09-26T08:12:10",
+      "last_seen_at": "2026-09-26T08:12:10",
+      "occurrence_count": 4
     }
   }
 }
