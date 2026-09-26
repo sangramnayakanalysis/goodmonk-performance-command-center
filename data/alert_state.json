@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-26T13:37:20",
-      "occurrence_count": 364
+      "last_seen_at": "2026-09-26T17:36:55",
+      "occurrence_count": 365
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-26T13:37:20",
-      "occurrence_count": 364
+      "last_seen_at": "2026-09-26T17:36:55",
+      "occurrence_count": 365
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-26T13:37:20",
-      "occurrence_count": 364
+      "last_seen_at": "2026-09-26T17:36:55",
+      "occurrence_count": 365
     },
     "root_cause:Slimbiotics:high_cls": {
       "alert_type": "high_cls",
@@ -41,26 +41,26 @@
       "module": "sheets",
       "severity": "critical",
       "affected_page": null,
-      "first_seen_at": "2026-09-26T13:37:17",
-      "last_seen_at": "2026-09-26T13:37:18",
-      "occurrence_count": 2
+      "first_seen_at": "2026-09-26T17:36:51",
+      "last_seen_at": "2026-09-26T17:36:53",
+      "occurrence_count": 3
     },
-    "score_trend:Pineapple": {
-      "alert_type": "performance_score_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Pineapple",
-      "first_seen_at": "2026-09-26T13:37:18",
-      "last_seen_at": "2026-09-26T13:37:18",
-      "occurrence_count": 1
-    },
-    "score_trend:Orange": {
+    "score_trend:FF": {
       "alert_type": "performance_grade_drop",
       "module": "gtmetrix",
       "severity": "warning",
-      "affected_page": "Orange",
-      "first_seen_at": "2026-09-26T13:37:18",
-      "last_seen_at": "2026-09-26T13:37:18",
+      "affected_page": "Fiber Fix",
+      "first_seen_at": "2026-09-26T17:36:53",
+      "last_seen_at": "2026-09-26T17:36:53",
+      "occurrence_count": 1
+    },
+    "score_trend:Shop_All": {
+      "alert_type": "performance_grade_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Shop All",
+      "first_seen_at": "2026-09-26T17:36:53",
+      "last_seen_at": "2026-09-26T17:36:53",
       "occurrence_count": 1
     }
   }

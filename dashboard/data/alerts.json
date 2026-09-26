@@ -1,6 +1,66 @@
 {
-  "generated_at": "2026-09-26T13:37:21",
+  "generated_at": "2026-09-26T17:36:56",
   "recent_alerts": [
+    {
+      "Date": "2026-09-26",
+      "Time": "17:36:55",
+      "Alert Type": "performance_grade_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Orange",
+      "Message": "Orange is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-09-26",
+      "Time": "17:36:54",
+      "Alert Type": "performance_grade_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Shop All",
+      "Message": "Shop All's grade dropped from C to D.",
+      "Root Cause": "",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-09-26",
+      "Time": "17:36:54",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Pineapple",
+      "Message": "Pineapple is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-09-26",
+      "Time": "17:36:53",
+      "Alert Type": "performance_grade_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Fiber Fix",
+      "Message": "Fiber Fix's grade dropped from C to D.",
+      "Root Cause": "",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-09-26",
+      "Time": "17:32:37",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 2 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 2
+    },
     {
       "Date": "2026-09-26",
       "Time": "13:37:20",
@@ -300,81 +360,9 @@
       "Root Cause": "",
       "Status": "Recovered",
       "Occurrence Count": 4
-    },
-    {
-      "Date": "2026-09-25",
-      "Time": "01:03:36",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 4 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 4
-    },
-    {
-      "Date": "2026-09-24",
-      "Time": "22:53:47",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 4 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 4
-    },
-    {
-      "Date": "2026-09-24",
-      "Time": "19:40:47",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-09-24",
-      "Time": "15:43:22",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Assorted",
-      "Message": "Assorted is healthy again after 1 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-09-24",
-      "Time": "15:43:21",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Milk Mix Chocolate",
-      "Message": "MM_Chocolate is healthy again after 1 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
     }
   ],
   "active_alerts": [
-    {
-      "Date": "2026-09-19",
-      "Time": "05:22:44",
-      "Alert Type": "gtmetrix_api_failure",
-      "Severity": "critical",
-      "Module": "gtmetrix",
-      "Affected Page": "Orange",
-      "Message": "Every configured page failed this run (16/16) \u2014 likely a systemic GTmetrix API or network issue.",
-      "Root Cause": "startTest(https://www.goodmonk.in/products/instant-fruit-drink-mix-orange): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has 0 API credits remaining. Your next API credit refill is scheduled for Sat, Sep 19, 2026 2:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
     {
       "Date": "2026-09-19",
       "Time": "22:00:52",
@@ -521,12 +509,12 @@
     },
     {
       "Date": "2026-09-26",
-      "Time": "13:37:18",
-      "Alert Type": "performance_score_drop",
+      "Time": "17:36:54",
+      "Alert Type": "performance_grade_drop",
       "Severity": "warning",
       "Module": "gtmetrix",
-      "Affected Page": "Pineapple",
-      "Message": "Pineapple's score dropped from 61.0 to 38.0 (23.0 points).",
+      "Affected Page": "Shop All",
+      "Message": "Shop All's grade dropped from C to D.",
       "Root Cause": "",
       "Status": "New",
       "Occurrence Count": 1
@@ -580,18 +568,6 @@
       "Occurrence Count": 1
     },
     {
-      "Date": "2026-09-26",
-      "Time": "13:37:19",
-      "Alert Type": "performance_grade_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Orange",
-      "Message": "Orange's grade dropped from C to D.",
-      "Root Cause": "",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
       "Date": "2026-09-22",
       "Time": "05:46:01",
       "Alert Type": "performance_grade_drop",
@@ -611,6 +587,18 @@
       "Module": "gtmetrix",
       "Affected Page": "Homepage",
       "Message": "Homepage's grade dropped from C to D.",
+      "Root Cause": "",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-09-26",
+      "Time": "17:36:53",
+      "Alert Type": "performance_grade_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Fiber Fix",
+      "Message": "Fiber Fix's grade dropped from C to D.",
       "Root Cause": "",
       "Status": "New",
       "Occurrence Count": 1
@@ -653,6 +641,42 @@
     }
   ],
   "recovered_alerts": [
+    {
+      "Date": "2026-09-26",
+      "Time": "17:36:55",
+      "Alert Type": "performance_grade_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Orange",
+      "Message": "Orange is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-09-26",
+      "Time": "17:36:54",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Pineapple",
+      "Message": "Pineapple is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-09-26",
+      "Time": "17:32:37",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 2 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 2
+    },
     {
       "Date": "2026-09-26",
       "Time": "13:37:20",
@@ -856,55 +880,19 @@
       "Root Cause": "",
       "Status": "Recovered",
       "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-09-24",
-      "Time": "15:43:22",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Assorted",
-      "Message": "Assorted is healthy again after 1 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-09-24",
-      "Time": "15:43:21",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Milk Mix Chocolate",
-      "Message": "MM_Chocolate is healthy again after 1 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-09-24",
-      "Time": "15:43:20",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Pineapple",
-      "Message": "Pineapple is healthy again after 1 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
     }
   ],
   "severity_counts": {
-    "critical": 2,
+    "critical": 1,
     "high": 13,
     "warning": 9,
     "info": 0
   },
-  "total_active": 24,
+  "total_active": 23,
   "trend": [
     {
       "date": "2026-09-19",
-      "count": 13
+      "count": 12
     },
     {
       "date": "2026-09-20",
@@ -932,7 +920,7 @@
     },
     {
       "date": "2026-09-26",
-      "count": 6
+      "count": 8
     }
   ]
 }
