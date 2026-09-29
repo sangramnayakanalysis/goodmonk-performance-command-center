@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-28T21:03:24",
-      "occurrence_count": 376
+      "last_seen_at": "2026-09-29T00:54:36",
+      "occurrence_count": 377
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-28T21:03:24",
-      "occurrence_count": 376
+      "last_seen_at": "2026-09-29T00:54:36",
+      "occurrence_count": 377
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-28T21:03:24",
-      "occurrence_count": 376
+      "last_seen_at": "2026-09-29T00:54:36",
+      "occurrence_count": 377
     },
     "root_cause:Slimbiotics:high_cls": {
       "alert_type": "high_cls",
@@ -41,35 +41,17 @@
       "module": "sheets",
       "severity": "critical",
       "affected_page": null,
-      "first_seen_at": "2026-09-28T21:03:21",
-      "last_seen_at": "2026-09-28T21:03:22",
-      "occurrence_count": 3
+      "first_seen_at": "2026-09-29T00:54:35",
+      "last_seen_at": "2026-09-29T00:54:36",
+      "occurrence_count": 4
     },
-    "score_trend:MM_Vanilla": {
-      "alert_type": "performance_grade_drop",
+    "score_trend:Plant Protein Roti": {
+      "alert_type": "performance_score_drop",
       "module": "gtmetrix",
       "severity": "warning",
-      "affected_page": "Milk Mix Vanilla",
-      "first_seen_at": "2026-09-28T21:03:22",
-      "last_seen_at": "2026-09-28T21:03:22",
-      "occurrence_count": 1
-    },
-    "score_trend:Orange": {
-      "alert_type": "performance_grade_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Orange",
-      "first_seen_at": "2026-09-28T21:03:22",
-      "last_seen_at": "2026-09-28T21:03:22",
-      "occurrence_count": 1
-    },
-    "score_trend:Shop_All": {
-      "alert_type": "performance_grade_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Shop All",
-      "first_seen_at": "2026-09-28T21:03:22",
-      "last_seen_at": "2026-09-28T21:03:22",
+      "affected_page": "Plant Protein Roti",
+      "first_seen_at": "2026-09-29T00:54:36",
+      "last_seen_at": "2026-09-29T00:54:36",
       "occurrence_count": 1
     }
   }
