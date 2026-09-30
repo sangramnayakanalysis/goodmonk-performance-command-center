@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-30T03:20:10",
-      "occurrence_count": 382
+      "last_seen_at": "2026-09-30T10:13:36",
+      "occurrence_count": 383
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-30T03:20:10",
-      "occurrence_count": 382
+      "last_seen_at": "2026-09-30T10:13:36",
+      "occurrence_count": 383
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-09-30T03:20:10",
-      "occurrence_count": 382
+      "last_seen_at": "2026-09-30T10:13:36",
+      "occurrence_count": 383
     },
     "root_cause:FF:high_cls": {
       "alert_type": "high_cls",
@@ -41,36 +41,9 @@
       "module": "sheets",
       "severity": "critical",
       "affected_page": null,
-      "first_seen_at": "2026-09-30T03:20:06",
-      "last_seen_at": "2026-09-30T03:20:06",
-      "occurrence_count": 4
-    },
-    "score_trend:MM_Vanilla": {
-      "alert_type": "performance_score_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Milk Mix Vanilla",
-      "first_seen_at": "2026-09-30T03:20:06",
-      "last_seen_at": "2026-09-30T03:20:06",
-      "occurrence_count": 1
-    },
-    "score_trend:Weight Management": {
-      "alert_type": "performance_score_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Weight Management",
-      "first_seen_at": "2026-09-30T03:20:06",
-      "last_seen_at": "2026-09-30T03:20:06",
-      "occurrence_count": 1
-    },
-    "score_trend:Mango": {
-      "alert_type": "performance_score_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Mango",
-      "first_seen_at": "2026-09-30T03:20:06",
-      "last_seen_at": "2026-09-30T03:20:06",
-      "occurrence_count": 1
+      "first_seen_at": "2026-09-30T10:13:33",
+      "last_seen_at": "2026-09-30T10:13:33",
+      "occurrence_count": 2
     }
   }
 }
