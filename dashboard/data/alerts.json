@@ -1,6 +1,114 @@
 {
-  "generated_at": "2026-10-14T11:02:01",
+  "generated_at": "2026-10-14T15:45:58",
   "recent_alerts": [
+    {
+      "Date": "2026-10-14",
+      "Time": "15:45:57",
+      "Alert Type": "slow_server_response",
+      "Severity": "warning",
+      "Module": "root_cause",
+      "Affected Page": "Fiber Fix",
+      "Message": "FF:slow_server_response is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-14",
+      "Time": "15:45:57",
+      "Alert Type": "high_ttfb",
+      "Severity": "critical",
+      "Module": "root_cause",
+      "Affected Page": "Fiber Fix",
+      "Message": "FF:high_ttfb is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-14",
+      "Time": "15:45:56",
+      "Alert Type": "high_cls",
+      "Severity": "warning",
+      "Module": "root_cause",
+      "Affected Page": "Fiber Fix",
+      "Message": "Cumulative Layout Shift is 0.136259 (threshold 0.1).",
+      "Root Cause": "Reserve explicit width/height (or aspect-ratio) for images and embeds above the fold.",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-14",
+      "Time": "15:45:56",
+      "Alert Type": "performance_grade_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Orange",
+      "Message": "Orange is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-14",
+      "Time": "15:45:55",
+      "Alert Type": "performance_grade_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Shop All",
+      "Message": "Shop_All is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-14",
+      "Time": "15:45:55",
+      "Alert Type": "performance_grade_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Fiber Fix",
+      "Message": "Fiber Fix's grade dropped from C to D.",
+      "Root Cause": "",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-14",
+      "Time": "15:45:54",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Assorted",
+      "Message": "Assorted is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-14",
+      "Time": "15:45:54",
+      "Alert Type": "performance_grade_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Berries",
+      "Message": "Berries's grade dropped from C to D.",
+      "Root Cause": "",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-14",
+      "Time": "15:40:54",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
     {
       "Date": "2026-10-14",
       "Time": "11:02:00",
@@ -252,177 +360,9 @@
       "Root Cause": "",
       "Status": "New",
       "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-14",
-      "Time": "00:52:51",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Milk Mix Vanilla",
-      "Message": "MM_Vanilla is healthy again after 1 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-14",
-      "Time": "00:52:50",
-      "Alert Type": "performance_grade_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "H50+",
-      "Message": "H50+'s grade dropped from C to D.",
-      "Root Cause": "",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-14",
-      "Time": "00:48:14",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 3 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 3
-    },
-    {
-      "Date": "2026-10-13",
-      "Time": "21:41:47",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 4 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 4
-    },
-    {
-      "Date": "2026-10-13",
-      "Time": "16:38:37",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 4 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 4
-    },
-    {
-      "Date": "2026-10-13",
-      "Time": "08:47:09",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 4 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 4
-    },
-    {
-      "Date": "2026-10-13",
-      "Time": "01:04:10",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 4 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 4
-    },
-    {
-      "Date": "2026-10-12",
-      "Time": "18:26:25",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-12",
-      "Time": "08:33:08",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 4 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 4
     }
   ],
   "active_alerts": [
-    {
-      "Date": "2026-10-09",
-      "Time": "23:53:15",
-      "Alert Type": "performance_grade_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Mango",
-      "Message": "Mango's grade dropped from C to D.",
-      "Root Cause": "",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-14",
-      "Time": "11:02:00",
-      "Alert Type": "performance_grade_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Shop All",
-      "Message": "Shop All's grade dropped from C to D.",
-      "Root Cause": "",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-10",
-      "Time": "03:42:11",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "H50+",
-      "Message": "H50+'s score dropped from 65.0 to 30.0 (35.0 points).",
-      "Root Cause": "",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-14",
-      "Time": "11:01:57",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "APIError: [429]: Quota exceeded for quota metric 'Read requests' and limit 'Read requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:435732750985'.",
-      "Root Cause": "Writing journey result for FNM",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-14",
-      "Time": "11:01:59",
-      "Alert Type": "performance_grade_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Orange",
-      "Message": "Orange's grade dropped from C to D.",
-      "Root Cause": "",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
     {
       "Date": "2026-10-10",
       "Time": "16:09:21",
@@ -460,8 +400,8 @@
       "Occurrence Count": 1
     },
     {
-      "Date": "2026-10-07",
-      "Time": "08:16:47",
+      "Date": "2026-10-14",
+      "Time": "15:45:54",
       "Alert Type": "performance_grade_drop",
       "Severity": "warning",
       "Module": "gtmetrix",
@@ -479,18 +419,6 @@
       "Module": "gtmetrix",
       "Affected Page": "H50+",
       "Message": "H50+'s grade dropped from C to D.",
-      "Root Cause": "",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-14",
-      "Time": "11:01:58",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Assorted",
-      "Message": "Assorted's score dropped from 62.0 to 40.0 (22.0 points).",
       "Root Cause": "",
       "Status": "New",
       "Occurrence Count": 1
@@ -593,7 +521,7 @@
     },
     {
       "Date": "2026-10-14",
-      "Time": "00:52:54",
+      "Time": "15:45:56",
       "Alert Type": "high_cls",
       "Severity": "warning",
       "Module": "root_cause",
@@ -616,6 +544,18 @@
       "Occurrence Count": 1
     },
     {
+      "Date": "2026-10-09",
+      "Time": "23:53:15",
+      "Alert Type": "performance_grade_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Mango",
+      "Message": "Mango's grade dropped from C to D.",
+      "Root Cause": "",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
       "Date": "2026-10-10",
       "Time": "03:42:12",
       "Alert Type": "performance_score_drop",
@@ -623,6 +563,18 @@
       "Module": "gtmetrix",
       "Affected Page": "Shop All",
       "Message": "Shop All's score dropped from 64.0 to 47.0 (17.0 points).",
+      "Root Cause": "",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-10",
+      "Time": "03:42:11",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "H50+",
+      "Message": "H50+'s score dropped from 65.0 to 30.0 (35.0 points).",
       "Root Cause": "",
       "Status": "New",
       "Occurrence Count": 1
@@ -677,6 +629,18 @@
     },
     {
       "Date": "2026-10-14",
+      "Time": "15:45:55",
+      "Alert Type": "performance_grade_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Fiber Fix",
+      "Message": "Fiber Fix's grade dropped from C to D.",
+      "Root Cause": "",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-14",
       "Time": "00:52:54",
       "Alert Type": "slow_server_response",
       "Severity": "warning",
@@ -713,6 +677,78 @@
     }
   ],
   "recovered_alerts": [
+    {
+      "Date": "2026-10-14",
+      "Time": "15:45:57",
+      "Alert Type": "slow_server_response",
+      "Severity": "warning",
+      "Module": "root_cause",
+      "Affected Page": "Fiber Fix",
+      "Message": "FF:slow_server_response is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-14",
+      "Time": "15:45:57",
+      "Alert Type": "high_ttfb",
+      "Severity": "critical",
+      "Module": "root_cause",
+      "Affected Page": "Fiber Fix",
+      "Message": "FF:high_ttfb is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-14",
+      "Time": "15:45:56",
+      "Alert Type": "performance_grade_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Orange",
+      "Message": "Orange is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-14",
+      "Time": "15:45:55",
+      "Alert Type": "performance_grade_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Shop All",
+      "Message": "Shop_All is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-14",
+      "Time": "15:45:54",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Assorted",
+      "Message": "Assorted is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-14",
+      "Time": "15:40:54",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
     {
       "Date": "2026-10-14",
       "Time": "11:02:00",
@@ -880,95 +916,19 @@
       "Root Cause": "",
       "Status": "Recovered",
       "Occurrence Count": 4
-    },
-    {
-      "Date": "2026-10-12",
-      "Time": "01:58:15",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 4 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 4
-    },
-    {
-      "Date": "2026-10-11",
-      "Time": "22:37:29",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 2 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 2
-    },
-    {
-      "Date": "2026-10-11",
-      "Time": "18:34:16",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 2 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 2
-    },
-    {
-      "Date": "2026-10-11",
-      "Time": "13:45:27",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Milk Mix Strawberry",
-      "Message": "MM_Strawberry is healthy again after 1 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-11",
-      "Time": "13:45:27",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Milk Mix Chocolate",
-      "Message": "MM_Chocolate is healthy again after 1 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-11",
-      "Time": "13:45:26",
-      "Alert Type": "performance_grade_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Orange",
-      "Message": "Orange is healthy again after 2 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 2
     }
   ],
   "severity_counts": {
-    "critical": 1,
+    "critical": 0,
     "high": 0,
-    "warning": 28,
+    "warning": 26,
     "info": 0
   },
-  "total_active": 29,
+  "total_active": 26,
   "trend": [
     {
-      "date": "2026-10-03",
-      "count": 3
-    },
-    {
       "date": "2026-10-04",
-      "count": 19
+      "count": 16
     },
     {
       "date": "2026-10-05",
@@ -1000,7 +960,7 @@
     },
     {
       "date": "2026-10-14",
-      "count": 16
+      "count": 19
     }
   ]
 }

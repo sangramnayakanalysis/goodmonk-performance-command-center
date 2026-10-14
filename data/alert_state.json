@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-10-14T11:02:00",
-      "occurrence_count": 444
+      "last_seen_at": "2026-10-14T15:45:57",
+      "occurrence_count": 445
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-10-14T11:02:00",
-      "occurrence_count": 444
+      "last_seen_at": "2026-10-14T15:45:57",
+      "occurrence_count": 445
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-10-14T11:02:00",
-      "occurrence_count": 444
+      "last_seen_at": "2026-10-14T15:45:57",
+      "occurrence_count": 445
     },
     "root_cause:MM_Vanilla:high_cls": {
       "alert_type": "high_cls",
@@ -36,58 +36,40 @@
       "last_seen_at": "2026-10-14T05:45:54",
       "occurrence_count": 1
     },
-    "root_cause:FF:slow_server_response": {
-      "alert_type": "slow_server_response",
-      "module": "root_cause",
-      "severity": "warning",
-      "affected_page": "Fiber Fix",
-      "first_seen_at": "2026-10-14T05:45:54",
-      "last_seen_at": "2026-10-14T05:45:54",
-      "occurrence_count": 1
-    },
-    "root_cause:FF:high_ttfb": {
-      "alert_type": "high_ttfb",
-      "module": "root_cause",
-      "severity": "critical",
-      "affected_page": "Fiber Fix",
-      "first_seen_at": "2026-10-14T05:45:54",
-      "last_seen_at": "2026-10-14T05:45:54",
-      "occurrence_count": 1
-    },
     "operational:sheets:google_sheets_failure": {
       "alert_type": "google_sheets_failure",
       "module": "sheets",
       "severity": "critical",
       "affected_page": null,
-      "first_seen_at": "2026-10-14T11:01:57",
-      "last_seen_at": "2026-10-14T11:01:57",
-      "occurrence_count": 1
+      "first_seen_at": "2026-10-14T15:45:52",
+      "last_seen_at": "2026-10-14T15:45:53",
+      "occurrence_count": 3
     },
-    "score_trend:Assorted": {
-      "alert_type": "performance_score_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Assorted",
-      "first_seen_at": "2026-10-14T11:01:58",
-      "last_seen_at": "2026-10-14T11:01:58",
-      "occurrence_count": 1
-    },
-    "score_trend:Orange": {
+    "score_trend:Berries": {
       "alert_type": "performance_grade_drop",
       "module": "gtmetrix",
       "severity": "warning",
-      "affected_page": "Orange",
-      "first_seen_at": "2026-10-14T11:01:58",
-      "last_seen_at": "2026-10-14T11:01:58",
+      "affected_page": "Berries",
+      "first_seen_at": "2026-10-14T15:45:54",
+      "last_seen_at": "2026-10-14T15:45:54",
       "occurrence_count": 1
     },
-    "score_trend:Shop_All": {
+    "score_trend:FF": {
       "alert_type": "performance_grade_drop",
       "module": "gtmetrix",
       "severity": "warning",
-      "affected_page": "Shop All",
-      "first_seen_at": "2026-10-14T11:01:58",
-      "last_seen_at": "2026-10-14T11:01:58",
+      "affected_page": "Fiber Fix",
+      "first_seen_at": "2026-10-14T15:45:54",
+      "last_seen_at": "2026-10-14T15:45:54",
+      "occurrence_count": 1
+    },
+    "root_cause:FF:high_cls": {
+      "alert_type": "high_cls",
+      "module": "root_cause",
+      "severity": "warning",
+      "affected_page": "Fiber Fix",
+      "first_seen_at": "2026-10-14T15:45:56",
+      "last_seen_at": "2026-10-14T15:45:56",
       "occurrence_count": 1
     }
   }
