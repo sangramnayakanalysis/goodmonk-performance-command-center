@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T21:45:53",
+  "generated_at": "2026-10-14T00:52:19",
   "pages": [
     {
       "name": "Homepage",
@@ -7,8 +7,8 @@
       "latest_report": {
         "page_name": "Homepage",
         "sheet_name": "Homepage",
-        "generated_at": "2026-10-13T21:41:52",
-        "performance_score": 65,
+        "generated_at": "2026-10-14T00:48:17",
+        "performance_score": 66,
         "issue_count": 4,
         "top_issue": "High Total Blocking Time",
         "issues": [
@@ -16,8 +16,8 @@
             "category": "high_tbt",
             "severity": "warning",
             "title": "High Total Blocking Time",
-            "detail": "TBT is 5.65s (threshold 0.2s) \u2014 a proxy for render-blocking/heavy JavaScript.",
-            "value": 5.65,
+            "detail": "TBT is 4.28s (threshold 0.2s) \u2014 a proxy for render-blocking/heavy JavaScript.",
+            "value": 4.28,
             "threshold": 0.2,
             "recommendation": "Defer/async non-critical JS, split large bundles, and audit third-party scripts."
           },
@@ -25,8 +25,8 @@
             "category": "slow_fully_loaded",
             "severity": "info",
             "title": "Slow fully-loaded time",
-            "detail": "Fully Loaded Time is 18.47s (threshold 5.0s).",
-            "value": 18.47,
+            "detail": "Fully Loaded Time is 18.84s (threshold 5.0s).",
+            "value": 18.84,
             "threshold": 5.0,
             "recommendation": "Review the full resource waterfall in the linked GTmetrix report for the longest-pole resource."
           },
@@ -34,8 +34,8 @@
             "category": "heavy_page_weight",
             "severity": "warning",
             "title": "Heavy total page weight",
-            "detail": "Total page weight is 12.91MB (threshold 3.0MB).",
-            "value": 12.91,
+            "detail": "Total page weight is 12.89MB (threshold 3.0MB).",
+            "value": 12.89,
             "threshold": 3.0,
             "recommendation": "Audit the resource breakdown below for the heaviest category and target that first."
           },
@@ -69,8 +69,8 @@
       "latest_report": {
         "page_name": "Shop All",
         "sheet_name": "Shop_All",
-        "generated_at": "2026-10-13T21:41:50",
-        "performance_score": 65,
+        "generated_at": "2026-10-14T00:48:14",
+        "performance_score": 66,
         "issue_count": 4,
         "top_issue": "High Total Blocking Time",
         "issues": [
@@ -78,8 +78,8 @@
             "category": "high_tbt",
             "severity": "warning",
             "title": "High Total Blocking Time",
-            "detail": "TBT is 6.0s (threshold 0.2s) \u2014 a proxy for render-blocking/heavy JavaScript.",
-            "value": 6.0,
+            "detail": "TBT is 8.36s (threshold 0.2s) \u2014 a proxy for render-blocking/heavy JavaScript.",
+            "value": 8.36,
             "threshold": 0.2,
             "recommendation": "Defer/async non-critical JS, split large bundles, and audit third-party scripts."
           },
@@ -87,8 +87,8 @@
             "category": "slow_fully_loaded",
             "severity": "info",
             "title": "Slow fully-loaded time",
-            "detail": "Fully Loaded Time is 33.77s (threshold 5.0s).",
-            "value": 33.77,
+            "detail": "Fully Loaded Time is 19.7s (threshold 5.0s).",
+            "value": 19.7,
             "threshold": 5.0,
             "recommendation": "Review the full resource waterfall in the linked GTmetrix report for the longest-pole resource."
           },
@@ -96,8 +96,8 @@
             "category": "heavy_page_weight",
             "severity": "warning",
             "title": "Heavy total page weight",
-            "detail": "Total page weight is 12.92MB (threshold 3.0MB).",
-            "value": 12.92,
+            "detail": "Total page weight is 6.20MB (threshold 3.0MB).",
+            "value": 6.2,
             "threshold": 3.0,
             "recommendation": "Audit the resource breakdown below for the heaviest category and target that first."
           },
@@ -105,8 +105,8 @@
             "category": "high_request_count",
             "severity": "info",
             "title": "High request count",
-            "detail": "478 requests (threshold 80).",
-            "value": 478,
+            "detail": "475 requests (threshold 80).",
+            "value": 475,
             "threshold": 80,
             "recommendation": "Consolidate/lazy-load third-party embeds and Shopify apps that each add their own requests."
           }
@@ -131,8 +131,8 @@
       "latest_report": {
         "page_name": "FNM",
         "sheet_name": "FNM",
-        "generated_at": "2026-10-13T21:41:51",
-        "performance_score": 65,
+        "generated_at": "2026-10-14T00:48:17",
+        "performance_score": 64,
         "issue_count": 4,
         "top_issue": "High Total Blocking Time",
         "issues": [
@@ -140,8 +140,8 @@
             "category": "high_tbt",
             "severity": "warning",
             "title": "High Total Blocking Time",
-            "detail": "TBT is 4.37s (threshold 0.2s) \u2014 a proxy for render-blocking/heavy JavaScript.",
-            "value": 4.37,
+            "detail": "TBT is 4.31s (threshold 0.2s) \u2014 a proxy for render-blocking/heavy JavaScript.",
+            "value": 4.31,
             "threshold": 0.2,
             "recommendation": "Defer/async non-critical JS, split large bundles, and audit third-party scripts."
           },
@@ -149,8 +149,8 @@
             "category": "slow_fully_loaded",
             "severity": "info",
             "title": "Slow fully-loaded time",
-            "detail": "Fully Loaded Time is 21.95s (threshold 5.0s).",
-            "value": 21.95,
+            "detail": "Fully Loaded Time is 19.62s (threshold 5.0s).",
+            "value": 19.62,
             "threshold": 5.0,
             "recommendation": "Review the full resource waterfall in the linked GTmetrix report for the longest-pole resource."
           },
@@ -158,8 +158,8 @@
             "category": "heavy_page_weight",
             "severity": "warning",
             "title": "Heavy total page weight",
-            "detail": "Total page weight is 13.01MB (threshold 3.0MB).",
-            "value": 13.01,
+            "detail": "Total page weight is 13.04MB (threshold 3.0MB).",
+            "value": 13.04,
             "threshold": 3.0,
             "recommendation": "Audit the resource breakdown below for the heaviest category and target that first."
           },
@@ -167,15 +167,14 @@
             "category": "high_request_count",
             "severity": "info",
             "title": "High request count",
-            "detail": "556 requests (threshold 80).",
-            "value": 556,
+            "detail": "545 requests (threshold 80).",
+            "value": 545,
             "threshold": 80,
             "recommendation": "Consolidate/lazy-load third-party embeds and Shopify apps that each add their own requests."
           }
         ]
       },
       "recent_issue_counts": [
-        5,
         4,
         4,
         4,
@@ -184,6 +183,7 @@
         4,
         4,
         5,
+        4,
         4
       ]
     },
@@ -193,8 +193,8 @@
       "latest_report": {
         "page_name": "H50+",
         "sheet_name": "H50+",
-        "generated_at": "2026-10-13T21:41:48",
-        "performance_score": 64,
+        "generated_at": "2026-10-14T00:48:16",
+        "performance_score": 59,
         "issue_count": 4,
         "top_issue": "High Total Blocking Time",
         "issues": [
@@ -202,8 +202,8 @@
             "category": "high_tbt",
             "severity": "warning",
             "title": "High Total Blocking Time",
-            "detail": "TBT is 4.36s (threshold 0.2s) \u2014 a proxy for render-blocking/heavy JavaScript.",
-            "value": 4.36,
+            "detail": "TBT is 3.68s (threshold 0.2s) \u2014 a proxy for render-blocking/heavy JavaScript.",
+            "value": 3.68,
             "threshold": 0.2,
             "recommendation": "Defer/async non-critical JS, split large bundles, and audit third-party scripts."
           },
@@ -211,8 +211,8 @@
             "category": "slow_fully_loaded",
             "severity": "info",
             "title": "Slow fully-loaded time",
-            "detail": "Fully Loaded Time is 19.35s (threshold 5.0s).",
-            "value": 19.35,
+            "detail": "Fully Loaded Time is 19.2s (threshold 5.0s).",
+            "value": 19.2,
             "threshold": 5.0,
             "recommendation": "Review the full resource waterfall in the linked GTmetrix report for the longest-pole resource."
           },
@@ -220,8 +220,8 @@
             "category": "heavy_page_weight",
             "severity": "warning",
             "title": "Heavy total page weight",
-            "detail": "Total page weight is 13.38MB (threshold 3.0MB).",
-            "value": 13.38,
+            "detail": "Total page weight is 13.37MB (threshold 3.0MB).",
+            "value": 13.37,
             "threshold": 3.0,
             "recommendation": "Audit the resource breakdown below for the heaviest category and target that first."
           },
@@ -229,8 +229,8 @@
             "category": "high_request_count",
             "severity": "info",
             "title": "High request count",
-            "detail": "558 requests (threshold 80).",
-            "value": 558,
+            "detail": "553 requests (threshold 80).",
+            "value": 553,
             "threshold": 80,
             "recommendation": "Consolidate/lazy-load third-party embeds and Shopify apps that each add their own requests."
           }
@@ -255,17 +255,26 @@
       "latest_report": {
         "page_name": "Fiber Fix",
         "sheet_name": "FF",
-        "generated_at": "2026-10-13T21:43:01",
-        "performance_score": 61,
-        "issue_count": 4,
-        "top_issue": "High Total Blocking Time",
+        "generated_at": "2026-10-14T00:49:31",
+        "performance_score": 58,
+        "issue_count": 5,
+        "top_issue": "High CLS (layout shift)",
         "issues": [
+          {
+            "category": "high_cls",
+            "severity": "warning",
+            "title": "High CLS (layout shift)",
+            "detail": "Cumulative Layout Shift is 0.136259 (threshold 0.1).",
+            "value": 0.136259,
+            "threshold": 0.1,
+            "recommendation": "Reserve explicit width/height (or aspect-ratio) for images and embeds above the fold."
+          },
           {
             "category": "high_tbt",
             "severity": "warning",
             "title": "High Total Blocking Time",
-            "detail": "TBT is 4.9s (threshold 0.2s) \u2014 a proxy for render-blocking/heavy JavaScript.",
-            "value": 4.9,
+            "detail": "TBT is 4.95s (threshold 0.2s) \u2014 a proxy for render-blocking/heavy JavaScript.",
+            "value": 4.95,
             "threshold": 0.2,
             "recommendation": "Defer/async non-critical JS, split large bundles, and audit third-party scripts."
           },
@@ -273,8 +282,8 @@
             "category": "slow_fully_loaded",
             "severity": "info",
             "title": "Slow fully-loaded time",
-            "detail": "Fully Loaded Time is 20.4s (threshold 5.0s).",
-            "value": 20.4,
+            "detail": "Fully Loaded Time is 20.43s (threshold 5.0s).",
+            "value": 20.43,
             "threshold": 5.0,
             "recommendation": "Review the full resource waterfall in the linked GTmetrix report for the longest-pole resource."
           },
@@ -282,8 +291,8 @@
             "category": "heavy_page_weight",
             "severity": "warning",
             "title": "Heavy total page weight",
-            "detail": "Total page weight is 6.91MB (threshold 3.0MB).",
-            "value": 6.91,
+            "detail": "Total page weight is 13.60MB (threshold 3.0MB).",
+            "value": 13.6,
             "threshold": 3.0,
             "recommendation": "Audit the resource breakdown below for the heaviest category and target that first."
           },
@@ -291,8 +300,8 @@
             "category": "high_request_count",
             "severity": "info",
             "title": "High request count",
-            "detail": "554 requests (threshold 80).",
-            "value": 554,
+            "detail": "553 requests (threshold 80).",
+            "value": 553,
             "threshold": 80,
             "recommendation": "Consolidate/lazy-load third-party embeds and Shopify apps that each add their own requests."
           }
@@ -300,7 +309,6 @@
       },
       "recent_issue_counts": [
         5,
-        5,
         4,
         4,
         5,
@@ -308,7 +316,8 @@
         4,
         4,
         5,
-        4
+        4,
+        5
       ]
     },
     {
@@ -317,17 +326,35 @@
       "latest_report": {
         "page_name": "Berries",
         "sheet_name": "Berries",
-        "generated_at": "2026-10-13T21:43:02",
-        "performance_score": 61,
-        "issue_count": 4,
-        "top_issue": "High Total Blocking Time",
+        "generated_at": "2026-10-14T00:49:30",
+        "performance_score": 46,
+        "issue_count": 6,
+        "top_issue": "High TTFB",
         "issues": [
+          {
+            "category": "high_ttfb",
+            "severity": "warning",
+            "title": "High TTFB",
+            "detail": "Time to First Byte is 1.19s (threshold 0.8s).",
+            "value": 1.19,
+            "threshold": 0.8,
+            "recommendation": "Investigate server/app response time, hosting tier, or CDN/edge caching for this URL."
+          },
+          {
+            "category": "slow_server_response",
+            "severity": "warning",
+            "title": "Slow server response",
+            "detail": "Backend duration is 1.15s.",
+            "value": 1.15,
+            "threshold": 0.8,
+            "recommendation": "Profile the origin server / Shopify app response time for this page."
+          },
           {
             "category": "high_tbt",
             "severity": "warning",
             "title": "High Total Blocking Time",
-            "detail": "TBT is 4.22s (threshold 0.2s) \u2014 a proxy for render-blocking/heavy JavaScript.",
-            "value": 4.22,
+            "detail": "TBT is 4.59s (threshold 0.2s) \u2014 a proxy for render-blocking/heavy JavaScript.",
+            "value": 4.59,
             "threshold": 0.2,
             "recommendation": "Defer/async non-critical JS, split large bundles, and audit third-party scripts."
           },
@@ -335,8 +362,8 @@
             "category": "slow_fully_loaded",
             "severity": "info",
             "title": "Slow fully-loaded time",
-            "detail": "Fully Loaded Time is 20.72s (threshold 5.0s).",
-            "value": 20.72,
+            "detail": "Fully Loaded Time is 21.07s (threshold 5.0s).",
+            "value": 21.07,
             "threshold": 5.0,
             "recommendation": "Review the full resource waterfall in the linked GTmetrix report for the longest-pole resource."
           },
@@ -344,8 +371,8 @@
             "category": "heavy_page_weight",
             "severity": "warning",
             "title": "Heavy total page weight",
-            "detail": "Total page weight is 14.08MB (threshold 3.0MB).",
-            "value": 14.08,
+            "detail": "Total page weight is 14.06MB (threshold 3.0MB).",
+            "value": 14.06,
             "threshold": 3.0,
             "recommendation": "Audit the resource breakdown below for the heaviest category and target that first."
           },
@@ -370,7 +397,7 @@
         4,
         4,
         4,
-        4
+        6
       ]
     },
     {
@@ -379,8 +406,8 @@
       "latest_report": {
         "page_name": "Orange",
         "sheet_name": "Orange",
-        "generated_at": "2026-10-13T21:43:03",
-        "performance_score": 62,
+        "generated_at": "2026-10-14T00:49:30",
+        "performance_score": 61,
         "issue_count": 4,
         "top_issue": "High Total Blocking Time",
         "issues": [
@@ -388,8 +415,8 @@
             "category": "high_tbt",
             "severity": "warning",
             "title": "High Total Blocking Time",
-            "detail": "TBT is 4.89s (threshold 0.2s) \u2014 a proxy for render-blocking/heavy JavaScript.",
-            "value": 4.89,
+            "detail": "TBT is 4.23s (threshold 0.2s) \u2014 a proxy for render-blocking/heavy JavaScript.",
+            "value": 4.23,
             "threshold": 0.2,
             "recommendation": "Defer/async non-critical JS, split large bundles, and audit third-party scripts."
           },
@@ -397,8 +424,8 @@
             "category": "slow_fully_loaded",
             "severity": "info",
             "title": "Slow fully-loaded time",
-            "detail": "Fully Loaded Time is 20.7s (threshold 5.0s).",
-            "value": 20.7,
+            "detail": "Fully Loaded Time is 20.67s (threshold 5.0s).",
+            "value": 20.67,
             "threshold": 5.0,
             "recommendation": "Review the full resource waterfall in the linked GTmetrix report for the longest-pole resource."
           },
@@ -406,8 +433,79 @@
             "category": "heavy_page_weight",
             "severity": "warning",
             "title": "Heavy total page weight",
-            "detail": "Total page weight is 14.01MB (threshold 3.0MB).",
-            "value": 14.01,
+            "detail": "Total page weight is 14.32MB (threshold 3.0MB).",
+            "value": 14.32,
+            "threshold": 3.0,
+            "recommendation": "Audit the resource breakdown below for the heaviest category and target that first."
+          },
+          {
+            "category": "high_request_count",
+            "severity": "info",
+            "title": "High request count",
+            "detail": "565 requests (threshold 80).",
+            "value": 565,
+            "threshold": 80,
+            "recommendation": "Consolidate/lazy-load third-party embeds and Shopify apps that each add their own requests."
+          }
+        ]
+      },
+      "recent_issue_counts": [
+        4,
+        4,
+        4,
+        4,
+        5,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Pineapple",
+      "sheet_name": "Pineapple",
+      "latest_report": {
+        "page_name": "Pineapple",
+        "sheet_name": "Pineapple",
+        "generated_at": "2026-10-14T00:49:32",
+        "performance_score": 36,
+        "issue_count": 5,
+        "top_issue": "High CLS (layout shift)",
+        "issues": [
+          {
+            "category": "high_cls",
+            "severity": "warning",
+            "title": "High CLS (layout shift)",
+            "detail": "Cumulative Layout Shift is 0.38236 (threshold 0.1).",
+            "value": 0.38236,
+            "threshold": 0.1,
+            "recommendation": "Reserve explicit width/height (or aspect-ratio) for images and embeds above the fold."
+          },
+          {
+            "category": "high_tbt",
+            "severity": "warning",
+            "title": "High Total Blocking Time",
+            "detail": "TBT is 5.18s (threshold 0.2s) \u2014 a proxy for render-blocking/heavy JavaScript.",
+            "value": 5.18,
+            "threshold": 0.2,
+            "recommendation": "Defer/async non-critical JS, split large bundles, and audit third-party scripts."
+          },
+          {
+            "category": "slow_fully_loaded",
+            "severity": "info",
+            "title": "Slow fully-loaded time",
+            "detail": "Fully Loaded Time is 21.84s (threshold 5.0s).",
+            "value": 21.84,
+            "threshold": 5.0,
+            "recommendation": "Review the full resource waterfall in the linked GTmetrix report for the longest-pole resource."
+          },
+          {
+            "category": "heavy_page_weight",
+            "severity": "warning",
+            "title": "Heavy total page weight",
+            "detail": "Total page weight is 13.97MB (threshold 3.0MB).",
+            "value": 13.97,
             "threshold": 3.0,
             "recommendation": "Audit the resource breakdown below for the heaviest category and target that first."
           },
@@ -428,73 +526,11 @@
         4,
         4,
         4,
-        5,
-        4,
-        4,
-        4,
-        4
-      ]
-    },
-    {
-      "name": "Pineapple",
-      "sheet_name": "Pineapple",
-      "latest_report": {
-        "page_name": "Pineapple",
-        "sheet_name": "Pineapple",
-        "generated_at": "2026-10-13T21:43:05",
-        "performance_score": 60,
-        "issue_count": 4,
-        "top_issue": "High Total Blocking Time",
-        "issues": [
-          {
-            "category": "high_tbt",
-            "severity": "warning",
-            "title": "High Total Blocking Time",
-            "detail": "TBT is 4.56s (threshold 0.2s) \u2014 a proxy for render-blocking/heavy JavaScript.",
-            "value": 4.56,
-            "threshold": 0.2,
-            "recommendation": "Defer/async non-critical JS, split large bundles, and audit third-party scripts."
-          },
-          {
-            "category": "slow_fully_loaded",
-            "severity": "info",
-            "title": "Slow fully-loaded time",
-            "detail": "Fully Loaded Time is 20.96s (threshold 5.0s).",
-            "value": 20.96,
-            "threshold": 5.0,
-            "recommendation": "Review the full resource waterfall in the linked GTmetrix report for the longest-pole resource."
-          },
-          {
-            "category": "heavy_page_weight",
-            "severity": "warning",
-            "title": "Heavy total page weight",
-            "detail": "Total page weight is 13.93MB (threshold 3.0MB).",
-            "value": 13.93,
-            "threshold": 3.0,
-            "recommendation": "Audit the resource breakdown below for the heaviest category and target that first."
-          },
-          {
-            "category": "high_request_count",
-            "severity": "info",
-            "title": "High request count",
-            "detail": "564 requests (threshold 80).",
-            "value": 564,
-            "threshold": 80,
-            "recommendation": "Consolidate/lazy-load third-party embeds and Shopify apps that each add their own requests."
-          }
-        ]
-      },
-      "recent_issue_counts": [
-        4,
-        4,
-        4,
-        4,
-        4,
-        4,
         4,
         6,
         4,
-        4
+        4,
+        5
       ]
     },
     {
@@ -503,7 +539,7 @@
       "latest_report": {
         "page_name": "Mango",
         "sheet_name": "Mango",
-        "generated_at": "2026-10-13T21:44:17",
+        "generated_at": "2026-10-14T00:50:47",
         "performance_score": 63,
         "issue_count": 4,
         "top_issue": "High Total Blocking Time",
@@ -512,8 +548,8 @@
             "category": "high_tbt",
             "severity": "warning",
             "title": "High Total Blocking Time",
-            "detail": "TBT is 4.53s (threshold 0.2s) \u2014 a proxy for render-blocking/heavy JavaScript.",
-            "value": 4.53,
+            "detail": "TBT is 4.9s (threshold 0.2s) \u2014 a proxy for render-blocking/heavy JavaScript.",
+            "value": 4.9,
             "threshold": 0.2,
             "recommendation": "Defer/async non-critical JS, split large bundles, and audit third-party scripts."
           },
@@ -521,8 +557,8 @@
             "category": "slow_fully_loaded",
             "severity": "info",
             "title": "Slow fully-loaded time",
-            "detail": "Fully Loaded Time is 20.61s (threshold 5.0s).",
-            "value": 20.61,
+            "detail": "Fully Loaded Time is 21.48s (threshold 5.0s).",
+            "value": 21.48,
             "threshold": 5.0,
             "recommendation": "Review the full resource waterfall in the linked GTmetrix report for the longest-pole resource."
           },
@@ -532,130 +568,6 @@
             "title": "Heavy total page weight",
             "detail": "Total page weight is 13.86MB (threshold 3.0MB).",
             "value": 13.86,
-            "threshold": 3.0,
-            "recommendation": "Audit the resource breakdown below for the heaviest category and target that first."
-          },
-          {
-            "category": "high_request_count",
-            "severity": "info",
-            "title": "High request count",
-            "detail": "545 requests (threshold 80).",
-            "value": 545,
-            "threshold": 80,
-            "recommendation": "Consolidate/lazy-load third-party embeds and Shopify apps that each add their own requests."
-          }
-        ]
-      },
-      "recent_issue_counts": [
-        4,
-        4,
-        4,
-        4,
-        5,
-        4,
-        4,
-        4,
-        4,
-        4
-      ]
-    },
-    {
-      "name": "Assorted",
-      "sheet_name": "Assorted",
-      "latest_report": {
-        "page_name": "Assorted",
-        "sheet_name": "Assorted",
-        "generated_at": "2026-10-13T21:44:18",
-        "performance_score": 60,
-        "issue_count": 4,
-        "top_issue": "High Total Blocking Time",
-        "issues": [
-          {
-            "category": "high_tbt",
-            "severity": "warning",
-            "title": "High Total Blocking Time",
-            "detail": "TBT is 4.12s (threshold 0.2s) \u2014 a proxy for render-blocking/heavy JavaScript.",
-            "value": 4.12,
-            "threshold": 0.2,
-            "recommendation": "Defer/async non-critical JS, split large bundles, and audit third-party scripts."
-          },
-          {
-            "category": "slow_fully_loaded",
-            "severity": "info",
-            "title": "Slow fully-loaded time",
-            "detail": "Fully Loaded Time is 21.24s (threshold 5.0s).",
-            "value": 21.24,
-            "threshold": 5.0,
-            "recommendation": "Review the full resource waterfall in the linked GTmetrix report for the longest-pole resource."
-          },
-          {
-            "category": "heavy_page_weight",
-            "severity": "warning",
-            "title": "Heavy total page weight",
-            "detail": "Total page weight is 14.03MB (threshold 3.0MB).",
-            "value": 14.03,
-            "threshold": 3.0,
-            "recommendation": "Audit the resource breakdown below for the heaviest category and target that first."
-          },
-          {
-            "category": "high_request_count",
-            "severity": "info",
-            "title": "High request count",
-            "detail": "565 requests (threshold 80).",
-            "value": 565,
-            "threshold": 80,
-            "recommendation": "Consolidate/lazy-load third-party embeds and Shopify apps that each add their own requests."
-          }
-        ]
-      },
-      "recent_issue_counts": [
-        4,
-        5,
-        4,
-        4,
-        4,
-        4,
-        4,
-        4,
-        4,
-        4
-      ]
-    },
-    {
-      "name": "Milk Mix Strawberry",
-      "sheet_name": "MM_Strawberry",
-      "latest_report": {
-        "page_name": "Milk Mix Strawberry",
-        "sheet_name": "MM_Strawberry",
-        "generated_at": "2026-10-13T21:44:19",
-        "performance_score": 60,
-        "issue_count": 4,
-        "top_issue": "High Total Blocking Time",
-        "issues": [
-          {
-            "category": "high_tbt",
-            "severity": "warning",
-            "title": "High Total Blocking Time",
-            "detail": "TBT is 4.29s (threshold 0.2s) \u2014 a proxy for render-blocking/heavy JavaScript.",
-            "value": 4.29,
-            "threshold": 0.2,
-            "recommendation": "Defer/async non-critical JS, split large bundles, and audit third-party scripts."
-          },
-          {
-            "category": "slow_fully_loaded",
-            "severity": "info",
-            "title": "Slow fully-loaded time",
-            "detail": "Fully Loaded Time is 19.36s (threshold 5.0s).",
-            "value": 19.36,
-            "threshold": 5.0,
-            "recommendation": "Review the full resource waterfall in the linked GTmetrix report for the longest-pole resource."
-          },
-          {
-            "category": "heavy_page_weight",
-            "severity": "warning",
-            "title": "Heavy total page weight",
-            "detail": "Total page weight is 15.39MB (threshold 3.0MB).",
-            "value": 15.39,
             "threshold": 3.0,
             "recommendation": "Audit the resource breakdown below for the heaviest category and target that first."
           },
@@ -674,8 +586,141 @@
         4,
         4,
         4,
+        5,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Assorted",
+      "sheet_name": "Assorted",
+      "latest_report": {
+        "page_name": "Assorted",
+        "sheet_name": "Assorted",
+        "generated_at": "2026-10-14T00:50:46",
+        "performance_score": 38,
+        "issue_count": 5,
+        "top_issue": "High CLS (layout shift)",
+        "issues": [
+          {
+            "category": "high_cls",
+            "severity": "warning",
+            "title": "High CLS (layout shift)",
+            "detail": "Cumulative Layout Shift is 0.397336 (threshold 0.1).",
+            "value": 0.397336,
+            "threshold": 0.1,
+            "recommendation": "Reserve explicit width/height (or aspect-ratio) for images and embeds above the fold."
+          },
+          {
+            "category": "high_tbt",
+            "severity": "warning",
+            "title": "High Total Blocking Time",
+            "detail": "TBT is 6.0s (threshold 0.2s) \u2014 a proxy for render-blocking/heavy JavaScript.",
+            "value": 6.0,
+            "threshold": 0.2,
+            "recommendation": "Defer/async non-critical JS, split large bundles, and audit third-party scripts."
+          },
+          {
+            "category": "slow_fully_loaded",
+            "severity": "info",
+            "title": "Slow fully-loaded time",
+            "detail": "Fully Loaded Time is 24.04s (threshold 5.0s).",
+            "value": 24.04,
+            "threshold": 5.0,
+            "recommendation": "Review the full resource waterfall in the linked GTmetrix report for the longest-pole resource."
+          },
+          {
+            "category": "heavy_page_weight",
+            "severity": "warning",
+            "title": "Heavy total page weight",
+            "detail": "Total page weight is 13.99MB (threshold 3.0MB).",
+            "value": 13.99,
+            "threshold": 3.0,
+            "recommendation": "Audit the resource breakdown below for the heaviest category and target that first."
+          },
+          {
+            "category": "high_request_count",
+            "severity": "info",
+            "title": "High request count",
+            "detail": "546 requests (threshold 80).",
+            "value": 546,
+            "threshold": 80,
+            "recommendation": "Consolidate/lazy-load third-party embeds and Shopify apps that each add their own requests."
+          }
+        ]
+      },
+      "recent_issue_counts": [
+        5,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        5
+      ]
+    },
+    {
+      "name": "Milk Mix Strawberry",
+      "sheet_name": "MM_Strawberry",
+      "latest_report": {
+        "page_name": "Milk Mix Strawberry",
+        "sheet_name": "MM_Strawberry",
+        "generated_at": "2026-10-14T00:50:48",
+        "performance_score": 64,
+        "issue_count": 4,
+        "top_issue": "High Total Blocking Time",
+        "issues": [
+          {
+            "category": "high_tbt",
+            "severity": "warning",
+            "title": "High Total Blocking Time",
+            "detail": "TBT is 5.1s (threshold 0.2s) \u2014 a proxy for render-blocking/heavy JavaScript.",
+            "value": 5.1,
+            "threshold": 0.2,
+            "recommendation": "Defer/async non-critical JS, split large bundles, and audit third-party scripts."
+          },
+          {
+            "category": "slow_fully_loaded",
+            "severity": "info",
+            "title": "Slow fully-loaded time",
+            "detail": "Fully Loaded Time is 22.05s (threshold 5.0s).",
+            "value": 22.05,
+            "threshold": 5.0,
+            "recommendation": "Review the full resource waterfall in the linked GTmetrix report for the longest-pole resource."
+          },
+          {
+            "category": "heavy_page_weight",
+            "severity": "warning",
+            "title": "Heavy total page weight",
+            "detail": "Total page weight is 15.47MB (threshold 3.0MB).",
+            "value": 15.47,
+            "threshold": 3.0,
+            "recommendation": "Audit the resource breakdown below for the heaviest category and target that first."
+          },
+          {
+            "category": "high_request_count",
+            "severity": "info",
+            "title": "High request count",
+            "detail": "543 requests (threshold 80).",
+            "value": 543,
+            "threshold": 80,
+            "recommendation": "Consolidate/lazy-load third-party embeds and Shopify apps that each add their own requests."
+          }
+        ]
+      },
+      "recent_issue_counts": [
+        4,
+        4,
         4,
         5,
+        4,
         4,
         4,
         4,
@@ -689,26 +734,17 @@
       "latest_report": {
         "page_name": "Milk Mix Vanilla",
         "sheet_name": "MM_Vanilla",
-        "generated_at": "2026-10-13T21:44:03",
-        "performance_score": 45,
-        "issue_count": 5,
-        "top_issue": "High CLS (layout shift)",
+        "generated_at": "2026-10-14T00:50:49",
+        "performance_score": 66,
+        "issue_count": 4,
+        "top_issue": "High Total Blocking Time",
         "issues": [
-          {
-            "category": "high_cls",
-            "severity": "warning",
-            "title": "High CLS (layout shift)",
-            "detail": "Cumulative Layout Shift is 0.3648 (threshold 0.1).",
-            "value": 0.3648,
-            "threshold": 0.1,
-            "recommendation": "Reserve explicit width/height (or aspect-ratio) for images and embeds above the fold."
-          },
           {
             "category": "high_tbt",
             "severity": "warning",
             "title": "High Total Blocking Time",
-            "detail": "TBT is 4.83s (threshold 0.2s) \u2014 a proxy for render-blocking/heavy JavaScript.",
-            "value": 4.83,
+            "detail": "TBT is 5.42s (threshold 0.2s) \u2014 a proxy for render-blocking/heavy JavaScript.",
+            "value": 5.42,
             "threshold": 0.2,
             "recommendation": "Defer/async non-critical JS, split large bundles, and audit third-party scripts."
           },
@@ -716,8 +752,8 @@
             "category": "slow_fully_loaded",
             "severity": "info",
             "title": "Slow fully-loaded time",
-            "detail": "Fully Loaded Time is 20.24s (threshold 5.0s).",
-            "value": 20.24,
+            "detail": "Fully Loaded Time is 21.96s (threshold 5.0s).",
+            "value": 21.96,
             "threshold": 5.0,
             "recommendation": "Review the full resource waterfall in the linked GTmetrix report for the longest-pole resource."
           },
@@ -725,8 +761,8 @@
             "category": "heavy_page_weight",
             "severity": "warning",
             "title": "Heavy total page weight",
-            "detail": "Total page weight is 15.55MB (threshold 3.0MB).",
-            "value": 15.55,
+            "detail": "Total page weight is 15.34MB (threshold 3.0MB).",
+            "value": 15.34,
             "threshold": 3.0,
             "recommendation": "Audit the resource breakdown below for the heaviest category and target that first."
           },
@@ -734,24 +770,24 @@
             "category": "high_request_count",
             "severity": "info",
             "title": "High request count",
-            "detail": "545 requests (threshold 80).",
-            "value": 545,
+            "detail": "540 requests (threshold 80).",
+            "value": 540,
             "threshold": 80,
             "recommendation": "Consolidate/lazy-load third-party embeds and Shopify apps that each add their own requests."
           }
         ]
       },
       "recent_issue_counts": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
         5,
-        4,
-        4,
-        4,
-        4,
-        4,
-        4,
-        4,
-        4,
-        5
+        4
       ]
     },
     {
@@ -760,8 +796,8 @@
       "latest_report": {
         "page_name": "Milk Mix Chocolate",
         "sheet_name": "MM_Chocolate",
-        "generated_at": "2026-10-13T21:45:19",
-        "performance_score": 64,
+        "generated_at": "2026-10-14T00:52:04",
+        "performance_score": 61,
         "issue_count": 4,
         "top_issue": "High Total Blocking Time",
         "issues": [
@@ -769,8 +805,8 @@
             "category": "high_tbt",
             "severity": "warning",
             "title": "High Total Blocking Time",
-            "detail": "TBT is 5.24s (threshold 0.2s) \u2014 a proxy for render-blocking/heavy JavaScript.",
-            "value": 5.24,
+            "detail": "TBT is 3.62s (threshold 0.2s) \u2014 a proxy for render-blocking/heavy JavaScript.",
+            "value": 3.62,
             "threshold": 0.2,
             "recommendation": "Defer/async non-critical JS, split large bundles, and audit third-party scripts."
           },
@@ -778,8 +814,8 @@
             "category": "slow_fully_loaded",
             "severity": "info",
             "title": "Slow fully-loaded time",
-            "detail": "Fully Loaded Time is 21.92s (threshold 5.0s).",
-            "value": 21.92,
+            "detail": "Fully Loaded Time is 19.29s (threshold 5.0s).",
+            "value": 19.29,
             "threshold": 5.0,
             "recommendation": "Review the full resource waterfall in the linked GTmetrix report for the longest-pole resource."
           },
@@ -787,8 +823,8 @@
             "category": "heavy_page_weight",
             "severity": "warning",
             "title": "Heavy total page weight",
-            "detail": "Total page weight is 15.22MB (threshold 3.0MB).",
-            "value": 15.22,
+            "detail": "Total page weight is 15.00MB (threshold 3.0MB).",
+            "value": 15.0,
             "threshold": 3.0,
             "recommendation": "Audit the resource breakdown below for the heaviest category and target that first."
           },
@@ -796,8 +832,8 @@
             "category": "high_request_count",
             "severity": "info",
             "title": "High request count",
-            "detail": "542 requests (threshold 80).",
-            "value": 542,
+            "detail": "540 requests (threshold 80).",
+            "value": 540,
             "threshold": 80,
             "recommendation": "Consolidate/lazy-load third-party embeds and Shopify apps that each add their own requests."
           }
@@ -809,9 +845,9 @@
         4,
         4,
         4,
+        5,
+        5,
         4,
-        5,
-        5,
         4,
         4
       ]
@@ -822,26 +858,17 @@
       "latest_report": {
         "page_name": "Slimbiotics",
         "sheet_name": "Slimbiotics",
-        "generated_at": "2026-10-13T21:45:34",
-        "performance_score": 46,
-        "issue_count": 5,
-        "top_issue": "High CLS (layout shift)",
+        "generated_at": "2026-10-14T00:52:03",
+        "performance_score": 67,
+        "issue_count": 4,
+        "top_issue": "High Total Blocking Time",
         "issues": [
-          {
-            "category": "high_cls",
-            "severity": "warning",
-            "title": "High CLS (layout shift)",
-            "detail": "Cumulative Layout Shift is 0.3648 (threshold 0.1).",
-            "value": 0.3648,
-            "threshold": 0.1,
-            "recommendation": "Reserve explicit width/height (or aspect-ratio) for images and embeds above the fold."
-          },
           {
             "category": "high_tbt",
             "severity": "warning",
             "title": "High Total Blocking Time",
-            "detail": "TBT is 5.63s (threshold 0.2s) \u2014 a proxy for render-blocking/heavy JavaScript.",
-            "value": 5.63,
+            "detail": "TBT is 5.0s (threshold 0.2s) \u2014 a proxy for render-blocking/heavy JavaScript.",
+            "value": 5.0,
             "threshold": 0.2,
             "recommendation": "Defer/async non-critical JS, split large bundles, and audit third-party scripts."
           },
@@ -849,8 +876,8 @@
             "category": "slow_fully_loaded",
             "severity": "info",
             "title": "Slow fully-loaded time",
-            "detail": "Fully Loaded Time is 21.0s (threshold 5.0s).",
-            "value": 21.0,
+            "detail": "Fully Loaded Time is 20.77s (threshold 5.0s).",
+            "value": 20.77,
             "threshold": 5.0,
             "recommendation": "Review the full resource waterfall in the linked GTmetrix report for the longest-pole resource."
           },
@@ -858,8 +885,8 @@
             "category": "heavy_page_weight",
             "severity": "warning",
             "title": "Heavy total page weight",
-            "detail": "Total page weight is 13.11MB (threshold 3.0MB).",
-            "value": 13.11,
+            "detail": "Total page weight is 6.55MB (threshold 3.0MB).",
+            "value": 6.55,
             "threshold": 3.0,
             "recommendation": "Audit the resource breakdown below for the heaviest category and target that first."
           },
@@ -867,8 +894,8 @@
             "category": "high_request_count",
             "severity": "info",
             "title": "High request count",
-            "detail": "537 requests (threshold 80).",
-            "value": 537,
+            "detail": "534 requests (threshold 80).",
+            "value": 534,
             "threshold": 80,
             "recommendation": "Consolidate/lazy-load third-party embeds and Shopify apps that each add their own requests."
           }
@@ -876,7 +903,6 @@
       },
       "recent_issue_counts": [
         4,
-        4,
         5,
         4,
         4,
@@ -884,7 +910,8 @@
         4,
         4,
         4,
-        5
+        5,
+        4
       ]
     },
     {
@@ -893,17 +920,26 @@
       "latest_report": {
         "page_name": "Weight Management",
         "sheet_name": "Weight Management",
-        "generated_at": "2026-10-13T21:45:36",
-        "performance_score": 66,
-        "issue_count": 4,
-        "top_issue": "High Total Blocking Time",
+        "generated_at": "2026-10-14T00:51:48",
+        "performance_score": 43,
+        "issue_count": 5,
+        "top_issue": "High CLS (layout shift)",
         "issues": [
+          {
+            "category": "high_cls",
+            "severity": "warning",
+            "title": "High CLS (layout shift)",
+            "detail": "Cumulative Layout Shift is 0.386722 (threshold 0.1).",
+            "value": 0.386722,
+            "threshold": 0.1,
+            "recommendation": "Reserve explicit width/height (or aspect-ratio) for images and embeds above the fold."
+          },
           {
             "category": "high_tbt",
             "severity": "warning",
             "title": "High Total Blocking Time",
-            "detail": "TBT is 6.14s (threshold 0.2s) \u2014 a proxy for render-blocking/heavy JavaScript.",
-            "value": 6.14,
+            "detail": "TBT is 4.77s (threshold 0.2s) \u2014 a proxy for render-blocking/heavy JavaScript.",
+            "value": 4.77,
             "threshold": 0.2,
             "recommendation": "Defer/async non-critical JS, split large bundles, and audit third-party scripts."
           },
@@ -911,8 +947,8 @@
             "category": "slow_fully_loaded",
             "severity": "info",
             "title": "Slow fully-loaded time",
-            "detail": "Fully Loaded Time is 23.02s (threshold 5.0s).",
-            "value": 23.02,
+            "detail": "Fully Loaded Time is 19.91s (threshold 5.0s).",
+            "value": 19.91,
             "threshold": 5.0,
             "recommendation": "Review the full resource waterfall in the linked GTmetrix report for the longest-pole resource."
           },
@@ -920,8 +956,8 @@
             "category": "heavy_page_weight",
             "severity": "warning",
             "title": "Heavy total page weight",
-            "detail": "Total page weight is 13.13MB (threshold 3.0MB).",
-            "value": 13.13,
+            "detail": "Total page weight is 13.09MB (threshold 3.0MB).",
+            "value": 13.09,
             "threshold": 3.0,
             "recommendation": "Audit the resource breakdown below for the heaviest category and target that first."
           },
@@ -943,10 +979,10 @@
         4,
         4,
         4,
+        5,
+        5,
         4,
-        5,
-        5,
-        4
+        5
       ]
     },
     {
@@ -955,8 +991,8 @@
       "latest_report": {
         "page_name": "Plant Protein Roti",
         "sheet_name": "Plant Protein Roti",
-        "generated_at": "2026-10-13T21:45:35",
-        "performance_score": 64,
+        "generated_at": "2026-10-14T00:52:05",
+        "performance_score": 63,
         "issue_count": 4,
         "top_issue": "High Total Blocking Time",
         "issues": [
@@ -964,8 +1000,8 @@
             "category": "high_tbt",
             "severity": "warning",
             "title": "High Total Blocking Time",
-            "detail": "TBT is 5.11s (threshold 0.2s) \u2014 a proxy for render-blocking/heavy JavaScript.",
-            "value": 5.11,
+            "detail": "TBT is 5.28s (threshold 0.2s) \u2014 a proxy for render-blocking/heavy JavaScript.",
+            "value": 5.28,
             "threshold": 0.2,
             "recommendation": "Defer/async non-critical JS, split large bundles, and audit third-party scripts."
           },
@@ -973,8 +1009,8 @@
             "category": "slow_fully_loaded",
             "severity": "info",
             "title": "Slow fully-loaded time",
-            "detail": "Fully Loaded Time is 21.6s (threshold 5.0s).",
-            "value": 21.6,
+            "detail": "Fully Loaded Time is 21.28s (threshold 5.0s).",
+            "value": 21.28,
             "threshold": 5.0,
             "recommendation": "Review the full resource waterfall in the linked GTmetrix report for the longest-pole resource."
           },
@@ -991,19 +1027,19 @@
             "category": "high_request_count",
             "severity": "info",
             "title": "High request count",
-            "detail": "567 requests (threshold 80).",
-            "value": 567,
+            "detail": "566 requests (threshold 80).",
+            "value": 566,
             "threshold": 80,
             "recommendation": "Consolidate/lazy-load third-party embeds and Shopify apps that each add their own requests."
           }
         ]
       },
       "recent_issue_counts": [
-        4,
         5,
         4,
         5,
         5,
+        4,
         4,
         4,
         4,

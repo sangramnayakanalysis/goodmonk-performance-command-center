@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-10-13T21:46:25",
-      "occurrence_count": 441
+      "last_seen_at": "2026-10-14T00:52:56",
+      "occurrence_count": 442
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-10-13T21:46:25",
-      "occurrence_count": 441
+      "last_seen_at": "2026-10-14T00:52:56",
+      "occurrence_count": 442
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,52 +24,115 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-10-13T21:46:25",
-      "occurrence_count": 441
+      "last_seen_at": "2026-10-14T00:52:56",
+      "occurrence_count": 442
     },
-    "operational:sheets:google_sheets_failure": {
-      "alert_type": "google_sheets_failure",
-      "module": "sheets",
-      "severity": "critical",
-      "affected_page": null,
-      "first_seen_at": "2026-10-13T21:46:24",
-      "last_seen_at": "2026-10-13T21:46:24",
-      "occurrence_count": 3
+    "score_trend:H50+": {
+      "alert_type": "performance_grade_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "H50+",
+      "first_seen_at": "2026-10-14T00:52:50",
+      "last_seen_at": "2026-10-14T00:52:50",
+      "occurrence_count": 1
     },
-    "score_trend:Slimbiotics": {
+    "score_trend:Pineapple": {
       "alert_type": "performance_score_drop",
       "module": "gtmetrix",
       "severity": "warning",
-      "affected_page": "Slimbiotics",
-      "first_seen_at": "2026-10-13T21:46:24",
-      "last_seen_at": "2026-10-13T21:46:24",
+      "affected_page": "Pineapple",
+      "first_seen_at": "2026-10-14T00:52:50",
+      "last_seen_at": "2026-10-14T00:52:50",
       "occurrence_count": 1
     },
-    "score_trend:MM_Vanilla": {
+    "score_trend:Assorted": {
       "alert_type": "performance_score_drop",
       "module": "gtmetrix",
       "severity": "warning",
-      "affected_page": "Milk Mix Vanilla",
-      "first_seen_at": "2026-10-13T21:46:24",
-      "last_seen_at": "2026-10-13T21:46:24",
+      "affected_page": "Assorted",
+      "first_seen_at": "2026-10-14T00:52:50",
+      "last_seen_at": "2026-10-14T00:52:50",
       "occurrence_count": 1
     },
-    "root_cause:Slimbiotics:high_cls": {
+    "score_trend:FF": {
+      "alert_type": "performance_grade_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Fiber Fix",
+      "first_seen_at": "2026-10-14T00:52:50",
+      "last_seen_at": "2026-10-14T00:52:50",
+      "occurrence_count": 1
+    },
+    "score_trend:Weight Management": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Weight Management",
+      "first_seen_at": "2026-10-14T00:52:50",
+      "last_seen_at": "2026-10-14T00:52:50",
+      "occurrence_count": 1
+    },
+    "score_trend:Berries": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Berries",
+      "first_seen_at": "2026-10-14T00:52:50",
+      "last_seen_at": "2026-10-14T00:52:50",
+      "occurrence_count": 1
+    },
+    "root_cause:Pineapple:high_cls": {
       "alert_type": "high_cls",
       "module": "root_cause",
       "severity": "warning",
-      "affected_page": "Slimbiotics",
-      "first_seen_at": "2026-10-13T21:46:24",
-      "last_seen_at": "2026-10-13T21:46:24",
+      "affected_page": "Pineapple",
+      "first_seen_at": "2026-10-14T00:52:53",
+      "last_seen_at": "2026-10-14T00:52:53",
       "occurrence_count": 1
     },
-    "root_cause:MM_Vanilla:high_cls": {
+    "root_cause:Berries:slow_server_response": {
+      "alert_type": "slow_server_response",
+      "module": "root_cause",
+      "severity": "warning",
+      "affected_page": "Berries",
+      "first_seen_at": "2026-10-14T00:52:53",
+      "last_seen_at": "2026-10-14T00:52:53",
+      "occurrence_count": 1
+    },
+    "root_cause:FF:high_cls": {
       "alert_type": "high_cls",
       "module": "root_cause",
       "severity": "warning",
-      "affected_page": "Milk Mix Vanilla",
-      "first_seen_at": "2026-10-13T21:46:24",
-      "last_seen_at": "2026-10-13T21:46:24",
+      "affected_page": "Fiber Fix",
+      "first_seen_at": "2026-10-14T00:52:53",
+      "last_seen_at": "2026-10-14T00:52:53",
+      "occurrence_count": 1
+    },
+    "root_cause:Assorted:high_cls": {
+      "alert_type": "high_cls",
+      "module": "root_cause",
+      "severity": "warning",
+      "affected_page": "Assorted",
+      "first_seen_at": "2026-10-14T00:52:53",
+      "last_seen_at": "2026-10-14T00:52:53",
+      "occurrence_count": 1
+    },
+    "root_cause:Berries:high_ttfb": {
+      "alert_type": "high_ttfb",
+      "module": "root_cause",
+      "severity": "warning",
+      "affected_page": "Berries",
+      "first_seen_at": "2026-10-14T00:52:53",
+      "last_seen_at": "2026-10-14T00:52:53",
+      "occurrence_count": 1
+    },
+    "root_cause:Weight Management:high_cls": {
+      "alert_type": "high_cls",
+      "module": "root_cause",
+      "severity": "warning",
+      "affected_page": "Weight Management",
+      "first_seen_at": "2026-10-14T00:52:53",
+      "last_seen_at": "2026-10-14T00:52:53",
       "occurrence_count": 1
     }
   }
