@@ -1,6 +1,30 @@
 {
-  "generated_at": "2026-10-15T01:14:21",
+  "generated_at": "2026-10-15T06:49:26",
   "recent_alerts": [
+    {
+      "Date": "2026-10-15",
+      "Time": "06:49:25",
+      "Alert Type": "homepage_failed",
+      "Severity": "critical",
+      "Module": "gtmetrix",
+      "Affected Page": "Homepage",
+      "Message": "Homepage is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-15",
+      "Time": "06:48:40",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 2 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 2
+    },
     {
       "Date": "2026-10-15",
       "Time": "01:14:20",
@@ -336,30 +360,6 @@
       "Root Cause": "startTest(https://www.goodmonk.in/products/good-monk-superhero-milk-mix-strawberry): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Wed, Oct 14, 2026 2:15 PM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
       "Status": "New",
       "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-14",
-      "Time": "19:55:48",
-      "Alert Type": "page_failed",
-      "Severity": "high",
-      "Module": "gtmetrix",
-      "Affected Page": "Fiber Fix",
-      "Message": "GTmetrix test failed for Fiber Fix: startTest(https://www.goodmonk.in/products/fiber-fix): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Wed, Oct 14, 2026 2:15 PM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
-      "Root Cause": "startTest(https://www.goodmonk.in/products/fiber-fix): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Wed, Oct 14, 2026 2:15 PM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-14",
-      "Time": "19:55:47",
-      "Alert Type": "page_failed",
-      "Severity": "high",
-      "Module": "gtmetrix",
-      "Affected Page": "Mango",
-      "Message": "GTmetrix test failed for Mango: startTest(https://www.goodmonk.in/products/instant-fruit-drink-mix-natural-mango-powder-50-less-sugar-with-8-vitamins-minerals): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Wed, Oct 14, 2026 2:15 PM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
-      "Root Cause": "startTest(https://www.goodmonk.in/products/instant-fruit-drink-mix-natural-mango-powder-50-less-sugar-with-8-vitamins-minerals): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Wed, Oct 14, 2026 2:15 PM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
-      "Status": "New",
-      "Occurrence Count": 1
     }
   ],
   "active_alerts": [
@@ -686,21 +686,33 @@
       "Root Cause": "Reserve explicit width/height (or aspect-ratio) for images and embeds above the fold.",
       "Status": "New",
       "Occurrence Count": 1
-    },
+    }
+  ],
+  "recovered_alerts": [
     {
       "Date": "2026-10-15",
-      "Time": "01:14:16",
+      "Time": "06:49:25",
       "Alert Type": "homepage_failed",
       "Severity": "critical",
       "Module": "gtmetrix",
       "Affected Page": "Homepage",
-      "Message": "GTmetrix test failed for Homepage: Test BaHASdg0 errored: Lighthouse Error: The page took too long to load (No CPU idle period)",
-      "Root Cause": "Test BaHASdg0 errored: Lighthouse Error: The page took too long to load (No CPU idle period)",
-      "Status": "New",
+      "Message": "Homepage is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
       "Occurrence Count": 1
-    }
-  ],
-  "recovered_alerts": [
+    },
+    {
+      "Date": "2026-10-15",
+      "Time": "06:48:40",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 2 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 2
+    },
     {
       "Date": "2026-10-15",
       "Time": "01:14:18",
@@ -916,43 +928,19 @@
       "Root Cause": "",
       "Status": "Recovered",
       "Occurrence Count": 3
-    },
-    {
-      "Date": "2026-10-14",
-      "Time": "19:54:29",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 3 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 3
-    },
-    {
-      "Date": "2026-10-14",
-      "Time": "15:45:57",
-      "Alert Type": "slow_server_response",
-      "Severity": "warning",
-      "Module": "root_cause",
-      "Affected Page": "Fiber Fix",
-      "Message": "FF:slow_server_response is healthy again after 1 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
     }
   ],
   "severity_counts": {
-    "critical": 1,
+    "critical": 0,
     "high": 0,
     "warning": 27,
     "info": 0
   },
-  "total_active": 28,
+  "total_active": 27,
   "trend": [
     {
       "date": "2026-10-06",
-      "count": 3
+      "count": 2
     },
     {
       "date": "2026-10-07",
