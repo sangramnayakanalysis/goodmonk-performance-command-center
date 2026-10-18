@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-10-18T12:24:27",
-      "occurrence_count": 470
+      "last_seen_at": "2026-10-18T16:22:07",
+      "occurrence_count": 471
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-10-18T12:24:27",
-      "occurrence_count": 470
+      "last_seen_at": "2026-10-18T16:22:07",
+      "occurrence_count": 471
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-10-18T12:24:27",
-      "occurrence_count": 470
+      "last_seen_at": "2026-10-18T16:22:07",
+      "occurrence_count": 471
     },
     "root_cause:MM_Vanilla:high_cls": {
       "alert_type": "high_cls",
@@ -36,50 +36,14 @@
       "last_seen_at": "2026-10-14T05:45:54",
       "occurrence_count": 1
     },
-    "score_trend:Berries": {
-      "alert_type": "performance_score_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Berries",
-      "first_seen_at": "2026-10-17T20:00:36",
-      "last_seen_at": "2026-10-18T12:24:27",
-      "occurrence_count": 5
-    },
-    "root_cause:Berries:high_cls": {
-      "alert_type": "high_cls",
-      "module": "root_cause",
-      "severity": "warning",
-      "affected_page": "Berries",
-      "first_seen_at": "2026-10-17T21:57:33",
-      "last_seen_at": "2026-10-18T12:24:27",
-      "occurrence_count": 3
-    },
     "score_trend:H50+": {
       "alert_type": "performance_grade_drop",
       "module": "gtmetrix",
       "severity": "warning",
       "affected_page": "H50+",
       "first_seen_at": "2026-10-18T02:24:14",
-      "last_seen_at": "2026-10-18T12:24:27",
-      "occurrence_count": 2
-    },
-    "operational:sheets:google_sheets_failure": {
-      "alert_type": "google_sheets_failure",
-      "module": "sheets",
-      "severity": "critical",
-      "affected_page": null,
-      "first_seen_at": "2026-10-18T12:24:26",
-      "last_seen_at": "2026-10-18T12:24:26",
-      "occurrence_count": 4
-    },
-    "score_trend:Plant Protein Roti": {
-      "alert_type": "performance_grade_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Plant Protein Roti",
-      "first_seen_at": "2026-10-18T12:24:27",
-      "last_seen_at": "2026-10-18T12:24:27",
-      "occurrence_count": 1
+      "last_seen_at": "2026-10-18T16:22:07",
+      "occurrence_count": 3
     },
     "root_cause:H50+:high_cls": {
       "alert_type": "high_cls",
@@ -87,17 +51,17 @@
       "severity": "warning",
       "affected_page": "H50+",
       "first_seen_at": "2026-10-18T12:24:27",
-      "last_seen_at": "2026-10-18T12:24:27",
-      "occurrence_count": 1
+      "last_seen_at": "2026-10-18T16:22:07",
+      "occurrence_count": 2
     },
-    "root_cause:Shop_All:high_cls": {
-      "alert_type": "high_cls",
-      "module": "root_cause",
-      "severity": "warning",
-      "affected_page": "Shop All",
-      "first_seen_at": "2026-10-18T12:24:27",
-      "last_seen_at": "2026-10-18T12:24:27",
-      "occurrence_count": 1
+    "operational:sheets:google_sheets_failure": {
+      "alert_type": "google_sheets_failure",
+      "module": "sheets",
+      "severity": "critical",
+      "affected_page": null,
+      "first_seen_at": "2026-10-18T16:22:07",
+      "last_seen_at": "2026-10-18T16:22:07",
+      "occurrence_count": 4
     }
   }
 }
