@@ -1,6 +1,18 @@
 {
-  "generated_at": "2026-10-18T02:24:15",
+  "generated_at": "2026-10-18T07:37:50",
   "recent_alerts": [
+    {
+      "Date": "2026-10-18",
+      "Time": "07:37:03",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 3 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 3
+    },
     {
       "Date": "2026-10-18",
       "Time": "02:24:14",
@@ -348,33 +360,9 @@
       "Root Cause": "",
       "Status": "Recovered",
       "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-17",
-      "Time": "17:43:33",
-      "Alert Type": "page_failed",
-      "Severity": "high",
-      "Module": "gtmetrix",
-      "Affected Page": "Assorted",
-      "Message": "Assorted is healthy again after 1 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
     }
   ],
   "active_alerts": [
-    {
-      "Date": "2026-10-18",
-      "Time": "02:24:09",
-      "Alert Type": "page_failed",
-      "Severity": "high",
-      "Module": "gtmetrix",
-      "Affected Page": "Milk Mix Chocolate",
-      "Message": "GTmetrix test failed for Milk Mix Chocolate: startTest(https://www.goodmonk.in/products/good-monk-superhero-milk-mix): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has 0 API credits remaining. Your next API credit refill is scheduled for Sun, Oct 18, 2026 3:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
-      "Root Cause": "startTest(https://www.goodmonk.in/products/good-monk-superhero-milk-mix): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has 0 API credits remaining. Your next API credit refill is scheduled for Sun, Oct 18, 2026 3:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
     {
       "Date": "2026-10-18",
       "Time": "02:24:13",
@@ -605,6 +593,18 @@
     },
     {
       "Date": "2026-10-18",
+      "Time": "02:24:09",
+      "Alert Type": "page_failed",
+      "Severity": "high",
+      "Module": "gtmetrix",
+      "Affected Page": "Milk Mix Chocolate",
+      "Message": "GTmetrix test failed for Milk Mix Chocolate: startTest(https://www.goodmonk.in/products/good-monk-superhero-milk-mix): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has 0 API credits remaining. Your next API credit refill is scheduled for Sun, Oct 18, 2026 3:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
+      "Root Cause": "startTest(https://www.goodmonk.in/products/good-monk-superhero-milk-mix): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has 0 API credits remaining. Your next API credit refill is scheduled for Sun, Oct 18, 2026 3:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-18",
       "Time": "02:24:10",
       "Alert Type": "page_failed",
       "Severity": "high",
@@ -689,6 +689,18 @@
     }
   ],
   "recovered_alerts": [
+    {
+      "Date": "2026-10-18",
+      "Time": "07:37:03",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 3 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 3
+    },
     {
       "Date": "2026-10-18",
       "Time": "02:24:14",
@@ -916,18 +928,6 @@
       "Root Cause": "",
       "Status": "Recovered",
       "Occurrence Count": 4
-    },
-    {
-      "Date": "2026-10-17",
-      "Time": "07:23:49",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 3 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 3
     }
   ],
   "severity_counts": {
