@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-10-19T11:46:42",
-      "occurrence_count": 476
+      "last_seen_at": "2026-10-19T18:07:14",
+      "occurrence_count": 477
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-10-19T11:46:42",
-      "occurrence_count": 476
+      "last_seen_at": "2026-10-19T18:07:14",
+      "occurrence_count": 477
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-10-19T11:46:42",
-      "occurrence_count": 476
+      "last_seen_at": "2026-10-19T18:07:14",
+      "occurrence_count": 477
     },
     "root_cause:MM_Vanilla:high_cls": {
       "alert_type": "high_cls",
@@ -41,26 +41,26 @@
       "module": "sheets",
       "severity": "critical",
       "affected_page": null,
-      "first_seen_at": "2026-10-19T11:46:41",
-      "last_seen_at": "2026-10-19T11:46:41",
+      "first_seen_at": "2026-10-19T18:07:13",
+      "last_seen_at": "2026-10-19T18:07:13",
       "occurrence_count": 4
     },
-    "score_trend:Shop_All": {
-      "alert_type": "performance_grade_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Shop All",
-      "first_seen_at": "2026-10-19T11:46:41",
-      "last_seen_at": "2026-10-19T11:46:41",
-      "occurrence_count": 1
-    },
-    "score_trend:Orange": {
+    "score_trend:MM_Vanilla": {
       "alert_type": "performance_score_drop",
       "module": "gtmetrix",
       "severity": "warning",
-      "affected_page": "Orange",
-      "first_seen_at": "2026-10-19T11:46:41",
-      "last_seen_at": "2026-10-19T11:46:41",
+      "affected_page": "Milk Mix Vanilla",
+      "first_seen_at": "2026-10-19T18:07:13",
+      "last_seen_at": "2026-10-19T18:07:13",
+      "occurrence_count": 1
+    },
+    "score_trend:MM_Chocolate": {
+      "alert_type": "performance_grade_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Milk Mix Chocolate",
+      "first_seen_at": "2026-10-19T18:07:13",
+      "last_seen_at": "2026-10-19T18:07:13",
       "occurrence_count": 1
     }
   }
