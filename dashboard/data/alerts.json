@@ -1,6 +1,18 @@
 {
-  "generated_at": "2026-10-18T22:10:51",
+  "generated_at": "2026-10-19T00:40:14",
   "recent_alerts": [
+    {
+      "Date": "2026-10-19",
+      "Time": "00:39:21",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 2 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 2
+    },
     {
       "Date": "2026-10-18",
       "Time": "22:10:50",
@@ -348,18 +360,6 @@
       "Root Cause": "startTest(https://www.goodmonk.in/products/good-monk-slimbiotics): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has 0 API credits remaining. Your next API credit refill is scheduled for Sun, Oct 18, 2026 3:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
       "Status": "New",
       "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-18",
-      "Time": "02:24:09",
-      "Alert Type": "page_failed",
-      "Severity": "high",
-      "Module": "gtmetrix",
-      "Affected Page": "Milk Mix Chocolate",
-      "Message": "GTmetrix test failed for Milk Mix Chocolate: startTest(https://www.goodmonk.in/products/good-monk-superhero-milk-mix): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has 0 API credits remaining. Your next API credit refill is scheduled for Sun, Oct 18, 2026 3:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
-      "Root Cause": "startTest(https://www.goodmonk.in/products/good-monk-superhero-milk-mix): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has 0 API credits remaining. Your next API credit refill is scheduled for Sun, Oct 18, 2026 3:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}",
-      "Status": "New",
-      "Occurrence Count": 1
     }
   ],
   "active_alerts": [
@@ -702,6 +702,18 @@
   ],
   "recovered_alerts": [
     {
+      "Date": "2026-10-19",
+      "Time": "00:39:21",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 2 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 2
+    },
+    {
       "Date": "2026-10-18",
       "Time": "22:10:50",
       "Alert Type": "performance_score_drop",
@@ -925,18 +937,6 @@
       "Module": "gtmetrix",
       "Affected Page": "Milk Mix Chocolate",
       "Message": "MM_Chocolate is healthy again after 1 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-17",
-      "Time": "17:43:34",
-      "Alert Type": "page_failed",
-      "Severity": "high",
-      "Module": "gtmetrix",
-      "Affected Page": "Weight Management",
-      "Message": "Weight Management is healthy again after 1 consecutive alerting run(s).",
       "Root Cause": "",
       "Status": "Recovered",
       "Occurrence Count": 1
