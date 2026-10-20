@@ -1,5 +1,387 @@
 {
-  "updated_at": "2026-10-20T07:01:06",
-  "completed_sheet_names": [],
-  "last_results": []
+  "updated_at": "2026-10-20T12:29:21",
+  "completed_sheet_names": [
+    "FNM",
+    "H50+",
+    "Homepage",
+    "Shop_All"
+  ],
+  "last_results": [
+    {
+      "page_name": "FNM",
+      "sheet_name": "FNM",
+      "url": "https://www.goodmonk.in/products/good-monk",
+      "metrics": {
+        "performance_score": 64,
+        "grade": "C",
+        "lcp": 1.23,
+        "onload": 10.51,
+        "fully_loaded": 18.11,
+        "ttfb": 0.37,
+        "cls": 0.0290887,
+        "tbt": 3.87,
+        "report_url": "https://gtmetrix.com/reports/www.goodmonk.in/2jd5qVm0/",
+        "status": "OK",
+        "error_message": "",
+        "raw_audit": {
+          "page_bytes_kb": 13201.8,
+          "page_requests": 545,
+          "html_bytes_kb": 133.3,
+          "redirect_duration": 0.0,
+          "connect_duration": 0.06,
+          "backend_duration": 0.3,
+          "first_contentful_paint": 0.98,
+          "speed_index": 1497,
+          "rum_speed_index": 1547
+        }
+      },
+      "success": true,
+      "error_message": ""
+    },
+    {
+      "page_name": "H50+",
+      "sheet_name": "H50+",
+      "url": "https://www.goodmonk.in/products/good-monk-50-nutrition-mix",
+      "metrics": {
+        "performance_score": 66,
+        "grade": "C",
+        "lcp": 1.01,
+        "onload": 9.63,
+        "fully_loaded": 17.38,
+        "ttfb": 0.12,
+        "cls": 0.0876038,
+        "tbt": 3.63,
+        "report_url": "https://gtmetrix.com/reports/www.goodmonk.in/JOb3vYzF/",
+        "status": "OK",
+        "error_message": "",
+        "raw_audit": {
+          "page_bytes_kb": 13591.1,
+          "page_requests": 554,
+          "html_bytes_kb": 136.2,
+          "redirect_duration": 0.0,
+          "connect_duration": 0.04,
+          "backend_duration": 0.09,
+          "first_contentful_paint": 0.63,
+          "speed_index": 1176,
+          "rum_speed_index": 1217
+        }
+      },
+      "success": true,
+      "error_message": ""
+    },
+    {
+      "page_name": "Homepage",
+      "sheet_name": "Homepage",
+      "url": "https://www.goodmonk.in/",
+      "metrics": {
+        "performance_score": 66,
+        "grade": "C",
+        "lcp": 1.23,
+        "onload": 8.73,
+        "fully_loaded": 17.18,
+        "ttfb": 0.12,
+        "cls": 0,
+        "tbt": 3.31,
+        "report_url": "https://gtmetrix.com/reports/www.goodmonk.in/lDj28cWP/",
+        "status": "OK",
+        "error_message": "",
+        "raw_audit": {
+          "page_bytes_kb": 6280.8,
+          "page_requests": 493,
+          "html_bytes_kb": 121.2,
+          "redirect_duration": 0.0,
+          "connect_duration": 0.04,
+          "backend_duration": 0.08,
+          "first_contentful_paint": 0.64,
+          "speed_index": 1344,
+          "rum_speed_index": 643
+        }
+      },
+      "success": true,
+      "error_message": ""
+    },
+    {
+      "page_name": "Shop All",
+      "sheet_name": "Shop_All",
+      "url": "https://www.goodmonk.in/collections/all",
+      "metrics": {
+        "performance_score": 61,
+        "grade": "D",
+        "lcp": 1.59,
+        "onload": 4.62,
+        "fully_loaded": 17.56,
+        "ttfb": 0.36,
+        "cls": 0.0181082,
+        "tbt": 8.16,
+        "report_url": "https://gtmetrix.com/reports/www.goodmonk.in/4D7actSb/",
+        "status": "OK",
+        "error_message": "",
+        "raw_audit": {
+          "page_bytes_kb": 12983.6,
+          "page_requests": 479,
+          "html_bytes_kb": 114.9,
+          "redirect_duration": 0.0,
+          "connect_duration": 0.04,
+          "backend_duration": 0.31,
+          "first_contentful_paint": 0.93,
+          "speed_index": 1596,
+          "rum_speed_index": 1256
+        }
+      },
+      "success": true,
+      "error_message": ""
+    },
+    {
+      "page_name": "Berries",
+      "sheet_name": "Berries",
+      "url": "https://www.goodmonk.in/products/instant-fruit-drink-mix-mixed-berries",
+      "metrics": {
+        "performance_score": null,
+        "grade": "N/A",
+        "lcp": null,
+        "onload": null,
+        "fully_loaded": null,
+        "ttfb": null,
+        "cls": null,
+        "tbt": null,
+        "report_url": null,
+        "status": "OK",
+        "error_message": "",
+        "raw_audit": {}
+      },
+      "success": false,
+      "error_message": "startTest(https://www.goodmonk.in/products/instant-fruit-drink-mix-mixed-berries): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Tue, Oct 20, 2026 6:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}"
+    },
+    {
+      "page_name": "Fiber Fix",
+      "sheet_name": "FF",
+      "url": "https://www.goodmonk.in/products/fiber-fix",
+      "metrics": {
+        "performance_score": null,
+        "grade": "N/A",
+        "lcp": null,
+        "onload": null,
+        "fully_loaded": null,
+        "ttfb": null,
+        "cls": null,
+        "tbt": null,
+        "report_url": null,
+        "status": "OK",
+        "error_message": "",
+        "raw_audit": {}
+      },
+      "success": false,
+      "error_message": "startTest(https://www.goodmonk.in/products/fiber-fix): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Tue, Oct 20, 2026 6:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}"
+    },
+    {
+      "page_name": "Orange",
+      "sheet_name": "Orange",
+      "url": "https://www.goodmonk.in/products/instant-fruit-drink-mix-orange",
+      "metrics": {
+        "performance_score": null,
+        "grade": "N/A",
+        "lcp": null,
+        "onload": null,
+        "fully_loaded": null,
+        "ttfb": null,
+        "cls": null,
+        "tbt": null,
+        "report_url": null,
+        "status": "OK",
+        "error_message": "",
+        "raw_audit": {}
+      },
+      "success": false,
+      "error_message": "startTest(https://www.goodmonk.in/products/instant-fruit-drink-mix-orange): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Tue, Oct 20, 2026 6:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}"
+    },
+    {
+      "page_name": "Pineapple",
+      "sheet_name": "Pineapple",
+      "url": "https://www.goodmonk.in/products/instant-fruit-drink-mix-pineapple",
+      "metrics": {
+        "performance_score": null,
+        "grade": "N/A",
+        "lcp": null,
+        "onload": null,
+        "fully_loaded": null,
+        "ttfb": null,
+        "cls": null,
+        "tbt": null,
+        "report_url": null,
+        "status": "OK",
+        "error_message": "",
+        "raw_audit": {}
+      },
+      "success": false,
+      "error_message": "startTest(https://www.goodmonk.in/products/instant-fruit-drink-mix-pineapple): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Tue, Oct 20, 2026 6:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}"
+    },
+    {
+      "page_name": "Mango",
+      "sheet_name": "Mango",
+      "url": "https://www.goodmonk.in/products/instant-fruit-drink-mix-natural-mango-powder-50-less-sugar-with-8-vitamins-minerals",
+      "metrics": {
+        "performance_score": null,
+        "grade": "N/A",
+        "lcp": null,
+        "onload": null,
+        "fully_loaded": null,
+        "ttfb": null,
+        "cls": null,
+        "tbt": null,
+        "report_url": null,
+        "status": "OK",
+        "error_message": "",
+        "raw_audit": {}
+      },
+      "success": false,
+      "error_message": "startTest(https://www.goodmonk.in/products/instant-fruit-drink-mix-natural-mango-powder-50-less-sugar-with-8-vitamins-minerals): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Tue, Oct 20, 2026 6:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}"
+    },
+    {
+      "page_name": "Assorted",
+      "sheet_name": "Assorted",
+      "url": "https://www.goodmonk.in/products/instant-fruit-drink-mix-assorted",
+      "metrics": {
+        "performance_score": null,
+        "grade": "N/A",
+        "lcp": null,
+        "onload": null,
+        "fully_loaded": null,
+        "ttfb": null,
+        "cls": null,
+        "tbt": null,
+        "report_url": null,
+        "status": "OK",
+        "error_message": "",
+        "raw_audit": {}
+      },
+      "success": false,
+      "error_message": "startTest(https://www.goodmonk.in/products/instant-fruit-drink-mix-assorted): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Tue, Oct 20, 2026 6:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}"
+    },
+    {
+      "page_name": "Milk Mix Strawberry",
+      "sheet_name": "MM_Strawberry",
+      "url": "https://www.goodmonk.in/products/good-monk-superhero-milk-mix-strawberry",
+      "metrics": {
+        "performance_score": null,
+        "grade": "N/A",
+        "lcp": null,
+        "onload": null,
+        "fully_loaded": null,
+        "ttfb": null,
+        "cls": null,
+        "tbt": null,
+        "report_url": null,
+        "status": "OK",
+        "error_message": "",
+        "raw_audit": {}
+      },
+      "success": false,
+      "error_message": "startTest(https://www.goodmonk.in/products/good-monk-superhero-milk-mix-strawberry): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Tue, Oct 20, 2026 6:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}"
+    },
+    {
+      "page_name": "Milk Mix Vanilla",
+      "sheet_name": "MM_Vanilla",
+      "url": "https://www.goodmonk.in/products/good-monk-superhero-milk-mix-vanilla",
+      "metrics": {
+        "performance_score": null,
+        "grade": "N/A",
+        "lcp": null,
+        "onload": null,
+        "fully_loaded": null,
+        "ttfb": null,
+        "cls": null,
+        "tbt": null,
+        "report_url": null,
+        "status": "OK",
+        "error_message": "",
+        "raw_audit": {}
+      },
+      "success": false,
+      "error_message": "startTest(https://www.goodmonk.in/products/good-monk-superhero-milk-mix-vanilla): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Tue, Oct 20, 2026 6:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}"
+    },
+    {
+      "page_name": "Milk Mix Chocolate",
+      "sheet_name": "MM_Chocolate",
+      "url": "https://www.goodmonk.in/products/good-monk-superhero-milk-mix",
+      "metrics": {
+        "performance_score": null,
+        "grade": "N/A",
+        "lcp": null,
+        "onload": null,
+        "fully_loaded": null,
+        "ttfb": null,
+        "cls": null,
+        "tbt": null,
+        "report_url": null,
+        "status": "OK",
+        "error_message": "",
+        "raw_audit": {}
+      },
+      "success": false,
+      "error_message": "startTest(https://www.goodmonk.in/products/good-monk-superhero-milk-mix): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Tue, Oct 20, 2026 6:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}"
+    },
+    {
+      "page_name": "Slimbiotics",
+      "sheet_name": "Slimbiotics",
+      "url": "https://www.goodmonk.in/products/good-monk-slimbiotics",
+      "metrics": {
+        "performance_score": null,
+        "grade": "N/A",
+        "lcp": null,
+        "onload": null,
+        "fully_loaded": null,
+        "ttfb": null,
+        "cls": null,
+        "tbt": null,
+        "report_url": null,
+        "status": "OK",
+        "error_message": "",
+        "raw_audit": {}
+      },
+      "success": false,
+      "error_message": "startTest(https://www.goodmonk.in/products/good-monk-slimbiotics): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Tue, Oct 20, 2026 6:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}"
+    },
+    {
+      "page_name": "Weight Management",
+      "sheet_name": "Weight Management",
+      "url": "https://www.goodmonk.in/products/good-monk-weight-management-program",
+      "metrics": {
+        "performance_score": null,
+        "grade": "N/A",
+        "lcp": null,
+        "onload": null,
+        "fully_loaded": null,
+        "ttfb": null,
+        "cls": null,
+        "tbt": null,
+        "report_url": null,
+        "status": "OK",
+        "error_message": "",
+        "raw_audit": {}
+      },
+      "success": false,
+      "error_message": "startTest(https://www.goodmonk.in/products/good-monk-weight-management-program): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Tue, Oct 20, 2026 6:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}"
+    },
+    {
+      "page_name": "Plant Protein Roti",
+      "sheet_name": "Plant Protein Roti",
+      "url": "https://www.goodmonk.in/products/plant-protein-for-rotis",
+      "metrics": {
+        "performance_score": null,
+        "grade": "N/A",
+        "lcp": null,
+        "onload": null,
+        "fully_loaded": null,
+        "ttfb": null,
+        "cls": null,
+        "tbt": null,
+        "report_url": null,
+        "status": "OK",
+        "error_message": "",
+        "raw_audit": {}
+      },
+      "success": false,
+      "error_message": "startTest(https://www.goodmonk.in/products/plant-protein-for-rotis): HTTP 402: {\"errors\":[{\"title\":\"Insufficient API credits for this request\",\"detail\":\"This action requires 1 API credit, but your plan has -2 API credits remaining. Your next API credit refill is scheduled for Tue, Oct 20, 2026 6:15 AM -0700.\",\"code\":\"E40201\",\"status\":\"402\"}]}"
+    }
+  ]
 }
