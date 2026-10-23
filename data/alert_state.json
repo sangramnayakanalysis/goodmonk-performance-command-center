@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-10-23T15:39:34",
-      "occurrence_count": 498
+      "last_seen_at": "2026-10-23T19:46:23",
+      "occurrence_count": 499
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-10-23T15:39:34",
-      "occurrence_count": 498
+      "last_seen_at": "2026-10-23T19:46:23",
+      "occurrence_count": 499
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-10-23T15:39:34",
-      "occurrence_count": 498
+      "last_seen_at": "2026-10-23T19:46:23",
+      "occurrence_count": 499
     },
     "root_cause:Plant Protein Roti:high_cls": {
       "alert_type": "high_cls",
@@ -68,44 +68,35 @@
       "module": "sheets",
       "severity": "critical",
       "affected_page": null,
-      "first_seen_at": "2026-10-23T15:39:33",
-      "last_seen_at": "2026-10-23T15:39:33",
+      "first_seen_at": "2026-10-23T19:46:21",
+      "last_seen_at": "2026-10-23T19:46:22",
       "occurrence_count": 4
     },
-    "score_trend:Pineapple": {
+    "gtmetrix:MM_Vanilla": {
+      "alert_type": "page_failed",
+      "module": "gtmetrix",
+      "severity": "high",
+      "affected_page": "Milk Mix Vanilla",
+      "first_seen_at": "2026-10-23T19:46:22",
+      "last_seen_at": "2026-10-23T19:46:22",
+      "occurrence_count": 1
+    },
+    "score_trend:Orange": {
       "alert_type": "performance_score_drop",
       "module": "gtmetrix",
       "severity": "warning",
-      "affected_page": "Pineapple",
-      "first_seen_at": "2026-10-23T15:39:33",
-      "last_seen_at": "2026-10-23T15:39:33",
+      "affected_page": "Orange",
+      "first_seen_at": "2026-10-23T19:46:22",
+      "last_seen_at": "2026-10-23T19:46:22",
       "occurrence_count": 1
     },
-    "score_trend:Shop_All": {
+    "score_trend:Assorted": {
       "alert_type": "performance_score_drop",
       "module": "gtmetrix",
       "severity": "warning",
-      "affected_page": "Shop All",
-      "first_seen_at": "2026-10-23T15:39:33",
-      "last_seen_at": "2026-10-23T15:39:33",
-      "occurrence_count": 1
-    },
-    "root_cause:Shop_All:slow_server_response": {
-      "alert_type": "slow_server_response",
-      "module": "root_cause",
-      "severity": "warning",
-      "affected_page": "Shop All",
-      "first_seen_at": "2026-10-23T15:39:34",
-      "last_seen_at": "2026-10-23T15:39:34",
-      "occurrence_count": 1
-    },
-    "root_cause:Shop_All:high_ttfb": {
-      "alert_type": "high_ttfb",
-      "module": "root_cause",
-      "severity": "warning",
-      "affected_page": "Shop All",
-      "first_seen_at": "2026-10-23T15:39:34",
-      "last_seen_at": "2026-10-23T15:39:34",
+      "affected_page": "Assorted",
+      "first_seen_at": "2026-10-23T19:46:22",
+      "last_seen_at": "2026-10-23T19:46:22",
       "occurrence_count": 1
     }
   }
