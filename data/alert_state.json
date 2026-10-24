@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-10-24T01:19:06",
-      "occurrence_count": 501
+      "last_seen_at": "2026-10-24T06:48:40",
+      "occurrence_count": 502
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-10-24T01:19:06",
-      "occurrence_count": 501
+      "last_seen_at": "2026-10-24T06:48:40",
+      "occurrence_count": 502
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-10-24T01:19:06",
-      "occurrence_count": 501
+      "last_seen_at": "2026-10-24T06:48:40",
+      "occurrence_count": 502
     },
     "root_cause:Plant Protein Roti:high_cls": {
       "alert_type": "high_cls",
@@ -33,26 +33,8 @@
       "severity": "warning",
       "affected_page": "Plant Protein Roti",
       "first_seen_at": "2026-10-22T01:12:56",
-      "last_seen_at": "2026-10-22T01:12:56",
-      "occurrence_count": 1
-    },
-    "root_cause:MM_Strawberry:high_cls": {
-      "alert_type": "high_cls",
-      "module": "root_cause",
-      "severity": "warning",
-      "affected_page": "Milk Mix Strawberry",
-      "first_seen_at": "2026-10-22T12:46:25",
-      "last_seen_at": "2026-10-22T12:46:25",
-      "occurrence_count": 1
-    },
-    "root_cause:MM_Vanilla:high_cls": {
-      "alert_type": "high_cls",
-      "module": "root_cause",
-      "severity": "warning",
-      "affected_page": "Milk Mix Vanilla",
-      "first_seen_at": "2026-10-22T12:46:25",
-      "last_seen_at": "2026-10-22T12:46:25",
-      "occurrence_count": 1
+      "last_seen_at": "2026-10-24T06:48:39",
+      "occurrence_count": 2
     },
     "root_cause:MM_Chocolate:high_cls": {
       "alert_type": "high_cls",
@@ -60,160 +42,79 @@
       "severity": "warning",
       "affected_page": "Milk Mix Chocolate",
       "first_seen_at": "2026-10-22T12:46:25",
-      "last_seen_at": "2026-10-22T12:46:25",
-      "occurrence_count": 1
-    },
-    "score_trend:Orange": {
-      "alert_type": "performance_score_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Orange",
-      "first_seen_at": "2026-10-23T19:46:22",
-      "last_seen_at": "2026-10-24T01:19:06",
-      "occurrence_count": 3
-    },
-    "score_trend:Assorted": {
-      "alert_type": "performance_score_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Assorted",
-      "first_seen_at": "2026-10-23T19:46:22",
-      "last_seen_at": "2026-10-24T01:19:06",
-      "occurrence_count": 3
-    },
-    "score_trend:MM_Vanilla": {
-      "alert_type": "performance_score_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Milk Mix Vanilla",
-      "first_seen_at": "2026-10-23T22:49:14",
-      "last_seen_at": "2026-10-24T01:19:06",
+      "last_seen_at": "2026-10-24T06:48:39",
       "occurrence_count": 2
     },
-    "operational:sheets:google_sheets_failure": {
-      "alert_type": "google_sheets_failure",
-      "module": "sheets",
-      "severity": "critical",
-      "affected_page": null,
-      "first_seen_at": "2026-10-24T01:19:05",
-      "last_seen_at": "2026-10-24T01:19:06",
-      "occurrence_count": 4
-    },
-    "gtmetrix:FF": {
-      "alert_type": "page_failed",
+    "score_trend:MM_Chocolate": {
+      "alert_type": "performance_score_drop",
       "module": "gtmetrix",
-      "severity": "high",
-      "affected_page": "Fiber Fix",
-      "first_seen_at": "2026-10-24T01:19:06",
-      "last_seen_at": "2026-10-24T01:19:06",
-      "occurrence_count": 1
-    },
-    "gtmetrix:Plant Protein Roti": {
-      "alert_type": "page_failed",
-      "module": "gtmetrix",
-      "severity": "high",
-      "affected_page": "Plant Protein Roti",
-      "first_seen_at": "2026-10-24T01:19:06",
-      "last_seen_at": "2026-10-24T01:19:06",
-      "occurrence_count": 1
-    },
-    "gtmetrix:MM_Strawberry": {
-      "alert_type": "page_failed",
-      "module": "gtmetrix",
-      "severity": "high",
-      "affected_page": "Milk Mix Strawberry",
-      "first_seen_at": "2026-10-24T01:19:06",
-      "last_seen_at": "2026-10-24T01:19:06",
-      "occurrence_count": 1
-    },
-    "gtmetrix:Pineapple": {
-      "alert_type": "page_failed",
-      "module": "gtmetrix",
-      "severity": "high",
-      "affected_page": "Pineapple",
-      "first_seen_at": "2026-10-24T01:19:06",
-      "last_seen_at": "2026-10-24T01:19:06",
-      "occurrence_count": 1
-    },
-    "gtmetrix:Slimbiotics": {
-      "alert_type": "page_failed",
-      "module": "gtmetrix",
-      "severity": "high",
-      "affected_page": "Slimbiotics",
-      "first_seen_at": "2026-10-24T01:19:06",
-      "last_seen_at": "2026-10-24T01:19:06",
-      "occurrence_count": 1
-    },
-    "gtmetrix:Weight Management": {
-      "alert_type": "page_failed",
-      "module": "gtmetrix",
-      "severity": "high",
-      "affected_page": "Weight Management",
-      "first_seen_at": "2026-10-24T01:19:06",
-      "last_seen_at": "2026-10-24T01:19:06",
-      "occurrence_count": 1
-    },
-    "gtmetrix:Assorted": {
-      "alert_type": "page_failed",
-      "module": "gtmetrix",
-      "severity": "high",
-      "affected_page": "Assorted",
-      "first_seen_at": "2026-10-24T01:19:06",
-      "last_seen_at": "2026-10-24T01:19:06",
-      "occurrence_count": 1
-    },
-    "gtmetrix:Berries": {
-      "alert_type": "page_failed",
-      "module": "gtmetrix",
-      "severity": "high",
-      "affected_page": "Berries",
-      "first_seen_at": "2026-10-24T01:19:06",
-      "last_seen_at": "2026-10-24T01:19:06",
-      "occurrence_count": 1
-    },
-    "gtmetrix:MM_Vanilla": {
-      "alert_type": "page_failed",
-      "module": "gtmetrix",
-      "severity": "high",
-      "affected_page": "Milk Mix Vanilla",
-      "first_seen_at": "2026-10-24T01:19:06",
-      "last_seen_at": "2026-10-24T01:19:06",
-      "occurrence_count": 1
-    },
-    "gtmetrix:Mango": {
-      "alert_type": "page_failed",
-      "module": "gtmetrix",
-      "severity": "high",
-      "affected_page": "Mango",
-      "first_seen_at": "2026-10-24T01:19:06",
-      "last_seen_at": "2026-10-24T01:19:06",
-      "occurrence_count": 1
-    },
-    "gtmetrix:H50+": {
-      "alert_type": "page_failed",
-      "module": "gtmetrix",
-      "severity": "high",
-      "affected_page": "H50+",
-      "first_seen_at": "2026-10-24T01:19:06",
-      "last_seen_at": "2026-10-24T01:19:06",
-      "occurrence_count": 1
-    },
-    "gtmetrix:MM_Chocolate": {
-      "alert_type": "page_failed",
-      "module": "gtmetrix",
-      "severity": "high",
+      "severity": "warning",
       "affected_page": "Milk Mix Chocolate",
-      "first_seen_at": "2026-10-24T01:19:06",
-      "last_seen_at": "2026-10-24T01:19:06",
+      "first_seen_at": "2026-10-24T06:48:39",
+      "last_seen_at": "2026-10-24T06:48:39",
       "occurrence_count": 1
     },
-    "gtmetrix:Orange": {
-      "alert_type": "page_failed",
+    "score_trend:Plant Protein Roti": {
+      "alert_type": "performance_score_drop",
       "module": "gtmetrix",
-      "severity": "high",
+      "severity": "warning",
+      "affected_page": "Plant Protein Roti",
+      "first_seen_at": "2026-10-24T06:48:39",
+      "last_seen_at": "2026-10-24T06:48:39",
+      "occurrence_count": 1
+    },
+    "score_trend:Weight Management": {
+      "alert_type": "performance_grade_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Weight Management",
+      "first_seen_at": "2026-10-24T06:48:39",
+      "last_seen_at": "2026-10-24T06:48:39",
+      "occurrence_count": 1
+    },
+    "score_trend:FF": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Fiber Fix",
+      "first_seen_at": "2026-10-24T06:48:39",
+      "last_seen_at": "2026-10-24T06:48:39",
+      "occurrence_count": 1
+    },
+    "root_cause:Orange:slow_server_response": {
+      "alert_type": "slow_server_response",
+      "module": "root_cause",
+      "severity": "warning",
       "affected_page": "Orange",
-      "first_seen_at": "2026-10-24T01:19:06",
-      "last_seen_at": "2026-10-24T01:19:06",
+      "first_seen_at": "2026-10-24T06:48:39",
+      "last_seen_at": "2026-10-24T06:48:39",
+      "occurrence_count": 1
+    },
+    "root_cause:Orange:high_ttfb": {
+      "alert_type": "high_ttfb",
+      "module": "root_cause",
+      "severity": "warning",
+      "affected_page": "Orange",
+      "first_seen_at": "2026-10-24T06:48:39",
+      "last_seen_at": "2026-10-24T06:48:39",
+      "occurrence_count": 1
+    },
+    "root_cause:Assorted:high_cls": {
+      "alert_type": "high_cls",
+      "module": "root_cause",
+      "severity": "warning",
+      "affected_page": "Assorted",
+      "first_seen_at": "2026-10-24T06:48:39",
+      "last_seen_at": "2026-10-24T06:48:39",
+      "occurrence_count": 1
+    },
+    "root_cause:FF:high_cls": {
+      "alert_type": "high_cls",
+      "module": "root_cause",
+      "severity": "warning",
+      "affected_page": "Fiber Fix",
+      "first_seen_at": "2026-10-24T06:48:39",
+      "last_seen_at": "2026-10-24T06:48:39",
       "occurrence_count": 1
     }
   }
