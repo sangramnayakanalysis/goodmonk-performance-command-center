@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-10-24T06:48:40",
-      "occurrence_count": 502
+      "last_seen_at": "2026-10-24T11:50:38",
+      "occurrence_count": 503
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-10-24T06:48:40",
-      "occurrence_count": 502
+      "last_seen_at": "2026-10-24T11:50:38",
+      "occurrence_count": 503
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-10-24T06:48:40",
-      "occurrence_count": 502
+      "last_seen_at": "2026-10-24T11:50:38",
+      "occurrence_count": 503
     },
     "root_cause:Plant Protein Roti:high_cls": {
       "alert_type": "high_cls",
@@ -45,41 +45,14 @@
       "last_seen_at": "2026-10-24T06:48:39",
       "occurrence_count": 2
     },
-    "score_trend:MM_Chocolate": {
-      "alert_type": "performance_score_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Milk Mix Chocolate",
-      "first_seen_at": "2026-10-24T06:48:39",
-      "last_seen_at": "2026-10-24T06:48:39",
-      "occurrence_count": 1
-    },
-    "score_trend:Plant Protein Roti": {
-      "alert_type": "performance_score_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Plant Protein Roti",
-      "first_seen_at": "2026-10-24T06:48:39",
-      "last_seen_at": "2026-10-24T06:48:39",
-      "occurrence_count": 1
-    },
     "score_trend:Weight Management": {
       "alert_type": "performance_grade_drop",
       "module": "gtmetrix",
       "severity": "warning",
       "affected_page": "Weight Management",
       "first_seen_at": "2026-10-24T06:48:39",
-      "last_seen_at": "2026-10-24T06:48:39",
-      "occurrence_count": 1
-    },
-    "score_trend:FF": {
-      "alert_type": "performance_score_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Fiber Fix",
-      "first_seen_at": "2026-10-24T06:48:39",
-      "last_seen_at": "2026-10-24T06:48:39",
-      "occurrence_count": 1
+      "last_seen_at": "2026-10-24T11:50:38",
+      "occurrence_count": 2
     },
     "root_cause:Orange:slow_server_response": {
       "alert_type": "slow_server_response",
@@ -108,13 +81,22 @@
       "last_seen_at": "2026-10-24T06:48:39",
       "occurrence_count": 1
     },
-    "root_cause:FF:high_cls": {
-      "alert_type": "high_cls",
-      "module": "root_cause",
+    "operational:sheets:google_sheets_failure": {
+      "alert_type": "google_sheets_failure",
+      "module": "sheets",
+      "severity": "critical",
+      "affected_page": null,
+      "first_seen_at": "2026-10-24T11:50:37",
+      "last_seen_at": "2026-10-24T11:50:38",
+      "occurrence_count": 4
+    },
+    "score_trend:Shop_All": {
+      "alert_type": "performance_grade_drop",
+      "module": "gtmetrix",
       "severity": "warning",
-      "affected_page": "Fiber Fix",
-      "first_seen_at": "2026-10-24T06:48:39",
-      "last_seen_at": "2026-10-24T06:48:39",
+      "affected_page": "Shop All",
+      "first_seen_at": "2026-10-24T11:50:38",
+      "last_seen_at": "2026-10-24T11:50:38",
       "occurrence_count": 1
     }
   }
