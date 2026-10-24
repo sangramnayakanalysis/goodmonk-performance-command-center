@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-10-24T11:50:38",
-      "occurrence_count": 503
+      "last_seen_at": "2026-10-24T15:14:08",
+      "occurrence_count": 504
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-10-24T11:50:38",
-      "occurrence_count": 503
+      "last_seen_at": "2026-10-24T15:14:08",
+      "occurrence_count": 504
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-10-24T11:50:38",
-      "occurrence_count": 503
+      "last_seen_at": "2026-10-24T15:14:08",
+      "occurrence_count": 504
     },
     "root_cause:Plant Protein Roti:high_cls": {
       "alert_type": "high_cls",
@@ -43,15 +43,6 @@
       "affected_page": "Milk Mix Chocolate",
       "first_seen_at": "2026-10-22T12:46:25",
       "last_seen_at": "2026-10-24T06:48:39",
-      "occurrence_count": 2
-    },
-    "score_trend:Weight Management": {
-      "alert_type": "performance_grade_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Weight Management",
-      "first_seen_at": "2026-10-24T06:48:39",
-      "last_seen_at": "2026-10-24T11:50:38",
       "occurrence_count": 2
     },
     "root_cause:Orange:slow_server_response": {
@@ -86,17 +77,26 @@
       "module": "sheets",
       "severity": "critical",
       "affected_page": null,
-      "first_seen_at": "2026-10-24T11:50:37",
-      "last_seen_at": "2026-10-24T11:50:38",
-      "occurrence_count": 4
+      "first_seen_at": "2026-10-24T15:14:04",
+      "last_seen_at": "2026-10-24T15:14:04",
+      "occurrence_count": 1
     },
-    "score_trend:Shop_All": {
-      "alert_type": "performance_grade_drop",
+    "score_trend:Mango": {
+      "alert_type": "performance_score_drop",
       "module": "gtmetrix",
       "severity": "warning",
-      "affected_page": "Shop All",
-      "first_seen_at": "2026-10-24T11:50:38",
-      "last_seen_at": "2026-10-24T11:50:38",
+      "affected_page": "Mango",
+      "first_seen_at": "2026-10-24T15:14:06",
+      "last_seen_at": "2026-10-24T15:14:06",
+      "occurrence_count": 1
+    },
+    "score_trend:FNM": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "FNM",
+      "first_seen_at": "2026-10-24T15:14:06",
+      "last_seen_at": "2026-10-24T15:14:06",
       "occurrence_count": 1
     }
   }
