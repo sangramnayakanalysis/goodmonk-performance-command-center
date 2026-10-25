@@ -1,5 +1,870 @@
 {
-  "generated_at": "2026-10-25T13:00:04",
-  "products": [],
-  "overall_success_rate": null
+  "generated_at": "2026-10-25T17:03:24",
+  "products": [
+    {
+      "product_name": "FNM",
+      "latest_status": "Failed",
+      "latest_failed_step": "checkout",
+      "latest_duration_seconds": 10.23,
+      "latest_details": {
+        "product_name": "FNM",
+        "product_url": "https://www.goodmonk.in/products/good-monk",
+        "started_at": "2026-10-25T08:03:21",
+        "finished_at": "2026-10-25T08:03:31",
+        "success": false,
+        "failed_step": "checkout",
+        "total_duration_seconds": 10.23,
+        "steps": [
+          {
+            "step_name": "homepage",
+            "success": true,
+            "http_status": 200,
+            "page_title": "Good Monk - As Seen on Shark Tank | India's First Nutrition Health Mix",
+            "load_time_seconds": 2.95,
+            "console_errors": [
+              "Framing 'https://shop.app/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://shop.app https://admin.shopify.com\". The request has been blocked.\n",
+              "Failed to load resource: the server responded with a status of 403 ()",
+              "Failed to load resource: the server responded with a status of 404 ()"
+            ],
+            "js_errors": [
+              "Unexpected token 'export'"
+            ],
+            "network_failures": [
+              "GET https://checkout-merchant.snapmint.com/js/v1/9744 \u2014 net::ERR_BLOCKED_BY_ORB",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "GET https://shop.app/pay/hop?analytics_trace_id=cacd123b-d607-4143-abce-2c3a20726954&target_origin=https%3A%2F%2Fwww.goodmonk.in&client_handle=good-monk.myshopify.com \u2014 net::ERR_BLOCKED_BY_RESPONSE",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/rmkt/collect/17788971481/?random=1792915403204&cv=11&fst=1792915403204&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6al1v9237203717za200zb898864600zd898864600xecxf1&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938466~115938468~117776796~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2F&rcb=0&evnid=sh-7215f1ad-7357-4815-9D31-6C77ECE640D9&excid=shp.1e59df0e-f287-4d20-bea6-7dc5c9705301&tiba=Good%20Monk%20-%20As%20Seen%20on%20Shark%20Tank%20%7C%20India%27s%20First%20Nutrition%20Health%20Mix&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=332820077.1792915403&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=AAI&data=event%3Dpage_view%3Bshopify_event_name%3Dpage_viewed%3Bpage_path%3D%2F&ept=68&gcp=5 \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/ccm/collect?rcb=0&frm=0&apvc=1&auid=332820077.1792915403&dt=Good%20Monk%20-%20As%20Seen%20on%20Shark%20Tank%20%7C%20India%27s%20First%20Nutrition%20Health%20Mix&tid=AW-17788971481&en=page_view&dl=https%3A%2F%2Fwww.goodmonk.in%2F&scrsrc=www.googletagmanager.com&rnd=175337953.1792915403&navt=n&npa=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&_tu=AAI&gtm=45be6al1v9237203717za208zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938466~115938468~117776796~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&tft=1792915403217&tfd=1642&tids=AW-17788971481&fmt=8 \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/ccm/collect?rcb=0&frm=0&apvc=0&auid=332820077.1792915403&dt=Good%20Monk%20-%20As%20Seen%20on%20Shark%20Tank%20%7C%20India%27s%20First%20Nutrition%20Health%20Mix&tid=AW-17788971481&en=page_view&dl=https%3A%2F%2Fwww.goodmonk.in%2F&scrsrc=www.googletagmanager.com&rnd=175337953.1792915403&navt=n&npa=0&ep.shopify_event_name=page_viewed&evnid=sh-7215f1ad-7357-4815-9D31-6C77ECE640D9&excid=shp.1e59df0e-f287-4d20-bea6-7dc5c9705301&ep.page_path=%2F&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&_tu=AAI&gtm=45be6al1v9237203717za200zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938466~115938468~117776796~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&tft=1792915403218&tfd=1643&tids=AW-17788971481&fmt=8 \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/ccm/collect?rcb=10&frm=0&apvc=0&auid=332820077.1792915403&dt=Good%20Monk%20-%20As%20Seen%20on%20Shark%20Tank%20%7C%20India%27s%20First%20Nutrition%20Health%20Mix&tid=AW-11046186878&en=page_view&dl=https%3A%2F%2Fwww.goodmonk.in%2F&scrsrc=www.googletagmanager.com&rnd=175337953.1792915403&navt=n&npa=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&_tu=AAI&gtm=45be6al1v9105248862za208zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938466~115938469~117776796~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&tft=1792915403330&tfd=1755&tids=AW-11046186878&fmt=8 \u2014 net::ERR_ABORTED",
+              "GET https://www.google.com/pagead/1p-conversion/11046186878/?random=2006307900&cv=11&fst=1792915403319&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6al1v9105248862za200zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938466~115938469~117776796~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2F&rcb=10&label=ihb4CJuFn6gYEP7enZMp&gtm_ee=1&evnid=sh-7215f1ad-7357-4815-9D31-6C77ECE640D9&excid=shp.1e59df0e-f287-4d20-bea6-7dc5c9705301&tiba=Good%20Monk%20-%20As%20Seen%20on%20Shark%20Tank%20%7C%20India%27s%20First%20Nutrition%20Health%20Mix&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=332820077.1792915403&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&ec_mode=c&oidsrc=3&ecsid2=1052683663.1792915403&_tu=ABI&gcl_ctr=1~0~0~0&data=event%3Dpage_view%3Bshopify_event_name%3Dpage_viewed%3Bpage_path%3D%2F&category=acrcp_v1_512&em=tv.1&emd=tvd.1&ept=5&ct_cookie_present=false&eoid=CkgKEQjw0fbWBhCioYXOl7uxuZQBEjMAEmbdqfOLPsti79hmXlQNH1B1H-goQyvLqFpj9XdvBcCtZwe6FqVRnjYET1pJ_imItU7w_wcB&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQII1-ixAgi0xrECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgiK8rECCPTasQII4uqxAgjo7rECCLjysQIIkuuxAgjJ47ECCJfUsQIIyduxAgim3bECCLDesQIIgNuxAgjN4bEC&cerd=CgjV1b4tyOy-LQ&fsk=ChAI8NH21gYQgrDN0-2xyr4jEiwAFqpSrKI-Cp3v2WM_maFtUhZAzziGrP_W7MhcjcbWbSFF9_3qFZaX3E7zQxoC5Wk&pscrd=IhMIp_PqrdrUlwMVeS5oCB0nMAYKOhhodHRwczovL3d3dy5nb29kbW9uay5pbi9CV0NoQUk4TkgyMWdZUTM1YnFyWktCNWFGU0VpMEEtdFFnMGZSaEo0YW1Mc2Exd1lnRGplamZRNkFZTWtxemdhRldzaDFWaEtyTGxSdFdLajR5MXY2UXBYWXoMCAliCAgAEAAYACAA&is_vtc=1&cid=CAQS0wEAQM4h3AOVb5af0k6XI8GP2nOMaHiJyNL15C0rNe0VcdYigMcH4Tbb7YngWc9TV_tDDObZf241qn_oFCSvC766t1MXbAZMFd6OyCp9WctF9P-WBqzLXak8jpJiGrw34ONY0y-lYGne9tJM4-iBCvse5LVyDiIlzBXkuiqT0SE6HoI4i3YOz0jSnneikgDv4Xo9q5bV8hSmCCy9iKhZOws_j3eazS-t9KP2E7-Vh_7ZkBAgfolbfpy8gKLA8a8VqkyNzBT8H2yAiiBNwcW2bQ9B2asl&random=3518849571 \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/apps/ba-pop/app_metrics \u2014 net::ERR_ABORTED",
+              "GET https://cdn.shopify.com/s/files/1/0748/8710/2770/files/WhatsApp_Image_2026-09-17_at_7.18.54_PM_200x200.jpg?v=1789653066 \u2014 net::ERR_ABORTED"
+            ],
+            "broken_images": [
+              "",
+              ""
+            ],
+            "screenshot_path": null,
+            "error_message": "",
+            "retried": 0,
+            "permanent_failure": false
+          },
+          {
+            "step_name": "collection",
+            "success": true,
+            "http_status": 200,
+            "page_title": "Health Supplements, Instant Fruit Drinks & Milk Mixes, No Taste, Colour & Smell \u2013 Good Monk",
+            "load_time_seconds": 1.96,
+            "console_errors": [],
+            "js_errors": [
+              "Unexpected token 'export'"
+            ],
+            "network_failures": [
+              "GET https://checkout-merchant.snapmint.com/js/v1/9744 \u2014 net::ERR_BLOCKED_BY_ORB",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/ccm/collect?rcb=18&frm=0&apvc=1&auid=332820077.1792915403&dt=Health%20Supplements%2C%20Instant%20Fruit%20Drinks%20%26%20Milk%20Mixes%2C%20No%20Taste%2C%20Colour%20%26%20Smell%20%E2%80%93%20Good%20Monk&tid=AW-11046186878&en=page_view&dl=https%3A%2F%2Fwww.goodmonk.in%2Fcollections%2Fall&scrsrc=www.googletagmanager.com&rnd=1714956599.1792915406&navt=n&npa=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&_tu=AAI&gtm=45be6al1v9105248862za208zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938468~117776796~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&tft=1792915405729&tfd=1145&tids=AW-11046186878&fmt=8 \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/rmkt/collect/17788971481/?random=1792915405823&cv=11&fst=1792915405823&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6al1v9237203717za200zb898864600zd898864600xecxf1&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938465~115938468~117776796~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2Fcollections%2Fall&rcb=9&evnid=sh-7215fc79-966A-4A82-0F63-3238782DD59F&excid=shp.1e59df0e-f287-4d20-bea6-7dc5c9705301&tiba=Health%20Supplements%2C%20Instant%20Fruit%20Drinks%20%26%20Milk%20Mixes%2C%20No%20Taste%2C%20Colour%20%26%20Smell%20%E2%80%93%20Good%20Monk&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=332820077.1792915403&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=AAI&data=event%3Dpage_view%3Bshopify_event_name%3Dpage_viewed%3Bpage_path%3D%2Fcollections%2Fall&ept=68&gcp=5 \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/ccm/collect?rcb=9&frm=0&apvc=0&auid=332820077.1792915403&dt=Health%20Supplements%2C%20Instant%20Fruit%20Drinks%20%26%20Milk%20Mixes%2C%20No%20Taste%2C%20Colour%20%26%20Smell%20%E2%80%93%20Good%20Monk&tid=AW-17788971481&en=page_view&dl=https%3A%2F%2Fwww.goodmonk.in%2Fcollections%2Fall&scrsrc=www.googletagmanager.com&rnd=1714956599.1792915406&navt=n&npa=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&_tu=AAI&gtm=45be6al1v9237203717za208zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938465~115938468~117776796~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&tft=1792915405834&tfd=1250&tids=AW-17788971481&fmt=8 \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/ccm/collect?rcb=9&frm=0&apvc=0&auid=332820077.1792915403&dt=Health%20Supplements%2C%20Instant%20Fruit%20Drinks%20%26%20Milk%20Mixes%2C%20No%20Taste%2C%20Colour%20%26%20Smell%20%E2%80%93%20Good%20Monk&tid=AW-17788971481&en=page_view&dl=https%3A%2F%2Fwww.goodmonk.in%2Fcollections%2Fall&scrsrc=www.googletagmanager.com&rnd=1714956599.1792915406&navt=n&npa=0&ep.shopify_event_name=page_viewed&evnid=sh-7215fc79-966A-4A82-0F63-3238782DD59F&excid=shp.1e59df0e-f287-4d20-bea6-7dc5c9705301&ep.page_path=%2Fcollections%2Fall&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&_tu=AAI&gtm=45be6al1v9237203717za200zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938465~115938468~117776796~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&tft=1792915405834&tfd=1251&tids=AW-17788971481&fmt=8 \u2014 net::ERR_ABORTED",
+              "GET https://www.google.com/pagead/1p-conversion/11046186878/?random=213186664&cv=11&fst=1792915405721&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6al1v9105248862za200zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938468~117776796~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2Fcollections%2Fall&rcb=18&label=ihb4CJuFn6gYEP7enZMp&gtm_ee=1&evnid=sh-7215fc79-966A-4A82-0F63-3238782DD59F&excid=shp.1e59df0e-f287-4d20-bea6-7dc5c9705301&tiba=Health%20Supplements%2C%20Instant%20Fruit%20Drinks%20%26%20Milk%20Mixes%2C%20No%20Taste%2C%20Colour%20%26%20Smell%20%E2%80%93%20Good%20Monk&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=332820077.1792915403&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&ec_mode=c&oidsrc=3&ecsid2=1052683663.1792915403&_tu=ABI&gcl_ctr=2~0~0~0&data=event%3Dpage_view%3Bshopify_event_name%3Dpage_viewed%3Bpage_path%3D%2Fcollections%2Fall&category=acrcp_v1_512&em=tv.1&emd=tvd.1&ept=5&ct_cookie_present=false&eoid=CkgKEQjw0fbWBhCioYXOl7uxuZQBEjMAEmbdqauy8l4--NDEF3t_mPS5RUdibn0bF-55H-QpizTmL21kpaj4IFfuy-9SQqQwVujw_wcB&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQII1-ixAgi0xrECCOHTsQIIh9uxAgjTxbECCOvMsQII7c6xAgjVz7ECCIrysQII9NqxAgji6rECCOjusQIIkuuxAgjJ47ECCJfUsQIIyduxAgim3bECCLDesQIIgNuxAgjN4bEC&cerd=CgjX1b4tueu-LQ&fsk=ChAI8NH21gYQgrDN0-2xyr4jEiwAFqpSrPjeek0C5RNnq1sNY_xp1TkOr8RRSK2J3z8mTD75T7yKsxeAwdGSfxoCEEA&pscrd=IhMI2p3-rtrUlwMVId0_BB09rx0YOhhodHRwczovL3d3dy5nb29kbW9uay5pbi9CV0NoQUk4TkgyMWdZUTM1YnFyWktCNWFGU0VpMEEtdFFnMFU1ZE5VWWo5VndUSGdDbGxLMXg5dFRHOElhQ2hYdmpyZVZLS3VJMEdjX3VuSW5QQnRzc00tWXoMCAliCAgAEAAYACAA&is_vtc=1&cid=CAQS0wEAQM4h3G-LoS4SrQKDAbW_g7vfRwylQq7P9mRC9HjOOtB5Zg2lKGQAXV8xE-5tO_IBq3dr7l-Q1Ck3LoXoxEC4c7jZUhTTWGhW-WnXE72uqQ-RU2ea1nbselUwxVYIVlp-Sc8XuPybXdDmG060l5ngHvmOFJeWky-AmS_uYXRIdG27m-swoDBIWN1wo601IuzWVddAP7aZq7UX7ZS3Gj4-JDYDg1Wfja5H7XaNOsydFAFhJ8Vf6qOqfQKbx9FAYHUn4bbto2b3_oJgS27-xebDEIIL&random=665633994 \u2014 net::ERR_ABORTED"
+            ],
+            "broken_images": [],
+            "screenshot_path": null,
+            "error_message": "",
+            "retried": 0,
+            "permanent_failure": false
+          },
+          {
+            "step_name": "product",
+            "success": true,
+            "http_status": 200,
+            "page_title": "Family Health Mix: A Supplement To Boost Energy, Immunity and Gut Health | Good Monk",
+            "load_time_seconds": 2.2,
+            "console_errors": [],
+            "js_errors": [
+              "Unexpected token 'export'",
+              "t.fetchAvailability is not a function"
+            ],
+            "network_failures": [
+              "GET https://checkout-merchant.snapmint.com/js/v1/9744 \u2014 net::ERR_BLOCKED_BY_ORB",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/ccm/collect?rcb=15&frm=0&apvc=1&auid=332820077.1792915403&dt=Family%20Health%20Mix%3A%20A%20Supplement%20To%20Boost%20Energy%2C%20Immunity%20and%20Gut%20Health%20%7C%20Good%20Monk&tid=AW-11046186878&en=page_view&dl=https%3A%2F%2Fwww.goodmonk.in%2Fproducts%2Fgood-monk&scrsrc=www.googletagmanager.com&rnd=1696302888.1792915408&navt=n&npa=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&_tu=AAI&gtm=45be6al1v9105248862za208zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~117776796~118897920~118897930~120213116~120385422~120420414~120469145~120469153~121246026~121246034&tft=1792915408114&tfd=1510&tids=AW-11046186878&fmt=8 \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/rmkt/collect/17788971481/?random=1792915408198&cv=11&fst=1792915408198&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6al1v9237203717za200zb898864600zd898864600xecxf1&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938466~115938468~117776796~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2Fproducts%2Fgood-monk&rcb=10&evnid=sh-721603f8-6303-46D6-0488-B72C61272C65&excid=shp.1e59df0e-f287-4d20-bea6-7dc5c9705301&tiba=Family%20Health%20Mix%3A%20A%20Supplement%20To%20Boost%20Energy%2C%20Immunity%20and%20Gut%20Health%20%7C%20Good%20Monk&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=332820077.1792915403&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=AAI&data=event%3Dpage_view%3Bshopify_event_name%3Dpage_viewed%3Bpage_path%3D%2Fproducts%2Fgood-monk&ept=68&gcp=5 \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/ccm/collect?rcb=10&frm=0&apvc=0&auid=332820077.1792915403&dt=Family%20Health%20Mix%3A%20A%20Supplement%20To%20Boost%20Energy%2C%20Immunity%20and%20Gut%20Health%20%7C%20Good%20Monk&tid=AW-17788971481&en=page_view&dl=https%3A%2F%2Fwww.goodmonk.in%2Fproducts%2Fgood-monk&scrsrc=www.googletagmanager.com&rnd=1696302888.1792915408&navt=n&npa=0&ep.shopify_event_name=page_viewed&evnid=sh-721603f8-6303-46D6-0488-B72C61272C65&excid=shp.1e59df0e-f287-4d20-bea6-7dc5c9705301&ep.page_path=%2Fproducts%2Fgood-monk&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&_tu=AAI&gtm=45be6al1v9237203717za200zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938466~115938468~117776796~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&tft=1792915408214&tfd=1611&tids=AW-17788971481&fmt=8 \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/ccm/collect?rcb=10&frm=0&apvc=0&auid=332820077.1792915403&dt=Family%20Health%20Mix%3A%20A%20Supplement%20To%20Boost%20Energy%2C%20Immunity%20and%20Gut%20Health%20%7C%20Good%20Monk&tid=AW-17788971481&en=page_view&dl=https%3A%2F%2Fwww.goodmonk.in%2Fproducts%2Fgood-monk&scrsrc=www.googletagmanager.com&rnd=1696302888.1792915408&navt=n&npa=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&_tu=AAI&gtm=45be6al1v9237203717za208zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938466~115938468~117776796~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&tft=1792915408214&tfd=1610&tids=AW-17788971481&fmt=8 \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/rmkt/collect/17788971481/?random=1792915408205&cv=11&fst=1792915408205&fmt=8&bg=ffffff&guid=ON&async=1&en=view_item&gtm=45be6al1v9237203717za200zb898864600zd898864600xecxf1&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938466~115938468~117776796~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2Fproducts%2Fgood-monk&rcb=10&evnid=sh-72160420-AEB6-44A8-EF73-6F95813A68BE&excid=shp.1e59df0e-f287-4d20-bea6-7dc5c9705301&frm=0&tiba=Family%20Health%20Mix%3A%20A%20Supplement%20To%20Boost%20Energy%2C%20Immunity%20and%20Gut%20Health%20%7C%20Good%20Monk&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&value=599&currency_code=INR&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=332820077.1792915403&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=AAI&data=event%3Dview_item%3Bshopify_event_name%3Dproduct_viewed%3Becomm_prodid%3Dshopify_IN_8301159907634_45053123264818%3Becomm_totalvalue%3D599%3Becomm_pagetype%3Dproduct%3Bid%3Dshopify_IN_8301159907634_45053123264818&ept=68&gcp=5 \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/ccm/collect?rcb=10&frm=0&apvc=0&auid=332820077.1792915403&dt=Family%20Health%20Mix%3A%20A%20Supplement%20To%20Boost%20Energy%2C%20Immunity%20and%20Gut%20Health%20%7C%20Good%20Monk&tid=AW-17788971481&en=view_item&dl=https%3A%2F%2Fwww.goodmonk.in%2Fproducts%2Fgood-monk&scrsrc=www.googletagmanager.com&rnd=1696302888.1792915408&navt=n&npa=0&ep.shopify_event_name=product_viewed&evnid=sh-72160420-AEB6-44A8-EF73-6F95813A68BE&excid=shp.1e59df0e-f287-4d20-bea6-7dc5c9705301&ep.ecomm_prodid=shopify_IN_8301159907634_45053123264818&epn.ecomm_totalvalue=599&ep.ecomm_pagetype=product&epn.value=599&ep.currency=INR&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&_tu=AAI&gtm=45be6al1v9237203717za200zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938466~115938468~117776796~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&tft=1792915408215&tfd=1611&tids=AW-17788971481&fmt=8 \u2014 net::ERR_ABORTED",
+              "GET https://www.google.com/pagead/1p-conversion/11046186878/?random=2086452089&cv=11&fst=1792915408107&fmt=8&bg=ffffff&guid=ON&async=1&en=view_item&gtm=45be6al1v9105248862za200zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~117776796~118897920~118897930~120213116~120385422~120420414~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2Fproducts%2Fgood-monk&rcb=15&label=uVeGCJ6Fn6gYEP7enZMp&gtm_ee=1&evnid=sh-72160420-AEB6-44A8-EF73-6F95813A68BE&excid=shp.1e59df0e-f287-4d20-bea6-7dc5c9705301&frm=0&tiba=Family%20Health%20Mix%3A%20A%20Supplement%20To%20Boost%20Energy%2C%20Immunity%20and%20Gut%20Health%20%7C%20Good%20Monk&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&value=599&currency_code=INR&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=332820077.1792915403&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&ec_mode=c&oidsrc=3&ecsid2=1052683663.1792915403&_tu=ABI&gcl_ctr=4~0~0~0&data=event%3Dview_item%3Bshopify_event_name%3Dproduct_viewed%3Becomm_prodid%3Dshopify_IN_8301159907634_45053123264818%3Becomm_totalvalue%3D599%3Becomm_pagetype%3Dproduct&category=acrcp_v1_512&em=tv.1&emd=tvd.1&ept=5&ct_cookie_present=false&eoid=CkgKEQjw0fbWBhCioYXOl7uxuZQBEjMAEmbdqbatiXohXycgsr4cF9rJjgzvWLzTQMxHscSL14xWV5sg5IwVcAFMxxdYEZosPnHw_wcB&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQII1-ixAgi0xrECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgiK8rECCPTasQII4uqxAgjo7rECCJLrsQIIyeOxAgiX1LECCMnbsQIIpt2xAgiw3rECCIDbsQIIzeGxAg&cerd=CgjX1b4tyOy-LQ&fsk=ChAI8NH21gYQgrDN0-2xyr4jEiwAFqpSrCFueXllp-JNiwHLXiPjY1jfqoweH0569hZfpPzKrgK0gLBUYXBCMBoCwfg&pscrd=IhMIjMKPsNrUlwMVbjEhBB0OHSDxOhhodHRwczovL3d3dy5nb29kbW9uay5pbi9CV0NoQUk4TkgyMWdZUTM1YnFyWktCNWFGU0VpMEEtdFFnMGVobFBJQ1FYc0FubWNZQ1l0MjI1OXZmc3NOOW9COUV0bjJ2THNqNlhoaDhyTnJlN0JlQTh6OHoMCAliCAgAEAAYACAA&is_vtc=1&cid=CAQS4QEAQM4h3F3R5WbSOhhXmLEWMxuVJnvSc997v418Q6Xf0-XTrcsZPKZ-UJsU5USAFzJQtuVEEYKNiSpZwfjL_9Au7H253i_lZVyPS-eMrKdXBemoW1a1HjAzLtNgPLr1s7-l093OwBwjfYCK802-mJeVyDMcuXBRvfU7WUkuZFapFjI2Y05Ydo2ybn10O6FktA6SyueY0fJeNiyTABJSr-nm-Zsc-uTlE4N9UrW4RKRN45iMZTOuTAktLPHtHjxUXSfJHqV77Jbivaqg4GZl5Gy6a57m3BjbyUVuw6mEJp2f4d8&random=2789441972 \u2014 net::ERR_ABORTED",
+              "GET https://www.google.com/pagead/1p-conversion/11046186878/?random=340126069&cv=11&fst=1792915408099&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6al1v9105248862za200zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~117776796~118897920~118897930~120213116~120385422~120420414~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2Fproducts%2Fgood-monk&rcb=15&label=ihb4CJuFn6gYEP7enZMp&gtm_ee=1&evnid=sh-721603f8-6303-46D6-0488-B72C61272C65&excid=shp.1e59df0e-f287-4d20-bea6-7dc5c9705301&tiba=Family%20Health%20Mix%3A%20A%20Supplement%20To%20Boost%20Energy%2C%20Immunity%20and%20Gut%20Health%20%7C%20Good%20Monk&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=332820077.1792915403&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&ec_mode=c&oidsrc=3&ecsid2=1052683663.1792915403&_tu=ABI&gcl_ctr=3~0~0~0&data=event%3Dpage_view%3Bshopify_event_name%3Dpage_viewed%3Bpage_path%3D%2Fproducts%2Fgood-monk&category=acrcp_v1_512&em=tv.1&emd=tvd.1&ept=5&ct_cookie_present=false&eoid=CkcKEQjw0fbWBhCioYXOl7uxuZQBEjIAEmbdqdfosSEPaOCwD7GQnIqh31S_kr3IcIBHlEthz1XKUKww4HUMTd7-AN_JQwjcn_D_BwE&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQII1-ixAgi0xrECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgiK8rECCPTasQII4uqxAgjo7rECCJLrsQIIyeOxAgiX1LECCMnbsQIIpt2xAgiw3rECCIDbsQIIzeGxAg&cerd=CgjV1b4tueu-LQ&fsk=ChAI8NH21gYQgrDN0-2xyr4jEiwAFqpSrFcJCquVOLZodEq3BUi_8wwqHaxHAGcIuSFznyxia_5TSDPWLyUl-RoC27I&pscrd=IhMIycCPsNrUlwMVgVgpBh2vjgWVOhhodHRwczovL3d3dy5nb29kbW9uay5pbi9CV0NoQUk4TkgyMWdZUTM1YnFyWktCNWFGU0VpMEEtdFFnMGNmaXBpVjZKOVYwcEs1a01mc2dQcU1NT2VxWVRONDVrYl9rY1ZlM3Iyd2ZMbDV1QW84VHZ3a3oMCAliCAgAEAAYACAA&is_vtc=1&cid=CAQS4QEAQM4h3HZzhghSG0lY42Qf8HBPGVMS9tltNL1x5Xzpy45fmT4itGwoE_8lRX-3DszFpf7ePXEQwb6sNgez-_uTH-UgR0rjgVZWMAIIwB1hwdxBoqB-94SK6nqOW-H0eWEh-7DTpWICYoF1MhKgj2cbrGrzjQ_FKzEL9etg8b7BK3RDTDmjdV9fBrWjZv3stPvMXtaeMXZGSFb8huOYcwdqkS5C4Z1t8Tz4iQ6W1dozHqSzZlDBQravsTadMAKpO33l6sN-PbRslL5F6-b2s5rKcNs4q07dvkys7fUvN1AiiYs&random=555055049 \u2014 net::ERR_ABORTED"
+            ],
+            "broken_images": [
+              ""
+            ],
+            "screenshot_path": null,
+            "error_message": "",
+            "retried": 0,
+            "permanent_failure": false
+          },
+          {
+            "step_name": "select_variant",
+            "success": true,
+            "http_status": null,
+            "page_title": "",
+            "load_time_seconds": 0.06,
+            "console_errors": [],
+            "js_errors": [],
+            "network_failures": [],
+            "broken_images": [],
+            "screenshot_path": null,
+            "error_message": "No variant selector present (likely a single-variant product) \u2014 skipped.",
+            "retried": 0,
+            "permanent_failure": false
+          },
+          {
+            "step_name": "add_to_cart",
+            "success": true,
+            "http_status": null,
+            "page_title": "Family Health Mix: A Supplement To Boost Energy, Immunity and Gut Health | Good Monk",
+            "load_time_seconds": 0.84,
+            "console_errors": [],
+            "js_errors": [],
+            "network_failures": [
+              "POST https://www.google.com/rmkt/collect/11046186878/?random=1792915409021&cv=11&fst=1792915409021&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6al1v9105248862za200zb898864600zd898864600xecxf1&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~117776796~118897920~118897930~120213116~120385422~120420414~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2Fproducts%2Fgood-monk&rcb=15&frm=0&tiba=Family%20Health%20Mix%3A%20A%20Supplement%20To%20Boost%20Energy%2C%20Immunity%20and%20Gut%20Health%20%7C%20Good%20Monk&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=332820077.1792915403&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=AAI&data=event%3Dpage_view%3Becomm_prodid%3Dshopify_IN_8301159907634_45053123264818%2Cshopify_IN_8301159907634_45053123232050%2Cshopify_IN_8301159907634_49232539451698%3Becomm_pagetype%3Dproduct%3Becomm_totalvalue%3D599&ept=68&gcp=5 \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/ccm/collect?rcb=15&frm=0&apvc=0&auid=332820077.1792915403&dt=Family%20Health%20Mix%3A%20A%20Supplement%20To%20Boost%20Energy%2C%20Immunity%20and%20Gut%20Health%20%7C%20Good%20Monk&tid=AW-11046186878&en=page_view&dl=https%3A%2F%2Fwww.goodmonk.in%2Fproducts%2Fgood-monk&scrsrc=www.googletagmanager.com&rnd=1696302888.1792915408&navt=n&npa=0&ep.ecomm_prodid=shopify_IN_8301159907634_45053123264818%2Cshopify_IN_8301159907634_45053123232050%2Cshopify_IN_8301159907634_49232539451698&ep.ecomm_pagetype=product&epn.ecomm_totalvalue=599&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&_tu=AAI&gtm=45be6al1v9105248862za200zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~117776796~118897920~118897930~120213116~120385422~120420414~120469145~120469153~121246026~121246034&tft=1792915409109&tfd=2505&tids=AW-11046186878&fmt=8 \u2014 net::ERR_ABORTED"
+            ],
+            "broken_images": [],
+            "screenshot_path": null,
+            "error_message": "",
+            "retried": 0,
+            "permanent_failure": false
+          },
+          {
+            "step_name": "cart",
+            "success": true,
+            "http_status": 200,
+            "page_title": "Your Shopping Cart \u2013 Good Monk",
+            "load_time_seconds": 1.7,
+            "console_errors": [],
+            "js_errors": [
+              "Unexpected token 'export'"
+            ],
+            "network_failures": [
+              "GET https://checkout.shopflo.co/stable/?page=ghost-modal&mid=2349a17d-4f2d-45bc-950e-d79e60c32615&ghostUserOrderData=false \u2014 net::ERR_ABORTED",
+              "POST https://cubeapm-prod.shopflo.com/events/1/NRJS-123456789abcdef0123?a=shopflo-frontend&sa=1&v=1.278.3&t=Unnamed%20Transaction&rst=1559&ck=0&s=0bd04df609c32a9b&ref=https://checkout.shopflo.co/stable/&ptid=6242e643596be7cc \u2014 net::ERR_ABORTED",
+              "POST https://j.clarity.ms/collect \u2014 net::ERR_ABORTED",
+              "POST https://cubeapm-prod.shopflo.com/jserrors/1/NRJS-123456789abcdef0123?a=shopflo-frontend&sa=1&v=1.278.3&t=Unnamed%20Transaction&rst=1560&ck=0&s=0bd04df609c32a9b&ref=https://checkout.shopflo.co/stable/&ptid=6242e643596be7cc \u2014 net::ERR_ABORTED",
+              "POST https://cubeapm-prod.shopflo.com/jserrors/1/NRJS-123456789abcdef0123?a=shopflo-frontend&sa=1&v=1.278.3&t=Unnamed%20Transaction&rst=1560&ck=0&s=0bd04df609c32a9b&ref=https://checkout.shopflo.co/stable/&ptid=6242e643596be7cc \u2014 net::ERR_ABORTED",
+              "POST https://o4508131579002880.ingest.us.sentry.io/api/4508131592241152/envelope/?sentry_version=7&sentry_key=d97a825a449bcf2e640608e705016d56&sentry_client=sentry.javascript.react%2F10.1.0 \u2014 net::ERR_ABORTED",
+              "GET https://checkout-merchant.snapmint.com/js/v1/9744 \u2014 net::ERR_BLOCKED_BY_ORB",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/ccm/collect?rcb=2&frm=0&apvc=1&auid=332820077.1792915403&dt=Your%20Shopping%20Cart%20%E2%80%93%20Good%20Monk&tid=AW-11046186878&en=page_view&dl=https%3A%2F%2Fwww.goodmonk.in%2Fcart&scrsrc=www.googletagmanager.com&rnd=2109839865.1792915411&navt=n&npa=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&_tu=AAI&gtm=45be6al1v9105248862za208zd9105248862xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~117776796~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&tft=1792915410846&tfd=1054&tids=AW-11046186878&fmt=8 \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/ccm/collect?rcb=6&frm=0&apvc=0&auid=332820077.1792915403&dt=Your%20Shopping%20Cart%20%E2%80%93%20Good%20Monk&tid=AW-17788971481&en=page_view&dl=https%3A%2F%2Fwww.goodmonk.in%2Fcart&scrsrc=www.googletagmanager.com&rnd=2109839865.1792915411&navt=n&npa=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&_tu=AAI&gtm=45be6al1v9237203717za208zb9105248862zd9105248862xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938468~117776796~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&tft=1792915410940&tfd=1148&tids=AW-17788971481&fmt=8 \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/ccm/collect?rcb=6&frm=0&apvc=0&auid=332820077.1792915403&dt=Your%20Shopping%20Cart%20%E2%80%93%20Good%20Monk&tid=AW-17788971481&en=page_view&dl=https%3A%2F%2Fwww.goodmonk.in%2Fcart&scrsrc=www.googletagmanager.com&rnd=2109839865.1792915411&navt=n&npa=0&ep.shopify_event_name=page_viewed&evnid=sh-7216110e-A67D-41B6-4A98-30F2E3168ACE&excid=shp.1e59df0e-f287-4d20-bea6-7dc5c9705301&ep.page_path=%2Fcart&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&_tu=AAI&gtm=45be6al1v9237203717za200zb9105248862zd9105248862xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938468~117776796~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&tft=1792915410940&tfd=1148&tids=AW-17788971481&fmt=8 \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/rmkt/collect/17788971481/?random=1792915410931&cv=11&fst=1792915410931&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6al1v9237203717za200zb9105248862zd9105248862xecxf1&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938468~117776796~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2Fcart&rcb=6&evnid=sh-7216110e-A67D-41B6-4A98-30F2E3168ACE&excid=shp.1e59df0e-f287-4d20-bea6-7dc5c9705301&tiba=Your%20Shopping%20Cart%20%E2%80%93%20Good%20Monk&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=332820077.1792915403&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=AAI&data=event%3Dpage_view%3Bshopify_event_name%3Dpage_viewed%3Bpage_path%3D%2Fcart&ept=68&gcp=5 \u2014 net::ERR_ABORTED",
+              "GET https://www.google.com/pagead/1p-conversion/11046186878/?random=1725411175&cv=11&fst=1792915410840&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6al1v9105248862za200zd9105248862xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~117776796~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2Fcart&rcb=2&label=ihb4CJuFn6gYEP7enZMp&gtm_ee=1&evnid=sh-7216110e-A67D-41B6-4A98-30F2E3168ACE&excid=shp.1e59df0e-f287-4d20-bea6-7dc5c9705301&tiba=Your%20Shopping%20Cart%20%E2%80%93%20Good%20Monk&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=332820077.1792915403&ec_mode=c&oidsrc=3&ecsid2=1052683663.1792915403&_tu=ABI&gcl_ctr=5~0~0~0&data=event%3Dpage_view%3Bshopify_event_name%3Dpage_viewed%3Bpage_path%3D%2Fcart&category=acrcp_v1_512&em=tv.1&emd=tvd.1&ept=5&ct_cookie_present=false&eoid=CkgKEQjw0fbWBhCioYXOl7uxuZQBEjMAEmbdqe3JPBe0C70oqrYQUZv42-bBSmA5ZiaHEMr9vsX-q77eQEYyg2EVNuTpywPIt_zw_wcB&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQII1-ixAgi0xrECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgiK8rECCPTasQII4uqxAgjo7rECCLjysQIIkuuxAgjJ47ECCJfUsQIIyduxAgim3bECCLDesQIIgNuxAgjN4bEC&cerd=CgyCsL4t19W-Lcjsvi0&fsk=ChAI8NH21gYQgrDN0-2xyr4jEiwAFqpSrMXfGhpyx0DvQrsOwrVA2hnrIXvptxQ8X1ny0AOTClJ2lTrQgx8sDxoCHSs&pscrd=IhMI_q-0sdrUlwMVcQUhBB1b4g_VOhhodHRwczovL3d3dy5nb29kbW9uay5pbi9CV0NoQUk4TkgyMWdZUTM1YnFyWktCNWFGU0VpMEEtdFFnMGVVenh0ZjRteDZLaFlLVXkxZWxvdVRFaGhDekVEcmhDZ1o2bi1qYWxDeGJQaU1LaW5xSGs5RXoMCAliCAgAEAAYACAA&is_vtc=1&cid=CAQS4QEAQM4h3BaSZkpAIAkF8xyMl_3MRU1e_omFRsdhjsq1R3MroHIViaIdzts9OmTDuXK89tYzV3n2sWQX0HJEMXe6OAQmhS8DxFzgDleJxyO-JKFjHCWkMzRiRFpkHOI5inWgC5fntAExKmUvBV2jjE2bJzdHEkQrZsRSrqL-7DF23QMM-JXrSw9mM_Pod6I7ALG1PNoZO1Jd2GuuLfOJCEg6a6Ph6YZuAZv9-OhBfzVqxeWa0e1uAUp-tJ1tLaUgOZ5qHBNY9jChzGjwvAmH3DXdk7eRSSh8yGU8NEE1DpVbTFU&random=3857876905 \u2014 net::ERR_ABORTED"
+            ],
+            "broken_images": [],
+            "screenshot_path": null,
+            "error_message": "",
+            "retried": 0,
+            "permanent_failure": false
+          },
+          {
+            "step_name": "checkout",
+            "success": false,
+            "http_status": null,
+            "page_title": "Your Shopping Cart \u2013 Good Monk",
+            "load_time_seconds": 0.11,
+            "console_errors": [],
+            "js_errors": [],
+            "network_failures": [],
+            "broken_images": [],
+            "screenshot_path": "/home/runner/work/goodmonk-performance-command-center/goodmonk-performance-command-center/journey_screenshots/FNM_checkout_FAILED.png",
+            "error_message": "None of the configured selectors matched a visible element: [\"[data-testid='checkout-button']\", \"button[name='checkout']\", \"[aria-label*='Checkout' i]\", 'role=button[name=/checkout/i]', \"button:has-text('Checkout'), a:has-text('Checkout')\", '#checkout, .cart__checkout-button']",
+            "retried": 0,
+            "permanent_failure": true
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "date": "2026-10-11",
+          "time": "18:38:53",
+          "success": false
+        },
+        {
+          "date": "2026-10-12",
+          "time": "08:37:44",
+          "success": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "21:46:23",
+          "success": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "00:52:47",
+          "success": false
+        },
+        {
+          "date": "2026-10-24",
+          "time": "06:48:35",
+          "success": false
+        },
+        {
+          "date": "2026-10-25",
+          "time": "08:03:49",
+          "success": false
+        }
+      ],
+      "total_runs": 6,
+      "successful_runs": 0
+    },
+    {
+      "product_name": "H50+",
+      "latest_status": "Failed",
+      "latest_failed_step": "checkout",
+      "latest_duration_seconds": 6.4,
+      "latest_details": {
+        "product_name": "H50+",
+        "product_url": "https://www.goodmonk.in/products/good-monk-50-nutrition-mix",
+        "started_at": "2026-10-25T17:03:10",
+        "finished_at": "2026-10-25T17:03:17",
+        "success": false,
+        "failed_step": "checkout",
+        "total_duration_seconds": 6.4,
+        "steps": [
+          {
+            "step_name": "homepage",
+            "success": true,
+            "http_status": 200,
+            "page_title": "Good Monk - As Seen on Shark Tank | India's First Nutrition Health Mix",
+            "load_time_seconds": 1.51,
+            "console_errors": [],
+            "js_errors": [
+              "Unexpected token 'export'"
+            ],
+            "network_failures": [
+              "GET https://checkout-merchant.snapmint.com/js/v1/9744 \u2014 net::ERR_BLOCKED_BY_ORB",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/ccm/collect?rcb=8&frm=0&apvc=1&auid=631131420.1792947792&dt=Good%20Monk%20-%20As%20Seen%20on%20Shark%20Tank%20%7C%20India%27s%20First%20Nutrition%20Health%20Mix&tid=AW-11046186878&en=page_view&dl=https%3A%2F%2Fwww.goodmonk.in%2F&scrsrc=www.googletagmanager.com&rnd=156983651.1792947792&navt=n&npa=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&_tu=AAI&gtm=45be6al1v9105248862za208zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938466~115938468~117776795~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&tft=1792947792163&tfd=1142&_gsid=SOrmOhzWxRPgoFtc4SfIjLdfFje_2pmAkw&tids=AW-11046186878&fmt=8 \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/ccm/collect?rcb=18&frm=0&apvc=0&auid=631131420.1792947792&dt=Good%20Monk%20-%20As%20Seen%20on%20Shark%20Tank%20%7C%20India%27s%20First%20Nutrition%20Health%20Mix&tid=AW-17788971481&en=page_view&dl=https%3A%2F%2Fwww.goodmonk.in%2F&scrsrc=www.googletagmanager.com&rnd=156983651.1792947792&navt=n&npa=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&_tu=AAI&gtm=45be6al1v9237203717za208zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~117776795~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~121328666&tft=1792947792314&tfd=1294&_gsid=SOrmOhzWxRPgoFtc4SfIjLdfFje_2pmAkw&tids=AW-17788971481&fmt=8 \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/ccm/collect?rcb=18&frm=0&apvc=0&auid=631131420.1792947792&dt=Good%20Monk%20-%20As%20Seen%20on%20Shark%20Tank%20%7C%20India%27s%20First%20Nutrition%20Health%20Mix&tid=AW-17788971481&en=page_view&dl=https%3A%2F%2Fwww.goodmonk.in%2F&scrsrc=www.googletagmanager.com&rnd=156983651.1792947792&navt=n&npa=0&ep.shopify_event_name=page_viewed&evnid=sh-7404285c-C022-4E47-7C56-89836CE9D011&excid=shp.19118350-a35f-4c8f-b5e1-bc87b648fd60&ep.page_path=%2F&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&_tu=AAI&gtm=45be6al1v9237203717za200zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~117776795~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~121328666&tft=1792947792315&tfd=1295&_gsid=SOrmOhzWxRPgoFtc4SfIjLdfFje_2pmAkw&tids=AW-17788971481&fmt=8 \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/rmkt/collect/17788971481/?random=1792947792306&cv=11&fst=1792947792306&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6al1v9237203717za200zb898864600zd898864600xecxf1&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~117776795~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~121328666&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2F&rcb=18&evnid=sh-7404285c-C022-4E47-7C56-89836CE9D011&excid=shp.19118350-a35f-4c8f-b5e1-bc87b648fd60&tiba=Good%20Monk%20-%20As%20Seen%20on%20Shark%20Tank%20%7C%20India%27s%20First%20Nutrition%20Health%20Mix&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=631131420.1792947792&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=AAI&data=event%3Dpage_view%3Bshopify_event_name%3Dpage_viewed%3Bpage_path%3D%2F&ept=68&gcp=5 \u2014 net::ERR_ABORTED",
+              "GET https://www.google.com/pagead/1p-conversion/11046186878/?random=278626510&cv=11&fst=1792947792155&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6al1v9105248862za200zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938466~115938468~117776795~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2F&rcb=8&label=ihb4CJuFn6gYEP7enZMp&gtm_ee=1&evnid=sh-7404285c-C022-4E47-7C56-89836CE9D011&excid=shp.19118350-a35f-4c8f-b5e1-bc87b648fd60&tiba=Good%20Monk%20-%20As%20Seen%20on%20Shark%20Tank%20%7C%20India%27s%20First%20Nutrition%20Health%20Mix&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=631131420.1792947792&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&ec_mode=c&oidsrc=3&ecsid2=1728815173.1792947792&_tu=ABI&gcl_ctr=1~0~0~0&data=event%3Dpage_view%3Bshopify_event_name%3Dpage_viewed%3Bpage_path%3D%2F&category=acrcp_v1_512&em=tv.1&emd=tvd.1&ept=5&ct_cookie_present=false&eoid=CkcKEQjw0fbWBhCioYXOl7uxuZQBEjIAEmbdqbc4DOTmy2Nlq8VSDSF8jMXwzZykEZ_7EWg3M1ZEa7cgyYS_AUYC1c-9ERIrIfD_BwE&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQII1-ixAgi0xrECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgiK8rECCIvysQII9NqxAgji6rECCOjusQIIkuuxAgiX1LECCMnbsQIIpt2xAgiw3rECCIDbsQIIzeGxAg&cerd=CgjV1b4tueu-LQ&fsk=ChAI8NH21gYQgrDN0-2xyr4jEiwAFqpSrDT0NLafSN3B72Be1LQPdPWnND_HdtguiQ1WWIEuxc73KXiLNCWpTBoCEhM&pscrd=IhMIrNOFgtPVlwMVH6_FAh0W6DXnOhhodHRwczovL3d3dy5nb29kbW9uay5pbi9CV0NoQUk4TkgyMWdZUTM1YnFyWktCNWFGU0VpMEEtdFFnMGFKdFZVN1lkRFlPQU9HTUYzTnRiZDEwUUdKRUtBU05PaGV4Yk9xVHJxNVNsU25nSjhqS2NWVXoMCAliCAgAEAAYACAA&is_vtc=1&cid=CAQS0wEAQM4h3FWyZqwgbWUo_YxrbkMJSNf12GXE7tZiwoVn1AGF7utV04wpLj0FtSO203t_3h2YCIFm99DDLL-ZzEhD0rSPeX-Io6OQWuet868kfIi7Q7vxWzwWQUgPJxG1NovdBL3aYb9WZRMUPVDPxPZSJFKpcIvYl0vu2Tck3j6DphFmY8XE9U7w5NaUprhCe32OurN1KOQm8FmylO38JECV75Y0Jr1waNBmPhv1UPnp_trdFxB4c1xEMLAOn56FtZQDsiE9wgpVitrg4mP6KrtWhwTM&random=2775981698 \u2014 net::ERR_ABORTED",
+              "GET https://cdn.shopify.com/s/files/1/0748/8710/2770/files/WhatsApp_Image_2026-09-17_at_7.18.54_PM_200x200.jpg?v=1789653066 \u2014 net::ERR_ABORTED"
+            ],
+            "broken_images": [
+              "",
+              ""
+            ],
+            "screenshot_path": null,
+            "error_message": "",
+            "retried": 0,
+            "permanent_failure": false
+          },
+          {
+            "step_name": "collection",
+            "success": true,
+            "http_status": 200,
+            "page_title": "Health Supplements, Instant Fruit Drinks & Milk Mixes, No Taste, Colour & Smell \u2013 Good Monk",
+            "load_time_seconds": 1.19,
+            "console_errors": [
+              "Failed to load resource: the server responded with a status of 404 ()"
+            ],
+            "js_errors": [
+              "Unexpected token 'export'"
+            ],
+            "network_failures": [
+              "POST https://www.goodmonk.in/apps/ba-pop/app_metrics \u2014 net::ERR_ABORTED",
+              "GET https://checkout-merchant.snapmint.com/js/v1/9744 \u2014 net::ERR_BLOCKED_BY_ORB",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/ccm/collect?rcb=0&frm=0&apvc=1&auid=631131420.1792947792&dt=Health%20Supplements%2C%20Instant%20Fruit%20Drinks%20%26%20Milk%20Mixes%2C%20No%20Taste%2C%20Colour%20%26%20Smell%20%E2%80%93%20Good%20Monk&tid=AW-11046186878&en=page_view&dl=https%3A%2F%2Fwww.goodmonk.in%2Fcollections%2Fall&scrsrc=www.googletagmanager.com&rnd=1088431688.1792947794&navt=n&npa=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&_tu=AAI&gtm=45be6al1v9105248862za208zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938468~117776795~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&tft=1792947793522&tfd=932&_gsid=SOrmOhzWxRPgoFtc4SfIjLdfFje_2pmAkw&tids=AW-11046186878&fmt=8 \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/rmkt/collect/17788971481/?random=1792947793568&cv=11&fst=1792947793568&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6al1v9237203717za200zb898864600zd898864600xecxf1&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938465~115938469~117776795~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2Fcollections%2Fall&rcb=10&evnid=sh-74042ff9-7BA4-401B-C84E-6198F5B813A8&excid=shp.19118350-a35f-4c8f-b5e1-bc87b648fd60&tiba=Health%20Supplements%2C%20Instant%20Fruit%20Drinks%20%26%20Milk%20Mixes%2C%20No%20Taste%2C%20Colour%20%26%20Smell%20%E2%80%93%20Good%20Monk&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=631131420.1792947792&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=AAI&data=event%3Dpage_view%3Bshopify_event_name%3Dpage_viewed%3Bpage_path%3D%2Fcollections%2Fall&ept=68&gcp=5 \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/ccm/collect?rcb=10&frm=0&apvc=0&auid=631131420.1792947792&dt=Health%20Supplements%2C%20Instant%20Fruit%20Drinks%20%26%20Milk%20Mixes%2C%20No%20Taste%2C%20Colour%20%26%20Smell%20%E2%80%93%20Good%20Monk&tid=AW-17788971481&en=page_view&dl=https%3A%2F%2Fwww.goodmonk.in%2Fcollections%2Fall&scrsrc=www.googletagmanager.com&rnd=1088431688.1792947794&navt=n&npa=0&ep.shopify_event_name=page_viewed&evnid=sh-74042ff9-7BA4-401B-C84E-6198F5B813A8&excid=shp.19118350-a35f-4c8f-b5e1-bc87b648fd60&ep.page_path=%2Fcollections%2Fall&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&_tu=AAI&gtm=45be6al1v9237203717za200zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938465~115938469~117776795~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&tft=1792947793575&tfd=984&_gsid=SOrmOhzWxRPgoFtc4SfIjLdfFje_2pmAkw&tids=AW-17788971481&fmt=8 \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/ccm/collect?rcb=10&frm=0&apvc=0&auid=631131420.1792947792&dt=Health%20Supplements%2C%20Instant%20Fruit%20Drinks%20%26%20Milk%20Mixes%2C%20No%20Taste%2C%20Colour%20%26%20Smell%20%E2%80%93%20Good%20Monk&tid=AW-17788971481&en=page_view&dl=https%3A%2F%2Fwww.goodmonk.in%2Fcollections%2Fall&scrsrc=www.googletagmanager.com&rnd=1088431688.1792947794&navt=n&npa=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&_tu=AAI&gtm=45be6al1v9237203717za208zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938465~115938469~117776795~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&tft=1792947793574&tfd=984&_gsid=SOrmOhzWxRPgoFtc4SfIjLdfFje_2pmAkw&tids=AW-17788971481&fmt=8 \u2014 net::ERR_ABORTED",
+              "GET https://www.google.com/pagead/1p-conversion/11046186878/?random=1123656616&cv=11&fst=1792947793517&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6al1v9105248862za200zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938468~117776795~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2Fcollections%2Fall&rcb=0&label=ihb4CJuFn6gYEP7enZMp&gtm_ee=1&evnid=sh-74042ff9-7BA4-401B-C84E-6198F5B813A8&excid=shp.19118350-a35f-4c8f-b5e1-bc87b648fd60&tiba=Health%20Supplements%2C%20Instant%20Fruit%20Drinks%20%26%20Milk%20Mixes%2C%20No%20Taste%2C%20Colour%20%26%20Smell%20%E2%80%93%20Good%20Monk&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=631131420.1792947792&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&ec_mode=c&oidsrc=3&ecsid2=1728815173.1792947792&_tu=ABI&gcl_ctr=2~0~0~0&data=event%3Dpage_view%3Bshopify_event_name%3Dpage_viewed%3Bpage_path%3D%2Fcollections%2Fall&category=acrcp_v1_512&em=tv.1&emd=tvd.1&ept=5&ct_cookie_present=false&eoid=CkgKEQjw0fbWBhCioYXOl7uxuZQBEjMAEmbdqZLbI2RTGDZpbWo7yBgY8NFi7Smkd0LQN1TmlEk4l9kpFdAfm1y0UbUMMpbJH6Pw_wcB&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQII1-ixAgi0xrECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgiK8rECCPTasQII4uqxAgjo7rECCJLrsQIIl9SxAgjJ27ECCKbdsQIIsN6xAgiA27ECCM3hsQI&cerd=ChCCsL4t19W-Lbnrvi25_r4t&fsk=ChAI8NH21gYQgrDN0-2xyr4jEiwAFqpSrK4x7KFhAeAEl-j9RUpiODkjY3XUwSN5RMjG3W_bOtuu320Ta6CpbBoCE1o&pscrd=IhMIspnWgtPVlwMVJa_FAh1SXhHlOhhodHRwczovL3d3dy5nb29kbW9uay5pbi9CV0NoQUk4TkgyMWdZUTM1YnFyWktCNWFGU0VpMEEtdFFnMFppZWVwdTE0WEpDUWJiTm1KZHR4cHZUUWFfRFN6NkRUWFJCQmdvbVROS2VsRVhNYzNEVDBCa3oMCAliCAgAEAAYACAA&is_vtc=1&cid=CAQS0wEAQM4h3BSJjhn-z2GJlIdaXv24JxGr--kz9U15T838iKIpvotYhaSby6JK4z5XjYr_PZ7jDG--6QByJE4mTwHwzdJWCYdl4BfHUSYVX3Wi4mjvwhwke7xx_y9UXDe-mtQ9RYlsVPKzY90qnLND5tmRJlyRHbCGBRrYi7UuyNSngX5Wwl5P_wFurZEtmY2upYaAh8pCmcpycATpLLoU-EZMLarltUvfjMlpUz7Gl72nah6w_5aElwPgwZLjNyq8IJH0GtDMuSjQtsCMuWIIEO7YDr3s&random=1375037666 \u2014 net::ERR_ABORTED"
+            ],
+            "broken_images": [],
+            "screenshot_path": null,
+            "error_message": "",
+            "retried": 0,
+            "permanent_failure": false
+          },
+          {
+            "step_name": "product",
+            "success": true,
+            "http_status": 200,
+            "page_title": "Shop Nutrition Mix - Multivitamin Powder For Seniors | Good Monk",
+            "load_time_seconds": 1.89,
+            "console_errors": [],
+            "js_errors": [
+              "t.fetchAvailability is not a function",
+              "Unexpected token 'export'"
+            ],
+            "network_failures": [
+              "GET https://checkout-merchant.snapmint.com/js/v1/9744 \u2014 net::ERR_BLOCKED_BY_ORB",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/ccm/collect?rcb=7&frm=0&apvc=1&auid=631131420.1792947792&dt=Shop%20Nutrition%20Mix%20-%20Multivitamin%20Powder%20For%20Seniors%20%7C%20Good%20Monk&tid=AW-11046186878&en=page_view&dl=https%3A%2F%2Fwww.goodmonk.in%2Fproducts%2Fgood-monk-50-nutrition-mix&scrsrc=www.googletagmanager.com&rnd=2097028859.1792947795&navt=n&npa=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&_tu=AAI&gtm=45be6al1v9105248862za208zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938466~115938469~117776795~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&tft=1792947795272&tfd=1450&_gsid=SOrmOhzWxRPgoFtc4SfIjLdfFje_2pmAkw&tids=AW-11046186878&fmt=8 \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/rmkt/collect/17788971481/?random=1792947795325&cv=11&fst=1792947795325&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6al1v9237203717za200zb898864600zd898864600xecxf1&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~117776795~118012009~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2Fproducts%2Fgood-monk-50-nutrition-mix&rcb=17&evnid=sh-74043698-F949-473D-648B-F5187BE4658D&excid=shp.19118350-a35f-4c8f-b5e1-bc87b648fd60&tiba=Shop%20Nutrition%20Mix%20-%20Multivitamin%20Powder%20For%20Seniors%20%7C%20Good%20Monk&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=631131420.1792947792&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=AAI&data=event%3Dpage_view%3Bshopify_event_name%3Dpage_viewed%3Bpage_path%3D%2Fproducts%2Fgood-monk-50-nutrition-mix&ept=68&gcp=5 \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/ccm/collect?rcb=17&frm=0&apvc=0&auid=631131420.1792947792&dt=Shop%20Nutrition%20Mix%20-%20Multivitamin%20Powder%20For%20Seniors%20%7C%20Good%20Monk&tid=AW-17788971481&en=page_view&dl=https%3A%2F%2Fwww.goodmonk.in%2Fproducts%2Fgood-monk-50-nutrition-mix&scrsrc=www.googletagmanager.com&rnd=2097028859.1792947795&navt=n&npa=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&_tu=AAI&gtm=45be6al1v9237203717za208zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~117776795~118012009~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&tft=1792947795335&tfd=1514&_gsid=SOrmOhzWxRPgoFtc4SfIjLdfFje_2pmAkw&tids=AW-17788971481&fmt=8 \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/ccm/collect?rcb=17&frm=0&apvc=0&auid=631131420.1792947792&dt=Shop%20Nutrition%20Mix%20-%20Multivitamin%20Powder%20For%20Seniors%20%7C%20Good%20Monk&tid=AW-17788971481&en=view_item&dl=https%3A%2F%2Fwww.goodmonk.in%2Fproducts%2Fgood-monk-50-nutrition-mix&scrsrc=www.googletagmanager.com&rnd=2097028859.1792947795&navt=n&npa=0&ep.shopify_event_name=product_viewed&evnid=sh-740436b4-A5DA-459A-901B-1CD167534FC1&excid=shp.19118350-a35f-4c8f-b5e1-bc87b648fd60&ep.ecomm_prodid=shopify_IN_8469030338866_45625354027314&epn.ecomm_totalvalue=649&ep.ecomm_pagetype=product&epn.value=649&ep.currency=INR&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&_tu=AAI&gtm=45be6al1v9237203717za200zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~117776795~118012009~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&tft=1792947795336&tfd=1515&_gsid=SOrmOhzWxRPgoFtc4SfIjLdfFje_2pmAkw&tids=AW-17788971481&fmt=8 \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/ccm/collect?rcb=17&frm=0&apvc=0&auid=631131420.1792947792&dt=Shop%20Nutrition%20Mix%20-%20Multivitamin%20Powder%20For%20Seniors%20%7C%20Good%20Monk&tid=AW-17788971481&en=page_view&dl=https%3A%2F%2Fwww.goodmonk.in%2Fproducts%2Fgood-monk-50-nutrition-mix&scrsrc=www.googletagmanager.com&rnd=2097028859.1792947795&navt=n&npa=0&ep.shopify_event_name=page_viewed&evnid=sh-74043698-F949-473D-648B-F5187BE4658D&excid=shp.19118350-a35f-4c8f-b5e1-bc87b648fd60&ep.page_path=%2Fproducts%2Fgood-monk-50-nutrition-mix&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&_tu=AAI&gtm=45be6al1v9237203717za200zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~117776795~118012009~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&tft=1792947795336&tfd=1514&_gsid=SOrmOhzWxRPgoFtc4SfIjLdfFje_2pmAkw&tids=AW-17788971481&fmt=8 \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/rmkt/collect/17788971481/?random=1792947795330&cv=11&fst=1792947795330&fmt=8&bg=ffffff&guid=ON&async=1&en=view_item&gtm=45be6al1v9237203717za200zb898864600zd898864600xecxf1&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~117776795~118012009~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2Fproducts%2Fgood-monk-50-nutrition-mix&rcb=17&evnid=sh-740436b4-A5DA-459A-901B-1CD167534FC1&excid=shp.19118350-a35f-4c8f-b5e1-bc87b648fd60&frm=0&tiba=Shop%20Nutrition%20Mix%20-%20Multivitamin%20Powder%20For%20Seniors%20%7C%20Good%20Monk&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&value=649&currency_code=INR&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=631131420.1792947792&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=AAI&data=event%3Dview_item%3Bshopify_event_name%3Dproduct_viewed%3Becomm_prodid%3Dshopify_IN_8469030338866_45625354027314%3Becomm_totalvalue%3D649%3Becomm_pagetype%3Dproduct%3Bid%3Dshopify_IN_8469030338866_45625354027314&ept=68&gcp=5 \u2014 net::ERR_ABORTED",
+              "GET https://www.google.com/pagead/1p-conversion/11046186878/?random=575087593&cv=11&fst=1792947795263&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6al1v9105248862za200zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938466~115938469~117776795~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2Fproducts%2Fgood-monk-50-nutrition-mix&rcb=7&label=ihb4CJuFn6gYEP7enZMp&gtm_ee=1&evnid=sh-74043698-F949-473D-648B-F5187BE4658D&excid=shp.19118350-a35f-4c8f-b5e1-bc87b648fd60&tiba=Shop%20Nutrition%20Mix%20-%20Multivitamin%20Powder%20For%20Seniors%20%7C%20Good%20Monk&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=631131420.1792947792&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&ec_mode=c&oidsrc=3&ecsid2=1728815173.1792947792&_tu=ABI&gcl_ctr=3~0~0~0&data=event%3Dpage_view%3Bshopify_event_name%3Dpage_viewed%3Bpage_path%3D%2Fproducts%2Fgood-monk-50-nutrition-mix&category=acrcp_v1_512&em=tv.1&emd=tvd.1&ept=5&ct_cookie_present=false&eoid=CkgKEQjw0fbWBhCioYXOl7uxuZQBEjMAEmbdqW0OrTz0hJbl9rNo6bY6ywwU-qkICLTnbSMtFjeizWdGWsNpyWbyZfdLh9L8FA_w_wcB&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQII1-ixAgi0xrECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgiK8rECCPTasQII4uqxAgjo7rECCJLrsQIIl9SxAgjJ27ECCKbdsQIIsN6xAgiA27ECCM3hsQI&cerd=CgjV1b4tyOy-LQ&fsk=ChAI8NH21gYQgrDN0-2xyr4jEiwAFqpSrCJGiM7peE_IY-YSiGNvXAehsIs_4znE6fmeb8a98-dg1MaybhHS3BoCYOg&pscrd=IhMIioHBg9PVlwMVV5DFAh2CHRJaOhhodHRwczovL3d3dy5nb29kbW9uay5pbi9CV0NoQUk4TkgyMWdZUTM1YnFyWktCNWFGU0VpMEEtdFFnMFVSYVEtdTQ4MVRUclVCRWNDMmQyMU1LSUdFRTZLUmI3OFM2Qnhjbzdlc3JsUDZrdTdnaENxZ3oMCAliCAgAEAAYACAA&is_vtc=1&cid=CAQS4QEAQM4h3Pi6HVWM_JS3xAQHJFwY16kzemgSLkdp8WV3JgayNhqpiyhB689i9lVBvuj4AQKM2v-f64mAOI8U4Nt_UbD0wANHcnKSZJ53AtiVXDqGt_BcZR3u0F626EkbvwfF55gsfjneQ2mFKtnRjiYqJJaR7B7c3RfZBZsPE8ai3uW84wS8szEuIeDAuo1Zj8YoXJ7A2Nc1Dq90M7MILoSooPXntgYTmEqet8P83ijJ7N37-xpy1AWvFy1H3VcnB9gqpaeFHtyvkUerSWdpeW9f9ys8gnNiQXKJGuEjbuMW1HY&random=770596846 \u2014 net::ERR_ABORTED",
+              "GET https://www.google.com/pagead/1p-conversion/11046186878/?random=13149717&cv=11&fst=1792947795267&fmt=8&bg=ffffff&guid=ON&async=1&en=view_item&gtm=45be6al1v9105248862za200zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938466~115938469~117776795~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2Fproducts%2Fgood-monk-50-nutrition-mix&rcb=7&label=uVeGCJ6Fn6gYEP7enZMp&gtm_ee=1&evnid=sh-740436b4-A5DA-459A-901B-1CD167534FC1&excid=shp.19118350-a35f-4c8f-b5e1-bc87b648fd60&frm=0&tiba=Shop%20Nutrition%20Mix%20-%20Multivitamin%20Powder%20For%20Seniors%20%7C%20Good%20Monk&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&value=649&currency_code=INR&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=631131420.1792947792&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&ec_mode=c&oidsrc=3&ecsid2=1728815173.1792947792&_tu=ABI&gcl_ctr=4~0~0~0&data=event%3Dview_item%3Bshopify_event_name%3Dproduct_viewed%3Becomm_prodid%3Dshopify_IN_8469030338866_45625354027314%3Becomm_totalvalue%3D649%3Becomm_pagetype%3Dproduct&category=acrcp_v1_512&em=tv.1&emd=tvd.1&ept=5&ct_cookie_present=false&eoid=CkgKEQjw0fbWBhCioYXOl7uxuZQBEjMAEmbdqY-0FYnVWfZitSWL_W6mxCPtQo9CAmAt1xLwd_cMcFxhHgUEQFRfKfy9Zv2D47fw_wcB&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQII1-ixAgi0xrECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgiK8rECCPTasQII4uqxAgjo7rECCLfysQIIkuuxAgiX1LECCMnbsQIIpt2xAgiw3rECCIDbsQIIzeGxAg&cerd=CgjV1b4tueu-LQ&fsk=ChAI8NH21gYQgrDN0-2xyr4jEiwAFqpSrPu5hJn3CEpIbU1oQCjnUEUlqQyTp_hPxlHSI6VIXJfZJiIWFrd68hoChqk&pscrd=IhMI4KfBg9PVlwMVg6_FAh3-XyXlOhhodHRwczovL3d3dy5nb29kbW9uay5pbi9CV0NoQUk4TkgyMWdZUTM1YnFyWktCNWFGU0VpMEEtdFFnMFlUZ1JwbjZOUXo3RHpTOHRGa3VjbkRiVE9hdGRSekx5aWk3WHZpVWZJLUJPZFY5V0lKVFUta3oMCAliCAgAEAAYACAA&is_vtc=1&cid=CAQS4QEAQM4h3MY7BjgPLMi00Qm0sCjwgNVbQMRcdWk2ZwnWTGcBDkNdXtZROR4-xt_YKxLr7d3ZmzQItabEgrbSBnaJ0WRhwhKp0qKJGX5QFlsUhgVGfbBq-6R_gdLsQn9X6bJy-B372WcSJLHWp7ZPRVWrf--pQVUd7ykoZZQ7k8uMrze3Usv0ZLU3wQ4bPIMeY_MEHPrdF07HXwvvqN7wawytdGFS-TCsQ32hCcw10aKyU7RuQg5DCVdFJxx5aTpsbjbiIV5mogTASZlmR8e-OWDYxHRjWsj-eA0D2nPFYKIYn9E&random=3474383416 \u2014 net::ERR_ABORTED"
+            ],
+            "broken_images": [
+              "",
+              ""
+            ],
+            "screenshot_path": null,
+            "error_message": "",
+            "retried": 0,
+            "permanent_failure": false
+          },
+          {
+            "step_name": "select_variant",
+            "success": true,
+            "http_status": null,
+            "page_title": "",
+            "load_time_seconds": 0.06,
+            "console_errors": [],
+            "js_errors": [],
+            "network_failures": [],
+            "broken_images": [],
+            "screenshot_path": null,
+            "error_message": "No variant selector present (likely a single-variant product) \u2014 skipped.",
+            "retried": 0,
+            "permanent_failure": false
+          },
+          {
+            "step_name": "add_to_cart",
+            "success": true,
+            "http_status": null,
+            "page_title": "Shop Nutrition Mix - Multivitamin Powder For Seniors | Good Monk",
+            "load_time_seconds": 0.52,
+            "console_errors": [],
+            "js_errors": [],
+            "network_failures": [
+              "POST https://www.google.com/rmkt/collect/11046186878/?random=1792947795878&cv=11&fst=1792947795878&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6al1v9105248862za200zb898864600zd898864600xecxf1&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938466~115938469~117776795~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2Fproducts%2Fgood-monk-50-nutrition-mix&rcb=7&frm=0&tiba=Shop%20Nutrition%20Mix%20-%20Multivitamin%20Powder%20For%20Seniors%20%7C%20Good%20Monk&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=631131420.1792947792&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=AAI&data=event%3Dpage_view%3Becomm_prodid%3Dshopify_IN_8469030338866_45625354027314%2Cshopify_IN_8469030338866_45625353994546%2Cshopify_IN_8469030338866_49232620093746%2Cshopify_IN_8469030338866_50574927626546%3Becomm_pagetype%3Dproduct%3Becomm_totalvalue%3D649&ept=68&gcp=5 \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/ccm/collect?rcb=7&frm=0&apvc=0&auid=631131420.1792947792&dt=Shop%20Nutrition%20Mix%20-%20Multivitamin%20Powder%20For%20Seniors%20%7C%20Good%20Monk&tid=AW-11046186878&en=page_view&dl=https%3A%2F%2Fwww.goodmonk.in%2Fproducts%2Fgood-monk-50-nutrition-mix&scrsrc=www.googletagmanager.com&rnd=2097028859.1792947795&navt=n&npa=0&ep.ecomm_prodid=shopify_IN_8469030338866_45625354027314%2Cshopify_IN_8469030338866_45625353994546%2Cshopify_IN_8469030338866_49232620093746%2Cshopify_IN_8469030338866_50574927626546&ep.ecomm_pagetype=product&epn.ecomm_totalvalue=649&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&_tu=AAI&gtm=45be6al1v9105248862za200zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938466~115938469~117776795~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&tft=1792947795927&tfd=2105&_gsid=SOrmOhzWxRPgoFtc4SfIjLdfFje_2pmAkw&tids=AW-11046186878&fmt=8 \u2014 net::ERR_ABORTED"
+            ],
+            "broken_images": [],
+            "screenshot_path": null,
+            "error_message": "",
+            "retried": 0,
+            "permanent_failure": false
+          },
+          {
+            "step_name": "cart",
+            "success": true,
+            "http_status": 200,
+            "page_title": "Your Shopping Cart \u2013 Good Monk",
+            "load_time_seconds": 0.79,
+            "console_errors": [],
+            "js_errors": [
+              "Unexpected token 'export'"
+            ],
+            "network_failures": [
+              "GET https://checkout.shopflo.co/stable/?page=ghost-modal&mid=2349a17d-4f2d-45bc-950e-d79e60c32615&ghostUserOrderData=false \u2014 net::ERR_ABORTED",
+              "POST https://o4508131579002880.ingest.us.sentry.io/api/4508131592241152/envelope/?sentry_version=7&sentry_key=d97a825a449bcf2e640608e705016d56&sentry_client=sentry.javascript.react%2F10.1.0 \u2014 net::ERR_ABORTED",
+              "POST https://h.clarity.ms/collect \u2014 net::ERR_ABORTED",
+              "POST https://cubeapm-prod.shopflo.com/events/1/NRJS-123456789abcdef0123?a=shopflo-frontend&sa=1&v=1.278.3&t=Unnamed%20Transaction&rst=1046&ck=0&s=3510930974ad1f63&ref=https://checkout.shopflo.co/stable/&ptid=24cceb68880d27c1 \u2014 net::ERR_ABORTED",
+              "POST https://cubeapm-prod.shopflo.com/jserrors/1/NRJS-123456789abcdef0123?a=shopflo-frontend&sa=1&v=1.278.3&t=Unnamed%20Transaction&rst=1047&ck=0&s=3510930974ad1f63&ref=https://checkout.shopflo.co/stable/&ptid=24cceb68880d27c1 \u2014 net::ERR_ABORTED",
+              "POST https://cubeapm-prod.shopflo.com/jserrors/1/NRJS-123456789abcdef0123?a=shopflo-frontend&sa=1&v=1.278.3&t=Unnamed%20Transaction&rst=1047&ck=0&s=3510930974ad1f63&ref=https://checkout.shopflo.co/stable/&ptid=24cceb68880d27c1 \u2014 net::ERR_ABORTED",
+              "GET https://checkout-merchant.snapmint.com/js/v1/9744 \u2014 net::ERR_BLOCKED_BY_ORB",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/ccm/collect?rcb=8&frm=0&apvc=1&auid=631131420.1792947792&dt=Your%20Shopping%20Cart%20%E2%80%93%20Good%20Monk&tid=AW-11046186878&en=page_view&dl=https%3A%2F%2Fwww.goodmonk.in%2Fcart&scrsrc=www.googletagmanager.com&rnd=605801065.1792947797&navt=n&npa=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&_tu=AAI&gtm=45be6al1v9105248862za208zd9105248862xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~117776795~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&tft=1792947796988&tfd=629&_gsid=SOrmOhzWxRPgoFtc4SfIjLdfFje_2pmAkw&tids=AW-11046186878&fmt=8 \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/ccm/collect?rcb=19&frm=0&apvc=0&auid=631131420.1792947792&dt=Your%20Shopping%20Cart%20%E2%80%93%20Good%20Monk&tid=AW-17788971481&en=page_view&dl=https%3A%2F%2Fwww.goodmonk.in%2Fcart&scrsrc=www.googletagmanager.com&rnd=605801065.1792947797&navt=n&npa=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&_tu=AAI&gtm=45be6al1v9237203717za208zb9105248862zd9105248862xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~117776795~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&tft=1792947797042&tfd=683&_gsid=SOrmOhzWxRPgoFtc4SfIjLdfFje_2pmAkw&tids=AW-17788971481&fmt=8 \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/ccm/collect?rcb=19&frm=0&apvc=0&auid=631131420.1792947792&dt=Your%20Shopping%20Cart%20%E2%80%93%20Good%20Monk&tid=AW-17788971481&en=page_view&dl=https%3A%2F%2Fwww.goodmonk.in%2Fcart&scrsrc=www.googletagmanager.com&rnd=605801065.1792947797&navt=n&npa=0&ep.shopify_event_name=page_viewed&evnid=sh-74043cbf-4C98-42E7-E84A-8CFC1CC72833&excid=shp.19118350-a35f-4c8f-b5e1-bc87b648fd60&ep.page_path=%2Fcart&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&_tu=AAI&gtm=45be6al1v9237203717za200zb9105248862zd9105248862xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~117776795~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&tft=1792947797042&tfd=684&_gsid=SOrmOhzWxRPgoFtc4SfIjLdfFje_2pmAkw&tids=AW-17788971481&fmt=8 \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/rmkt/collect/17788971481/?random=1792947797037&cv=11&fst=1792947797037&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6al1v9237203717za200zb9105248862zd9105248862xecxf1&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~117776795~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2Fcart&rcb=19&evnid=sh-74043cbf-4C98-42E7-E84A-8CFC1CC72833&excid=shp.19118350-a35f-4c8f-b5e1-bc87b648fd60&tiba=Your%20Shopping%20Cart%20%E2%80%93%20Good%20Monk&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=631131420.1792947792&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=AAI&data=event%3Dpage_view%3Bshopify_event_name%3Dpage_viewed%3Bpage_path%3D%2Fcart&ept=68&gcp=5 \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "GET https://www.google.com/pagead/1p-conversion/11046186878/?random=1593188928&cv=11&fst=1792947796984&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6al1v9105248862za200zd9105248862xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~117776795~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2Fcart&rcb=8&label=ihb4CJuFn6gYEP7enZMp&gtm_ee=1&evnid=sh-74043cbf-4C98-42E7-E84A-8CFC1CC72833&excid=shp.19118350-a35f-4c8f-b5e1-bc87b648fd60&tiba=Your%20Shopping%20Cart%20%E2%80%93%20Good%20Monk&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=631131420.1792947792&ec_mode=c&oidsrc=3&ecsid2=1728815173.1792947792&_tu=ABI&gcl_ctr=5~0~0~0&data=event%3Dpage_view%3Bshopify_event_name%3Dpage_viewed%3Bpage_path%3D%2Fcart&category=acrcp_v1_512&em=tv.1&emd=tvd.1&ept=5&ct_cookie_present=false&eoid=CkgKEQjw0fbWBhCioYXOl7uxuZQBEjMAEmbdqSg2UhSEd8rGSjOXK-mhzjhAL-jCfNsSWuGnPJSqk1BHp_wPbfj90sGQzFoYbkDw_wcB&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQII1-ixAgi0xrECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgiK8rECCPTasQII4uqxAgjo7rECCLjysQIIkuuxAgiX1LECCMnbsQIIpt2xAgiw3rECCIDbsQIIzeGxAg&cerd=CgjX1b4tyOy-LQ&fsk=ChAI8NH21gYQgrDN0-2xyr4jEiwAFqpSrAhocL4qwqkp5uzKOtJoCOcWcX7VBwNsk6sfXbsq1XMbzwZlZaqUHBoCYjY&pscrd=IhMIwoSqhNPVlwMVRrbFAh0h0hbROhhodHRwczovL3d3dy5nb29kbW9uay5pbi9CV0NoQUk4TkgyMWdZUTM1YnFyWktCNWFGU0VpMEEtdFFnMGRmTzFmZFRtLXdhNW5ROHJwZ19QSXo3OVdJS1Mwa1BiZk9nUURxYVFmejFZTFpkZG92bUxsWXoMCAliCAgAEAAYACAA&is_vtc=1&cid=CAQS4QEAQM4h3MXGkABPA72t9bwClFukKOGdVY1a8ThfpcfRzdW2Hlt5XyOGcpXkjy7tqXTudlztZg0_hhbrodLKqLQiaeOWAINd_cXpLB4zFbeq-NsXeJWwCVZQsvcFpfGSGHJjuVPjR22-waK8Fm5NLPkUriP559AEuV9_7Bd7uKc0SdYvib1IE3wHzSkCEfLKPpEVoF1-RTwQ1GQx7HXJXWAo5A7U2Y96D7VovZ-1muQsOGb5cemVMfvVIcDrD-jzjN06xyHrXiTVgYscdLsmbWAZQ0VdVKpfWG3pMW7fWR1zaiI&random=4187896907 \u2014 net::ERR_ABORTED"
+            ],
+            "broken_images": [],
+            "screenshot_path": null,
+            "error_message": "",
+            "retried": 0,
+            "permanent_failure": false
+          },
+          {
+            "step_name": "checkout",
+            "success": false,
+            "http_status": null,
+            "page_title": "Your Shopping Cart \u2013 Good Monk",
+            "load_time_seconds": 0.05,
+            "console_errors": [],
+            "js_errors": [],
+            "network_failures": [],
+            "broken_images": [],
+            "screenshot_path": "/home/runner/work/goodmonk-performance-command-center/goodmonk-performance-command-center/journey_screenshots/H50+_checkout_FAILED.png",
+            "error_message": "None of the configured selectors matched a visible element: [\"[data-testid='checkout-button']\", \"button[name='checkout']\", \"[aria-label*='Checkout' i]\", 'role=button[name=/checkout/i]', \"button:has-text('Checkout'), a:has-text('Checkout')\", '#checkout, .cart__checkout-button']",
+            "retried": 0,
+            "permanent_failure": true
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "date": "2026-10-11",
+          "time": "18:38:54",
+          "success": false
+        },
+        {
+          "date": "2026-10-12",
+          "time": "08:37:44",
+          "success": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "00:52:48",
+          "success": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "11:01:57",
+          "success": false
+        },
+        {
+          "date": "2026-10-15",
+          "time": "23:34:53",
+          "success": false
+        },
+        {
+          "date": "2026-10-17",
+          "time": "17:43:31",
+          "success": false
+        },
+        {
+          "date": "2026-10-20",
+          "time": "01:29:04",
+          "success": false
+        },
+        {
+          "date": "2026-10-20",
+          "time": "12:29:55",
+          "success": false
+        },
+        {
+          "date": "2026-10-20",
+          "time": "17:44:07",
+          "success": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "15:51:54",
+          "success": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "19:54:16",
+          "success": false
+        },
+        {
+          "date": "2026-10-22",
+          "time": "07:00:16",
+          "success": false
+        },
+        {
+          "date": "2026-10-22",
+          "time": "17:51:56",
+          "success": false
+        },
+        {
+          "date": "2026-10-23",
+          "time": "10:52:02",
+          "success": false
+        },
+        {
+          "date": "2026-10-24",
+          "time": "06:48:35",
+          "success": false
+        },
+        {
+          "date": "2026-10-24",
+          "time": "15:14:04",
+          "success": false
+        },
+        {
+          "date": "2026-10-25",
+          "time": "08:03:49",
+          "success": false
+        },
+        {
+          "date": "2026-10-25",
+          "time": "17:03:23",
+          "success": false
+        }
+      ],
+      "total_runs": 18,
+      "successful_runs": 0
+    },
+    {
+      "product_name": "Fiber Fix",
+      "latest_status": "Failed",
+      "latest_failed_step": "checkout",
+      "latest_duration_seconds": 5.63,
+      "latest_details": {
+        "product_name": "Fiber Fix",
+        "product_url": "https://www.goodmonk.in/products/fiber-fix",
+        "started_at": "2026-10-25T17:03:17",
+        "finished_at": "2026-10-25T17:03:23",
+        "success": false,
+        "failed_step": "checkout",
+        "total_duration_seconds": 5.63,
+        "steps": [
+          {
+            "step_name": "homepage",
+            "success": true,
+            "http_status": 200,
+            "page_title": "Good Monk - As Seen on Shark Tank | India's First Nutrition Health Mix",
+            "load_time_seconds": 1.35,
+            "console_errors": [],
+            "js_errors": [
+              "Unexpected token 'export'"
+            ],
+            "network_failures": [
+              "GET https://checkout-merchant.snapmint.com/js/v1/9744 \u2014 net::ERR_BLOCKED_BY_ORB",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/ccm/collect?rcb=2&frm=0&apvc=1&auid=1869595539.1792947798&dt=Good%20Monk%20-%20As%20Seen%20on%20Shark%20Tank%20%7C%20India%27s%20First%20Nutrition%20Health%20Mix&tid=AW-11046186878&en=page_view&dl=https%3A%2F%2Fwww.goodmonk.in%2F&scrsrc=www.googletagmanager.com&rnd=1578157994.1792947798&navt=n&npa=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&_tu=AAI&gtm=45be6al1v9105248862za208zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938468~118131808~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&tft=1792947798473&tfd=1064&tids=AW-11046186878&fmt=8 \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/rmkt/collect/17788971481/?random=1792947798533&cv=11&fst=1792947798533&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6al1v9237203717za200zb898864600zd898864600xecxf1&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938465~115938468~118131808~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2F&rcb=8&evnid=sh-740440d0-27D5-4144-3284-216987CD5A75&excid=shp.702b046c-02d1-45cc-a0ca-43345ad17681&tiba=Good%20Monk%20-%20As%20Seen%20on%20Shark%20Tank%20%7C%20India%27s%20First%20Nutrition%20Health%20Mix&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=1869595539.1792947798&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=AAI&data=event%3Dpage_view%3Bshopify_event_name%3Dpage_viewed%3Bpage_path%3D%2F&ept=68&gcp=5 \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/ccm/collect?rcb=8&frm=0&apvc=0&auid=1869595539.1792947798&dt=Good%20Monk%20-%20As%20Seen%20on%20Shark%20Tank%20%7C%20India%27s%20First%20Nutrition%20Health%20Mix&tid=AW-17788971481&en=page_view&dl=https%3A%2F%2Fwww.goodmonk.in%2F&scrsrc=www.googletagmanager.com&rnd=1578157994.1792947798&navt=n&npa=0&ep.shopify_event_name=page_viewed&evnid=sh-740440d0-27D5-4144-3284-216987CD5A75&excid=shp.702b046c-02d1-45cc-a0ca-43345ad17681&ep.page_path=%2F&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&_tu=AAI&gtm=45be6al1v9237203717za200zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938465~115938468~118131808~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&tft=1792947798542&tfd=1132&tids=AW-17788971481&fmt=8 \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/ccm/collect?rcb=8&frm=0&apvc=0&auid=1869595539.1792947798&dt=Good%20Monk%20-%20As%20Seen%20on%20Shark%20Tank%20%7C%20India%27s%20First%20Nutrition%20Health%20Mix&tid=AW-17788971481&en=page_view&dl=https%3A%2F%2Fwww.goodmonk.in%2F&scrsrc=www.googletagmanager.com&rnd=1578157994.1792947798&navt=n&npa=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&_tu=AAI&gtm=45be6al1v9237203717za208zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938465~115938468~118131808~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&tft=1792947798541&tfd=1132&tids=AW-17788971481&fmt=8 \u2014 net::ERR_ABORTED",
+              "GET https://www.google.com/pagead/1p-conversion/11046186878/?random=686487326&cv=11&fst=1792947798466&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6al1v9105248862za200zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938468~118131808~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2F&rcb=2&label=ihb4CJuFn6gYEP7enZMp&gtm_ee=1&evnid=sh-740440d0-27D5-4144-3284-216987CD5A75&excid=shp.702b046c-02d1-45cc-a0ca-43345ad17681&tiba=Good%20Monk%20-%20As%20Seen%20on%20Shark%20Tank%20%7C%20India%27s%20First%20Nutrition%20Health%20Mix&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=1869595539.1792947798&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&ec_mode=c&oidsrc=3&ecsid2=1623850325.1792947798&_tu=ABI&gcl_ctr=1~0~0~0&data=event%3Dpage_view%3Bshopify_event_name%3Dpage_viewed%3Bpage_path%3D%2F&category=acrcp_v1_512&em=tv.1&emd=tvd.1&ept=5&ct_cookie_present=false&eoid=CkgKEQjw0fbWBhCioYXOl7uxuZQBEjMAEmbdqZk_TUlQa8EvqPUMcOr33dTXrHJzcLAyyAZMcpAaGHy5tyJOcOjtZ1miRSzpSjXw_wcB&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQII1-ixAgi0xrECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgiK8rECCPTasQII4uqxAgjo7rECCJLrsQIIl9SxAgjJ27ECCKbdsQIIsN6xAgiA27ECCM3hsQI&cerd=CgzX1b4tueu-LZTuvi0&fsk=ChAI8NH21gYQgrDN0-2xyr4jEiwAFqpSrHejOrGk2NbnGlPSwVQ0MAQEmNVg-tklPNhc_x8s9ZnCRxfpmBbgMBoCV2w&pscrd=IhMIn_qHhdPVlwMVS67FAh1Cqh6POhhodHRwczovL3d3dy5nb29kbW9uay5pbi9CVkNoQUk4TkgyMWdZUTM1YnFyWktCNWFGU0Vpd0EtdFFnMFJjckVkNEVCNTdFb2pIVzBjQUp3ZUppWVpYR0FaTjZGeUJEYVdILWVSTDRId3lqR2w4LVJBegwICWIICAAQABgAIAA&is_vtc=1&cid=CAQS0wEAQM4h3LswrppkiPjUs8rMVh1X1mxrrFasba_cRqJHIc-0F_O0KBkbodrkKxCDEvwmESDEC7760owdHPGGGzIU49qO8zU38yKGkW33PK6lYpQM_4pZYE0gmHqfOu30U1mideHR-tQBzC9qNI7oRgkuQ0iQx5cuV9ie0L-xfgloTYaYkiHCEZ6UtjH7wxXCj-DyeK5J0fJWXslwYo74eTHNmVNOBOklAK5XZXPkoCaZeOaFCTThS2Kislkt94z_E9Cm0WG1QjlvPuVJoUMIfa_71LJb&random=1437342452 \u2014 net::ERR_ABORTED",
+              "GET https://cdn.shopify.com/s/files/1/0748/8710/2770/files/WhatsApp_Image_2026-09-17_at_7.18.54_PM_200x200.jpg?v=1789653066 \u2014 net::ERR_ABORTED"
+            ],
+            "broken_images": [
+              "",
+              ""
+            ],
+            "screenshot_path": null,
+            "error_message": "",
+            "retried": 0,
+            "permanent_failure": false
+          },
+          {
+            "step_name": "collection",
+            "success": true,
+            "http_status": 200,
+            "page_title": "Health Supplements, Instant Fruit Drinks & Milk Mixes, No Taste, Colour & Smell \u2013 Good Monk",
+            "load_time_seconds": 1.0,
+            "console_errors": [
+              "Failed to load resource: the server responded with a status of 404 ()"
+            ],
+            "js_errors": [
+              "Unexpected token 'export'"
+            ],
+            "network_failures": [
+              "GET https://checkout-merchant.snapmint.com/js/v1/9744 \u2014 net::ERR_BLOCKED_BY_ORB",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/ccm/collect?rcb=4&frm=0&apvc=1&auid=1869595539.1792947798&dt=Health%20Supplements%2C%20Instant%20Fruit%20Drinks%20%26%20Milk%20Mixes%2C%20No%20Taste%2C%20Colour%20%26%20Smell%20%E2%80%93%20Good%20Monk&tid=AW-11046186878&en=page_view&dl=https%3A%2F%2Fwww.goodmonk.in%2Fcollections%2Fall&scrsrc=www.googletagmanager.com&rnd=1736239920.1792947800&navt=n&npa=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&_tu=AAI&gtm=45be6al1v9105248862za208zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~118131808~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&tft=1792947799571&tfd=785&tids=AW-11046186878&fmt=8 \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/apps/ba-pop/app_metrics \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/ccm/collect?rcb=19&frm=0&apvc=0&auid=1869595539.1792947798&dt=Health%20Supplements%2C%20Instant%20Fruit%20Drinks%20%26%20Milk%20Mixes%2C%20No%20Taste%2C%20Colour%20%26%20Smell%20%E2%80%93%20Good%20Monk&tid=AW-17788971481&en=page_view&dl=https%3A%2F%2Fwww.goodmonk.in%2Fcollections%2Fall&scrsrc=www.googletagmanager.com&rnd=1736239920.1792947800&navt=n&npa=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&_tu=AAI&gtm=45be6al1v9237203717za208zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938465~115938469~118131808~118897920~118897930~120213116~120385423~120420414~120469145~120469153~121246026~121246034&tft=1792947799635&tfd=849&tids=AW-17788971481&fmt=8 \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/rmkt/collect/17788971481/?random=1792947799629&cv=11&fst=1792947799629&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6al1v9237203717za200zb898864600zd898864600xecxf1&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938465~115938469~118131808~118897920~118897930~120213116~120385423~120420414~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2Fcollections%2Fall&rcb=19&evnid=sh-740446c4-1C06-47D3-1596-439CA37CE157&excid=shp.702b046c-02d1-45cc-a0ca-43345ad17681&tiba=Health%20Supplements%2C%20Instant%20Fruit%20Drinks%20%26%20Milk%20Mixes%2C%20No%20Taste%2C%20Colour%20%26%20Smell%20%E2%80%93%20Good%20Monk&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=1869595539.1792947798&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=AAI&data=event%3Dpage_view%3Bshopify_event_name%3Dpage_viewed%3Bpage_path%3D%2Fcollections%2Fall&ept=68&gcp=5 \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/ccm/collect?rcb=19&frm=0&apvc=0&auid=1869595539.1792947798&dt=Health%20Supplements%2C%20Instant%20Fruit%20Drinks%20%26%20Milk%20Mixes%2C%20No%20Taste%2C%20Colour%20%26%20Smell%20%E2%80%93%20Good%20Monk&tid=AW-17788971481&en=page_view&dl=https%3A%2F%2Fwww.goodmonk.in%2Fcollections%2Fall&scrsrc=www.googletagmanager.com&rnd=1736239920.1792947800&navt=n&npa=0&ep.shopify_event_name=page_viewed&evnid=sh-740446c4-1C06-47D3-1596-439CA37CE157&excid=shp.702b046c-02d1-45cc-a0ca-43345ad17681&ep.page_path=%2Fcollections%2Fall&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&_tu=AAI&gtm=45be6al1v9237203717za200zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938465~115938469~118131808~118897920~118897930~120213116~120385423~120420414~120469145~120469153~121246026~121246034&tft=1792947799636&tfd=849&tids=AW-17788971481&fmt=8 \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "GET https://www.google.com/pagead/1p-conversion/11046186878/?random=156295404&cv=11&fst=1792947799565&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6al1v9105248862za200zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~118131808~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2Fcollections%2Fall&rcb=4&label=ihb4CJuFn6gYEP7enZMp&gtm_ee=1&evnid=sh-740446c4-1C06-47D3-1596-439CA37CE157&excid=shp.702b046c-02d1-45cc-a0ca-43345ad17681&tiba=Health%20Supplements%2C%20Instant%20Fruit%20Drinks%20%26%20Milk%20Mixes%2C%20No%20Taste%2C%20Colour%20%26%20Smell%20%E2%80%93%20Good%20Monk&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=1869595539.1792947798&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&ec_mode=c&oidsrc=3&ecsid2=1623850325.1792947798&_tu=ABI&gcl_ctr=2~0~0~0&data=event%3Dpage_view%3Bshopify_event_name%3Dpage_viewed%3Bpage_path%3D%2Fcollections%2Fall&category=acrcp_v1_512&em=tv.1&emd=tvd.1&ept=5&ct_cookie_present=false&eoid=CkgKEQjw0fbWBhCioYXOl7uxuZQBEjMAEmbdqdyk-yhmeALue5pF4CVr_SidOvVScHX1sjXtFsO57JKh7T6nfsH_tfxvvZPJWk_w_wcB&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQII1-ixAgi0xrECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgiK8rECCPTasQII4uqxAgjo7rECCJLrsQIIl9SxAgjJ27ECCKbdsQIIsN6xAgiA27ECCM3hsQIIy-GxAg&cerd=CgyDsL4t1dW-Lcjsvi0&fsk=ChAI8NH21gYQgrDN0-2xyr4jEiwAFqpSrI-sK80tZSZohlcgwCuu5wPEhwaVjmbGXPTG5LLloL1jkOYk_vqvOxoCUvo&pscrd=IhMIm9DHhdPVlwMVK7KOBB26SQ7vOhhodHRwczovL3d3dy5nb29kbW9uay5pbi9CVkNoQUk4TkgyMWdZUTM1YnFyWktCNWFGU0Vpd0EtdFFnMGNtLXlxNEF3UFRSSzVLY2Rzb2kzNnBvREtONEpqdWZlM2trVG9GSEU5eVNlbGd1RnpXNm1negwICWIICAAQABgAIAA&is_vtc=1&cid=CAQS0wEAQM4h3Ajy_xOAkIuqaJwRuS4IYO5_QMrTt4_ChMF0vfE3X82QYW8w-cr7cmEdnYh4o-Do7DmVDiWKNi7VDukJ_NFGzatgWBmCQA4H9X9lESnzAyhGLupHoUDTPszDbXBxKTBf8sgEUp3gwiuZAvx23U2c0j13MLzy4TKEWg0I7r6sZSFE_6hOHRp5PWZAbrZzgi2Dwm4i_k_lY1FdRzjXwq2dmkz-epzr2comBdIeSmrRvb6v62xslUrOAr9417YCt2U-k22AiKStwKv9n0Q1odA7&random=3245788674 \u2014 net::ERR_ABORTED"
+            ],
+            "broken_images": [],
+            "screenshot_path": null,
+            "error_message": "",
+            "retried": 0,
+            "permanent_failure": false
+          },
+          {
+            "step_name": "product",
+            "success": true,
+            "http_status": 200,
+            "page_title": "Fiber Fix - Effective Fiber Powder To Boost Digestive Health | Good Monk",
+            "load_time_seconds": 1.24,
+            "console_errors": [],
+            "js_errors": [
+              "t.fetchAvailability is not a function",
+              "Unexpected token 'export'"
+            ],
+            "network_failures": [
+              "GET https://checkout-merchant.snapmint.com/js/v1/9744 \u2014 net::ERR_BLOCKED_BY_ORB",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/ccm/collect?rcb=10&frm=0&apvc=1&auid=1869595539.1792947798&dt=Fiber%20Fix%20-%20Effective%20Fiber%20Powder%20To%20Boost%20Digestive%20Health%20%7C%20Good%20Monk&tid=AW-11046186878&en=page_view&dl=https%3A%2F%2Fwww.goodmonk.in%2Fproducts%2Ffiber-fix&scrsrc=www.googletagmanager.com&rnd=399941856.1792947801&navt=n&npa=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&_tu=AAI&gtm=45be6al1v9105248862za208zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~118131808~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&tft=1792947800876&tfd=1045&tids=AW-11046186878&fmt=8 \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/rmkt/collect/17788971481/?random=1792947800932&cv=11&fst=1792947800932&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6al1v9237203717za200zb898864600zd898864600xecxf1&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~118131808~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2Fproducts%2Ffiber-fix&rcb=16&evnid=sh-74044b4b-E7D0-4FC7-07F6-3E6D95E2CDA5&excid=shp.702b046c-02d1-45cc-a0ca-43345ad17681&tiba=Fiber%20Fix%20-%20Effective%20Fiber%20Powder%20To%20Boost%20Digestive%20Health%20%7C%20Good%20Monk&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=1869595539.1792947798&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=AAI&data=event%3Dpage_view%3Bshopify_event_name%3Dpage_viewed%3Bpage_path%3D%2Fproducts%2Ffiber-fix&ept=68&gcp=5 \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/ccm/collect?rcb=16&frm=0&apvc=0&auid=1869595539.1792947798&dt=Fiber%20Fix%20-%20Effective%20Fiber%20Powder%20To%20Boost%20Digestive%20Health%20%7C%20Good%20Monk&tid=AW-17788971481&en=page_view&dl=https%3A%2F%2Fwww.goodmonk.in%2Fproducts%2Ffiber-fix&scrsrc=www.googletagmanager.com&rnd=399941856.1792947801&navt=n&npa=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&_tu=AAI&gtm=45be6al1v9237203717za208zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~118131808~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&tft=1792947800942&tfd=1111&tids=AW-17788971481&fmt=8 \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/ccm/collect?rcb=16&frm=0&apvc=0&auid=1869595539.1792947798&dt=Fiber%20Fix%20-%20Effective%20Fiber%20Powder%20To%20Boost%20Digestive%20Health%20%7C%20Good%20Monk&tid=AW-17788971481&en=view_item&dl=https%3A%2F%2Fwww.goodmonk.in%2Fproducts%2Ffiber-fix&scrsrc=www.googletagmanager.com&rnd=399941856.1792947801&navt=n&npa=0&ep.shopify_event_name=product_viewed&evnid=sh-74044b66-412E-4C83-DFA7-E9FF47B1D918&excid=shp.702b046c-02d1-45cc-a0ca-43345ad17681&ep.ecomm_prodid=shopify_IN_9636753768754_49339502788914&epn.ecomm_totalvalue=749&ep.ecomm_pagetype=product&epn.value=749&ep.currency=INR&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&_tu=AAI&gtm=45be6al1v9237203717za200zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~118131808~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&tft=1792947800943&tfd=1112&tids=AW-17788971481&fmt=8 \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/rmkt/collect/17788971481/?random=1792947800937&cv=11&fst=1792947800937&fmt=8&bg=ffffff&guid=ON&async=1&en=view_item&gtm=45be6al1v9237203717za200zb898864600zd898864600xecxf1&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~118131808~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2Fproducts%2Ffiber-fix&rcb=16&evnid=sh-74044b66-412E-4C83-DFA7-E9FF47B1D918&excid=shp.702b046c-02d1-45cc-a0ca-43345ad17681&frm=0&tiba=Fiber%20Fix%20-%20Effective%20Fiber%20Powder%20To%20Boost%20Digestive%20Health%20%7C%20Good%20Monk&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&value=749&currency_code=INR&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=1869595539.1792947798&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=AAI&data=event%3Dview_item%3Bshopify_event_name%3Dproduct_viewed%3Becomm_prodid%3Dshopify_IN_9636753768754_49339502788914%3Becomm_totalvalue%3D749%3Becomm_pagetype%3Dproduct%3Bid%3Dshopify_IN_9636753768754_49339502788914&ept=68&gcp=5 \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/ccm/collect?rcb=16&frm=0&apvc=0&auid=1869595539.1792947798&dt=Fiber%20Fix%20-%20Effective%20Fiber%20Powder%20To%20Boost%20Digestive%20Health%20%7C%20Good%20Monk&tid=AW-17788971481&en=page_view&dl=https%3A%2F%2Fwww.goodmonk.in%2Fproducts%2Ffiber-fix&scrsrc=www.googletagmanager.com&rnd=399941856.1792947801&navt=n&npa=0&ep.shopify_event_name=page_viewed&evnid=sh-74044b4b-E7D0-4FC7-07F6-3E6D95E2CDA5&excid=shp.702b046c-02d1-45cc-a0ca-43345ad17681&ep.page_path=%2Fproducts%2Ffiber-fix&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&_tu=AAI&gtm=45be6al1v9237203717za200zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~118131808~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&tft=1792947800942&tfd=1112&tids=AW-17788971481&fmt=8 \u2014 net::ERR_ABORTED",
+              "GET https://www.google.com/pagead/1p-conversion/11046186878/?random=1564373957&cv=11&fst=1792947800872&fmt=8&bg=ffffff&guid=ON&async=1&en=view_item&gtm=45be6al1v9105248862za200zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~118131808~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2Fproducts%2Ffiber-fix&rcb=10&label=uVeGCJ6Fn6gYEP7enZMp&gtm_ee=1&evnid=sh-74044b66-412E-4C83-DFA7-E9FF47B1D918&excid=shp.702b046c-02d1-45cc-a0ca-43345ad17681&frm=0&tiba=Fiber%20Fix%20-%20Effective%20Fiber%20Powder%20To%20Boost%20Digestive%20Health%20%7C%20Good%20Monk&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&value=749&currency_code=INR&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=1869595539.1792947798&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&ec_mode=c&oidsrc=3&ecsid2=1623850325.1792947798&_tu=ABI&gcl_ctr=4~0~0~0&data=event%3Dview_item%3Bshopify_event_name%3Dproduct_viewed%3Becomm_prodid%3Dshopify_IN_9636753768754_49339502788914%3Becomm_totalvalue%3D749%3Becomm_pagetype%3Dproduct&category=acrcp_v1_512&em=tv.1&emd=tvd.1&ept=5&ct_cookie_present=false&eoid=CkcKEQjw0fbWBhCioYXOl7uxuZQBEjIAEmbdqbeEzlnyRRlHU8Eem2Ywu8d5GvHDflqgZGZyUpq0AP-cjMVAygr6LOHg49JqgfD_BwE&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQII1-ixAgi0xrECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgiK8rECCPTasQII4uqxAgjo7rECCJLrsQIIl9SxAgjJ27ECCKbdsQIIsN6xAgiA27ECCM3hsQI&cerd=CgjX1b4tyOy-LQ&fsk=ChAI8NH21gYQgrDN0-2xyr4jEiwAFqpSrGny0wPH0kCA-kVxvNgzG00SBd9yGeSPzQf_5aXGeRv2tJ620hMvPBoC2gw&pscrd=IhMImqmXhtPVlwMV17TFAh1AgCztOhhodHRwczovL3d3dy5nb29kbW9uay5pbi9CVkNoQUk4TkgyMWdZUTM1YnFyWktCNWFGU0Vpd0EtdFFnMFlzeEszMjR0R3dHXzBXM1QzR09nbVNWaklBaEVpZ2x6ZkNVeGxMSXVBXzVqMjQ0Q3VDTllBegwICWIICAAQABgAIAA&is_vtc=1&cid=CAQS4QEAQM4h3Ld15VG7zm7tkpdpUDd9AqRD0eptpklgJoxlZioZXX1oZ6WPM4UtWkafj7WWsbad8qH5-VH6LSX-u2fSSNmCUt39027GX_IvvyR7paJDN9s6CCndmmPsHZbCFttKKdxPROdU0ZzC_eicu_X-m7Ooimw0GTv2TEElnqRNHDwSmIZShE6eOFXW0LbF9KgOsE1sa0M8L4-LZ3MPOrBQehAFme3aKohnDyM4oqC6rrq3hp0T47_ufJQFqQQ3bHblBTOPiGo5H2Ie-NUtzIMz6GSu5MZKytVU98gdCoSeXpc&random=2956887061 \u2014 net::ERR_ABORTED",
+              "GET https://www.google.com/pagead/1p-conversion/11046186878/?random=1539314271&cv=11&fst=1792947800868&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6al1v9105248862za200zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~118131808~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2Fproducts%2Ffiber-fix&rcb=10&label=ihb4CJuFn6gYEP7enZMp&gtm_ee=1&evnid=sh-74044b4b-E7D0-4FC7-07F6-3E6D95E2CDA5&excid=shp.702b046c-02d1-45cc-a0ca-43345ad17681&tiba=Fiber%20Fix%20-%20Effective%20Fiber%20Powder%20To%20Boost%20Digestive%20Health%20%7C%20Good%20Monk&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=1869595539.1792947798&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&ec_mode=c&oidsrc=3&ecsid2=1623850325.1792947798&_tu=ABI&gcl_ctr=3~0~0~0&data=event%3Dpage_view%3Bshopify_event_name%3Dpage_viewed%3Bpage_path%3D%2Fproducts%2Ffiber-fix&category=acrcp_v1_512&em=tv.1&emd=tvd.1&ept=5&ct_cookie_present=false&eoid=CkcKEQjw0fbWBhCioYXOl7uxuZQBEjIAEmbdqZeamYwlNl6KIVmfD19y8xaN5mZEfpGRa9gwduBcNgoYPqdakaa8vXtEJAR21PD_BwE&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQII1-ixAgi0xrECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgiK8rECCPTasQII4uqxAgjo7rECCJLrsQIIl9SxAgjJ27ECCKbdsQIIsN6xAgiA27ECCM3hsQI&cerd=CgjX1b4tueu-LQ&fsk=ChAI8NH21gYQgrDN0-2xyr4jEiwAFqpSrHF8MEz3raNdoHcv0N4_WAql3Q7t_k9BDkKvALYxzv1Jgq14aipyyhoCfDY&pscrd=IhMI_YqXhtPVlwMVnL3FAh21lTXmOhhodHRwczovL3d3dy5nb29kbW9uay5pbi9CVkNoQUk4TkgyMWdZUTM1YnFyWktCNWFGU0Vpd0EtdFFnMGU2b1pjOER5X1NvWEd3NFdzMjhZeVpfVnRQdnV1WFpPS2VfUDE1ck9TUFV6OVg0NTRZWUVnegwICWIICAAQABgAIAA&is_vtc=1&cid=CAQS4QEAQM4h3G-cPnair3YtuogOtB0m6oVwJWoo_DqvYo4sAYwmVGF8W9G4jbGvVmQBICEDBGX8PGxyug-KjhttmsMlrulIwrsglQ4JK3dNbHdSSREJAafBPt8soQKqtUT6Hbj042j7l58P0XuUg1PowHmjJT5pivpD4MuKkXOAc8FlMsNWzwbP0vvtosTaZeTlH4ZW0lpZcQyXF4e2xR1v705jdMfX3vFAlQW0F3MOmbDldo8f1lqZO_qYnUH6aXkYdGglWN7yodCe5fcOk7R_g-M27of-H3xS0MUDlNuKhQLtHYs&random=1754570776 \u2014 net::ERR_ABORTED"
+            ],
+            "broken_images": [],
+            "screenshot_path": null,
+            "error_message": "",
+            "retried": 0,
+            "permanent_failure": false
+          },
+          {
+            "step_name": "select_variant",
+            "success": true,
+            "http_status": null,
+            "page_title": "",
+            "load_time_seconds": 0.03,
+            "console_errors": [],
+            "js_errors": [],
+            "network_failures": [],
+            "broken_images": [],
+            "screenshot_path": null,
+            "error_message": "No variant selector present (likely a single-variant product) \u2014 skipped.",
+            "retried": 0,
+            "permanent_failure": false
+          },
+          {
+            "step_name": "add_to_cart",
+            "success": true,
+            "http_status": null,
+            "page_title": "Fiber Fix - Effective Fiber Powder To Boost Digestive Health | Good Monk",
+            "load_time_seconds": 0.7,
+            "console_errors": [],
+            "js_errors": [],
+            "network_failures": [
+              "POST https://www.google.com/rmkt/collect/11046186878/?random=1792947801194&cv=11&fst=1792947801194&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6al1v9105248862za200zb898864600zd898864600xecxf1&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~118131808~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2Fproducts%2Ffiber-fix&rcb=10&frm=0&tiba=Fiber%20Fix%20-%20Effective%20Fiber%20Powder%20To%20Boost%20Digestive%20Health%20%7C%20Good%20Monk&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=1869595539.1792947798&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=AAI&data=event%3Dpage_view%3Becomm_prodid%3Dshopify_IN_9636753768754_49339502788914%2Cshopify_IN_9636753768754_49339502821682%3Becomm_pagetype%3Dproduct%3Becomm_totalvalue%3D749&ept=68&gcp=5 \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/ccm/collect?rcb=10&frm=0&apvc=0&auid=1869595539.1792947798&dt=Fiber%20Fix%20-%20Effective%20Fiber%20Powder%20To%20Boost%20Digestive%20Health%20%7C%20Good%20Monk&tid=AW-11046186878&en=page_view&dl=https%3A%2F%2Fwww.goodmonk.in%2Fproducts%2Ffiber-fix&scrsrc=www.googletagmanager.com&rnd=399941856.1792947801&navt=n&npa=0&ep.ecomm_prodid=shopify_IN_9636753768754_49339502788914%2Cshopify_IN_9636753768754_49339502821682&ep.ecomm_pagetype=product&epn.ecomm_totalvalue=749&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&_tu=AAI&gtm=45be6al1v9105248862za200zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~118131808~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&tft=1792947801229&tfd=1398&tids=AW-11046186878&fmt=8 \u2014 net::ERR_ABORTED"
+            ],
+            "broken_images": [],
+            "screenshot_path": null,
+            "error_message": "",
+            "retried": 0,
+            "permanent_failure": false
+          },
+          {
+            "step_name": "cart",
+            "success": true,
+            "http_status": 200,
+            "page_title": "Your Shopping Cart \u2013 Good Monk",
+            "load_time_seconds": 0.88,
+            "console_errors": [],
+            "js_errors": [
+              "Unexpected token 'export'"
+            ],
+            "network_failures": [
+              "GET https://checkout.shopflo.co/stable/?page=ghost-modal&mid=2349a17d-4f2d-45bc-950e-d79e60c32615&ghostUserOrderData=false \u2014 net::ERR_ABORTED",
+              "GET https://checkout.shopflo.co/stable/assets/ghost-B5_AXlAB.js \u2014 net::ERR_ABORTED",
+              "POST https://o4508131579002880.ingest.us.sentry.io/api/4508131592241152/envelope/?sentry_version=7&sentry_key=d97a825a449bcf2e640608e705016d56&sentry_client=sentry.javascript.react%2F10.1.0 \u2014 net::ERR_ABORTED",
+              "GET https://checkout.shopflo.co/stable/assets/page-ghost-sbT8iupi.js \u2014 net::ERR_ABORTED",
+              "POST https://cubeapm-prod.shopflo.com/1/NRJS-123456789abcdef0123?a=shopflo-frontend&sa=1&v=1.278.3&t=Unnamed%20Transaction&rst=532&ck=0&s=682bef0fb9bca8ab&ref=https://checkout.shopflo.co/stable/&ptid=9866234f5412cddf&af=err,spa,xhr,stn,ins&be=12&fe=426&dc=404&fsh=0&perf=%7B%22timing%22:%7B%22of%22:1792947801423,%22n%22:0,%22f%22:2,%22dn%22:2,%22dne%22:2,%22c%22:2,%22s%22:2,%22ce%22:2,%22rq%22:2,%22rp%22:13,%22rpe%22:35,%22di%22:110,%22ds%22:416,%22de%22:416,%22dc%22:437,%22l%22:437,%22le%22:438%7D,%22navigation%22:%7B%7D%7D \u2014 net::ERR_ABORTED",
+              "GET https://scripts.clarity.ms/0.8.75-beta/clarity.js \u2014 net::ERR_ABORTED",
+              "GET https://api.shopflo.co/kratos/public/api/v1/merchant-apps?merchantId=2349a17d-4f2d-45bc-950e-d79e60c32615 \u2014 net::ERR_ABORTED",
+              "POST https://o4508131579002880.ingest.us.sentry.io/api/4508131592241152/envelope/?sentry_version=7&sentry_key=d97a825a449bcf2e640608e705016d56&sentry_client=sentry.javascript.react%2F10.1.0 \u2014 net::ERR_ABORTED",
+              "GET https://checkout-merchant.snapmint.com/js/v1/9744 \u2014 net::ERR_BLOCKED_BY_ORB",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/ccm/collect?rcb=8&frm=0&apvc=1&auid=1869595539.1792947798&dt=Your%20Shopping%20Cart%20%E2%80%93%20Good%20Monk&tid=AW-11046186878&en=page_view&dl=https%3A%2F%2Fwww.goodmonk.in%2Fcart&scrsrc=www.googletagmanager.com&rnd=2098770402.1792947803&navt=n&npa=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&_tu=AAI&gtm=45be6al1v9105248862za208zd9105248862xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~118131808~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&tft=1792947802563&tfd=677&tids=AW-11046186878&fmt=8 \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/ccm/collect?rcb=11&frm=0&apvc=0&auid=1869595539.1792947798&dt=Your%20Shopping%20Cart%20%E2%80%93%20Good%20Monk&tid=AW-17788971481&en=page_view&dl=https%3A%2F%2Fwww.goodmonk.in%2Fcart&scrsrc=www.googletagmanager.com&rnd=2098770402.1792947803&navt=n&npa=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&_tu=AAI&gtm=45be6al1v9237203717za208zb9105248862zd9105248862xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~118131808~118897920~118897930~120213116~120385422~120412527~120469145~120469153~121246026~121246034&tft=1792947802632&tfd=746&tids=AW-17788971481&fmt=8 \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/ccm/collect?rcb=11&frm=0&apvc=0&auid=1869595539.1792947798&dt=Your%20Shopping%20Cart%20%E2%80%93%20Good%20Monk&tid=AW-17788971481&en=page_view&dl=https%3A%2F%2Fwww.goodmonk.in%2Fcart&scrsrc=www.googletagmanager.com&rnd=2098770402.1792947803&navt=n&npa=0&ep.shopify_event_name=page_viewed&evnid=sh-740452d6-B3BB-43E5-A3CA-85F299C53D84&excid=shp.702b046c-02d1-45cc-a0ca-43345ad17681&ep.page_path=%2Fcart&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&_tu=AAI&gtm=45be6al1v9237203717za200zb9105248862zd9105248862xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~118131808~118897920~118897930~120213116~120385422~120412527~120469145~120469153~121246026~121246034&tft=1792947802633&tfd=747&tids=AW-17788971481&fmt=8 \u2014 net::ERR_ABORTED",
+              "POST https://www.google.com/rmkt/collect/17788971481/?random=1792947802627&cv=11&fst=1792947802627&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6al1v9237203717za200zb9105248862zd9105248862xecxf1&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~118131808~118897920~118897930~120213116~120385422~120412527~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2Fcart&rcb=11&evnid=sh-740452d6-B3BB-43E5-A3CA-85F299C53D84&excid=shp.702b046c-02d1-45cc-a0ca-43345ad17681&tiba=Your%20Shopping%20Cart%20%E2%80%93%20Good%20Monk&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=1869595539.1792947798&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=AAI&data=event%3Dpage_view%3Bshopify_event_name%3Dpage_viewed%3Bpage_path%3D%2Fcart&ept=68&gcp=5 \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED",
+              "GET https://www.google.com/pagead/1p-conversion/11046186878/?random=1861810271&cv=11&fst=1792947802559&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6al1v9105248862za200zd9105248862xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~118131808~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2Fcart&rcb=8&label=ihb4CJuFn6gYEP7enZMp&gtm_ee=1&evnid=sh-740452d6-B3BB-43E5-A3CA-85F299C53D84&excid=shp.702b046c-02d1-45cc-a0ca-43345ad17681&tiba=Your%20Shopping%20Cart%20%E2%80%93%20Good%20Monk&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=1869595539.1792947798&ec_mode=c&oidsrc=3&ecsid2=1623850325.1792947798&_tu=ABI&gcl_ctr=5~0~0~0&data=event%3Dpage_view%3Bshopify_event_name%3Dpage_viewed%3Bpage_path%3D%2Fcart&category=acrcp_v1_512&em=tv.1&emd=tvd.1&ept=5&ct_cookie_present=false&eoid=CkcKEQjw0fbWBhCioYXOl7uxuZQBEjIAEmbdqR_sV6grlB60OZCSwrNkDgFj1MzGb7WrgGjxr2YJIlIzyojdWXr4BDMaJ-xv-PD_BwE&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQII1-ixAgi0xrECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgiK8rECCPTasQII4uqxAgjo7rECCLfysQIIkuuxAgiX1LECCMnbsQIIpt2xAgiw3rECCIDbsQIIzeGxAg&cerd=CgjV1b4tueu-LQ&fsk=ChAI8NH21gYQgrDN0-2xyr4jEiwAFqpSrHMj28kXh9aIHttpI7Ttl5E-2-NNTfHG4LzFMXtkb_MxdXHP52b96BoCRgc&pscrd=IhMI46f-htPVlwMV2q7FAh2tpTrzOhhodHRwczovL3d3dy5nb29kbW9uay5pbi9CVkNoQUk4TkgyMWdZUTM1YnFyWktCNWFGU0Vpd0EtdFFnMFlyYm92QzRtV0dBZzgtMDFucExSaW9SREM3cVBCT3BnZkNoWDJ3STE3T20xaG54R3lzNUxRegwICWIICAAQABgAIAA&is_vtc=1&cid=CAQS4QEAQM4h3FQSsKBsfxLrMhaJQhW1xGjXOx87qZo4YPUtfaH0UXSoINc-QZMarYMYBqMjccqL4yLewg2y_7hk6YjPhIsmXBP2K4km9jn2zreCjFZaNc5wKJ2PFOKXawskmijGbe68qqV-6KxBGZHsnAEZP91EyYNHLddwYw59nII3dbmsqDZLMyrlnSkQK7UiPbkaRkQjWDnTM4goik_tOuca9wOrK-U1hHqYKJT9ykgaSNVqThPpY85X2PSK4TkachMPSCbNBBTCPUAQHzwh11rdUAv0NurPW5cot6Vbqhik_HI&random=3855563587 \u2014 net::ERR_ABORTED"
+            ],
+            "broken_images": [],
+            "screenshot_path": null,
+            "error_message": "",
+            "retried": 0,
+            "permanent_failure": false
+          },
+          {
+            "step_name": "checkout",
+            "success": false,
+            "http_status": null,
+            "page_title": "Your Shopping Cart \u2013 Good Monk",
+            "load_time_seconds": 0.12,
+            "console_errors": [],
+            "js_errors": [],
+            "network_failures": [
+              "POST https://www.goodmonk.in/.well-known/shopify/monorail/unstable/produce_batch \u2014 net::ERR_ABORTED"
+            ],
+            "broken_images": [],
+            "screenshot_path": "/home/runner/work/goodmonk-performance-command-center/goodmonk-performance-command-center/journey_screenshots/FF_checkout_FAILED.png",
+            "error_message": "None of the configured selectors matched a visible element: [\"[data-testid='checkout-button']\", \"button[name='checkout']\", \"[aria-label*='Checkout' i]\", 'role=button[name=/checkout/i]', \"button:has-text('Checkout'), a:has-text('Checkout')\", '#checkout, .cart__checkout-button']",
+            "retried": 0,
+            "permanent_failure": true
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "date": "2026-10-14",
+          "time": "00:52:49",
+          "success": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "11:01:57",
+          "success": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "22:58:49",
+          "success": false
+        },
+        {
+          "date": "2026-10-15",
+          "time": "01:14:15",
+          "success": false
+        },
+        {
+          "date": "2026-10-15",
+          "time": "06:49:24",
+          "success": false
+        },
+        {
+          "date": "2026-10-15",
+          "time": "12:27:01",
+          "success": false
+        },
+        {
+          "date": "2026-10-15",
+          "time": "17:37:58",
+          "success": false
+        },
+        {
+          "date": "2026-10-16",
+          "time": "02:31:10",
+          "success": false
+        },
+        {
+          "date": "2026-10-16",
+          "time": "23:11:37",
+          "success": false
+        },
+        {
+          "date": "2026-10-17",
+          "time": "14:47:51",
+          "success": false
+        },
+        {
+          "date": "2026-10-17",
+          "time": "17:43:31",
+          "success": false
+        },
+        {
+          "date": "2026-10-18",
+          "time": "02:24:07",
+          "success": false
+        },
+        {
+          "date": "2026-10-18",
+          "time": "22:10:44",
+          "success": false
+        },
+        {
+          "date": "2026-10-19",
+          "time": "00:40:12",
+          "success": false
+        },
+        {
+          "date": "2026-10-20",
+          "time": "01:29:05",
+          "success": false
+        },
+        {
+          "date": "2026-10-20",
+          "time": "12:29:56",
+          "success": false
+        },
+        {
+          "date": "2026-10-20",
+          "time": "17:44:07",
+          "success": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "15:51:54",
+          "success": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "19:54:17",
+          "success": false
+        },
+        {
+          "date": "2026-10-22",
+          "time": "07:00:17",
+          "success": false
+        },
+        {
+          "date": "2026-10-22",
+          "time": "17:51:57",
+          "success": false
+        },
+        {
+          "date": "2026-10-23",
+          "time": "10:52:02",
+          "success": false
+        },
+        {
+          "date": "2026-10-24",
+          "time": "06:48:36",
+          "success": false
+        },
+        {
+          "date": "2026-10-24",
+          "time": "15:14:05",
+          "success": false
+        },
+        {
+          "date": "2026-10-25",
+          "time": "08:03:50",
+          "success": false
+        },
+        {
+          "date": "2026-10-25",
+          "time": "17:03:23",
+          "success": false
+        }
+      ],
+      "total_runs": 26,
+      "successful_runs": 0
+    }
+  ],
+  "overall_success_rate": 0.0
 }
