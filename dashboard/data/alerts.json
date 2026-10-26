@@ -1,6 +1,66 @@
 {
-  "generated_at": "2026-10-26T01:00:52",
+  "generated_at": "2026-10-26T05:44:57",
   "recent_alerts": [
+    {
+      "Date": "2026-10-26",
+      "Time": "05:44:56",
+      "Alert Type": "performance_grade_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Assorted",
+      "Message": "Assorted's grade dropped from C to D.",
+      "Root Cause": "",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-26",
+      "Time": "05:44:55",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Mango",
+      "Message": "Mango's score dropped from 62.0 to 46.0 (16.0 points).",
+      "Root Cause": "",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-26",
+      "Time": "05:44:55",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "H50+",
+      "Message": "H50+'s score dropped from 65.0 to 47.0 (18.0 points).",
+      "Root Cause": "",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-26",
+      "Time": "05:44:54",
+      "Alert Type": "performance_grade_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Shop All",
+      "Message": "Shop_All is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-26",
+      "Time": "05:44:54",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Weight Management",
+      "Message": "Weight Management's score dropped from 67.0 to 47.0 (20.0 points).",
+      "Root Cause": "",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
     {
       "Date": "2026-10-26",
       "Time": "01:00:51",
@@ -300,66 +360,6 @@
       "Root Cause": "",
       "Status": "Recovered",
       "Occurrence Count": 4
-    },
-    {
-      "Date": "2026-10-25",
-      "Time": "08:03:51",
-      "Alert Type": "page_failed",
-      "Severity": "high",
-      "Module": "gtmetrix",
-      "Affected Page": "H50+",
-      "Message": "GTmetrix test failed for H50+: Test AkCKFmtr errored: Lighthouse Error: The page took too long to load (No CPU idle period)",
-      "Root Cause": "Test AkCKFmtr errored: Lighthouse Error: The page took too long to load (No CPU idle period)",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-25",
-      "Time": "07:59:14",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 4 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 4
-    },
-    {
-      "Date": "2026-10-25",
-      "Time": "02:33:03",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 4 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 4
-    },
-    {
-      "Date": "2026-10-24",
-      "Time": "23:54:38",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 4 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 4
-    },
-    {
-      "Date": "2026-10-24",
-      "Time": "21:21:59",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 4 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 4
     }
   ],
   "active_alerts": [
@@ -376,18 +376,6 @@
       "Occurrence Count": 1
     },
     {
-      "Date": "2026-10-26",
-      "Time": "01:00:45",
-      "Alert Type": "performance_grade_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Shop All",
-      "Message": "Shop All's grade dropped from C to D.",
-      "Root Cause": "",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
       "Date": "2026-10-18",
       "Time": "02:24:14",
       "Alert Type": "performance_grade_drop",
@@ -395,6 +383,18 @@
       "Module": "gtmetrix",
       "Affected Page": "H50+",
       "Message": "H50+'s grade dropped from C to D.",
+      "Root Cause": "",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-26",
+      "Time": "05:44:55",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "H50+",
+      "Message": "H50+'s score dropped from 65.0 to 47.0 (18.0 points).",
       "Root Cause": "",
       "Status": "New",
       "Occurrence Count": 1
@@ -412,13 +412,25 @@
       "Occurrence Count": 1
     },
     {
-      "Date": "2026-10-22",
-      "Time": "07:00:18",
+      "Date": "2026-10-26",
+      "Time": "05:44:54",
       "Alert Type": "performance_score_drop",
       "Severity": "warning",
       "Module": "gtmetrix",
       "Affected Page": "Weight Management",
-      "Message": "Weight Management's score dropped from 67.0 to 40.0 (27.0 points).",
+      "Message": "Weight Management's score dropped from 67.0 to 47.0 (20.0 points).",
+      "Root Cause": "",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-26",
+      "Time": "05:44:55",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Mango",
+      "Message": "Mango's score dropped from 62.0 to 46.0 (16.0 points).",
       "Root Cause": "",
       "Status": "New",
       "Occurrence Count": 1
@@ -467,6 +479,18 @@
       "Module": "gtmetrix",
       "Affected Page": "Homepage",
       "Message": "Homepage's score dropped from 62.0 to 46.0 (16.0 points).",
+      "Root Cause": "",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-26",
+      "Time": "05:44:56",
+      "Alert Type": "performance_grade_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Assorted",
+      "Message": "Assorted's grade dropped from C to D.",
       "Root Cause": "",
       "Status": "New",
       "Occurrence Count": 1
@@ -557,6 +581,18 @@
     }
   ],
   "recovered_alerts": [
+    {
+      "Date": "2026-10-26",
+      "Time": "05:44:54",
+      "Alert Type": "performance_grade_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Shop All",
+      "Message": "Shop_All is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
     {
       "Date": "2026-10-26",
       "Time": "01:00:50",
@@ -784,31 +820,19 @@
       "Root Cause": "",
       "Status": "Recovered",
       "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-24",
-      "Time": "15:14:07",
-      "Alert Type": "performance_grade_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Weight Management",
-      "Message": "Weight Management is healthy again after 2 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 2
     }
   ],
   "severity_counts": {
     "critical": 0,
     "high": 2,
-    "warning": 14,
+    "warning": 16,
     "info": 0
   },
-  "total_active": 16,
+  "total_active": 18,
   "trend": [
     {
       "date": "2026-10-18",
-      "count": 23
+      "count": 18
     },
     {
       "date": "2026-10-19",
@@ -840,7 +864,7 @@
     },
     {
       "date": "2026-10-26",
-      "count": 7
+      "count": 11
     }
   ]
 }
