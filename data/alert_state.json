@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-10-26T23:03:48",
-      "occurrence_count": 518
+      "last_seen_at": "2026-10-27T01:55:27",
+      "occurrence_count": 519
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-10-26T23:03:48",
-      "occurrence_count": 518
+      "last_seen_at": "2026-10-27T01:55:27",
+      "occurrence_count": 519
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-10-26T23:03:48",
-      "occurrence_count": 518
+      "last_seen_at": "2026-10-27T01:55:27",
+      "occurrence_count": 519
     },
     "root_cause:MM_Vanilla:high_cls": {
       "alert_type": "high_cls",
@@ -33,79 +33,61 @@
       "severity": "warning",
       "affected_page": "Milk Mix Vanilla",
       "first_seen_at": "2026-10-26T01:00:48",
-      "last_seen_at": "2026-10-26T01:00:48",
-      "occurrence_count": 1
-    },
-    "root_cause:MM_Strawberry:high_cls": {
-      "alert_type": "high_cls",
-      "module": "root_cause",
-      "severity": "warning",
-      "affected_page": "Milk Mix Strawberry",
-      "first_seen_at": "2026-10-26T01:00:48",
-      "last_seen_at": "2026-10-26T12:03:39",
+      "last_seen_at": "2026-10-27T01:55:27",
       "occurrence_count": 2
-    },
-    "root_cause:Orange:high_cls": {
-      "alert_type": "high_cls",
-      "module": "root_cause",
-      "severity": "warning",
-      "affected_page": "Orange",
-      "first_seen_at": "2026-10-26T12:03:39",
-      "last_seen_at": "2026-10-26T12:03:39",
-      "occurrence_count": 1
-    },
-    "root_cause:Assorted:high_cls": {
-      "alert_type": "high_cls",
-      "module": "root_cause",
-      "severity": "warning",
-      "affected_page": "Assorted",
-      "first_seen_at": "2026-10-26T12:03:39",
-      "last_seen_at": "2026-10-26T12:03:39",
-      "occurrence_count": 1
     },
     "operational:sheets:google_sheets_failure": {
       "alert_type": "google_sheets_failure",
       "module": "sheets",
       "severity": "critical",
       "affected_page": null,
-      "first_seen_at": "2026-10-26T23:03:48",
-      "last_seen_at": "2026-10-26T23:03:48",
+      "first_seen_at": "2026-10-27T01:55:26",
+      "last_seen_at": "2026-10-27T01:55:26",
       "occurrence_count": 4
     },
-    "score_trend:Plant Protein Roti": {
+    "score_trend:MM_Vanilla": {
       "alert_type": "performance_score_drop",
       "module": "gtmetrix",
       "severity": "warning",
-      "affected_page": "Plant Protein Roti",
-      "first_seen_at": "2026-10-26T23:03:48",
-      "last_seen_at": "2026-10-26T23:03:48",
+      "affected_page": "Milk Mix Vanilla",
+      "first_seen_at": "2026-10-27T01:55:26",
+      "last_seen_at": "2026-10-27T01:55:26",
       "occurrence_count": 1
     },
-    "score_trend:Pineapple": {
+    "score_trend:Berries": {
       "alert_type": "performance_score_drop",
       "module": "gtmetrix",
       "severity": "warning",
-      "affected_page": "Pineapple",
-      "first_seen_at": "2026-10-26T23:03:48",
-      "last_seen_at": "2026-10-26T23:03:48",
+      "affected_page": "Berries",
+      "first_seen_at": "2026-10-27T01:55:26",
+      "last_seen_at": "2026-10-27T01:55:26",
       "occurrence_count": 1
     },
-    "score_trend:Assorted": {
+    "score_trend:FF": {
       "alert_type": "performance_score_drop",
       "module": "gtmetrix",
       "severity": "warning",
-      "affected_page": "Assorted",
-      "first_seen_at": "2026-10-26T23:03:48",
-      "last_seen_at": "2026-10-26T23:03:48",
+      "affected_page": "Fiber Fix",
+      "first_seen_at": "2026-10-27T01:55:26",
+      "last_seen_at": "2026-10-27T01:55:26",
       "occurrence_count": 1
     },
-    "score_trend:Shop_All": {
-      "alert_type": "performance_grade_drop",
-      "module": "gtmetrix",
+    "root_cause:FF:high_cls": {
+      "alert_type": "high_cls",
+      "module": "root_cause",
       "severity": "warning",
-      "affected_page": "Shop All",
-      "first_seen_at": "2026-10-26T23:03:48",
-      "last_seen_at": "2026-10-26T23:03:48",
+      "affected_page": "Fiber Fix",
+      "first_seen_at": "2026-10-27T01:55:27",
+      "last_seen_at": "2026-10-27T01:55:27",
+      "occurrence_count": 1
+    },
+    "root_cause:Berries:high_cls": {
+      "alert_type": "high_cls",
+      "module": "root_cause",
+      "severity": "warning",
+      "affected_page": "Berries",
+      "first_seen_at": "2026-10-27T01:55:27",
+      "last_seen_at": "2026-10-27T01:55:27",
       "occurrence_count": 1
     }
   }
