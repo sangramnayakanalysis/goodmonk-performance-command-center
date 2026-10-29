@@ -1,6 +1,126 @@
 {
-  "generated_at": "2026-10-29T20:05:54",
+  "generated_at": "2026-10-29T23:57:13",
   "recent_alerts": [
+    {
+      "Date": "2026-10-29",
+      "Time": "23:57:13",
+      "Alert Type": "high_cls",
+      "Severity": "warning",
+      "Module": "root_cause",
+      "Affected Page": "H50+",
+      "Message": "H50+:high_cls is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-29",
+      "Time": "23:57:12",
+      "Alert Type": "high_cls",
+      "Severity": "warning",
+      "Module": "root_cause",
+      "Affected Page": "Berries",
+      "Message": "Berries:high_cls is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-29",
+      "Time": "23:57:12",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Orange",
+      "Message": "Orange is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-29",
+      "Time": "23:57:11",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "H50+",
+      "Message": "H50+ is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-29",
+      "Time": "23:57:11",
+      "Alert Type": "performance_grade_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Slimbiotics",
+      "Message": "Slimbiotics's grade dropped from C to D.",
+      "Root Cause": "",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-29",
+      "Time": "23:57:10",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Plant Protein Roti",
+      "Message": "Plant Protein Roti is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-29",
+      "Time": "23:57:10",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Milk Mix Strawberry",
+      "Message": "Milk Mix Strawberry's score dropped from 65.0 to 47.0 (18.0 points).",
+      "Root Cause": "",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-29",
+      "Time": "23:57:10",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Assorted",
+      "Message": "Assorted is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-29",
+      "Time": "23:57:09",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Mango",
+      "Message": "Mango is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-29",
+      "Time": "23:51:59",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
     {
       "Date": "2026-10-29",
       "Time": "20:05:53",
@@ -240,165 +360,9 @@
       "Root Cause": "",
       "Status": "Recovered",
       "Occurrence Count": 2
-    },
-    {
-      "Date": "2026-10-29",
-      "Time": "07:58:22",
-      "Alert Type": "performance_grade_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Assorted",
-      "Message": "Assorted's grade dropped from C to D.",
-      "Root Cause": "",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-29",
-      "Time": "07:58:21",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "FNM",
-      "Message": "FNM's score dropped from 63.0 to 44.0 (19.0 points).",
-      "Root Cause": "",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-29",
-      "Time": "07:58:21",
-      "Alert Type": "performance_grade_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Shop All",
-      "Message": "Shop All's grade dropped from C to D.",
-      "Root Cause": "",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-29",
-      "Time": "07:58:21",
-      "Alert Type": "performance_grade_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Fiber Fix",
-      "Message": "FF is healthy again after 1 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-29",
-      "Time": "07:58:20",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Slimbiotics",
-      "Message": "Slimbiotics's score dropped from 66.0 to 45.0 (21.0 points).",
-      "Root Cause": "",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-29",
-      "Time": "07:58:20",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Weight Management",
-      "Message": "Weight Management's score dropped from 68.0 to 45.0 (23.0 points).",
-      "Root Cause": "",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-29",
-      "Time": "07:58:19",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Berries",
-      "Message": "Berries is healthy again after 1 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-29",
-      "Time": "07:58:19",
-      "Alert Type": "performance_grade_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Milk Mix Chocolate",
-      "Message": "Milk Mix Chocolate's grade dropped from C to D.",
-      "Root Cause": "",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-29",
-      "Time": "07:53:23",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 4 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 4
-    },
-    {
-      "Date": "2026-10-29",
-      "Time": "01:28:02",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 4 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 4
     }
   ],
   "active_alerts": [
-    {
-      "Date": "2026-10-29",
-      "Time": "20:05:50",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Mango",
-      "Message": "Mango's score dropped from 65.0 to 44.0 (21.0 points).",
-      "Root Cause": "",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-29",
-      "Time": "20:05:49",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Assorted",
-      "Message": "Assorted's score dropped from 61.0 to 41.0 (20.0 points).",
-      "Root Cause": "",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-29",
-      "Time": "20:05:53",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Orange",
-      "Message": "Orange's score dropped from 61.0 to 33.0 (28.0 points).",
-      "Root Cause": "",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
     {
       "Date": "2026-10-25",
       "Time": "19:32:49",
@@ -408,18 +372,6 @@
       "Affected Page": "Milk Mix Strawberry",
       "Message": "GTmetrix test failed for Milk Mix Strawberry: Test mDQQTkY6 errored: Lighthouse Error: The page took too long to load (No CPU idle period)",
       "Root Cause": "Test mDQQTkY6 errored: Lighthouse Error: The page took too long to load (No CPU idle period)",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-29",
-      "Time": "20:05:52",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Plant Protein Roti",
-      "Message": "Plant Protein Roti's score dropped from 68.0 to 45.0 (23.0 points).",
-      "Root Cause": "",
       "Status": "New",
       "Occurrence Count": 1
     },
@@ -448,18 +400,6 @@
       "Occurrence Count": 1
     },
     {
-      "Date": "2026-10-29",
-      "Time": "20:05:52",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "H50+",
-      "Message": "H50+'s score dropped from 65.0 to 45.0 (20.0 points).",
-      "Root Cause": "",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
       "Date": "2026-10-22",
       "Time": "07:00:21",
       "Alert Type": "high_lcp",
@@ -468,6 +408,18 @@
       "Affected Page": "Homepage",
       "Message": "Largest Contentful Paint is 2.77s (threshold 2.5s).",
       "Root Cause": "Check the LCP element \u2014 usually the hero image or first product image; preload/compress it.",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-29",
+      "Time": "23:57:10",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Milk Mix Strawberry",
+      "Message": "Milk Mix Strawberry's score dropped from 65.0 to 47.0 (18.0 points).",
+      "Root Cause": "",
       "Status": "New",
       "Occurrence Count": 1
     },
@@ -554,9 +506,117 @@
       "Root Cause": "",
       "Status": "New",
       "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-29",
+      "Time": "23:57:11",
+      "Alert Type": "performance_grade_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Slimbiotics",
+      "Message": "Slimbiotics's grade dropped from C to D.",
+      "Root Cause": "",
+      "Status": "New",
+      "Occurrence Count": 1
     }
   ],
   "recovered_alerts": [
+    {
+      "Date": "2026-10-29",
+      "Time": "23:57:13",
+      "Alert Type": "high_cls",
+      "Severity": "warning",
+      "Module": "root_cause",
+      "Affected Page": "H50+",
+      "Message": "H50+:high_cls is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-29",
+      "Time": "23:57:12",
+      "Alert Type": "high_cls",
+      "Severity": "warning",
+      "Module": "root_cause",
+      "Affected Page": "Berries",
+      "Message": "Berries:high_cls is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-29",
+      "Time": "23:57:12",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Orange",
+      "Message": "Orange is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-29",
+      "Time": "23:57:11",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "H50+",
+      "Message": "H50+ is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-29",
+      "Time": "23:57:10",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Plant Protein Roti",
+      "Message": "Plant Protein Roti is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-29",
+      "Time": "23:57:10",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Assorted",
+      "Message": "Assorted is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-29",
+      "Time": "23:57:09",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Mango",
+      "Message": "Mango is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-29",
+      "Time": "23:51:59",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
     {
       "Date": "2026-10-29",
       "Time": "20:05:51",
@@ -700,119 +760,19 @@
       "Root Cause": "",
       "Status": "Recovered",
       "Occurrence Count": 2
-    },
-    {
-      "Date": "2026-10-29",
-      "Time": "07:58:21",
-      "Alert Type": "performance_grade_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Fiber Fix",
-      "Message": "FF is healthy again after 1 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-29",
-      "Time": "07:58:19",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Berries",
-      "Message": "Berries is healthy again after 1 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-29",
-      "Time": "07:53:23",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 4 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 4
-    },
-    {
-      "Date": "2026-10-29",
-      "Time": "01:28:02",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 4 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 4
-    },
-    {
-      "Date": "2026-10-28",
-      "Time": "21:30:34",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-28",
-      "Time": "21:29:04",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 4 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 4
-    },
-    {
-      "Date": "2026-10-28",
-      "Time": "16:56:41",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-28",
-      "Time": "10:19:15",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Slimbiotics",
-      "Message": "Slimbiotics is healthy again after 1 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
     }
   ],
   "severity_counts": {
     "critical": 0,
     "high": 2,
-    "warning": 14,
+    "warning": 11,
     "info": 0
   },
-  "total_active": 16,
+  "total_active": 13,
   "trend": [
     {
-      "date": "2026-10-19",
-      "count": 4
-    },
-    {
       "date": "2026-10-20",
-      "count": 19
+      "count": 18
     },
     {
       "date": "2026-10-21",
@@ -844,7 +804,7 @@
     },
     {
       "date": "2026-10-29",
-      "count": 14
+      "count": 16
     }
   ]
 }
