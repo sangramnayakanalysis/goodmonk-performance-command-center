@@ -1,6 +1,102 @@
 {
-  "generated_at": "2026-10-30T21:22:03",
+  "generated_at": "2026-10-31T01:23:54",
   "recent_alerts": [
+    {
+      "Date": "2026-10-31",
+      "Time": "01:23:53",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Berries",
+      "Message": "Berries is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-31",
+      "Time": "01:23:53",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Milk Mix Vanilla",
+      "Message": "Milk Mix Vanilla's score dropped from 64.0 to 46.0 (18.0 points).",
+      "Root Cause": "",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-31",
+      "Time": "01:23:52",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Milk Mix Chocolate",
+      "Message": "Milk Mix Chocolate's score dropped from 65.0 to 44.0 (21.0 points).",
+      "Root Cause": "",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-31",
+      "Time": "01:23:52",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Milk Mix Strawberry",
+      "Message": "Milk Mix Strawberry's score dropped from 64.0 to 45.0 (19.0 points).",
+      "Root Cause": "",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-31",
+      "Time": "01:23:52",
+      "Alert Type": "performance_grade_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Pineapple",
+      "Message": "Pineapple is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-31",
+      "Time": "01:23:51",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "FNM",
+      "Message": "FNM is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-31",
+      "Time": "01:23:49",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "APIError: [429]: Quota exceeded for quota metric 'Read requests' and limit 'Read requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:435732750985'.",
+      "Root Cause": "Writing journey result for FNM",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-31",
+      "Time": "01:18:50",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
     {
       "Date": "2026-10-30",
       "Time": "21:22:02",
@@ -264,105 +360,21 @@
       "Root Cause": "",
       "Status": "New",
       "Occurrence Count": 1
-    },
+    }
+  ],
+  "active_alerts": [
     {
-      "Date": "2026-10-29",
-      "Time": "20:05:51",
-      "Alert Type": "performance_grade_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Milk Mix Vanilla",
-      "Message": "Milk Mix Vanilla's grade dropped from C to D.",
-      "Root Cause": "",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-29",
-      "Time": "20:05:51",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Pineapple",
-      "Message": "Pineapple is healthy again after 1 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-29",
-      "Time": "20:05:50",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Mango",
-      "Message": "Mango's score dropped from 65.0 to 44.0 (21.0 points).",
-      "Root Cause": "",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-29",
-      "Time": "20:05:50",
-      "Alert Type": "performance_grade_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Milk Mix Chocolate",
-      "Message": "MM_Chocolate is healthy again after 2 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 2
-    },
-    {
-      "Date": "2026-10-29",
-      "Time": "20:05:49",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Assorted",
-      "Message": "Assorted's score dropped from 61.0 to 41.0 (20.0 points).",
-      "Root Cause": "",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-29",
-      "Time": "20:01:07",
+      "Date": "2026-10-31",
+      "Time": "01:23:49",
       "Alert Type": "google_sheets_failure",
       "Severity": "critical",
       "Module": "sheets",
       "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
+      "Message": "APIError: [429]: Quota exceeded for quota metric 'Read requests' and limit 'Read requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:435732750985'.",
+      "Root Cause": "Writing journey result for FNM",
+      "Status": "New",
       "Occurrence Count": 1
     },
-    {
-      "Date": "2026-10-29",
-      "Time": "14:56:36",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Plant Protein Roti",
-      "Message": "Plant Protein Roti is healthy again after 1 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-29",
-      "Time": "14:56:36",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Weight Management",
-      "Message": "Weight Management is healthy again after 1 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    }
-  ],
-  "active_alerts": [
     {
       "Date": "2026-10-25",
       "Time": "19:32:49",
@@ -376,13 +388,13 @@
       "Occurrence Count": 1
     },
     {
-      "Date": "2026-10-28",
-      "Time": "10:19:13",
+      "Date": "2026-10-31",
+      "Time": "01:23:52",
       "Alert Type": "performance_score_drop",
       "Severity": "warning",
       "Module": "gtmetrix",
       "Affected Page": "Milk Mix Chocolate",
-      "Message": "Milk Mix Chocolate's score dropped from 66.0 to 44.0 (22.0 points).",
+      "Message": "Milk Mix Chocolate's score dropped from 65.0 to 44.0 (21.0 points).",
       "Root Cause": "",
       "Status": "New",
       "Occurrence Count": 1
@@ -400,18 +412,6 @@
       "Occurrence Count": 1
     },
     {
-      "Date": "2026-10-30",
-      "Time": "21:22:00",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Berries",
-      "Message": "Berries's score dropped from 64.0 to 43.0 (21.0 points).",
-      "Root Cause": "",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
       "Date": "2026-10-22",
       "Time": "07:00:21",
       "Alert Type": "high_lcp",
@@ -424,37 +424,25 @@
       "Occurrence Count": 1
     },
     {
-      "Date": "2026-10-30",
-      "Time": "21:22:01",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "FNM",
-      "Message": "FNM's score dropped from 67.0 to 47.0 (20.0 points).",
-      "Root Cause": "",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-30",
-      "Time": "21:22:01",
-      "Alert Type": "performance_grade_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Pineapple",
-      "Message": "Pineapple's grade dropped from C to D.",
-      "Root Cause": "",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-29",
-      "Time": "23:57:10",
+      "Date": "2026-10-31",
+      "Time": "01:23:52",
       "Alert Type": "performance_score_drop",
       "Severity": "warning",
       "Module": "gtmetrix",
       "Affected Page": "Milk Mix Strawberry",
-      "Message": "Milk Mix Strawberry's score dropped from 65.0 to 47.0 (18.0 points).",
+      "Message": "Milk Mix Strawberry's score dropped from 64.0 to 45.0 (19.0 points).",
+      "Root Cause": "",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-31",
+      "Time": "01:23:53",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Milk Mix Vanilla",
+      "Message": "Milk Mix Vanilla's score dropped from 64.0 to 46.0 (18.0 points).",
       "Root Cause": "",
       "Status": "New",
       "Occurrence Count": 1
@@ -569,6 +557,54 @@
     }
   ],
   "recovered_alerts": [
+    {
+      "Date": "2026-10-31",
+      "Time": "01:23:53",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Berries",
+      "Message": "Berries is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-31",
+      "Time": "01:23:52",
+      "Alert Type": "performance_grade_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Pineapple",
+      "Message": "Pineapple is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-31",
+      "Time": "01:23:51",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "FNM",
+      "Message": "FNM is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-10-31",
+      "Time": "01:18:50",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
     {
       "Date": "2026-10-30",
       "Time": "21:22:02",
@@ -760,67 +796,19 @@
       "Root Cause": "",
       "Status": "Recovered",
       "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-29",
-      "Time": "14:56:36",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Plant Protein Roti",
-      "Message": "Plant Protein Roti is healthy again after 1 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-29",
-      "Time": "14:56:36",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Weight Management",
-      "Message": "Weight Management is healthy again after 1 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-29",
-      "Time": "14:56:35",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Slimbiotics",
-      "Message": "Slimbiotics is healthy again after 1 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-29",
-      "Time": "14:56:35",
-      "Alert Type": "performance_grade_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Assorted",
-      "Message": "Assorted is healthy again after 1 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
     }
   ],
   "severity_counts": {
-    "critical": 0,
+    "critical": 1,
     "high": 2,
-    "warning": 15,
+    "warning": 13,
     "info": 0
   },
-  "total_active": 17,
+  "total_active": 16,
   "trend": [
     {
       "date": "2026-10-20",
-      "count": 13
+      "count": 5
     },
     {
       "date": "2026-10-21",
@@ -856,6 +844,10 @@
     },
     {
       "date": "2026-10-30",
+      "count": 4
+    },
+    {
+      "date": "2026-10-31",
       "count": 4
     }
   ]
