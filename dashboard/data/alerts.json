@@ -1,6 +1,30 @@
 {
-  "generated_at": "2026-11-01T08:35:59",
+  "generated_at": "2026-11-01T15:40:27",
   "recent_alerts": [
+    {
+      "Date": "2026-11-01",
+      "Time": "15:40:26",
+      "Alert Type": "page_failed",
+      "Severity": "high",
+      "Module": "gtmetrix",
+      "Affected Page": "Weight Management",
+      "Message": "Weight Management is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-11-01",
+      "Time": "15:39:36",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
     {
       "Date": "2026-11-01",
       "Time": "08:35:58",
@@ -336,30 +360,6 @@
       "Root Cause": "",
       "Status": "Recovered",
       "Occurrence Count": 4
-    },
-    {
-      "Date": "2026-10-31",
-      "Time": "14:08:09",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-31",
-      "Time": "07:55:03",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Slimbiotics",
-      "Message": "Slimbiotics's score dropped from 63.0 to 50.0 (13.0 points).",
-      "Root Cause": "",
-      "Status": "New",
-      "Occurrence Count": 1
     }
   ],
   "active_alerts": [
@@ -420,18 +420,6 @@
       "Affected Page": "Milk Mix Strawberry",
       "Message": "GTmetrix test failed for Milk Mix Strawberry: Test mDQQTkY6 errored: Lighthouse Error: The page took too long to load (No CPU idle period)",
       "Root Cause": "Test mDQQTkY6 errored: Lighthouse Error: The page took too long to load (No CPU idle period)",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-11-01",
-      "Time": "08:35:54",
-      "Alert Type": "page_failed",
-      "Severity": "high",
-      "Module": "gtmetrix",
-      "Affected Page": "Weight Management",
-      "Message": "GTmetrix test failed for Weight Management: Test fgKgZopv errored: Error generating Lighthouse report",
-      "Root Cause": "Test fgKgZopv errored: Error generating Lighthouse report",
       "Status": "New",
       "Occurrence Count": 1
     },
@@ -569,6 +557,30 @@
     }
   ],
   "recovered_alerts": [
+    {
+      "Date": "2026-11-01",
+      "Time": "15:40:26",
+      "Alert Type": "page_failed",
+      "Severity": "high",
+      "Module": "gtmetrix",
+      "Affected Page": "Weight Management",
+      "Message": "Weight Management is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-11-01",
+      "Time": "15:39:36",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
     {
       "Date": "2026-11-01",
       "Time": "08:35:57",
@@ -784,39 +796,15 @@
       "Root Cause": "",
       "Status": "Recovered",
       "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-31",
-      "Time": "07:55:02",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Milk Mix Strawberry",
-      "Message": "MM_Strawberry is healthy again after 1 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-10-31",
-      "Time": "07:50:21",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
     }
   ],
   "severity_counts": {
     "critical": 0,
-    "high": 3,
+    "high": 2,
     "warning": 14,
     "info": 0
   },
-  "total_active": 17,
+  "total_active": 16,
   "trend": [
     {
       "date": "2026-10-21",

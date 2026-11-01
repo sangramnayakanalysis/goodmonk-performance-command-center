@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-11-01T08:35:58",
-      "occurrence_count": 543
+      "last_seen_at": "2026-11-01T15:40:26",
+      "occurrence_count": 544
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-11-01T08:35:58",
-      "occurrence_count": 543
+      "last_seen_at": "2026-11-01T15:40:26",
+      "occurrence_count": 544
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-11-01T08:35:58",
-      "occurrence_count": 543
+      "last_seen_at": "2026-11-01T15:40:26",
+      "occurrence_count": 544
     },
     "root_cause:MM_Vanilla:high_cls": {
       "alert_type": "high_cls",
@@ -69,26 +69,8 @@
       "severity": "warning",
       "affected_page": "Pineapple",
       "first_seen_at": "2026-11-01T01:50:01",
-      "last_seen_at": "2026-11-01T08:35:54",
-      "occurrence_count": 2
-    },
-    "operational:sheets:google_sheets_failure": {
-      "alert_type": "google_sheets_failure",
-      "module": "sheets",
-      "severity": "critical",
-      "affected_page": null,
-      "first_seen_at": "2026-11-01T08:35:51",
-      "last_seen_at": "2026-11-01T08:35:51",
-      "occurrence_count": 1
-    },
-    "gtmetrix:Weight Management": {
-      "alert_type": "page_failed",
-      "module": "gtmetrix",
-      "severity": "high",
-      "affected_page": "Weight Management",
-      "first_seen_at": "2026-11-01T08:35:54",
-      "last_seen_at": "2026-11-01T08:35:54",
-      "occurrence_count": 1
+      "last_seen_at": "2026-11-01T15:40:26",
+      "occurrence_count": 3
     },
     "score_trend:Assorted": {
       "alert_type": "performance_grade_drop",
@@ -96,8 +78,8 @@
       "severity": "warning",
       "affected_page": "Assorted",
       "first_seen_at": "2026-11-01T08:35:54",
-      "last_seen_at": "2026-11-01T08:35:54",
-      "occurrence_count": 1
+      "last_seen_at": "2026-11-01T15:40:26",
+      "occurrence_count": 2
     },
     "score_trend:FNM": {
       "alert_type": "performance_score_drop",
@@ -105,8 +87,8 @@
       "severity": "warning",
       "affected_page": "FNM",
       "first_seen_at": "2026-11-01T08:35:54",
-      "last_seen_at": "2026-11-01T08:35:54",
-      "occurrence_count": 1
+      "last_seen_at": "2026-11-01T15:40:26",
+      "occurrence_count": 2
     },
     "root_cause:FNM:high_cls": {
       "alert_type": "high_cls",
@@ -115,6 +97,15 @@
       "affected_page": "FNM",
       "first_seen_at": "2026-11-01T08:35:57",
       "last_seen_at": "2026-11-01T08:35:57",
+      "occurrence_count": 1
+    },
+    "operational:sheets:google_sheets_failure": {
+      "alert_type": "google_sheets_failure",
+      "module": "sheets",
+      "severity": "critical",
+      "affected_page": null,
+      "first_seen_at": "2026-11-01T15:40:22",
+      "last_seen_at": "2026-11-01T15:40:22",
       "occurrence_count": 1
     }
   }
