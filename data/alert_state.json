@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-11-04T12:48:14",
-      "occurrence_count": 555
+      "last_seen_at": "2026-11-04T20:18:06",
+      "occurrence_count": 556
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-11-04T12:48:14",
-      "occurrence_count": 555
+      "last_seen_at": "2026-11-04T20:18:06",
+      "occurrence_count": 556
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-11-04T12:48:14",
-      "occurrence_count": 555
+      "last_seen_at": "2026-11-04T20:18:06",
+      "occurrence_count": 556
     },
     "root_cause:MM_Vanilla:high_cls": {
       "alert_type": "high_cls",
@@ -36,13 +36,13 @@
       "last_seen_at": "2026-11-02T03:46:30",
       "occurrence_count": 5
     },
-    "score_trend:MM_Vanilla": {
+    "score_trend:MM_Chocolate": {
       "alert_type": "performance_score_drop",
       "module": "gtmetrix",
       "severity": "warning",
-      "affected_page": "Milk Mix Vanilla",
-      "first_seen_at": "2026-11-04T04:13:53",
-      "last_seen_at": "2026-11-04T12:48:14",
+      "affected_page": "Milk Mix Chocolate",
+      "first_seen_at": "2026-11-04T12:48:14",
+      "last_seen_at": "2026-11-04T20:18:05",
       "occurrence_count": 2
     },
     "operational:sheets:google_sheets_failure": {
@@ -50,26 +50,62 @@
       "module": "sheets",
       "severity": "critical",
       "affected_page": null,
-      "first_seen_at": "2026-11-04T12:48:14",
-      "last_seen_at": "2026-11-04T12:48:14",
+      "first_seen_at": "2026-11-04T20:18:05",
+      "last_seen_at": "2026-11-04T20:18:05",
       "occurrence_count": 4
     },
-    "score_trend:Assorted": {
-      "alert_type": "performance_score_drop",
+    "gtmetrix:Berries": {
+      "alert_type": "page_failed",
       "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Assorted",
-      "first_seen_at": "2026-11-04T12:48:14",
-      "last_seen_at": "2026-11-04T12:48:14",
+      "severity": "high",
+      "affected_page": "Berries",
+      "first_seen_at": "2026-11-04T20:18:05",
+      "last_seen_at": "2026-11-04T20:18:05",
       "occurrence_count": 1
     },
-    "score_trend:MM_Chocolate": {
+    "score_trend:Shop_All": {
+      "alert_type": "performance_grade_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Shop All",
+      "first_seen_at": "2026-11-04T20:18:05",
+      "last_seen_at": "2026-11-04T20:18:05",
+      "occurrence_count": 1
+    },
+    "score_trend:Plant Protein Roti": {
       "alert_type": "performance_score_drop",
       "module": "gtmetrix",
       "severity": "warning",
-      "affected_page": "Milk Mix Chocolate",
-      "first_seen_at": "2026-11-04T12:48:14",
-      "last_seen_at": "2026-11-04T12:48:14",
+      "affected_page": "Plant Protein Roti",
+      "first_seen_at": "2026-11-04T20:18:05",
+      "last_seen_at": "2026-11-04T20:18:05",
+      "occurrence_count": 1
+    },
+    "score_trend:Weight Management": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Weight Management",
+      "first_seen_at": "2026-11-04T20:18:05",
+      "last_seen_at": "2026-11-04T20:18:05",
+      "occurrence_count": 1
+    },
+    "score_trend:Orange": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Orange",
+      "first_seen_at": "2026-11-04T20:18:05",
+      "last_seen_at": "2026-11-04T20:18:05",
+      "occurrence_count": 1
+    },
+    "root_cause:H50+:high_cls": {
+      "alert_type": "high_cls",
+      "module": "root_cause",
+      "severity": "warning",
+      "affected_page": "H50+",
+      "first_seen_at": "2026-11-04T20:18:06",
+      "last_seen_at": "2026-11-04T20:18:06",
       "occurrence_count": 1
     }
   }
