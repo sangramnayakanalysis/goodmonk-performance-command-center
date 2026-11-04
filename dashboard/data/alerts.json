@@ -1,6 +1,78 @@
 {
-  "generated_at": "2026-11-03T23:54:23",
+  "generated_at": "2026-11-04T04:13:55",
   "recent_alerts": [
+    {
+      "Date": "2026-11-04",
+      "Time": "04:13:55",
+      "Alert Type": "performance_grade_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Assorted",
+      "Message": "Assorted is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-11-04",
+      "Time": "04:13:54",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Milk Mix Vanilla",
+      "Message": "Milk Mix Vanilla's score dropped from 60.0 to 47.0 (13.0 points).",
+      "Root Cause": "",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-11-04",
+      "Time": "04:13:54",
+      "Alert Type": "performance_grade_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Pineapple",
+      "Message": "Pineapple's grade dropped from C to D.",
+      "Root Cause": "",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-11-04",
+      "Time": "04:13:54",
+      "Alert Type": "performance_grade_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "H50+",
+      "Message": "H50+'s grade dropped from C to D.",
+      "Root Cause": "",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-11-04",
+      "Time": "04:13:53",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Plant Protein Roti",
+      "Message": "Plant Protein Roti's score dropped from 68.0 to 38.0 (30.0 points).",
+      "Root Cause": "",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-11-04",
+      "Time": "04:09:48",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
     {
       "Date": "2026-11-03",
       "Time": "23:54:22",
@@ -288,78 +360,6 @@
       "Root Cause": "",
       "Status": "New",
       "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-11-01",
-      "Time": "20:06:03",
-      "Alert Type": "page_failed",
-      "Severity": "high",
-      "Module": "gtmetrix",
-      "Affected Page": "H50+",
-      "Message": "GTmetrix test failed for H50+: Test 5HMOXm2m errored: Lighthouse Error: The page took too long to load (No CPU idle period)",
-      "Root Cause": "Test 5HMOXm2m errored: Lighthouse Error: The page took too long to load (No CPU idle period)",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-11-01",
-      "Time": "20:01:20",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-11-01",
-      "Time": "15:40:26",
-      "Alert Type": "page_failed",
-      "Severity": "high",
-      "Module": "gtmetrix",
-      "Affected Page": "Weight Management",
-      "Message": "Weight Management is healthy again after 1 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-11-01",
-      "Time": "15:39:36",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-11-01",
-      "Time": "08:35:58",
-      "Alert Type": "high_cls",
-      "Severity": "warning",
-      "Module": "root_cause",
-      "Affected Page": "FNM",
-      "Message": "Cumulative Layout Shift is 0.379344 (threshold 0.1).",
-      "Root Cause": "Reserve explicit width/height (or aspect-ratio) for images and embeds above the fold.",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-11-01",
-      "Time": "08:35:57",
-      "Alert Type": "slow_server_response",
-      "Severity": "warning",
-      "Module": "root_cause",
-      "Affected Page": "Shop All",
-      "Message": "Shop_All:slow_server_response is healthy again after 1 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
     }
   ],
   "active_alerts": [
@@ -376,13 +376,25 @@
       "Occurrence Count": 1
     },
     {
-      "Date": "2026-11-01",
-      "Time": "20:06:05",
+      "Date": "2026-11-04",
+      "Time": "04:13:54",
+      "Alert Type": "performance_grade_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Pineapple",
+      "Message": "Pineapple's grade dropped from C to D.",
+      "Root Cause": "",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-11-04",
+      "Time": "04:13:54",
       "Alert Type": "performance_score_drop",
       "Severity": "warning",
       "Module": "gtmetrix",
       "Affected Page": "Milk Mix Vanilla",
-      "Message": "Milk Mix Vanilla's score dropped from 61.0 to 47.0 (14.0 points).",
+      "Message": "Milk Mix Vanilla's score dropped from 60.0 to 47.0 (13.0 points).",
       "Root Cause": "",
       "Status": "New",
       "Occurrence Count": 1
@@ -460,18 +472,6 @@
       "Occurrence Count": 1
     },
     {
-      "Date": "2026-11-03",
-      "Time": "23:54:22",
-      "Alert Type": "performance_grade_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Assorted",
-      "Message": "Assorted's grade dropped from C to D.",
-      "Root Cause": "",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
       "Date": "2026-11-02",
       "Time": "21:16:53",
       "Alert Type": "performance_score_drop",
@@ -484,13 +484,13 @@
       "Occurrence Count": 1
     },
     {
-      "Date": "2026-10-31",
-      "Time": "19:03:59",
+      "Date": "2026-11-04",
+      "Time": "04:13:53",
       "Alert Type": "performance_score_drop",
       "Severity": "warning",
       "Module": "gtmetrix",
       "Affected Page": "Plant Protein Roti",
-      "Message": "Plant Protein Roti's score dropped from 66.0 to 40.0 (26.0 points).",
+      "Message": "Plant Protein Roti's score dropped from 68.0 to 38.0 (30.0 points).",
       "Root Cause": "",
       "Status": "New",
       "Occurrence Count": 1
@@ -542,9 +542,45 @@
       "Root Cause": "",
       "Status": "New",
       "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-11-04",
+      "Time": "04:13:54",
+      "Alert Type": "performance_grade_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "H50+",
+      "Message": "H50+'s grade dropped from C to D.",
+      "Root Cause": "",
+      "Status": "New",
+      "Occurrence Count": 1
     }
   ],
   "recovered_alerts": [
+    {
+      "Date": "2026-11-04",
+      "Time": "04:13:55",
+      "Alert Type": "performance_grade_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Assorted",
+      "Message": "Assorted is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-11-04",
+      "Time": "04:09:48",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
     {
       "Date": "2026-11-03",
       "Time": "23:54:21",
@@ -760,39 +796,15 @@
       "Root Cause": "",
       "Status": "Recovered",
       "Occurrence Count": 3
-    },
-    {
-      "Date": "2026-11-01",
-      "Time": "20:01:20",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-11-01",
-      "Time": "15:40:26",
-      "Alert Type": "page_failed",
-      "Severity": "high",
-      "Module": "gtmetrix",
-      "Affected Page": "Weight Management",
-      "Message": "Weight Management is healthy again after 1 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
     }
   ],
   "severity_counts": {
     "critical": 0,
     "high": 1,
-    "warning": 14,
+    "warning": 15,
     "info": 0
   },
-  "total_active": 15,
+  "total_active": 16,
   "trend": [
     {
       "date": "2026-10-23",
@@ -837,6 +849,10 @@
     {
       "date": "2026-11-03",
       "count": 1
+    },
+    {
+      "date": "2026-11-04",
+      "count": 4
     }
   ]
 }
