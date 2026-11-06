@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-11-06T17:52:43",
-      "occurrence_count": 563
+      "last_seen_at": "2026-11-06T22:42:07",
+      "occurrence_count": 564
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-11-06T17:52:43",
-      "occurrence_count": 563
+      "last_seen_at": "2026-11-06T22:42:07",
+      "occurrence_count": 564
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-11-06T17:52:43",
-      "occurrence_count": 563
+      "last_seen_at": "2026-11-06T22:42:07",
+      "occurrence_count": 564
     },
     "root_cause:MM_Vanilla:high_cls": {
       "alert_type": "high_cls",
@@ -86,26 +86,26 @@
       "module": "sheets",
       "severity": "critical",
       "affected_page": null,
-      "first_seen_at": "2026-11-06T17:52:42",
-      "last_seen_at": "2026-11-06T17:52:42",
-      "occurrence_count": 4
-    },
-    "score_trend:FF": {
-      "alert_type": "performance_score_drop",
-      "module": "gtmetrix",
-      "severity": "warning",
-      "affected_page": "Fiber Fix",
-      "first_seen_at": "2026-11-06T17:52:42",
-      "last_seen_at": "2026-11-06T17:52:42",
+      "first_seen_at": "2026-11-06T22:42:01",
+      "last_seen_at": "2026-11-06T22:42:01",
       "occurrence_count": 1
     },
-    "score_trend:MM_Strawberry": {
+    "score_trend:Shop_All": {
       "alert_type": "performance_score_drop",
       "module": "gtmetrix",
       "severity": "warning",
-      "affected_page": "Milk Mix Strawberry",
-      "first_seen_at": "2026-11-06T17:52:42",
-      "last_seen_at": "2026-11-06T17:52:42",
+      "affected_page": "Shop All",
+      "first_seen_at": "2026-11-06T22:42:04",
+      "last_seen_at": "2026-11-06T22:42:04",
+      "occurrence_count": 1
+    },
+    "score_trend:Assorted": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Assorted",
+      "first_seen_at": "2026-11-06T22:42:04",
+      "last_seen_at": "2026-11-06T22:42:04",
       "occurrence_count": 1
     }
   }
