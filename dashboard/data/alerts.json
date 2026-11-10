@@ -1,6 +1,54 @@
 {
-  "generated_at": "2026-11-10T01:57:06",
+  "generated_at": "2026-11-10T09:06:33",
   "recent_alerts": [
+    {
+      "Date": "2026-11-10",
+      "Time": "09:06:32",
+      "Alert Type": "performance_grade_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Pineapple",
+      "Message": "Pineapple is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-11-10",
+      "Time": "09:06:31",
+      "Alert Type": "performance_grade_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Orange",
+      "Message": "Orange is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-11-10",
+      "Time": "09:06:31",
+      "Alert Type": "performance_grade_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "H50+",
+      "Message": "H50+ is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-11-10",
+      "Time": "09:02:18",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
     {
       "Date": "2026-11-10",
       "Time": "01:57:05",
@@ -312,69 +360,9 @@
       "Root Cause": "",
       "Status": "Recovered",
       "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-11-09",
-      "Time": "18:08:19",
-      "Alert Type": "page_failed",
-      "Severity": "high",
-      "Module": "gtmetrix",
-      "Affected Page": "Slimbiotics",
-      "Message": "Slimbiotics is healthy again after 1 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-11-09",
-      "Time": "18:08:18",
-      "Alert Type": "page_failed",
-      "Severity": "high",
-      "Module": "gtmetrix",
-      "Affected Page": "Fiber Fix",
-      "Message": "FF is healthy again after 1 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-11-09",
-      "Time": "18:04:20",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-11-09",
-      "Time": "07:32:30",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Shop All",
-      "Message": "Shop All's score dropped from 64.0 to 54.0 (10.0 points).",
-      "Root Cause": "",
-      "Status": "New",
-      "Occurrence Count": 1
     }
   ],
   "active_alerts": [
-    {
-      "Date": "2026-11-08",
-      "Time": "17:00:30",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Mango",
-      "Message": "Mango's score dropped from 65.0 to 42.0 (23.0 points).",
-      "Root Cause": "",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
     {
       "Date": "2026-11-10",
       "Time": "01:57:04",
@@ -388,13 +376,13 @@
       "Occurrence Count": 1
     },
     {
-      "Date": "2026-11-10",
-      "Time": "01:57:05",
-      "Alert Type": "performance_grade_drop",
+      "Date": "2026-11-08",
+      "Time": "17:00:30",
+      "Alert Type": "performance_score_drop",
       "Severity": "warning",
       "Module": "gtmetrix",
-      "Affected Page": "Pineapple",
-      "Message": "Pineapple's grade dropped from C to D.",
+      "Affected Page": "Mango",
+      "Message": "Mango's score dropped from 65.0 to 42.0 (23.0 points).",
       "Root Cause": "",
       "Status": "New",
       "Occurrence Count": 1
@@ -412,18 +400,6 @@
       "Occurrence Count": 1
     },
     {
-      "Date": "2026-11-10",
-      "Time": "01:57:03",
-      "Alert Type": "performance_grade_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "H50+",
-      "Message": "H50+'s grade dropped from C to D.",
-      "Root Cause": "",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
       "Date": "2026-11-08",
       "Time": "17:00:30",
       "Alert Type": "performance_grade_drop",
@@ -434,21 +410,57 @@
       "Root Cause": "",
       "Status": "New",
       "Occurrence Count": 1
+    }
+  ],
+  "recovered_alerts": [
+    {
+      "Date": "2026-11-10",
+      "Time": "09:06:32",
+      "Alert Type": "performance_grade_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Pineapple",
+      "Message": "Pineapple is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
     },
     {
       "Date": "2026-11-10",
-      "Time": "01:57:02",
+      "Time": "09:06:31",
       "Alert Type": "performance_grade_drop",
       "Severity": "warning",
       "Module": "gtmetrix",
       "Affected Page": "Orange",
-      "Message": "Orange's grade dropped from C to D.",
+      "Message": "Orange is healthy again after 1 consecutive alerting run(s).",
       "Root Cause": "",
-      "Status": "New",
+      "Status": "Recovered",
       "Occurrence Count": 1
-    }
-  ],
-  "recovered_alerts": [
+    },
+    {
+      "Date": "2026-11-10",
+      "Time": "09:06:31",
+      "Alert Type": "performance_grade_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "H50+",
+      "Message": "H50+ is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-11-10",
+      "Time": "09:02:18",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
     {
       "Date": "2026-11-10",
       "Time": "01:57:05",
@@ -640,67 +652,19 @@
       "Root Cause": "",
       "Status": "Recovered",
       "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-11-09",
-      "Time": "18:08:20",
-      "Alert Type": "page_failed",
-      "Severity": "high",
-      "Module": "gtmetrix",
-      "Affected Page": "Pineapple",
-      "Message": "Pineapple is healthy again after 1 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-11-09",
-      "Time": "18:08:20",
-      "Alert Type": "page_failed",
-      "Severity": "high",
-      "Module": "gtmetrix",
-      "Affected Page": "Milk Mix Vanilla",
-      "Message": "MM_Vanilla is healthy again after 1 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-11-09",
-      "Time": "18:08:19",
-      "Alert Type": "page_failed",
-      "Severity": "high",
-      "Module": "gtmetrix",
-      "Affected Page": "Weight Management",
-      "Message": "Weight Management is healthy again after 1 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-11-09",
-      "Time": "18:08:19",
-      "Alert Type": "page_failed",
-      "Severity": "high",
-      "Module": "gtmetrix",
-      "Affected Page": "Slimbiotics",
-      "Message": "Slimbiotics is healthy again after 1 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
     }
   ],
   "severity_counts": {
     "critical": 0,
     "high": 0,
-    "warning": 7,
+    "warning": 4,
     "info": 0
   },
-  "total_active": 7,
+  "total_active": 4,
   "trend": [
     {
       "date": "2026-10-29",
-      "count": 4
+      "count": 2
     },
     {
       "date": "2026-10-30",
