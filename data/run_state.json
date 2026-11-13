@@ -1,5 +1,508 @@
 {
-  "updated_at": "2026-11-13T04:28:38",
-  "completed_sheet_names": [],
-  "last_results": []
+  "updated_at": "2026-11-13T12:49:57",
+  "completed_sheet_names": [
+    "Assorted",
+    "Berries",
+    "FF",
+    "FNM",
+    "H50+",
+    "Homepage",
+    "MM_Chocolate",
+    "MM_Strawberry",
+    "MM_Vanilla",
+    "Mango",
+    "Orange",
+    "Pineapple",
+    "Plant Protein Roti",
+    "Slimbiotics",
+    "Weight Management"
+  ],
+  "last_results": [
+    {
+      "page_name": "Shop All",
+      "sheet_name": "Shop_All",
+      "url": "https://www.goodmonk.in/collections/all",
+      "metrics": {
+        "performance_score": null,
+        "grade": "N/A",
+        "lcp": null,
+        "onload": null,
+        "fully_loaded": null,
+        "ttfb": null,
+        "cls": null,
+        "tbt": null,
+        "report_url": null,
+        "status": "OK",
+        "error_message": "",
+        "raw_audit": {}
+      },
+      "success": false,
+      "error_message": "Test ZCqyDcIg errored: Lighthouse Error: The page took too long to load (No CPU idle period)"
+    },
+    {
+      "page_name": "Homepage",
+      "sheet_name": "Homepage",
+      "url": "https://www.goodmonk.in/",
+      "metrics": {
+        "performance_score": 68,
+        "grade": "C",
+        "lcp": 1.02,
+        "onload": 4.62,
+        "fully_loaded": 17.11,
+        "ttfb": 0.12,
+        "cls": 0.000198855,
+        "tbt": 5.41,
+        "report_url": "https://gtmetrix.com/reports/www.goodmonk.in/fypyRYWt/",
+        "status": "OK",
+        "error_message": "",
+        "raw_audit": {
+          "page_bytes_kb": 13242.6,
+          "page_requests": 514,
+          "html_bytes_kb": 128.6,
+          "redirect_duration": 0.0,
+          "connect_duration": 0.04,
+          "backend_duration": 0.09,
+          "first_contentful_paint": 0.62,
+          "speed_index": 1120,
+          "rum_speed_index": 629
+        }
+      },
+      "success": true,
+      "error_message": ""
+    },
+    {
+      "page_name": "FNM",
+      "sheet_name": "FNM",
+      "url": "https://www.goodmonk.in/products/good-monk",
+      "metrics": {
+        "performance_score": 64,
+        "grade": "C",
+        "lcp": 1.29,
+        "onload": 13.49,
+        "fully_loaded": 21.74,
+        "ttfb": 0.33,
+        "cls": 0.0290887,
+        "tbt": 6.91,
+        "report_url": "https://gtmetrix.com/reports/www.goodmonk.in/v7OydM2P/",
+        "status": "OK",
+        "error_message": "",
+        "raw_audit": {
+          "page_bytes_kb": 13535.1,
+          "page_requests": 650,
+          "html_bytes_kb": 149.1,
+          "redirect_duration": 0.0,
+          "connect_duration": 0.04,
+          "backend_duration": 0.29,
+          "first_contentful_paint": 0.9,
+          "speed_index": 1591,
+          "rum_speed_index": 1557
+        }
+      },
+      "success": true,
+      "error_message": ""
+    },
+    {
+      "page_name": "H50+",
+      "sheet_name": "H50+",
+      "url": "https://www.goodmonk.in/products/good-monk-50-nutrition-mix",
+      "metrics": {
+        "performance_score": 64,
+        "grade": "C",
+        "lcp": 1.3,
+        "onload": 11.24,
+        "fully_loaded": 35.07,
+        "ttfb": 0.39,
+        "cls": 0.0163061,
+        "tbt": 4.71,
+        "report_url": "https://gtmetrix.com/reports/www.goodmonk.in/76ff0S4o/",
+        "status": "OK",
+        "error_message": "",
+        "raw_audit": {
+          "page_bytes_kb": 13874.1,
+          "page_requests": 651,
+          "html_bytes_kb": 149.9,
+          "redirect_duration": 0.0,
+          "connect_duration": 0.04,
+          "backend_duration": 0.34,
+          "first_contentful_paint": 0.95,
+          "speed_index": 1553,
+          "rum_speed_index": 1244
+        }
+      },
+      "success": true,
+      "error_message": ""
+    },
+    {
+      "page_name": "Fiber Fix",
+      "sheet_name": "FF",
+      "url": "https://www.goodmonk.in/products/fiber-fix",
+      "metrics": {
+        "performance_score": 62,
+        "grade": "C",
+        "lcp": 1.46,
+        "onload": 12.45,
+        "fully_loaded": 19.67,
+        "ttfb": 0.28,
+        "cls": 0,
+        "tbt": 5.68,
+        "report_url": "https://gtmetrix.com/reports/www.goodmonk.in/vubVgaq4/",
+        "status": "OK",
+        "error_message": "",
+        "raw_audit": {
+          "page_bytes_kb": 13680.9,
+          "page_requests": 645,
+          "html_bytes_kb": 142.9,
+          "redirect_duration": 0.0,
+          "connect_duration": 0.04,
+          "backend_duration": 0.25,
+          "first_contentful_paint": 0.85,
+          "speed_index": 1656,
+          "rum_speed_index": 1507
+        }
+      },
+      "success": true,
+      "error_message": ""
+    },
+    {
+      "page_name": "Orange",
+      "sheet_name": "Orange",
+      "url": "https://www.goodmonk.in/products/instant-fruit-drink-mix-orange",
+      "metrics": {
+        "performance_score": 44,
+        "grade": "D",
+        "lcp": 1.3,
+        "onload": 11.78,
+        "fully_loaded": 20.3,
+        "ttfb": 0.28,
+        "cls": 0.389982,
+        "tbt": 6.28,
+        "report_url": "https://gtmetrix.com/reports/www.goodmonk.in/xpRC3NSr/",
+        "status": "OK",
+        "error_message": "",
+        "raw_audit": {
+          "page_bytes_kb": 14613.1,
+          "page_requests": 659,
+          "html_bytes_kb": 135.0,
+          "redirect_duration": 0.0,
+          "connect_duration": 0.05,
+          "backend_duration": 0.24,
+          "first_contentful_paint": 0.85,
+          "speed_index": 1959,
+          "rum_speed_index": 1558
+        }
+      },
+      "success": true,
+      "error_message": ""
+    },
+    {
+      "page_name": "Berries",
+      "sheet_name": "Berries",
+      "url": "https://www.goodmonk.in/products/instant-fruit-drink-mix-mixed-berries",
+      "metrics": {
+        "performance_score": 62,
+        "grade": "C",
+        "lcp": 1.3,
+        "onload": 10.88,
+        "fully_loaded": 18.16,
+        "ttfb": 0.33,
+        "cls": 0.0155868,
+        "tbt": 4.28,
+        "report_url": "https://gtmetrix.com/reports/www.goodmonk.in/mbjkvW8k/",
+        "status": "OK",
+        "error_message": "",
+        "raw_audit": {
+          "page_bytes_kb": 14712.7,
+          "page_requests": 663,
+          "html_bytes_kb": 134.7,
+          "redirect_duration": 0.0,
+          "connect_duration": 0.04,
+          "backend_duration": 0.29,
+          "first_contentful_paint": 0.92,
+          "speed_index": 2090,
+          "rum_speed_index": 1212
+        }
+      },
+      "success": true,
+      "error_message": ""
+    },
+    {
+      "page_name": "Pineapple",
+      "sheet_name": "Pineapple",
+      "url": "https://www.goodmonk.in/products/instant-fruit-drink-mix-pineapple",
+      "metrics": {
+        "performance_score": 59,
+        "grade": "D",
+        "lcp": 1.48,
+        "onload": 10.52,
+        "fully_loaded": 18.28,
+        "ttfb": 0.46,
+        "cls": 0.0154056,
+        "tbt": 4.38,
+        "report_url": "https://gtmetrix.com/reports/www.goodmonk.in/hhW2Tsx5/",
+        "status": "OK",
+        "error_message": "",
+        "raw_audit": {
+          "page_bytes_kb": 14564.7,
+          "page_requests": 660,
+          "html_bytes_kb": 134.6,
+          "redirect_duration": 0.0,
+          "connect_duration": 0.03,
+          "backend_duration": 0.42,
+          "first_contentful_paint": 1.03,
+          "speed_index": 2138,
+          "rum_speed_index": 1504
+        }
+      },
+      "success": true,
+      "error_message": ""
+    },
+    {
+      "page_name": "Assorted",
+      "sheet_name": "Assorted",
+      "url": "https://www.goodmonk.in/products/instant-fruit-drink-mix-assorted",
+      "metrics": {
+        "performance_score": 35,
+        "grade": "E",
+        "lcp": 1.98,
+        "onload": 13.89,
+        "fully_loaded": 22.16,
+        "ttfb": 0.3,
+        "cls": 0.377662,
+        "tbt": 7.19,
+        "report_url": "https://gtmetrix.com/reports/www.goodmonk.in/XqpMv2P3/",
+        "status": "OK",
+        "error_message": "",
+        "raw_audit": {
+          "page_bytes_kb": 14707.0,
+          "page_requests": 664,
+          "html_bytes_kb": 137.8,
+          "redirect_duration": 0.0,
+          "connect_duration": 0.04,
+          "backend_duration": 0.27,
+          "first_contentful_paint": 1.16,
+          "speed_index": 2426,
+          "rum_speed_index": 1651
+        }
+      },
+      "success": true,
+      "error_message": ""
+    },
+    {
+      "page_name": "Milk Mix Strawberry",
+      "sheet_name": "MM_Strawberry",
+      "url": "https://www.goodmonk.in/products/good-monk-superhero-milk-mix-strawberry",
+      "metrics": {
+        "performance_score": 61,
+        "grade": "C",
+        "lcp": 1.66,
+        "onload": 10.67,
+        "fully_loaded": 18.12,
+        "ttfb": 0.29,
+        "cls": 0,
+        "tbt": 4.42,
+        "report_url": "https://gtmetrix.com/reports/www.goodmonk.in/oFzIUXx0/",
+        "status": "OK",
+        "error_message": "",
+        "raw_audit": {
+          "page_bytes_kb": 15040.0,
+          "page_requests": 630,
+          "html_bytes_kb": 138.9,
+          "redirect_duration": 0.0,
+          "connect_duration": 0.03,
+          "backend_duration": 0.26,
+          "first_contentful_paint": 0.78,
+          "speed_index": 1753,
+          "rum_speed_index": 1004
+        }
+      },
+      "success": true,
+      "error_message": ""
+    },
+    {
+      "page_name": "Mango",
+      "sheet_name": "Mango",
+      "url": "https://www.goodmonk.in/products/instant-fruit-drink-mix-natural-mango-powder-50-less-sugar-with-8-vitamins-minerals",
+      "metrics": {
+        "performance_score": 40,
+        "grade": "E",
+        "lcp": 1.68,
+        "onload": 11.48,
+        "fully_loaded": 35.42,
+        "ttfb": 0.32,
+        "cls": 0.454339,
+        "tbt": 5.17,
+        "report_url": "https://gtmetrix.com/reports/www.goodmonk.in/0s3uOZ1P/",
+        "status": "OK",
+        "error_message": "",
+        "raw_audit": {
+          "page_bytes_kb": 14523.8,
+          "page_requests": 647,
+          "html_bytes_kb": 133.2,
+          "redirect_duration": 0.0,
+          "connect_duration": 0.04,
+          "backend_duration": 0.28,
+          "first_contentful_paint": 0.81,
+          "speed_index": 1775,
+          "rum_speed_index": 1435
+        }
+      },
+      "success": true,
+      "error_message": ""
+    },
+    {
+      "page_name": "Milk Mix Vanilla",
+      "sheet_name": "MM_Vanilla",
+      "url": "https://www.goodmonk.in/products/good-monk-superhero-milk-mix-vanilla",
+      "metrics": {
+        "performance_score": 39,
+        "grade": "E",
+        "lcp": 1.89,
+        "onload": 11.69,
+        "fully_loaded": 21.14,
+        "ttfb": 0.31,
+        "cls": 0.386722,
+        "tbt": 6.23,
+        "report_url": "https://gtmetrix.com/reports/www.goodmonk.in/AdiaVWJj/",
+        "status": "OK",
+        "error_message": "",
+        "raw_audit": {
+          "page_bytes_kb": 15116.9,
+          "page_requests": 627,
+          "html_bytes_kb": 133.5,
+          "redirect_duration": 0.0,
+          "connect_duration": 0.04,
+          "backend_duration": 0.27,
+          "first_contentful_paint": 0.93,
+          "speed_index": 1971,
+          "rum_speed_index": 1726
+        }
+      },
+      "success": true,
+      "error_message": ""
+    },
+    {
+      "page_name": "Slimbiotics",
+      "sheet_name": "Slimbiotics",
+      "url": "https://www.goodmonk.in/products/good-monk-slimbiotics",
+      "metrics": {
+        "performance_score": 65,
+        "grade": "C",
+        "lcp": 1.21,
+        "onload": 10.0,
+        "fully_loaded": 17.68,
+        "ttfb": 0.35,
+        "cls": 0,
+        "tbt": 3.91,
+        "report_url": "https://gtmetrix.com/reports/www.goodmonk.in/VQyjRn1j/",
+        "status": "OK",
+        "error_message": "",
+        "raw_audit": {
+          "page_bytes_kb": 13325.0,
+          "page_requests": 556,
+          "html_bytes_kb": 133.5,
+          "redirect_duration": 0.0,
+          "connect_duration": 0.03,
+          "backend_duration": 0.31,
+          "first_contentful_paint": 0.83,
+          "speed_index": 1375,
+          "rum_speed_index": 1192
+        }
+      },
+      "success": true,
+      "error_message": ""
+    },
+    {
+      "page_name": "Milk Mix Chocolate",
+      "sheet_name": "MM_Chocolate",
+      "url": "https://www.goodmonk.in/products/good-monk-superhero-milk-mix",
+      "metrics": {
+        "performance_score": 43,
+        "grade": "D",
+        "lcp": 1.56,
+        "onload": 13.24,
+        "fully_loaded": 20.51,
+        "ttfb": 0.32,
+        "cls": 0.374425,
+        "tbt": 6.17,
+        "report_url": "https://gtmetrix.com/reports/www.goodmonk.in/VoWiatFI/",
+        "status": "OK",
+        "error_message": "",
+        "raw_audit": {
+          "page_bytes_kb": 8080.5,
+          "page_requests": 642,
+          "html_bytes_kb": 137.0,
+          "redirect_duration": 0.0,
+          "connect_duration": 0.04,
+          "backend_duration": 0.28,
+          "first_contentful_paint": 0.9,
+          "speed_index": 1710,
+          "rum_speed_index": 1443
+        }
+      },
+      "success": true,
+      "error_message": ""
+    },
+    {
+      "page_name": "Weight Management",
+      "sheet_name": "Weight Management",
+      "url": "https://www.goodmonk.in/products/good-monk-weight-management-program",
+      "metrics": {
+        "performance_score": 64,
+        "grade": "C",
+        "lcp": 1.34,
+        "onload": 4.93,
+        "fully_loaded": 22.41,
+        "ttfb": 0.4,
+        "cls": 0,
+        "tbt": 6.84,
+        "report_url": "https://gtmetrix.com/reports/www.goodmonk.in/57Pa50Fa/",
+        "status": "OK",
+        "error_message": "",
+        "raw_audit": {
+          "page_bytes_kb": 6445.1,
+          "page_requests": 562,
+          "html_bytes_kb": 134.0,
+          "redirect_duration": 0.14,
+          "connect_duration": 0.0,
+          "backend_duration": 0.26,
+          "first_contentful_paint": 0.94,
+          "speed_index": 1456,
+          "rum_speed_index": 1295
+        }
+      },
+      "success": true,
+      "error_message": ""
+    },
+    {
+      "page_name": "Plant Protein Roti",
+      "sheet_name": "Plant Protein Roti",
+      "url": "https://www.goodmonk.in/products/plant-protein-for-rotis",
+      "metrics": {
+        "performance_score": 63,
+        "grade": "C",
+        "lcp": 1.27,
+        "onload": 11.18,
+        "fully_loaded": 18.38,
+        "ttfb": 0.34,
+        "cls": 0.0768834,
+        "tbt": 4.37,
+        "report_url": "https://gtmetrix.com/reports/www.goodmonk.in/tHNu7VQF/",
+        "status": "OK",
+        "error_message": "",
+        "raw_audit": {
+          "page_bytes_kb": 14211.1,
+          "page_requests": 665,
+          "html_bytes_kb": 153.8,
+          "redirect_duration": 0.0,
+          "connect_duration": 0.04,
+          "backend_duration": 0.3,
+          "first_contentful_paint": 0.87,
+          "speed_index": 1544,
+          "rum_speed_index": 1406
+        }
+      },
+      "success": true,
+      "error_message": ""
+    }
+  ]
 }
