@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-11-15T07:30:10",
+  "generated_at": "2026-11-15T15:15:29",
   "products": [
     {
       "product_name": "Fiber Fix",
       "latest_status": "Failed",
       "latest_failed_step": "checkout",
-      "latest_duration_seconds": 5.7,
+      "latest_duration_seconds": 5.27,
       "latest_details": {
         "product_name": "Fiber Fix",
         "product_url": "https://www.goodmonk.in/products/fiber-fix",
-        "started_at": "2026-11-15T07:30:02",
-        "finished_at": "2026-11-15T07:30:07",
+        "started_at": "2026-11-15T15:15:22",
+        "finished_at": "2026-11-15T15:15:28",
         "success": false,
         "failed_step": "checkout",
-        "total_duration_seconds": 5.7,
+        "total_duration_seconds": 5.27,
         "steps": [
           {
             "step_name": "homepage",
             "success": true,
             "http_status": 200,
             "page_title": "Good Monk - As Seen on Shark Tank | India's First Nutrition Health Mix",
-            "load_time_seconds": 1.58,
+            "load_time_seconds": 1.59,
             "console_errors": [
               "Framing 'https://shop.app/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://shop.app https://admin.shopify.com\". The request has been blocked.\n",
               "Failed to load resource: the server responded with a status of 403 ()"
@@ -30,7 +30,7 @@
             ],
             "network_failures": [
               "GET https://checkout-merchant.snapmint.com/js/v1/9744 \u2014 net::ERR_BLOCKED_BY_ORB",
-              "GET https://shop.app/pay/hop?analytics_trace_id=b1a5f1a2-c66d-4a1d-ac1f-ee9b91da63f5&target_origin=https%3A%2F%2Fwww.goodmonk.in&client_handle=good-monk.myshopify.com \u2014 net::ERR_BLOCKED_BY_RESPONSE",
+              "GET https://shop.app/pay/hop?analytics_trace_id=fef9071f-8655-42f7-83f3-d24e05897ab1&target_origin=https%3A%2F%2Fwww.goodmonk.in&client_handle=good-monk.myshopify.com \u2014 net::ERR_BLOCKED_BY_RESPONSE",
               "GET https://cdn.shopify.com/s/files/1/0748/8710/2770/files/WhatsApp_Image_2026-09-17_at_7.18.54_PM_200x200.jpg?v=1789653066 \u2014 net::ERR_ABORTED"
             ],
             "broken_images": [
@@ -47,7 +47,7 @@
             "success": true,
             "http_status": 200,
             "page_title": "Health Mix Powder Supplements Online for Daily Wellness \u2013 Good Monk",
-            "load_time_seconds": 0.95,
+            "load_time_seconds": 0.99,
             "console_errors": [
               "Failed to load resource: the server responded with a status of 404 ()"
             ],
@@ -55,16 +55,13 @@
               "Unexpected token 'export'"
             ],
             "network_failures": [
-              "POST https://otlp-http-production.shopifysvc.com/v1/metrics \u2014 net::ERR_ABORTED",
               "POST https://bob-magic-checkout.getbob.link/shopify/generate-id \u2014 net::ERR_ABORTED",
-              "POST https://www.googleadservices.com/ccm/conversion/11046186878/?random=1794727803383&cv=11&fst=1794727803383&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6bb1v9105248862za200zb9237203717zd9237203717xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120412528~120420416~120469145~120469153~121191153~121246026~121246034~123785233&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2F&rcb=14&label=ihb4CJuFn6gYEP7enZMp&gtm_ee=1&evnid=sh-de1cf8aa-0597-4857-2F31-68A1EB8ADA94&excid=shp.e9c68c69-e6fd-4311-b753-35894555e560&tiba=Good%20Monk%20-%20As%20Seen%20on%20Shark%20Tank%20%7C%20India%27s%20First%20Nutrition%20Health%20Mix&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=1357923258.1794727803&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uamb=0&uam=&uap=Linux&uapv=&uaw=0&ec_mode=c&oid=GG_1963979664.1794727803&oidsrc=3&ecsid=20516720.1794727803&ecsid2=1324473080.1794727803&_tu=ABI&gcl_ctr=1~0~0~0&data=event%3Dpage_view%3Bshopify_event_name%3Dpage_viewed%3Bpage_path%3D%2F&category=acrcp_v1_512&em=tv.1&emd=tvd.1 \u2014 net::ERR_ABORTED",
-              "POST https://otlp-http-production.shopifysvc.com/v1/metrics \u2014 net::ERR_ABORTED",
+              "POST https://www.googleadservices.com/ccm/conversion/11046186878/?random=1794755724104&cv=11&fst=1794755724104&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6bb1v9105248862za200zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=100940090~115938466~115938468~118897920~118897930~120213116~120385423~120412528~120420416~120469145~120469153~121191153~121246026~121246034~123988485&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2F&rcb=11&label=ihb4CJuFn6gYEP7enZMp&gtm_ee=1&evnid=sh-dfc70391-1C19-4C1F-1299-CF41AA40E563&excid=shp.71a3594e-6664-4dbb-b0b5-94852b32a49f&tiba=Good%20Monk%20-%20As%20Seen%20on%20Shark%20Tank%20%7C%20India%27s%20First%20Nutrition%20Health%20Mix&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=1086188803.1794755724&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uamb=0&uam=&uap=Linux&uapv=&uaw=0&ec_mode=c&oid=GG_959522199.1794755724&oidsrc=3&ecsid=246563519.1794755724&ecsid2=1764926472.1794755724&_tu=ABI&gcl_ctr=1~0~0~0&data=event%3Dpage_view%3Bshopify_event_name%3Dpage_viewed%3Bpage_path%3D%2F&category=acrcp_v1_512&em=tv.1&emd=tvd.1 \u2014 net::ERR_ABORTED",
+              "POST https://autechadz.com/aTqCk/?async=true&panel=19 \u2014 net::ERR_ABORTED",
               "GET https://api.shopflo.co/kratos/public/api/v1/merchant-apps?shopUrl=www.goodmonk.in \u2014 net::ERR_ABORTED",
-              "GET https://whatsapp-widget.s3.ap-south-1.amazonaws.com/goodmonk.js?shop=good-monk.myshopify.com \u2014 net::ERR_ABORTED",
-              "GET https://shopify-popup-client-scripts.s3.us-east-2.amazonaws.com/goodmonk.js?shop=good-monk.myshopify.com \u2014 net::ERR_ABORTED",
-              "GET https://script.pop-convert.com/new-micro/production.pc.min.js?unique_id=good-monk.myshopify.com&shop=good-monk.myshopify.com \u2014 net::ERR_ABORTED",
-              "POST https://autechadz.com/XxfWy/?async=true&panel=19 \u2014 net::ERR_ABORTED",
-              "GET https://www.goodmonk.in/cart.js?caller=pcjs \u2014 net::ERR_ABORTED",
+              "GET https://www.goodmonk.in/cdn/shopifycloud/checkout-web/assets/c1/f025431a.BlsbPO0-.js \u2014 net::ERR_ABORTED",
+              "GET https://micro.pop-convert.com/micro/api/micro_actions/create?unique_id=good-monk.myshopify.com&action=session \u2014 net::ERR_ABORTED",
+              "GET https://cdn.pop-convert.com/micro/api/sites?unique_id=good-monk.myshopify.com \u2014 net::ERR_ABORTED",
               "GET https://checkout-merchant.snapmint.com/js/v1/9744 \u2014 net::ERR_BLOCKED_BY_ORB"
             ],
             "broken_images": [],
@@ -78,21 +75,17 @@
             "success": true,
             "http_status": 200,
             "page_title": "Fibre Mix: Best Fibre Supplement Powder in India for digestion \u2013 Good Monk",
-            "load_time_seconds": 1.48,
+            "load_time_seconds": 1.26,
             "console_errors": [],
             "js_errors": [
-              "Unexpected token 'export'",
-              "t.fetchAvailability is not a function"
+              "t.fetchAvailability is not a function",
+              "Unexpected token 'export'"
             ],
             "network_failures": [
-              "GET https://whatsapp-widget.s3.ap-south-1.amazonaws.com/goodmonk.js?shop=good-monk.myshopify.com \u2014 net::ERR_ABORTED",
               "GET https://api.shopflo.co/kratos/public/api/v1/merchant-apps?shopUrl=www.goodmonk.in \u2014 net::ERR_ABORTED",
-              "GET https://micro.pop-convert.com/micro/api/micro_actions/create?unique_id=good-monk.myshopify.com&action=session \u2014 net::ERR_ABORTED",
               "POST https://uc.shiprocket.in/v1/track/user \u2014 net::ERR_ABORTED",
-              "POST https://otlp-http-production.shopifysvc.com/v1/metrics \u2014 net::ERR_ABORTED",
-              "GET https://www.goodmonk.in/cdn/shopifycloud/checkout-web/assets/c1/7d6bf786.G6zQ1mVx.js \u2014 net::ERR_ABORTED",
-              "GET https://checkout-merchant.snapmint.com/js/v1/9744 \u2014 net::ERR_BLOCKED_BY_ORB",
-              "GET https://connect.facebook.net//log/error?p=pixel&sl=2&v=2.9.439&e=%5BMeta%20pixel%5D%20Bot%20traffic%20detected%20and%20blocked%20-%20pixel_id%3A%20544195787773692&ue=0&rs=stable&rqm=FGET \u2014 net::ERR_BLOCKED_BY_ORB"
+              "GET https://www.goodmonk.in/cdn/shopifycloud/checkout-web/assets/c1/17f6d6d8.ClC16wSu.js \u2014 net::ERR_ABORTED",
+              "GET https://checkout-merchant.snapmint.com/js/v1/9744 \u2014 net::ERR_BLOCKED_BY_ORB"
             ],
             "broken_images": [],
             "screenshot_path": null,
@@ -105,7 +98,7 @@
             "success": true,
             "http_status": null,
             "page_title": "",
-            "load_time_seconds": 0.04,
+            "load_time_seconds": 0.03,
             "console_errors": [],
             "js_errors": [],
             "network_failures": [],
@@ -120,7 +113,7 @@
             "success": true,
             "http_status": null,
             "page_title": "Fibre Mix: Best Fibre Supplement Powder in India for digestion \u2013 Good Monk",
-            "load_time_seconds": 0.47,
+            "load_time_seconds": 0.39,
             "console_errors": [],
             "js_errors": [],
             "network_failures": [],
@@ -135,27 +128,31 @@
             "success": true,
             "http_status": 200,
             "page_title": "Your Shopping Cart \u2013 Good Monk",
-            "load_time_seconds": 0.82,
+            "load_time_seconds": 0.74,
             "console_errors": [],
             "js_errors": [
               "Unexpected token 'export'"
             ],
             "network_failures": [
               "GET https://checkout.shopflo.co/stable/?page=ghost-modal&mid=2349a17d-4f2d-45bc-950e-d79e60c32615&ghostUserOrderData=false \u2014 net::ERR_ABORTED",
-              "GET https://checkout.shopflo.co/stable/assets/checkout-components-BKRYOPvL.js \u2014 net::ERR_ABORTED",
-              "GET https://checkout.shopflo.co/stable/assets/auth-components-CcRaSDx_.js \u2014 net::ERR_ABORTED",
-              "GET https://checkout.shopflo.co/stable/assets/components-BJkwIp_A.js \u2014 net::ERR_ABORTED",
-              "POST https://www.googleadservices.com/ccm/conversion/11046186878/?random=1794727805982&cv=11&fst=1794727805982&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6bb1v9105248862za200zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120412528~120420416~120469145~120469153~121191153~121246026~121246034~123785233&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2Fproducts%2Ffiber-fix&rcb=3&label=ihb4CJuFn6gYEP7enZMp&gtm_ee=1&evnid=sh-de1d0420-CA22-4577-DB43-2ADE3D5D4ACF&excid=shp.e9c68c69-e6fd-4311-b753-35894555e560&tiba=Fibre%20Mix%3A%20Best%20Fibre%20Supplement%20Powder%20in%20India%20for%20digestion%20%E2%80%93%20Good%20Monk&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=1357923258.1794727803&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uamb=0&uam=&uap=Linux&uapv=&uaw=0&ec_mode=c&oid=GG_1506048767.1794727806&oidsrc=3&ecsid=20516720.1794727803&ecsid2=1324473080.1794727803&_tu=ABI&gcl_ctr=3~0~0~0&data=event%3Dpage_view%3Bshopify_event_name%3Dpage_viewed%3Bpage_path%3D%2Fproducts%2Ffiber-fix&category=acrcp_v1_512&em=tv.1&emd=tvd.1 \u2014 net::ERR_ABORTED",
-              "POST https://www.googleadservices.com/ccm/conversion/11046186878/?random=1794727805987&cv=11&fst=1794727805987&fmt=8&bg=ffffff&guid=ON&async=1&en=view_item&gtm=45be6bb1v9105248862za200zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120412528~120420416~120469145~120469153~121191153~121246026~121246034~123785233&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2Fproducts%2Ffiber-fix&rcb=3&label=uVeGCJ6Fn6gYEP7enZMp&gtm_ee=1&evnid=sh-de1d0428-9713-4CA6-8B85-406A25132502&excid=shp.e9c68c69-e6fd-4311-b753-35894555e560&frm=0&tiba=Fibre%20Mix%3A%20Best%20Fibre%20Supplement%20Powder%20in%20India%20for%20digestion%20%E2%80%93%20Good%20Monk&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&value=749&currency_code=INR&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=1357923258.1794727803&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uamb=0&uam=&uap=Linux&uapv=&uaw=0&ec_mode=c&oid=GG_150383267.1794727806&oidsrc=3&ecsid=20516720.1794727803&ecsid2=1324473080.1794727803&_tu=ABI&gcl_ctr=4~0~0~0&data=event%3Dview_item%3Bshopify_event_name%3Dproduct_viewed%3Becomm_prodid%3Dshopify_IN_9636753768754_49339502788914%3Becomm_totalvalue%3D749%3Becomm_pagetype%3Dproduct&category=acrcp_v1_512&em=tv.1&emd=tvd.1 \u2014 net::ERR_ABORTED",
-              "POST https://www.goodmonk.in/cart/update.js \u2014 net::ERR_ABORTED",
+              "POST https://otlp-http-production.shopifysvc.com/v1/metrics \u2014 net::ERR_ABORTED",
+              "POST https://www.googleadservices.com/ccm/conversion/11046186878/?random=1794755726470&cv=11&fst=1794755726470&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6bb1v9105248862za200zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120412526~120420416~120469145~120469153~121191153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2Fproducts%2Ffiber-fix&rcb=1&label=ihb4CJuFn6gYEP7enZMp&gtm_ee=1&evnid=sh-dfc70c34-BDD7-43E9-ECF5-8E4044F9B8F3&excid=shp.71a3594e-6664-4dbb-b0b5-94852b32a49f&tiba=Fibre%20Mix%3A%20Best%20Fibre%20Supplement%20Powder%20in%20India%20for%20digestion%20%E2%80%93%20Good%20Monk&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=1086188803.1794755724&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uamb=0&uam=&uap=Linux&uapv=&uaw=0&ec_mode=c&oid=GG_1129275607.1794755726&oidsrc=3&ecsid=246563519.1794755724&ecsid2=1764926472.1794755724&_tu=ABI&gcl_ctr=3~0~0~0&data=event%3Dpage_view%3Bshopify_event_name%3Dpage_viewed%3Bpage_path%3D%2Fproducts%2Ffiber-fix&category=acrcp_v1_512&em=tv.1&emd=tvd.1 \u2014 net::ERR_ABORTED",
+              "POST https://www.googleadservices.com/ccm/conversion/11046186878/?random=1794755726475&cv=11&fst=1794755726475&fmt=8&bg=ffffff&guid=ON&async=1&en=view_item&gtm=45be6bb1v9105248862za200zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120412526~120420416~120469145~120469153~121191153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2Fproducts%2Ffiber-fix&rcb=1&label=uVeGCJ6Fn6gYEP7enZMp&gtm_ee=1&evnid=sh-dfc70c39-080A-402F-0DA1-8223750FC177&excid=shp.71a3594e-6664-4dbb-b0b5-94852b32a49f&frm=0&tiba=Fibre%20Mix%3A%20Best%20Fibre%20Supplement%20Powder%20in%20India%20for%20digestion%20%E2%80%93%20Good%20Monk&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&value=749&currency_code=INR&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=1086188803.1794755724&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uamb=0&uam=&uap=Linux&uapv=&uaw=0&ec_mode=c&oid=GG_613554668.1794755726&oidsrc=3&ecsid=246563519.1794755724&ecsid2=1764926472.1794755724&_tu=ABI&gcl_ctr=4~0~0~0&data=event%3Dview_item%3Bshopify_event_name%3Dproduct_viewed%3Becomm_prodid%3Dshopify_IN_9636753768754_49339502788914%3Becomm_totalvalue%3D749%3Becomm_pagetype%3Dproduct&category=acrcp_v1_512&em=tv.1&emd=tvd.1 \u2014 net::ERR_ABORTED",
+              "POST https://magic-checkout.bonb.io/push-event \u2014 net::ERR_ABORTED",
+              "POST https://otlp-http-production.shopifysvc.com/v1/metrics \u2014 net::ERR_ABORTED",
               "POST https://api.shopflo.co/fp/api/v1/resolve \u2014 net::ERR_ABORTED",
               "POST https://www.goodmonk.in/cart/add \u2014 net::ERR_ABORTED",
-              "POST https://uc.shiprocket.in/v1/track/user \u2014 net::ERR_ABORTED",
-              "POST https://uc.shiprocket.in/v1/track/user \u2014 net::ERR_ABORTED",
+              "GET https://public.shopflo.com/heimdall/api/v1/shopflo-health?shop-url=www.goodmonk.in&theme-id=189821387058 \u2014 net::ERR_ABORTED",
               "POST https://uc.shiprocket.in/v1/track/user \u2014 net::ERR_ABORTED",
               "GET https://www.goodmonk.in/cart.js \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/cart/update.js \u2014 net::ERR_ABORTED",
+              "GET https://c.clarity.ms/c.gif \u2014 net::ERR_ABORTED",
+              "GET https://www.google.com/pagead/1p-user-list/11046186878/?random=1794755727100&cv=11&fst=1794754800000&bg=ffffff&guid=ON&async=1&en=form_start&gtm=45be6bb1v9105248862za200zb898864600zd898864600xecxf1&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120412526~120420416~120469145~120469153~121191153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2Fproducts%2Ffiber-fix&rcb=1&frm=0&tiba=Fibre%20Mix%3A%20Best%20Fibre%20Supplement%20Powder%20in%20India%20for%20digestion%20%E2%80%93%20Good%20Monk&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&ae=a&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=1086188803.1794755724&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=AAI&data=event%3Dform_start&gap.fsrc=1&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS4gEAogo4dfpyWFcrcPaOq3I_hw7-l7vFXOHxrysRIqZaFEGrGBYEweBnLTKNjrDeB56VedkhiUTihBJFXYrn9tYr8b1vM7HpWSH8amrUC0p_OCkHyAWOOOJOprDhqf5wqkvOeDHxdDR-OiQ0eZVsYN_PB7q_vaI_aKml0VAUCjCcPEl-4ZbrsaqTliJGc8aevCJhuHYseY5yYLn-Gam3MoMnzR5oP7zmYgDJS9V0_KyrWOdqjGPgPU_sA769NoTcn1c6vbOD_TIAMvdiO5G6PQm5n3Vovpf-FfY2X3WbtMSogIQ2&random=249897189&rmt_tld=0&ipr=y \u2014 net::ERR_ABORTED",
+              "GET https://www.google.com/pagead/1p-user-list/11046186878/?random=1794755727108&cv=11&fst=1794754800000&bg=ffffff&guid=ON&async=1&en=form_submit&gtm=45be6bb1v9105248862za200zb898864600zd898864600xecxf1&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120412526~120420416~120469145~120469153~121191153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2Fproducts%2Ffiber-fix&rcb=1&frm=0&tiba=Fibre%20Mix%3A%20Best%20Fibre%20Supplement%20Powder%20in%20India%20for%20digestion%20%E2%80%93%20Good%20Monk&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&ae=a&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=1086188803.1794755724&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=AAI&data=event%3Dform_submit&gap.fsrc=2&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS4gEAogo4da-zXLMO34jZyglBQxlS5JX0zdCEF4T_bwmoei55sIIcFuj3txCM1iaiY9635K1r0LD8fY66gk_4-c-Dj56fEcDUASF9tuImuiELfAWgslvgzOqYsvkZxHj8EcldN0D03oLA9mljH_zbT0Yk5uFat14zGNVjnQz7rQIe8_lmFaxPuF2SffY6VIp2ewQvRI36RrwpaelYo4ms0iCcUbgibL6H0HRpzXi45aPwixV8fh1avbxygdo7AUO423OySRJ1tmbLz2kafJ8mmmsn6BD99rXohjVfn9Doe_zeXL__&random=3383297485&rmt_tld=0&ipr=y \u2014 net::ERR_ABORTED",
+              "GET https://www.google.com/pagead/1p-user-list/17788971481/?random=1794755727118&cv=11&fst=1794754800000&bg=ffffff&guid=ON&async=1&en=form_start&gtm=45be6bb1v9237203717za200zb898864600zd898864600xecxf1&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120412526~120420414~120469145~120469153~121191153~121246026~121246034~123988486&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2Fproducts%2Ffiber-fix&rcb=0&frm=0&tiba=Fibre%20Mix%3A%20Best%20Fibre%20Supplement%20Powder%20in%20India%20for%20digestion%20%E2%80%93%20Good%20Monk&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&ae=a&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=1086188803.1794755724&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=AAI&data=event%3Dform_start&gap.fsrc=1&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS4gEAogo4dbokriGXyfDaxf_tMSTPeDo8JYAmSSfixFrpbm1Z1lkoD7eFnwK7F2RtqlLLJpvT678NX085xoF2rOJLZ4IysNSkTyozrCAu0dL2-kFoXL876i5kpmkja0RVyU6P8YW4j1s-_yJNZ3WfxUa87baWJ9lhAVp4ugziS2lj9kI1JDJUeEypW__mN53l4sp2bsy-5q9od_sf6LH1mIUq9XND62bncwWXd4-Xj3kLObLW3ahCO4yXL7mhYncSilWpv4rJ5nwcmLGI8O0QsgP8PganP5GGH9aEmUkFGkMequ2u&random=57168253&rmt_tld=0&ipr=y \u2014 net::ERR_ABORTED",
+              "GET https://www.google.com/pagead/1p-user-list/17788971481/?random=1794755727126&cv=11&fst=1794754800000&bg=ffffff&guid=ON&async=1&en=form_submit&gtm=45be6bb1v9237203717za200zb898864600zd898864600xecxf1&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120412526~120420414~120469145~120469153~121191153~121246026~121246034~123988486&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2Fproducts%2Ffiber-fix&rcb=0&frm=0&tiba=Fibre%20Mix%3A%20Best%20Fibre%20Supplement%20Powder%20in%20India%20for%20digestion%20%E2%80%93%20Good%20Monk&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&ae=a&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=1086188803.1794755724&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=AAI&data=event%3Dform_submit&gap.fsrc=2&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS4gEAogo4dYVTY-Q73Owo55QOOc9AcoOUNzlS5L2WGXmsT-XUDgov3QNiKwPrSUhTjt4xR4xr7xA3mWrRB2Of9iLGDV43rY491y2BGaT-_hSxcaldcwzxjQHOKdamZxDbeiIAIbwW8lx66eFGizlrclzqZWsz7tbhxWM4-6OJiWl6XFz0wuyDGpkQvdlbcPDG37svuU-fFAP1E2brfiicXZ5w-M9ezQ6NcZnitKgzDqw2YoT8o7uQezu-pWNfThgeGxLmq2xtX2sWDR6VRnQjBwRhG0Os29dscdesBUpAEbYBb0Gu&random=1057554965&rmt_tld=0&ipr=y \u2014 net::ERR_ABORTED",
+              "GET https://www.google.com/images/phd/px.gif?t=1794755727332&r=0.8853532847899328 \u2014 net::ERR_ABORTED",
               "GET https://checkout.shopflo.co/stable/assets/auth-components-CcRaSDx_.js \u2014 net::ERR_ABORTED",
-              "GET https://checkout.shopflo.co/stable/assets/checkout-components-BKRYOPvL.js \u2014 net::ERR_ABORTED",
               "GET https://checkout-merchant.snapmint.com/js/v1/9744 \u2014 net::ERR_BLOCKED_BY_ORB"
             ],
             "broken_images": [],
@@ -169,7 +166,7 @@
             "success": false,
             "http_status": null,
             "page_title": "Your Shopping Cart \u2013 Good Monk",
-            "load_time_seconds": 0.06,
+            "load_time_seconds": 0.05,
             "console_errors": [],
             "js_errors": [],
             "network_failures": [],
@@ -182,11 +179,6 @@
         ]
       },
       "timeline": [
-        {
-          "date": "2026-10-31",
-          "time": "19:03:55",
-          "success": false
-        },
         {
           "date": "2026-11-01",
           "time": "01:50:00",
@@ -301,6 +293,11 @@
           "date": "2026-11-15",
           "time": "07:30:08",
           "success": false
+        },
+        {
+          "date": "2026-11-15",
+          "time": "15:15:28",
+          "success": false
         }
       ],
       "total_runs": 24,
@@ -310,22 +307,22 @@
       "product_name": "H50+",
       "latest_status": "Failed",
       "latest_failed_step": "checkout",
-      "latest_duration_seconds": 5.84,
+      "latest_duration_seconds": 5.68,
       "latest_details": {
         "product_name": "H50+",
         "product_url": "https://www.goodmonk.in/products/good-monk-50-nutrition-mix",
-        "started_at": "2026-11-15T07:29:56",
-        "finished_at": "2026-11-15T07:30:02",
+        "started_at": "2026-11-15T15:15:17",
+        "finished_at": "2026-11-15T15:15:22",
         "success": false,
         "failed_step": "checkout",
-        "total_duration_seconds": 5.84,
+        "total_duration_seconds": 5.68,
         "steps": [
           {
             "step_name": "homepage",
             "success": true,
             "http_status": 200,
             "page_title": "Good Monk - As Seen on Shark Tank | India's First Nutrition Health Mix",
-            "load_time_seconds": 1.37,
+            "load_time_seconds": 1.5,
             "console_errors": [
               "Framing 'https://shop.app/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://shop.app https://admin.shopify.com\". The request has been blocked.\n",
               "Failed to load resource: the server responded with a status of 403 ()"
@@ -335,7 +332,7 @@
             ],
             "network_failures": [
               "GET https://checkout-merchant.snapmint.com/js/v1/9744 \u2014 net::ERR_BLOCKED_BY_ORB",
-              "GET https://shop.app/pay/hop?analytics_trace_id=1357659f-194b-4bfc-8a2f-bab6185a5206&target_origin=https%3A%2F%2Fwww.goodmonk.in&client_handle=good-monk.myshopify.com \u2014 net::ERR_BLOCKED_BY_RESPONSE",
+              "GET https://shop.app/pay/hop?analytics_trace_id=484bebbf-d745-4503-95b4-734041bf282b&target_origin=https%3A%2F%2Fwww.goodmonk.in&client_handle=good-monk.myshopify.com \u2014 net::ERR_BLOCKED_BY_RESPONSE",
               "GET https://cdn.shopify.com/s/files/1/0748/8710/2770/files/WhatsApp_Image_2026-09-17_at_7.18.54_PM_200x200.jpg?v=1789653066 \u2014 net::ERR_ABORTED"
             ],
             "broken_images": [
@@ -352,7 +349,7 @@
             "success": true,
             "http_status": 200,
             "page_title": "Health Mix Powder Supplements Online for Daily Wellness \u2013 Good Monk",
-            "load_time_seconds": 0.9,
+            "load_time_seconds": 0.99,
             "console_errors": [
               "Failed to load resource: the server responded with a status of 404 ()"
             ],
@@ -360,15 +357,17 @@
               "Unexpected token 'export'"
             ],
             "network_failures": [
-              "GET https://webhook-gateway.verifast.ai/api/traffic/good-monk.myshopify.com/2026111507-02ea599d49ea4cf8?type=first_time \u2014 net::ERR_ABORTED",
-              "POST https://webhook-gateway.verifast.ai/api/metrics/increment \u2014 net::ERR_ABORTED",
+              "POST https://otlp-http-production.shopifysvc.com/v1/metrics \u2014 net::ERR_ABORTED",
+              "GET https://webhook-gateway.verifast.ai/api/traffic/good-monk.myshopify.com/2026111515-ab0c6d9c58d74ccf?type=first_time \u2014 net::ERR_ABORTED",
               "POST https://bob-magic-checkout.getbob.link/shopify/generate-id \u2014 net::ERR_ABORTED",
-              "POST https://autechadz.com/ZiFwB/?async=true&panel=19 \u2014 net::ERR_ABORTED",
-              "GET https://whatsapp-widget.s3.ap-south-1.amazonaws.com/goodmonk.js?shop=good-monk.myshopify.com \u2014 net::ERR_ABORTED",
-              "GET https://shopify-popup-client-scripts.s3.us-east-2.amazonaws.com/goodmonk.js?shop=good-monk.myshopify.com \u2014 net::ERR_ABORTED",
-              "GET https://sdk.pop-convert.com/sdk.js?unique_id=good-monk.myshopify.com&shop=good-monk.myshopify.com \u2014 net::ERR_ABORTED",
+              "POST https://www.googleadservices.com/ccm/conversion/11046186878/?random=1794755718341&cv=11&fst=1794755718341&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6bc0h2v9105248862za200zb9237203717zd9237203717xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938465~115938469~117776796~118897920~118897930~120213116~120385423~120412526~120420416~120469145~120469153~121191153~121246026~121246034~123785232~123988485&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2F&rcb=11&label=ihb4CJuFn6gYEP7enZMp&gtm_ee=1&evnid=sh-dfc6ed0e-8077-4A22-3CF4-EF6798BAE0F5&excid=shp.5b7de916-63f1-4f10-b297-a4248c10a9c6&tiba=Good%20Monk%20-%20As%20Seen%20on%20Shark%20Tank%20%7C%20India%27s%20First%20Nutrition%20Health%20Mix&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=1110131700.1794755718&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uamb=0&uam=&uap=Linux&uapv=&uaw=0&ec_mode=c&oid=GG_1617443928.1794755718&oidsrc=3&ecsid=1324663899.1794755718&ecsid2=555948654.1794755718&_tu=ABI&gcl_ctr=1~0~0~0&data=event%3Dpage_view%3Bshopify_event_name%3Dpage_viewed%3Bpage_path%3D%2F&category=acrcp_v1_512&em=tv.1&emd=tvd.1 \u2014 net::ERR_ABORTED",
+              "POST https://otlp-http-production.shopifysvc.com/v1/metrics \u2014 net::ERR_ABORTED",
               "POST https://otlp-http-production.shopifysvc.com/v1/metrics \u2014 net::ERR_ABORTED",
               "GET https://api.shopflo.co/kratos/public/api/v1/merchant-apps?shopUrl=www.goodmonk.in \u2014 net::ERR_ABORTED",
+              "GET https://micro.pop-convert.com/micro/api/micro_actions/create?unique_id=good-monk.myshopify.com&action=session \u2014 net::ERR_ABORTED",
+              "GET https://cdn.pop-convert.com/micro/api/sites?unique_id=good-monk.myshopify.com \u2014 net::ERR_ABORTED",
+              "GET https://www.goodmonk.in/cdn/shopifycloud/checkout-web/assets/c1/4509beb0.Mtk3A2Tn.js \u2014 net::ERR_ABORTED",
+              "POST https://www.goodmonk.in/apps/ba-pop/app_metrics \u2014 net::ERR_ABORTED",
               "GET https://checkout-merchant.snapmint.com/js/v1/9744 \u2014 net::ERR_BLOCKED_BY_ORB"
             ],
             "broken_images": [],
@@ -382,18 +381,16 @@
             "success": true,
             "http_status": 200,
             "page_title": "Nutrition Mix: Multivitamin Powder For Seniors In Sachets | Good Monk",
-            "load_time_seconds": 1.23,
+            "load_time_seconds": 1.35,
             "console_errors": [],
             "js_errors": [
               "Unexpected token 'export'",
               "t.fetchAvailability is not a function"
             ],
             "network_failures": [
-              "POST https://www.googleadservices.com/ccm/conversion/11046186878/?random=1794727798533&cv=11&fst=1794727798533&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6bb1v9105248862za200zb898864600zd898864600xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938466~115938469~118897920~118897930~119863601~120213116~120385423~120412526~120420416~120469145~120469153~121191153~121246026~121246034~123785233&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.goodmonk.in%2Fcollections%2Fall&rcb=8&label=ihb4CJuFn6gYEP7enZMp&gtm_ee=1&evnid=sh-de1ce78e-F009-415C-B942-FA5FC02A0750&excid=shp.330c6ff2-0cc7-435c-b338-4c9670b784fc&tiba=Health%20Mix%20Powder%20Supplements%20Online%20for%20Daily%20Wellness%20%E2%80%93%20Good%20Monk&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=1647483940.1794727797&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uamb=0&uam=&uap=Linux&uapv=&uaw=0&ec_mode=c&oid=GG_1955925392.1794727799&oidsrc=3&ecsid=178449718.1794727797&ecsid2=100640541.1794727797&_tu=ABI&gcl_ctr=2~0~0~0&data=event%3Dpage_view%3Bshopify_event_name%3Dpage_viewed%3Bpage_path%3D%2Fcollections%2Fall&category=acrcp_v1_512&em=tv.1&emd=tvd.1 \u2014 net::ERR_ABORTED",
+              "POST https://otlp-http-production.shopifysvc.com/v1/metrics \u2014 net::ERR_ABORTED",
               "GET https://api.shopflo.co/kratos/public/api/v1/merchant-apps?shopUrl=www.goodmonk.in \u2014 net::ERR_ABORTED",
-              "GET https://whatsapp-widget.s3.ap-south-1.amazonaws.com/goodmonk.js?shop=good-monk.myshopify.com \u2014 net::ERR_ABORTED",
               "POST https://uc.shiprocket.in/v1/track/user \u2014 net::ERR_ABORTED",
-              "GET https://www.goodmonk.in/cdn/shopifycloud/checkout-web/assets/c1/c328865d.BCB1O5to.js \u2014 net::ERR_ABORTED",
               "GET https://checkout-merchant.snapmint.com/js/v1/9744 \u2014 net::ERR_BLOCKED_BY_ORB"
             ],
             "broken_images": [],
@@ -407,7 +404,7 @@
             "success": true,
             "http_status": null,
             "page_title": "",
-            "load_time_seconds": 0.04,
+            "load_time_seconds": 0.03,
             "console_errors": [],
             "js_errors": [],
             "network_failures": [],
@@ -422,7 +419,7 @@
             "success": true,
             "http_status": null,
             "page_title": "Nutrition Mix: Multivitamin Powder For Seniors In Sachets | Good Monk",
-            "load_time_seconds": 0.84,
+            "load_time_seconds": 0.61,
             "console_errors": [],
             "js_errors": [],
             "network_failures": [],
@@ -437,7 +434,7 @@
             "success": true,
             "http_status": 200,
             "page_title": "Your Shopping Cart \u2013 Good Monk",
-            "load_time_seconds": 1.02,
+            "load_time_seconds": 0.81,
             "console_errors": [],
             "js_errors": [
               "Unexpected token 'export'"
@@ -445,16 +442,11 @@
             "network_failures": [
               "GET https://checkout.shopflo.co/stable/?page=ghost-modal&mid=2349a17d-4f2d-45bc-950e-d79e60c32615&ghostUserOrderData=false \u2014 net::ERR_ABORTED",
               "POST https://www.goodmonk.in/cart/add \u2014 net::ERR_ABORTED",
-              "POST https://uc.shiprocket.in/v1/track/user \u2014 net::ERR_ABORTED",
-              "POST https://uc.shiprocket.in/v1/track/user \u2014 net::ERR_ABORTED",
-              "POST https://uc.shiprocket.in/v1/track/user \u2014 net::ERR_ABORTED",
               "GET https://www.goodmonk.in/cart.js \u2014 net::ERR_ABORTED",
-              "GET https://js-agent.newrelic.com/nr-spa-1.278.3.min.js \u2014 net::ERR_ABORTED",
+              "GET https://public.shopflo.com/heimdall/api/v1/shopflo-health?shop-url=www.goodmonk.in&theme-id=189821387058 \u2014 net::ERR_ABORTED",
+              "GET https://www.google.com/images/phd/px.gif?t=1794755722099&r=0.1589478977811859 \u2014 net::ERR_ABORTED",
               "GET https://api.shopflo.co/kratos/public/api/v1/merchant-apps?merchantId=2349a17d-4f2d-45bc-950e-d79e60c32615 \u2014 net::ERR_ABORTED",
-              "GET https://www.clarity.ms/tag/eylisjmk8v \u2014 net::ERR_ABORTED",
-              "POST https://o4508131579002880.ingest.us.sentry.io/api/4508131592241152/envelope/?sentry_version=7&sentry_key=d97a825a449bcf2e640608e705016d56&sentry_client=sentry.javascript.react%2F10.1.0 \u2014 net::ERR_ABORTED",
-              "GET https://checkout.shopflo.co/stable/assets/ghost-BxTQBqbt.js \u2014 net::ERR_ABORTED",
-              "GET https://checkout.shopflo.co/stable/assets/page-ghost-Cgzazeaw.js \u2014 net::ERR_ABORTED",
+              "POST https://j.clarity.ms/collect \u2014 net::ERR_ABORTED",
               "GET https://checkout-merchant.snapmint.com/js/v1/9744 \u2014 net::ERR_BLOCKED_BY_ORB"
             ],
             "broken_images": [],
@@ -468,7 +460,7 @@
             "success": false,
             "http_status": null,
             "page_title": "Your Shopping Cart \u2013 Good Monk",
-            "load_time_seconds": 0.08,
+            "load_time_seconds": 0.06,
             "console_errors": [],
             "js_errors": [],
             "network_failures": [],
@@ -481,11 +473,6 @@
         ]
       },
       "timeline": [
-        {
-          "date": "2026-11-01",
-          "time": "01:49:59",
-          "success": false
-        },
         {
           "date": "2026-11-01",
           "time": "08:35:52",
@@ -594,6 +581,11 @@
         {
           "date": "2026-11-15",
           "time": "07:30:08",
+          "success": false
+        },
+        {
+          "date": "2026-11-15",
+          "time": "15:15:28",
           "success": false
         }
       ],
