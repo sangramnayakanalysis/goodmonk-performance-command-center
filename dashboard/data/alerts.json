@@ -1,6 +1,66 @@
 {
-  "generated_at": "2026-11-15T15:15:32",
+  "generated_at": "2026-11-15T20:46:53",
   "recent_alerts": [
+    {
+      "Date": "2026-11-15",
+      "Time": "20:46:52",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Milk Mix Strawberry",
+      "Message": "MM_Strawberry is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-11-15",
+      "Time": "20:46:52",
+      "Alert Type": "performance_grade_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Berries",
+      "Message": "Berries's grade dropped from C to D.",
+      "Root Cause": "",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-11-15",
+      "Time": "20:46:51",
+      "Alert Type": "performance_grade_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Pineapple",
+      "Message": "Pineapple is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-11-15",
+      "Time": "20:46:50",
+      "Alert Type": "page_failed",
+      "Severity": "high",
+      "Module": "gtmetrix",
+      "Affected Page": "Assorted",
+      "Message": "GTmetrix test failed for Assorted: Test LoPqKxy9 errored: Internal GTmetrix Error",
+      "Root Cause": "Test LoPqKxy9 errored: Internal GTmetrix Error",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-11-15",
+      "Time": "20:42:30",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
     {
       "Date": "2026-11-15",
       "Time": "15:15:31",
@@ -300,94 +360,10 @@
       "Root Cause": "",
       "Status": "Recovered",
       "Occurrence Count": 4
-    },
-    {
-      "Date": "2026-11-12",
-      "Time": "01:13:31",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 4 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 4
-    },
-    {
-      "Date": "2026-11-11",
-      "Time": "18:16:08",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 4 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 4
-    },
-    {
-      "Date": "2026-11-11",
-      "Time": "10:07:15",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-11-11",
-      "Time": "02:32:33",
-      "Alert Type": "performance_grade_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Milk Mix Strawberry",
-      "Message": "Milk Mix Strawberry's grade dropped from C to D.",
-      "Root Cause": "",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-11-11",
-      "Time": "02:32:32",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Assorted",
-      "Message": "Assorted is healthy again after 2 consecutive alerting run(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 2
     }
   ],
   "active_alerts": [
     {
-      "Date": "2026-11-08",
-      "Time": "17:00:30",
-      "Alert Type": "performance_score_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Mango",
-      "Message": "Mango's score dropped from 65.0 to 42.0 (23.0 points).",
-      "Root Cause": "",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
-      "Date": "2026-11-15",
-      "Time": "15:15:29",
-      "Alert Type": "performance_grade_drop",
-      "Severity": "warning",
-      "Module": "gtmetrix",
-      "Affected Page": "Pineapple",
-      "Message": "Pineapple's grade dropped from C to D.",
-      "Root Cause": "",
-      "Status": "New",
-      "Occurrence Count": 1
-    },
-    {
       "Date": "2026-11-11",
       "Time": "02:32:33",
       "Alert Type": "performance_grade_drop",
@@ -401,12 +377,12 @@
     },
     {
       "Date": "2026-11-15",
-      "Time": "15:15:31",
-      "Alert Type": "performance_score_drop",
+      "Time": "20:46:52",
+      "Alert Type": "performance_grade_drop",
       "Severity": "warning",
       "Module": "gtmetrix",
-      "Affected Page": "Milk Mix Strawberry",
-      "Message": "Milk Mix Strawberry's score dropped from 61.0 to 43.0 (18.0 points).",
+      "Affected Page": "Berries",
+      "Message": "Berries's grade dropped from C to D.",
       "Root Cause": "",
       "Status": "New",
       "Occurrence Count": 1
@@ -426,12 +402,36 @@
     {
       "Date": "2026-11-08",
       "Time": "17:00:30",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Mango",
+      "Message": "Mango's score dropped from 65.0 to 42.0 (23.0 points).",
+      "Root Cause": "",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-11-08",
+      "Time": "17:00:30",
       "Alert Type": "performance_grade_drop",
       "Severity": "warning",
       "Module": "gtmetrix",
       "Affected Page": "Homepage",
       "Message": "Homepage's grade dropped from C to D.",
       "Root Cause": "",
+      "Status": "New",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-11-15",
+      "Time": "20:46:50",
+      "Alert Type": "page_failed",
+      "Severity": "high",
+      "Module": "gtmetrix",
+      "Affected Page": "Assorted",
+      "Message": "GTmetrix test failed for Assorted: Test LoPqKxy9 errored: Internal GTmetrix Error",
+      "Root Cause": "Test LoPqKxy9 errored: Internal GTmetrix Error",
       "Status": "New",
       "Occurrence Count": 1
     },
@@ -449,6 +449,42 @@
     }
   ],
   "recovered_alerts": [
+    {
+      "Date": "2026-11-15",
+      "Time": "20:46:52",
+      "Alert Type": "performance_score_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Milk Mix Strawberry",
+      "Message": "MM_Strawberry is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-11-15",
+      "Time": "20:46:51",
+      "Alert Type": "performance_grade_drop",
+      "Severity": "warning",
+      "Module": "gtmetrix",
+      "Affected Page": "Pineapple",
+      "Message": "Pineapple is healthy again after 1 consecutive alerting run(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
+    {
+      "Date": "2026-11-15",
+      "Time": "20:42:30",
+      "Alert Type": "google_sheets_failure",
+      "Severity": "critical",
+      "Module": "sheets",
+      "Affected Page": "",
+      "Message": "sheets/google_sheets_failure succeeded again after 1 consecutive failure(s).",
+      "Root Cause": "",
+      "Status": "Recovered",
+      "Occurrence Count": 1
+    },
     {
       "Date": "2026-11-15",
       "Time": "15:15:31",
@@ -652,55 +688,19 @@
       "Root Cause": "",
       "Status": "Recovered",
       "Occurrence Count": 4
-    },
-    {
-      "Date": "2026-11-12",
-      "Time": "09:02:57",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 4 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 4
-    },
-    {
-      "Date": "2026-11-12",
-      "Time": "01:13:31",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 4 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 4
-    },
-    {
-      "Date": "2026-11-11",
-      "Time": "18:16:08",
-      "Alert Type": "google_sheets_failure",
-      "Severity": "critical",
-      "Module": "sheets",
-      "Affected Page": "",
-      "Message": "sheets/google_sheets_failure succeeded again after 4 consecutive failure(s).",
-      "Root Cause": "",
-      "Status": "Recovered",
-      "Occurrence Count": 4
     }
   ],
   "severity_counts": {
     "critical": 0,
-    "high": 0,
-    "warning": 7,
+    "high": 1,
+    "warning": 6,
     "info": 0
   },
   "total_active": 7,
   "trend": [
     {
       "date": "2026-11-01",
-      "count": 13
+      "count": 11
     },
     {
       "date": "2026-11-02",
@@ -744,7 +744,7 @@
     },
     {
       "date": "2026-11-15",
-      "count": 7
+      "count": 9
     }
   ]
 }
