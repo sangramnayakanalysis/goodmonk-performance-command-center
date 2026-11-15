@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-11-14T20:22:10",
-      "occurrence_count": 594
+      "last_seen_at": "2026-11-15T00:36:25",
+      "occurrence_count": 595
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-11-14T20:22:10",
-      "occurrence_count": 594
+      "last_seen_at": "2026-11-15T00:36:25",
+      "occurrence_count": 595
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-11-14T20:22:10",
-      "occurrence_count": 594
+      "last_seen_at": "2026-11-15T00:36:25",
+      "occurrence_count": 595
     },
     "root_cause:MM_Vanilla:high_cls": {
       "alert_type": "high_cls",
@@ -72,32 +72,23 @@
       "last_seen_at": "2026-11-13T20:13:57",
       "occurrence_count": 2
     },
-    "operational:sheets:google_sheets_failure": {
-      "alert_type": "google_sheets_failure",
-      "module": "sheets",
-      "severity": "critical",
-      "affected_page": null,
-      "first_seen_at": "2026-11-14T20:22:09",
-      "last_seen_at": "2026-11-14T20:22:10",
-      "occurrence_count": 4
-    },
-    "gtmetrix:Weight Management": {
-      "alert_type": "page_failed",
-      "module": "gtmetrix",
-      "severity": "high",
-      "affected_page": "Weight Management",
-      "first_seen_at": "2026-11-14T20:22:10",
-      "last_seen_at": "2026-11-14T20:22:10",
-      "occurrence_count": 1
-    },
     "score_trend:Pineapple": {
       "alert_type": "performance_score_drop",
       "module": "gtmetrix",
       "severity": "warning",
       "affected_page": "Pineapple",
       "first_seen_at": "2026-11-14T20:22:10",
-      "last_seen_at": "2026-11-14T20:22:10",
-      "occurrence_count": 1
+      "last_seen_at": "2026-11-15T00:36:25",
+      "occurrence_count": 2
+    },
+    "operational:sheets:google_sheets_failure": {
+      "alert_type": "google_sheets_failure",
+      "module": "sheets",
+      "severity": "critical",
+      "affected_page": null,
+      "first_seen_at": "2026-11-15T00:36:24",
+      "last_seen_at": "2026-11-15T00:36:25",
+      "occurrence_count": 4
     }
   }
 }
