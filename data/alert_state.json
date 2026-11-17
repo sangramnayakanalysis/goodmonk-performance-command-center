@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-11-16T17:49:06",
-      "occurrence_count": 601
+      "last_seen_at": "2026-11-17T01:26:41",
+      "occurrence_count": 602
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-11-16T17:49:06",
-      "occurrence_count": 601
+      "last_seen_at": "2026-11-17T01:26:41",
+      "occurrence_count": 602
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-11-16T17:49:06",
-      "occurrence_count": 601
+      "last_seen_at": "2026-11-17T01:26:41",
+      "occurrence_count": 602
     },
     "root_cause:Orange:high_cls": {
       "alert_type": "high_cls",
@@ -36,13 +36,40 @@
       "last_seen_at": "2026-11-16T17:49:05",
       "occurrence_count": 3
     },
-    "score_trend:Orange": {
+    "operational:sheets:google_sheets_failure": {
+      "alert_type": "google_sheets_failure",
+      "module": "sheets",
+      "severity": "critical",
+      "affected_page": null,
+      "first_seen_at": "2026-11-17T01:26:40",
+      "last_seen_at": "2026-11-17T01:26:40",
+      "occurrence_count": 4
+    },
+    "score_trend:MM_Vanilla": {
       "alert_type": "performance_score_drop",
       "module": "gtmetrix",
       "severity": "warning",
-      "affected_page": "Orange",
-      "first_seen_at": "2026-11-16T17:49:03",
-      "last_seen_at": "2026-11-16T17:49:03",
+      "affected_page": "Milk Mix Vanilla",
+      "first_seen_at": "2026-11-17T01:26:41",
+      "last_seen_at": "2026-11-17T01:26:41",
+      "occurrence_count": 1
+    },
+    "score_trend:FNM": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "FNM",
+      "first_seen_at": "2026-11-17T01:26:41",
+      "last_seen_at": "2026-11-17T01:26:41",
+      "occurrence_count": 1
+    },
+    "root_cause:FNM:high_cls": {
+      "alert_type": "high_cls",
+      "module": "root_cause",
+      "severity": "warning",
+      "affected_page": "FNM",
+      "first_seen_at": "2026-11-17T01:26:41",
+      "last_seen_at": "2026-11-17T01:26:41",
       "occurrence_count": 1
     }
   }
