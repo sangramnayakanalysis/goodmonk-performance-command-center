@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-11-17T01:26:41",
-      "occurrence_count": 602
+      "last_seen_at": "2026-11-17T10:02:35",
+      "occurrence_count": 603
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-11-17T01:26:41",
-      "occurrence_count": 602
+      "last_seen_at": "2026-11-17T10:02:35",
+      "occurrence_count": 603
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-11-17T01:26:41",
-      "occurrence_count": 602
+      "last_seen_at": "2026-11-17T10:02:35",
+      "occurrence_count": 603
     },
     "root_cause:Orange:high_cls": {
       "alert_type": "high_cls",
@@ -41,35 +41,53 @@
       "module": "sheets",
       "severity": "critical",
       "affected_page": null,
-      "first_seen_at": "2026-11-17T01:26:40",
-      "last_seen_at": "2026-11-17T01:26:40",
+      "first_seen_at": "2026-11-17T10:02:34",
+      "last_seen_at": "2026-11-17T10:02:34",
       "occurrence_count": 4
     },
-    "score_trend:MM_Vanilla": {
+    "score_trend:Plant Protein Roti": {
       "alert_type": "performance_score_drop",
       "module": "gtmetrix",
       "severity": "warning",
-      "affected_page": "Milk Mix Vanilla",
-      "first_seen_at": "2026-11-17T01:26:41",
-      "last_seen_at": "2026-11-17T01:26:41",
+      "affected_page": "Plant Protein Roti",
+      "first_seen_at": "2026-11-17T10:02:34",
+      "last_seen_at": "2026-11-17T10:02:34",
       "occurrence_count": 1
     },
-    "score_trend:FNM": {
+    "score_trend:Shop_All": {
+      "alert_type": "performance_grade_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Shop All",
+      "first_seen_at": "2026-11-17T10:02:34",
+      "last_seen_at": "2026-11-17T10:02:34",
+      "occurrence_count": 1
+    },
+    "score_trend:Weight Management": {
       "alert_type": "performance_score_drop",
       "module": "gtmetrix",
       "severity": "warning",
-      "affected_page": "FNM",
-      "first_seen_at": "2026-11-17T01:26:41",
-      "last_seen_at": "2026-11-17T01:26:41",
+      "affected_page": "Weight Management",
+      "first_seen_at": "2026-11-17T10:02:34",
+      "last_seen_at": "2026-11-17T10:02:34",
       "occurrence_count": 1
     },
-    "root_cause:FNM:high_cls": {
+    "score_trend:Mango": {
+      "alert_type": "performance_score_drop",
+      "module": "gtmetrix",
+      "severity": "warning",
+      "affected_page": "Mango",
+      "first_seen_at": "2026-11-17T10:02:34",
+      "last_seen_at": "2026-11-17T10:02:34",
+      "occurrence_count": 1
+    },
+    "root_cause:FF:high_cls": {
       "alert_type": "high_cls",
       "module": "root_cause",
       "severity": "warning",
-      "affected_page": "FNM",
-      "first_seen_at": "2026-11-17T01:26:41",
-      "last_seen_at": "2026-11-17T01:26:41",
+      "affected_page": "Fiber Fix",
+      "first_seen_at": "2026-11-17T10:02:35",
+      "last_seen_at": "2026-11-17T10:02:35",
       "occurrence_count": 1
     }
   }
