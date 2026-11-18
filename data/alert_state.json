@@ -6,8 +6,8 @@
       "severity": "critical",
       "affected_page": "FNM",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-11-17T19:00:29",
-      "occurrence_count": 604
+      "last_seen_at": "2026-11-18T01:28:13",
+      "occurrence_count": 605
     },
     "journey:Fiber Fix": {
       "alert_type": "checkout_failed",
@@ -15,8 +15,8 @@
       "severity": "critical",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-11-17T19:00:29",
-      "occurrence_count": 604
+      "last_seen_at": "2026-11-18T01:28:13",
+      "occurrence_count": 605
     },
     "journey:H50+": {
       "alert_type": "checkout_failed",
@@ -24,8 +24,8 @@
       "severity": "critical",
       "affected_page": "H50+",
       "first_seen_at": "2026-08-18T10:13:39",
-      "last_seen_at": "2026-11-17T19:00:29",
-      "occurrence_count": 604
+      "last_seen_at": "2026-11-18T01:28:13",
+      "occurrence_count": 605
     },
     "root_cause:Orange:high_cls": {
       "alert_type": "high_cls",
@@ -42,17 +42,8 @@
       "severity": "warning",
       "affected_page": "Fiber Fix",
       "first_seen_at": "2026-11-17T10:02:35",
-      "last_seen_at": "2026-11-17T19:00:29",
-      "occurrence_count": 2
-    },
-    "operational:sheets:google_sheets_failure": {
-      "alert_type": "google_sheets_failure",
-      "module": "sheets",
-      "severity": "critical",
-      "affected_page": null,
-      "first_seen_at": "2026-11-17T19:00:27",
-      "last_seen_at": "2026-11-17T19:00:28",
-      "occurrence_count": 4
+      "last_seen_at": "2026-11-18T01:28:13",
+      "occurrence_count": 3
     },
     "gtmetrix:MM_Chocolate": {
       "alert_type": "page_failed",
@@ -60,8 +51,8 @@
       "severity": "high",
       "affected_page": "Milk Mix Chocolate",
       "first_seen_at": "2026-11-17T19:00:28",
-      "last_seen_at": "2026-11-17T19:00:28",
-      "occurrence_count": 1
+      "last_seen_at": "2026-11-18T01:28:13",
+      "occurrence_count": 2
     },
     "score_trend:Orange": {
       "alert_type": "performance_score_drop",
@@ -69,8 +60,8 @@
       "severity": "warning",
       "affected_page": "Orange",
       "first_seen_at": "2026-11-17T19:00:28",
-      "last_seen_at": "2026-11-17T19:00:28",
-      "occurrence_count": 1
+      "last_seen_at": "2026-11-18T01:28:13",
+      "occurrence_count": 2
     },
     "score_trend:H50+": {
       "alert_type": "performance_score_drop",
@@ -78,8 +69,8 @@
       "severity": "warning",
       "affected_page": "H50+",
       "first_seen_at": "2026-11-17T19:00:28",
-      "last_seen_at": "2026-11-17T19:00:28",
-      "occurrence_count": 1
+      "last_seen_at": "2026-11-18T01:28:13",
+      "occurrence_count": 2
     },
     "root_cause:H50+:high_cls": {
       "alert_type": "high_cls",
@@ -87,8 +78,17 @@
       "severity": "warning",
       "affected_page": "H50+",
       "first_seen_at": "2026-11-17T19:00:29",
-      "last_seen_at": "2026-11-17T19:00:29",
-      "occurrence_count": 1
+      "last_seen_at": "2026-11-18T01:28:13",
+      "occurrence_count": 2
+    },
+    "operational:sheets:google_sheets_failure": {
+      "alert_type": "google_sheets_failure",
+      "module": "sheets",
+      "severity": "critical",
+      "affected_page": null,
+      "first_seen_at": "2026-11-18T01:28:13",
+      "last_seen_at": "2026-11-18T01:28:13",
+      "occurrence_count": 4
     }
   }
 }
